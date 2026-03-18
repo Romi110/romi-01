@@ -38,8 +38,10 @@ I follow a Stoic approach to life. This means:
 5. Deeper tech learning beyond my job
 
 ### Health & Fitness
-- Currently: somewhat active but inconsistent
-- Goal: build a routine I actually stick with, not a fantasy plan
+- Goal: lean bulk — body recomposition (lose fat, build muscle, strengthen joints)
+- Plan: 10k steps/day + 3x kettlebell/mace workouts per week (see `health/fitness-plan.md`)
+- Equipment: kettlebells and a mace at home
+- Nutrition target: ~0.8–1g protein per lb bodyweight/day
 
 ### Learning & Reading
 - Goal: learn something every day and log it

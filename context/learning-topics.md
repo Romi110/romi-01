@@ -17,12 +17,12 @@ A running list of subjects to explore. Pick from here when starting a learning s
 - [ ] How local and federal government actually works
 - [ ] History — themes and patterns, not just dates
 - [ ] Science literacy — how to read and evaluate studies
-- [ ] Philosophy — stoicism, practical ethics, decision-making
+- [~] Philosophy — stoicism, practical ethics, decision-making *(in progress — see `knowledge/stoicism.md`)*
 - [ ] Nutrition — what actually matters vs. marketing
 
 ## Technology & Tools
 - [ ] Deepening my coding/automation skills
-- [ ] Understanding AI and how to use it well
+- [~] Understanding AI and how to use it well *(March 2026 monthly focus — building with Claude)*
 - [ ] Privacy and digital security basics
 
 ## Health & Body

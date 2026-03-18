@@ -22,10 +22,10 @@
 ### Morning or Evening (5-15 min)
 
 1. **Create today's entry**
-   - Open `templates/daily-entry.md`
-   - Copy its contents
-   - Create a new file: `daily/2026-03/2026-03-17.md` (use today's date)
-   - Paste and fill in your entry
+   - Open the VS Code terminal (Ctrl+`)
+   - Run `node scripts/new-day.js`
+   - The script creates `daily/YYYY-MM/YYYY-MM-DD.md` with your categories pre-loaded from config
+   - Open the file and fill in your entry
 
 2. **Learn something**
    - Open the Claude panel in VS Code
@@ -58,10 +58,11 @@ When you have 20-30 minutes to go deep on a topic:
 
 ## Weekly Review (Sunday, 15-30 min)
 
-1. Copy `templates/weekly-review.md` to `reviews/2026-W12.md` (use the week number)
+1. Copy `templates/weekly-review.md` to `reviews/2026-WXX.md` (use the week number)
 2. Open the week's daily entries side by side (Ctrl+click files in sidebar)
-3. Fill in the review — be honest about what worked and what didn't
-4. Open Claude panel: "Here's my week — @reviews/2026-W12.md — what patterns do you notice?"
+3. Fill in the review — the template includes Recurring Tags and Trend vs Last Week sections
+4. Open Claude panel and reference `prompts/weekly-summary.md` for AI-assisted analysis:
+   - "Using @prompts/weekly-summary.md, review @reviews/2026-WXX.md"
 5. Update goals in `goals/2026-goals.md` if needed
 6. Commit everything
 
@@ -74,8 +75,14 @@ When you have 20-30 minutes to go deep on a topic:
 - **Git Graph extension**: Install it to see your commit history visually — a nice timeline of your growth.
 - **Markdown Preview**: Ctrl+Shift+V to preview any markdown file rendered nicely.
 
+## Useful Scripts (run in VS Code terminal)
+
+- `node scripts/new-day.js` — scaffold today's entry
+- `node scripts/log.js` — quick-log a single category without opening the file
+- `node scripts/status.js` — show streak report and category trends
+
 ## Keep It Simple
 
-You don't need plugins, task runners, or automation right now.
-Your stack is: VS Code + Claude extension + Git + Markdown.
+Your stack is: VS Code + Claude extension + Git + Markdown + a few Node scripts.
 If you find yourself tweaking the system more than using it, stop and just write an entry.
+The scripts exist to reduce friction — not to become a new distraction.

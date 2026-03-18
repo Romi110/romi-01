@@ -1,28 +1,66 @@
 # Health & Fitness
 
 ## Current Status
-<!-- Be honest. Where are you starting from? No judgment. -->
-
+Starting point: somewhat active, inconsistent. Have kettlebells and a mace at home.
+Walk outside regularly. No injuries. Goal is lean bulk — body recomposition:
+lose fat, build muscle, strengthen joints, stay active daily.
 
 ## Goals
-- [ ] Move my body consistently (minimum 4 days/week)
-- [ ] Build functional strength
-- [ ] Improve flexibility and mobility
+- [ ] Hit 10,000 steps every day (non-negotiable baseline)
+- [ ] 3x kettlebell/mace workouts per week
+- [ ] Eat high protein, whole foods, minimal ultra-processed
 - [ ] Sleep 7+ hours consistently
+- [ ] Build joint resilience alongside muscle (not just aesthetic lifting)
+
+## Fitness Goal: Lean Bulk (Body Recomposition)
+**What this means:** Eat near maintenance or a slight surplus (~200 cal) on workout days.
+High protein to preserve and build muscle while daily movement burns fat over time.
+This is slower than a hard cut but sustainable — no crash, no rebound.
+
+**Target protein:** ~0.8–1g per lb of bodyweight per day. Prioritize this above everything else.
 
 ## Weekly Routine
-<!-- Fill this in once you settle on a plan. Keep it realistic for a working parent. -->
 
 | Day | Activity | Duration | Notes |
 |-----|----------|----------|-------|
-| Mon | | | |
-| Tue | | | |
-| Wed | | | |
-| Thu | | | |
-| Fri | | | |
-| Sat | | | |
-| Sun | | | |
+| Mon | Kettlebell — Push focus | 30–40 min | Press, swings, goblet squat |
+| Tue | Walk — 10k steps | ~90 min | Can be broken up across the day |
+| Wed | Mace + KB combo | 30–40 min | Mace 360s, KB swings, rows |
+| Thu | Walk — 10k steps | ~90 min | Active recovery, stay loose |
+| Fri | Kettlebell — Pull/Hinge focus | 30–40 min | Deadlift, rows, carries |
+| Sat | Long walk or outdoor activity | 60+ min | With partner if possible |
+| Sun | Rest or light stretch | 15–20 min | Mobility work, don't skip entirely |
+
+## Core Workout Templates
+
+### KB Push Day (Mon)
+- KB Press: 3x8 each arm
+- Goblet Squat: 3x12
+- KB Swing: 3x15
+- Push-ups: 3x max
+- Plank: 3x30–45 sec
+
+### Mace + KB Combo (Wed)
+- Mace 360: 3x10 each direction
+- KB Swing: 3x15
+- Mace Spear + Pull: 3x8
+- KB Row: 3x10 each arm
+- KB Deadlift: 3x10
+
+### KB Pull/Hinge Day (Fri)
+- KB Romanian Deadlift: 3x10
+- KB Row: 3x10 each arm
+- KB Swing: 4x15
+- KB Farmer Carry: 3x40 steps
+- Dead hang or shoulder mobility: 2x20 sec
+
+## Nutrition Guidelines
+- **Protein first** — eggs, chicken, fish, Greek yogurt, legumes at every meal
+- **Whole foods baseline** — if it has more than 5 ingredients and you can't name them, limit it
+- **Don't skip meals** — undereating on workout days kills recomposition
+- **Hydration** — minimum 2.5–3L water/day, more on workout days
+- **Allow flexibility** — one less-clean meal a day is fine, don't let it become the whole day
 
 ## Body Notes
 <!-- Track how you feel over time. Energy levels, soreness, sleep quality, stress. -->
-
+*2026-03-17 — Starting. Sleep schedule disrupted (napping). No workout yet. Building the habit first.*

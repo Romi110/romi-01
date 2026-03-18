@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "categories": [
+    {
+      "id": "intention",
+      "name": "Intention",
+      "icon": "🎯",
+      "prompt": "What do I want or intend today? What's the one thing I'll stay disciplined on? What do I want for tomorrow?",
+      "minLines": 1,
+      "maxLines": 4,
+      "trackable": false,
+      "trackType": "text",
+      "tags": ["stoic", "mindset", "planning"]
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "icon": "💚",
+      "prompt": "Exercise (what + how long)? Sleep (hours + quality)? Mood & energy (1-5 each)? Eating anything notable? Reading done?",
+      "minLines": 1,
+      "maxLines": 7,
+      "trackable": true,
+      "trackType": "composite",
+      "trackFields": [
+        { "id": "exercise", "type": "number", "unit": "minutes", "optional": true },
+        { "id": "sleep", "type": "number", "unit": "hours", "optional": true },
+        { "id": "mood", "type": "rating", "unit": "1-5", "optional": true },
+        { "id": "reading", "type": "number", "unit": "chapters", "optional": true }
+      ],
+      "tags": ["health", "fitness", "mindset", "reading", "sleep", "rest", "nutrition", "nap"]
+    },
+    {
+      "id": "life",
+      "name": "Life & Family",
+      "icon": "🏡",
+      "prompt": "Any life updates, events, or moments with family worth noting?",
+      "minLines": 0,
+      "maxLines": 5,
+      "trackable": false,
+      "trackType": "text",
+      "tags": ["family", "life", "events", "relationships", "home", "milestone"]
+    },
+    {
+      "id": "progress",
+      "name": "Progress",
+      "icon": "📈",
+      "prompt": "Work wins or blockers (rate 1-5)? What did I learn or build today? Any skill practiced?",
+      "minLines": 1,
+      "maxLines": 7,
+      "trackable": true,
+      "trackType": "composite",
+      "trackFields": [
+        { "id": "work", "type": "rating", "unit": "1-5", "optional": true },
+        { "id": "learning", "type": "boolean", "optional": true },
+        { "id": "skills", "type": "boolean", "optional": true }
+      ],
+      "tags": ["career", "growth", "knowledge", "self-reliance", "job", "skill", "learning"]
+    },
+    {
+      "id": "insights",
+      "name": "Insights",
+      "icon": "💡",
+      "prompt": "What am I grateful for? Where did I react instead of respond? Any other thought worth keeping?",
+      "minLines": 1,
+      "maxLines": 7,
+      "trackable": false,
+      "trackType": "text",
+      "tags": ["stoic", "mindset", "gratitude", "reflection", "emotion", "current-events", "society", "environment"]
+    },
+    {
+      "id": "notes",
+      "name": "Notes",
+      "icon": "📝",
+      "prompt": "Anything that doesn't fit elsewhere.",
+      "minLines": 0,
+      "maxLines": 5,
+      "trackable": false,
+      "trackType": "text",
+      "tags": ["misc"]
+    }
+  ]
+}
