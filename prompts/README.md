@@ -57,18 +57,20 @@ Reusable prompt files for Claude. Reference these with `@prompts/filename.md` in
 # Start your day
 node scripts/new-day.js
 
-# Quick log from command line
-node scripts/log.js learning "Learned about canning pressure levels"
-node scripts/log.js exercise 30 "Morning bodyweight routine"
-node scripts/log.js mood 4
-node scripts/log.js reading 15 "Meditations, book 3"
-node scripts/log.js sleep 7.5
+# Quick log from command line — use category IDs: health, progress, intention, insights, life, notes
+node scripts/log.js health "30 min kettlebell push day. Slept 7hr. Mood 4/5. Read 2 chapters."
+node scripts/log.js progress "Learned about JS promises vs callbacks. Work 4/5."
+node scripts/log.js intention "Stay focused on shipping, not perfecting."
+node scripts/log.js insights "Grateful for quiet morning. Didn't spiral when plan changed."
+node scripts/log.js notes "Call dentist. Check tires."
 
 # Check your status
 node scripts/status.js         # last 7 days
 node scripts/status.js 14      # last 14 days
 node scripts/status.js 30      # last 30 days
 ```
+
+> **Note on log.js and frontmatter**: `log.js` logs prose to the matching category section. For composite categories (`health`, `progress`), update numeric frontmatter fields (`exercise`, `sleep`, `mood`, `reading`, `work`, `learning`, `skills`) manually in the file — or just fill them in when you open the entry.
 
 ## Adding New Categories
 1. Edit `config/categories.json` — add a new category object

@@ -20,3 +20,4 @@ All notable changes to the romi-01 system.
 | 2026-03-18 | Changelog moved to docs/changelog.md |
 | 2026-03-18 | New prompt: sync-docs.md — audits all docs, identifies drift, updates in place |
 | 2026-03-18 | Updated: README, using-this-system, vscode-claude-workflow, about-me, learning-topics, logging-system to match current system |
+| 2026-03-18 | sync-docs run: fixed DESIGN.md (missing prompts in tree + table), prompts/README.md (wrong log.js category IDs), about-me.md (stale date), monthly-review.md (wrong metric labels + missing skills row) |

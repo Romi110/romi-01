@@ -10,11 +10,12 @@
 | Metric | Avg | Best | Worst | Trend |
 |--------|-----|------|-------|-------|
 | Mood (1-5) | | | | |
-| Exercise (days logged) | | | | |
-| Sleep | | | | |
-| Reading | | | | |
-| Work rating | | | | |
-| Learning days | | | | |
+| Exercise (min/day) | | | | |
+| Sleep (hrs/night) | | | | |
+| Reading (chapters/day) | | | | |
+| Work rating (1-5) | | | | |
+| Learning (days logged) | | | | |
+| Skills (days logged) | | | | |
 
 
 ## Tag Frequency (Most → Least)

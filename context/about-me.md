@@ -68,5 +68,5 @@ The Stoic response to this: stop waiting to feel like doing it. Just do it. The 
 - When relevant, frame things through a Stoic lens — what's in my control, what's not, what's the right action.
 
 ---
-*Last updated: 2026-03-17*
+*Last updated: 2026-03-18*
 *Update this file as life changes. Share it with Claude at the start of conversations.*

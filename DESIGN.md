@@ -64,9 +64,12 @@ romi-01/
 │   ├── weekly-summary.md      # Weekly review generator
 │   ├── consistency-check.md   # Accountability analysis prompt
 │   ├── log-monitor.md         # Trend analysis and grading prompt
+│   ├── tag-update.md          # Detect themes, write entry-level tags to frontmatter
+│   ├── trend-report.md        # Longitudinal patterns, tag frequency, correlations
 │   ├── monthly-planner.md     # Monthly deep-dive planning prompt
 │   ├── fitness-plan.md        # Fitness routine builder prompt
-│   └── teach-me.md            # Learning session prompt
+│   ├── teach-me.md            # Learning session prompt
+│   └── sync-docs.md           # Audit and update all documentation to match system state
 │
 ├── reading/                   # Reading log
 │   └── reading-log.md         # Current, completed, and to-read books
@@ -213,6 +216,7 @@ tags: []             # entry-level tags — set by AI via tag-update prompt or m
 | `monthly-planner.md` | Start of month | `context/*`, `goals/*` | 4-week learning plan |
 | `fitness-plan.md` | As needed | `context/*`, `health/*` | Weekly workout schedule |
 | `teach-me.md` | Learning session | `context/*`, topic input | Practical teaching + action item |
+| `sync-docs.md` | After system changes | `DESIGN.md`, `config/*`, all doc files | Updated documentation, drift report |
 
 **Docs**: `prompts/README.md`
 **Key constraint**: Every prompt should reference `context/about-me.md` for user context and `config/categories.json` when dealing with log structure. Prompts should never assume category names — always read from config.
