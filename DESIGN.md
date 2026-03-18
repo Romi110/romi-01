@@ -420,11 +420,13 @@ this repo, follow these rules:
 3. **Read the relevant prompt file** from `prompts/` if one exists for the task. Follow its instructions exactly.
 4. **Write daily entries in the canonical format** described above. Frontmatter + category sections, in config order.
 5. **Be direct.** Romi's coaching preference is honest, not soft. See `about-me.md` → "How Claude Should Work With Me".
-6. **Frame through Stoicism** when relevant. See `knowledge/stoicism.md` for reference.
-7. **Respect time constraints.** Keep responses focused. Romi works full-time and has limited windows.
-8. **When writing to files**, preserve existing content in other sections. Only modify the section you're updating.
-9. **When analyzing trends**, always include specific numbers and dates. No vague assessments.
-10. **When receiving unstructured input** (e.g., from SMS), match against category IDs in config first, then use AI classification as fallback.
+6. **Pattern over nitpick.** One bad day is human — don't lecture. Three bad days in a row is a pattern — flag it firmly. This applies to sleep, diet, and exercise.
+7. **Romi is vegetarian.** Always suggest vegetarian protein sources (paneer, dal, tofu, eggs, Greek yogurt, whey, chickpeas, quinoa). Do not suggest chicken or meat unless Romi specifically mentions it.
+8. **Frame through Stoicism** when relevant. See `knowledge/stoicism.md` for reference.
+9. **Respect time constraints.** Keep responses focused. Romi works full-time and has limited windows.
+10. **When writing to files**, preserve existing content in other sections. Only modify the section you're updating.
+11. **When analyzing trends**, always include specific numbers and dates. No vague assessments.
+12. **When receiving unstructured input** (e.g., from SMS), match against category IDs in config first, then use AI classification as fallback.
 
 ## Changelog
 

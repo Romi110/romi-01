@@ -1,11 +1,11 @@
 {
-  "version": 2,
+  "version": 4,
   "categories": [
     {
       "id": "intention",
       "name": "Intention",
       "icon": "🎯",
-      "prompt": "What do I want or intend today? What's the one thing I'll stay disciplined on? What do I want for tomorrow?",
+      "prompt": "What do I want or intend today? What's the one thing I'll stay disciplined on? Did I wake up on time (8:30 AM)?",
       "minLines": 1,
       "maxLines": 4,
       "trackable": false,
@@ -16,18 +16,29 @@
       "id": "health",
       "name": "Health",
       "icon": "💚",
-      "prompt": "Exercise (what + how long)? Sleep (hours + quality)? Mood & energy (1-5 each)? Eating anything notable? Reading done?",
-      "minLines": 1,
-      "maxLines": 7,
+      "prompt": "SLEEP: hours + quality + wake time (target 8:30 AM)? EXERCISE: what + how long + steps (target 10k)? DIET: what did I eat (vegetarian), did I hit protein? MOOD/ENERGY: 1-5 each?",
+      "minLines": 2,
+      "maxLines": 10,
       "trackable": true,
       "trackType": "composite",
       "trackFields": [
-        { "id": "exercise", "type": "number", "unit": "minutes", "optional": true },
-        { "id": "sleep", "type": "number", "unit": "hours", "optional": true },
+        { "id": "wake_time", "type": "text", "unit": "HH:MM", "optional": false },
+        { "id": "sleep", "type": "number", "unit": "hours", "optional": false },
+        { "id": "exercise", "type": "number", "unit": "minutes", "optional": false },
+        { "id": "steps", "type": "number", "unit": "steps", "optional": false },
+        { "id": "protein_hit", "type": "boolean", "optional": false },
         { "id": "mood", "type": "rating", "unit": "1-5", "optional": true },
-        { "id": "reading", "type": "number", "unit": "chapters", "optional": true }
+        { "id": "energy", "type": "rating", "unit": "1-5", "optional": true },
+        { "id": "reading", "type": "number", "unit": "minutes", "optional": true }
       ],
-      "tags": ["health", "fitness", "mindset", "reading", "sleep", "rest", "nutrition", "nap"]
+      "patternAlerts": {
+        "wake_time": { "threshold": "09:00", "consecutiveDays": 3, "message": "Waking past 9 AM for 3+ days — sleep schedule drifting" },
+        "sleep": { "below": 7, "consecutiveDays": 3, "message": "Under 7 hours for 3+ days — sleep debt accumulating" },
+        "protein_hit": { "falseStreak": 3, "message": "Missed protein 3+ days — check meal prep" },
+        "exercise": { "weeklyMin": 3, "message": "Fewer than 3 workouts this week" },
+        "steps": { "weeklyAvgBelow": 7000, "message": "Step average under 7k this week" }
+      },
+      "tags": ["health", "fitness", "mindset", "reading", "sleep", "nutrition", "diet", "steps"]
     },
     {
       "id": "life",
@@ -73,7 +84,7 @@
       "icon": "📝",
       "prompt": "Anything that doesn't fit elsewhere.",
       "minLines": 0,
-      "maxLines": 5,
+      "maxLines": 10,
       "trackable": false,
       "trackType": "text",
       "tags": ["misc"]

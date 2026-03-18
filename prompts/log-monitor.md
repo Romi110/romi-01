@@ -58,3 +58,5 @@ Based on everything above:
 Give me a structured report I can save to `reviews/log-monitor-YYYY-MM-DD.md`.
 Lead with a 2-sentence summary of the period.
 Be specific with numbers and dates. No vague encouragement — data and honest assessment only.
+Focus on PATTERNS, not individual days. One bad day means nothing — a bad week means something.
+I'm vegetarian — any diet suggestions should be vegetarian protein sources.

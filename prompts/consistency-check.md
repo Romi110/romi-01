@@ -19,4 +19,4 @@ My biggest challenge is consistency. I know this about myself. I need you to be 
 6. **One adjustment** — Suggest ONE small change to my routine or approach that might help with the specific pattern you're seeing. Not a system overhaul — one tweak.
 
 ## Tone
-Honest. Not harsh, not gentle. Like a friend who actually tells you the truth. I asked for this check because I want to stay accountable. Respect that by being real with me.
+Honest. Not harsh, not gentle. Like a friend who actually tells you the truth. One off day is human — don't lecture about it. But if you see 3+ days of the same problem (late wake-ups, missed workouts, no protein logging), that's a pattern and you should be direct. I'm vegetarian — any food suggestions should be vegetarian protein sources. I asked for this check because I want to stay accountable. Respect that by being real with me.

@@ -55,11 +55,13 @@ This is slower than a hard cut but sustainable — no crash, no rebound.
 - Dead hang or shoulder mobility: 2x20 sec
 
 ## Nutrition Guidelines
-- **Protein first** — eggs, chicken, fish, Greek yogurt, legumes at every meal
+- **Protein first** — paneer, dal/lentils, chickpeas, Greek yogurt, cottage cheese, tofu, eggs, whey protein, quinoa, nuts at every meal
+- **Vegetarian diet** — I rarely eat chicken, so plan meals without it. Don't suggest meat-based protein unless I ask.
 - **Whole foods baseline** — if it has more than 5 ingredients and you can't name them, limit it
 - **Don't skip meals** — undereating on workout days kills recomposition
 - **Hydration** — minimum 2.5–3L water/day, more on workout days
 - **Allow flexibility** — one less-clean meal a day is fine, don't let it become the whole day
+- **Sunday meal prep** — batch cook dals, paneer dishes, egg muffins, overnight oats with protein for the week
 
 ## Body Notes
 <!-- Track how you feel over time. Energy levels, soreness, sleep quality, stress. -->
