@@ -143,10 +143,10 @@ tags: []             # entry-level tags — set by AI via tag-update prompt or m
 
 # YYYY-MM-DD — DayName
 
-## 🎯 Morning Intention
+## 🎯 Intention
 <!-- prompt from config -->
 
-## 🧠 What I Learned
+## 💚 Health
 <!-- prompt from config -->
 
 [...additional categories from config/categories.json...]

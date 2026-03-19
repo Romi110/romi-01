@@ -8,6 +8,7 @@ Reusable prompt files for Claude. Reference these with `@prompts/filename.md` in
 | **Morning Start** | Beginning of day, before work | `morning-start.md` |
 | **Quick Log** | Log your day through conversation with Claude | `quick-log.md` |
 | **Daily Review** | End of day, after filling in your entry | `daily-review.md` |
+| **Evening Journal** | End of day — fills in the Insights section through conversation | `evening-journal.md` |
 | **Stoic Reflection** | When stressed, frustrated, or need perspective | `stoic-reflection.md` |
 
 ## Weekly / Periodic
