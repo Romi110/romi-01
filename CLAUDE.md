@@ -1,14 +1,16 @@
 # CLAUDE.md — AI Assistant Guide for romi-01
 
-This file provides context and conventions for AI assistants (Claude and others) working in this repository.
+This file provides context and conventions for AI assistants working in this repository.
 
 ## What This Repository Is
 
-**romi-01** is a personal growth and self-coaching system built on plain markdown files + JSON config + Node.js CLI scripts. It is **not a web app, API, or deployable service**. It is a daily journaling, habit tracking, and learning system designed for local use with Claude as the primary AI interface.
+**romi-01** is a personal learning and knowledge system built on plain markdown files. It is **not a web app, API, or deployable service**. It is not a daily log or habit tracker.
+
+The purpose is: **learn new topics deeply, build lasting knowledge files, and practice what is learned.**
 
 **User**: Romi (28, tech professional, New Jersey)
-**Philosophy**: Stoicism, self-reliance, continuous learning, physical health
-**Primary challenge**: Building consistency habits
+**Philosophy**: Stoicism, self-reliance, continuous learning
+**Primary focus**: Depth over breadth — one topic understood well beats ten touched once
 
 ---
 
@@ -17,229 +19,154 @@ This file provides context and conventions for AI assistants (Claude and others)
 ```
 romi-01/
 ├── CLAUDE.md               # This file — AI assistant guide
-├── DESIGN.md               # System architecture and design principles (primary reference)
+├── DESIGN.md               # System architecture (primary reference)
 ├── README.md               # Quick-start guide
-├── config/
-│   └── categories.json     # Central config: logging categories, trackable fields, tags
 ├── context/
-│   ├── about-me.md         # User profile and values
-│   └── learning-topics.md  # Topics Romi wants to learn
-├── daily/                  # Daily log entries — YYYY-MM/YYYY-MM-DD.md
-├── docs/
-│   ├── changelog.md        # Version history
-│   └── logging-system.md   # Daily entry format spec
+│   ├── about-me.md         # User profile, values, learning preferences
+│   └── learning-topics.md  # Topics to explore
 ├── goals/
 │   └── 2026-goals.md       # Annual goals + monthly skill focus tracker
 ├── health/
 │   └── fitness-plan.md     # Workout routine and wellness plan
-├── knowledge/              # Deep-dive reference notes (Stoicism, VS Code workflow, etc.)
-├── prompts/                # Reusable Claude prompt files (14+)
+├── knowledge/              # Deep-dive reference notes
+├── prompts/                # Reusable Claude prompt files
 ├── reading/
 │   └── reading-log.md      # Books read, ratings, currently reading
-├── reviews/                # Weekly and monthly reflections (AI-generated)
-├── scripts/                # Node.js CLI automation tools
-│   ├── new-day.js          # Scaffold a new daily entry
-│   ├── log.js              # Quick-log a single category
-│   └── status.js           # Generate trend/streak dashboard
-└── templates/              # Markdown templates for new files
+└── templates/
+    └── knowledge-topic.md  # Knowledge file starter template
 ```
 
 ---
 
 ## Technology Stack
 
-- **Language**: Node.js (stdlib only — no external dependencies, no package.json)
-- **Data format**: Markdown files with YAML frontmatter + JSON config
+- **Data format**: Markdown files
 - **Version control**: Git
 - **Primary AI interface**: Claude (via VS Code extension)
-- **No build step, no database, no deployment**
-
----
-
-## Key Configuration: `config/categories.json`
-
-This is the **single source of truth** for all logging behavior. All scripts and prompts read from it — nothing is hardcoded.
-
-**6 logging categories**:
-| ID | Name | Icon |
-|----|------|------|
-| `intention` | Intention | 🎯 |
-| `health` | Health | 💚 |
-| `life` | Life & Family | 🏠 |
-| `progress` | Progress | 🚀 |
-| `insights` | Insights | 💡 |
-| `notes` | Notes | 📝 |
-
-**Trackable frontmatter fields**:
-- `exercise` — minutes (numeric)
-- `sleep` — hours (numeric)
-- `mood` — 1–5 rating (numeric)
-- `reading` — chapters (numeric)
-- `work` — 1–5 rating (numeric)
-- `learning` — boolean
-- `skills` — boolean
-
-When modifying category behavior, **always edit `config/categories.json`**, not the scripts.
-
----
-
-## Daily Entry Format
-
-Every daily entry in `daily/YYYY-MM/YYYY-MM-DD.md` follows this canonical structure:
-
-```markdown
----
-date: YYYY-MM-DD
-exercise: ~
-sleep: ~
-mood: ~
-reading: ~
-work: ~
-learning: false
-skills: false
-tags: []
----
-
-# YYYY-MM-DD — DayName
-
-## 🎯 Intention
-<!-- prompt text -->
-[content]
-
-## 💚 Health
-<!-- prompt text -->
-[content]
-
-## 🏠 Life & Family
-<!-- prompt text -->
-[content]
-
-## 🚀 Progress
-<!-- prompt text -->
-[content]
-
-## 💡 Insights
-<!-- prompt text -->
-[content]
-
-## 📝 Notes
-<!-- prompt text -->
-[content]
-```
-
-- `~` means null/missing (not zero)
-- `tags: []` is populated by AI tag detection or manually
-- Do not change the frontmatter field names — scripts parse them by exact key
-
----
-
-## CLI Scripts
-
-Run scripts from the repo root with `node scripts/<name>.js`.
-
-### `node scripts/new-day.js`
-Creates a new daily entry for today using the category config. Safe — will not overwrite an existing entry.
-
-### `node scripts/log.js <category> [value]`
-Quick-logs a single category. Updates frontmatter numerics and appends prose. Creates today's entry if it doesn't exist.
-
-### `node scripts/status.js`
-Generates a trend and streak dashboard from all daily entries. Shows completion rates, averages, habit patterns, and weekly breakdowns.
-
-**All scripts use Node.js built-in modules only** (`fs`, `path`). Do not add `npm install` or external dependencies.
+- **No build step, no database, no scripts, no deployment**
 
 ---
 
 ## Prompts System
 
-Prompts in `prompts/` are used with the Claude VS Code extension via `@prompts/filename.md`. They are markdown files, not scripts.
+Prompts in `prompts/` are used with the Claude VS Code extension via `@prompts/filename.md`.
 
 | File | Purpose |
 |------|---------|
-| `morning-start.md` | Stoic reflection + daily challenge |
-| `quick-log.md` | Conversational daily entry |
-| `daily-review.md` | End-of-day feedback |
-| `stoic-reflection.md` | Reframe stress through Stoicism |
-| `weekly-summary.md` | Draft weekly review |
-| `consistency-check.md` | Streak and pattern analysis |
-| `log-monitor.md` | Tag analysis and category grading |
-| `tag-update.md` | Detect themes, update entry tags |
-| `trend-report.md` | Longitudinal pattern analysis |
-| `monthly-planner.md` | Monthly deep-dive planning |
-| `fitness-plan.md` | Workout routine builder |
-| `teach-me.md` | Claude teaching sessions |
+| `teach-me.md` | Deep-dive learning sessions |
+| `topic-map.md` | Build a learning path before starting a new topic |
+| `build-knowledge-file.md` | Turn a learning session into a permanent knowledge file |
+| `cross-pollinate.md` | Find connections between two knowledge files |
+| `sacred-text-tenet.md` | Writing sessions for roma.md |
 | `sync-docs.md` | Audit and update all docs for consistency |
 
 When modifying a prompt, keep it **concise, Stoic in tone, and actionable**. Avoid corporate language.
 
 ---
 
-## Documentation Hierarchy
+## Knowledge Files
 
-1. **`DESIGN.md`** — Primary architecture reference. Read this before making structural changes.
-2. **`docs/logging-system.md`** — Daily entry format specification.
-3. **`README.md`** — User-facing quick start.
-4. **`docs/changelog.md`** — Version history. Update when making significant changes.
+Knowledge files in `knowledge/` are deep-dive references on topics Romi is studying.
 
-When docs and code conflict, **trust `DESIGN.md`** as the authoritative source.
+**Current files:**
+- `stoicism.md` — Stoic philosophy
+- `zen-buddhism.md` — Zen Buddhism
+- `philosophy-traditions-guide.md` — Cross-tradition comparison across 7 tenets
+- `roma.md` — Personal book of tenets (7 core tenets + stories + sources)
+- `core_tenets_of_wisdom.md` — Core tenets reference
+- `sacred-text-plan.md` — Study plan for sacred texts
+- `fitness-plan.md` — Physical training philosophy
+- `using-this-system.md` — How to use romi-01
+- `vscode-claude-workflow.md` — VS Code + Claude workflow
+
+**Template**: Use `templates/knowledge-topic.md` for new files. Structure: What Is It, Why It Matters, Core Ideas, Key Figures, Reading List, Daily Practices, Connections, Status.
 
 ---
 
 ## Design Principles
 
-These principles are core to the system — do not violate them without explicit user direction:
-
-1. **Config-driven**: All category behavior lives in `config/categories.json`. No hardcoding.
-2. **Zero dependencies**: Scripts use only Node.js stdlib. No `npm install`.
-3. **Plain text first**: Data is markdown + JSON. No databases, no binary formats.
-4. **Git-friendly**: All files are line-based text for clean diffs.
-5. **Human-readable**: Files must be comprehensible without special tools.
-6. **Non-destructive**: Scripts never overwrite existing entries without prompting.
+1. **Plain text first**: Data is markdown. No databases, no binary formats.
+2. **Knowledge compounds**: Every file written here should deepen understanding of a topic.
+3. **Depth over breadth**: One well-understood topic beats ten shallow ones. Files grow over time.
+4. **Low friction**: Usable in short sessions. No setup, no tooling, just open and write.
+5. **No tooling**: No scripts, no build steps, no dependencies.
 
 ---
 
 ## Git Conventions
 
 - **Branch naming**: `claude/<description>-<ID>` for AI-assisted work
-- **Commit style**: Use conventional commits (`feat:`, `fix:`, `docs:`, `chore:`)
-- **Remote**: `origin` → `http://local_proxy@127.0.0.1:38483/git/Romi110/romi-01`
-- **Main branch**: `main` (also has `master` alias on remote)
+- **Commit style**: Conventional commits (`feat:`, `fix:`, `docs:`, `chore:`)
+- **Main branch**: `main`
 
 ---
 
-## System Phases (Roadmap)
+## AI Agent Instructions
 
-| Phase | Status | Description |
-|-------|--------|-------------|
-| Phase 1 | ✅ Complete | Foundation: config, scripts, docs, prompts, templates |
-| Phase 2 | Planned | Messaging integration (SMS/Telegram via Twilio) |
-| Phase 3 | Planned | Automated review generation, AI correlation analysis |
-| Phase 4 | Planned | Self-evolving categories based on AI suggestions |
+### Orientation (do this first)
 
-When implementing new features, start from the phase roadmap in `DESIGN.md` for context.
+1. Read `context/about-me.md` — understand who Romi is before doing anything involving learning, coaching, or writing.
+2. Read `knowledge/INDEX.md` — see what's already known before starting a new topic. Don't teach what's already been written.
+3. If a relevant prompt file exists in `prompts/`, read it and follow it. The prompts are instructions, not suggestions.
 
----
+### Teaching
 
-## User Context (for AI Coaching)
+- Explain from first principles. Romi wants genuine understanding, not a summary or overview.
+- Assume smart but no background. No jargon without definition. Use tech/software analogies where they help.
+- Lead with "what is this and why does it matter to you specifically." If you can't answer that, don't start teaching.
+- After teaching, always connect to something actionable. What's one thing to do in the next 48 hours?
+- At the end of any learning session, prompt: "Want to write this into a knowledge file? Use `@prompts/build-knowledge-file.md`."
 
-When acting as a coach or assistant in this system:
+### The Learning Flow
 
-- **Tone**: Direct, no fluff, Stoic-aligned. Avoid cheerleading or corporate motivational language.
-- **Values**: Self-reliance, discipline, long-term thinking, practical skills
-- **Current focus areas** (2026): Emergency preparedness, growing food, financial independence, kettlebell strength
-- **Reading**: Check `reading/reading-log.md` for current book
-- **Goals**: Check `goals/2026-goals.md` for annual and monthly priorities
-- **Health plan**: Check `health/fitness-plan.md` for current workout routine
+When a user is learning something new, guide them through this sequence:
+1. `topic-map.md` — map the territory before diving in
+2. `teach-me.md` — go deep on the first stage
+3. `build-knowledge-file.md` — lock understanding into a permanent file
+4. `cross-pollinate.md` — find connections to existing knowledge
+5. `sacred-text-tenet.md` — if the topic produced a principle worth adding to Roma
 
-Always read the most recent daily entry in `daily/` to understand current context before providing feedback.
+Don't skip steps. A learning session with no knowledge file produces nothing lasting.
+
+### Writing Knowledge Files
+
+- Always follow `templates/knowledge-topic.md` structure.
+- Write from the user's understanding, not your own. If they can't explain something, mark it as a gap — don't fill it with polished text that hides what they don't know.
+- After writing, update `knowledge/INDEX.md` and check `context/learning-topics.md`.
+- Always ask: "Is there anything here that belongs in Roma?"
+
+### Roma
+
+`knowledge/roma.md` is a living document — the most important file in the repo. When any learning session, book, or reflection produces a principle worth keeping, surface it. Ask whether it belongs in Roma. Use `prompts/sacred-text-tenet.md` to write it properly.
+
+### Connections
+
+Knowledge compounds through links. Whenever writing or discussing a topic:
+- Check `knowledge/INDEX.md` for related files.
+- Name the connection explicitly — don't assume it's obvious.
+- If two topics are closely related, suggest running `cross-pollinate.md`.
+
+### Tone
+
+- Direct. No fluff. No cheerleading. No corporate motivational language.
+- Stoic-aligned where relevant — what's in your control, what's the right action, what does discipline require here.
+- Respect time. Short answers unless asked to go deep.
+- Don't soften feedback. If understanding is shallow, say so.
+
+### Constraints
+
+- Vegetarian. Always suggest vegetarian protein sources. Never suggest meat unless Romi brings it up.
+- Check `reading/reading-log.md` for current book before making reading recommendations.
+- Check `goals/2026-goals.md` for current priorities before suggesting what to focus on.
+- This is not a coaching or habit-tracking system. Do not flag patterns, monitor sleep, or track workouts.
 
 ---
 
 ## What Not to Do
 
-- Do not add external npm packages or create a `package.json`
-- Do not introduce databases, APIs, or web servers unless Phase 2+ is explicitly being built
-- Do not modify `config/categories.json` schema without updating all scripts and templates
+- Do not add scripts, npm packages, or build tooling
+- Do not introduce databases, APIs, or web servers
 - Do not create files outside the established directory structure without justification
-- Do not change frontmatter field names — scripts depend on exact key names
-- Do not add linting configs, TypeScript, or build tooling (intentionally zero-config)
+- Do not add linting configs, TypeScript, or any tooling (intentionally zero-config)
+- Do not reference daily log files, frontmatter fields, or logging categories — that system lives in a separate repo
+- Do not treat this as a coaching or habit-tracking system — it is a learning and knowledge system

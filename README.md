@@ -1,41 +1,37 @@
 # romi-01
 
-A personal system for learning, self-reliance, health, and daily growth.
+A personal learning and knowledge system. The purpose is to learn new topics deeply, build lasting knowledge files, and actually practice what is learned — not just read about it.
+
+All data is plain markdown. No tooling, no build steps, no dependencies.
 
 ## Structure
 
 ```
 romi-01/
 ├── DESIGN.md         # System architecture — start here if you're an AI agent
-├── config/           # Single source of truth: category definitions, tracking types
-├── context/          # Who I am, values, life context (feed to Claude at start of conversations)
-├── daily/            # Daily log entries organized by month (YYYY-MM/YYYY-MM-DD.md)
-├── docs/             # System documentation (logging spec, changelog)
+├── context/          # Who I am, values, learning preferences (feed to Claude at start of conversations)
 ├── goals/            # Annual goals and monthly skill focus tracker
-├── health/           # Fitness plan, body notes
+├── health/           # Fitness plan and wellness notes
 ├── knowledge/        # Deep-dive notes on learned topics
 ├── prompts/          # Reusable AI prompt files (reference in Claude conversations)
 ├── reading/          # Reading log — current, completed, to-read
-├── reviews/          # Weekly and monthly reflections
-├── scripts/          # CLI automation: new-day.js, log.js, status.js
-└── templates/        # File templates (weekly-review, monthly-review, knowledge-topic)
+└── templates/        # File templates (knowledge-topic)
 ```
 
 ## How to Use This
 
 **Primary workflow: VS Code + Claude extension**
-See `knowledge/vscode-claude-workflow.md` for the full guide.
 
-Quick version:
 1. Open this repo in VS Code
-2. Run `node scripts/new-day.js` to scaffold today's entry
-3. Reference `@context/about-me.md` when starting Claude conversations
-4. Use prompts in `prompts/` to guide Claude interactions (morning, review, learning, etc.)
-5. Commit regularly with Git
+2. Start a Claude conversation with `@context/about-me.md` for context
+3. Use `@prompts/teach-me.md` to go deep on a topic
+4. Use `@prompts/sacred-text-tenet.md` to write Roma entries
+5. Add new knowledge files using `templates/knowledge-topic.md`
+6. Commit regularly with Git
 
 ## Philosophy
 
-- Short entries beat no entries. Five lines on a busy day is a win.
-- Learn something every day, even if it's small.
-- Self-reliance is a spectrum, not a destination. Every skill learned is progress.
+- Learn something real every day — not surface-level, not a summary.
+- Understanding compounds. One deep file is worth ten shallow ones.
+- Knowledge only counts if it changes how you think or act.
 - This system serves you. Change it whenever it stops working.

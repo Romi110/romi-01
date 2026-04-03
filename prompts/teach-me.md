@@ -1,7 +1,5 @@
 # Teach Me
 
-Read my context from `context/about-me.md` and my learning topics from `context/learning-topics.md`.
-
 I'm going to give you a topic. Teach it to me.
 
 ## Rules

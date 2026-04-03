@@ -1,74 +1,91 @@
-# Sync Documentation
+# Prompt: Sync Docs
 
-You are maintaining the romi-01 personal growth system. Your job is to audit every documentation
-and reference markdown file in the repo, identify anything that is stale or inconsistent with the
-current system state, and update those files directly.
+## Purpose
+Audit the entire repo for drift. Check that documentation reflects the actual state of files, prompts, and knowledge. Fix what's stale. Flag what's missing.
 
-## Step 1 — Load the Canonical Reference
+## When to Use
+- After adding or removing files
+- After rewriting a prompt or knowledge file
+- When something feels out of date
+- Start of each month as a maintenance habit
 
-Read these files first. They define how the system currently works:
+## What to Audit
 
-1. `DESIGN.md` — system architecture, canonical daily entry format, component reference
-2. `config/categories.json` — current category definitions, tracking fields, tags
-3. `docs/logging-system.md` — frontmatter spec and data format
+Work through each check in order. Report findings before making changes.
 
-These three files are ground truth. Everything else should agree with them.
+---
 
-## Step 2 — Audit These Files
+### 1. File Inventory
+List every file currently in the repo. Compare against:
+- The directory tree in `DESIGN.md`
+- The prompts table in `CLAUDE.md`
+- The prompts table in `prompts/README.md`
+- The knowledge file table in `DESIGN.md` and `CLAUDE.md`
+- The index in `knowledge/INDEX.md`
 
-Read each file below and check it against the canonical reference:
+Flag anything that exists in docs but not on disk, or on disk but not in docs.
 
-| File | What to Check |
-|------|---------------|
-| `README.md` | Directory structure, workflow steps, script references |
-| `knowledge/using-this-system.md` | Daily/weekly/monthly workflows, script commands |
-| `knowledge/vscode-claude-workflow.md` | Entry creation steps, VS Code tips, scripts section |
-| `context/about-me.md` | Health/fitness section, current priorities, stated goals |
-| `context/learning-topics.md` | In-progress markers (`[~]`), completed markers (`[x]`) |
-| `docs/logging-system.md` | Frontmatter field examples, category descriptions |
-| `docs/changelog.md` | Missing recent changes |
-| `prompts/README.md` | Missing or renamed prompt files in the index |
-| `templates/daily-entry.md` | Instructions pointing to current workflow |
-| `templates/weekly-review.md` | Sections match current review structure |
-| `templates/monthly-review.md` | Sections match current review structure |
-| `knowledge/stoicism.md` | Status checklist reflects actual progress |
+---
 
-## Step 3 — Identify Issues
+### 2. Prompts Check
+For each prompt listed in `prompts/README.md`:
+- Does the file exist?
+- Does the description match what the prompt actually does?
+- Is it referenced correctly in `CLAUDE.md`?
 
-For each file, identify:
+---
 
-- **Outdated workflow steps** — still say "copy the template" when scripts exist, wrong script flags, old directory paths
-- **Stale frontmatter examples** — field names that don't match `config/categories.json`
-- **Missing components** — new directories, scripts, or prompts not mentioned where they should be
-- **Inconsistent status** — goals or learning topics marked as starting when they're now in progress
-- **Placeholder text** — empty sections or `<!-- TODO -->` markers that should now be filled given what's known
+### 3. Knowledge Index Check
+For each file in `knowledge/`:
+- Is it listed in `knowledge/INDEX.md` under the correct category?
+- Is its description accurate?
+- Does `DESIGN.md` list it?
 
-## Step 4 — Update Directly
+---
 
-For every issue found, edit the file to fix it. Do not ask for approval on individual edits — just make the change and move on.
+### 4. Learning Topics Check
+Read `context/learning-topics.md`. For each topic marked `[ ]` (not started):
+- Does a knowledge file already exist for it? If so, mark it `[~]` or `[x]` as appropriate.
 
-Rules:
-- **Preserve all content not being updated.** Never remove sections that still apply.
-- **Match the voice and style of surrounding text.** Don't make it sound like documentation from somewhere else.
-- **Don't over-explain.** Short, direct updates. This system values brevity.
-- **If a section is genuinely unknown** (e.g., a status that can't be determined without personal context), leave it with a comment flagging it rather than guessing.
-- **Never edit daily entry files** (`daily/`) — those are personal logs, not documentation.
-- **Never edit knowledge files about learned topics** (stoicism, food-preservation, etc.) unless the status checklist or cross-references are wrong.
+For each topic marked `[~]` (in progress):
+- Does the referenced knowledge file exist?
 
-## Step 5 — Report
+---
 
-After all edits, output a table:
+### 5. Goals Check
+Read `goals/2026-goals.md`. Flag any references to systems that no longer exist (e.g., daily logs, frontmatter fields, scripts).
 
-| File | Change Made | Reason |
-|------|-------------|--------|
-| `README.md` | Updated directory tree | Added config/, scripts/, prompts/ |
-| `context/about-me.md` | Updated health section | Fitness plan now exists |
-| ... | ... | ... |
+---
 
-If nothing needed changing in a file, say so: `No changes — already current.`
+### 6. CLAUDE.md and DESIGN.md Cross-Check
+- Do both files agree on the repo's purpose?
+- Are the design principles consistent?
+- Are the AI agent instructions still accurate?
 
-End with one sentence: what was the biggest category of drift you found?
+---
 
-## Tone
+## Output Format
 
-Precise. No preamble. Start reading files immediately.
+Report findings in this structure:
+
+```
+## Sync Report — [date]
+
+### Found Issues
+- [file]: [what's wrong]
+- ...
+
+### Proposed Fixes
+- [what to change and where]
+- ...
+
+### Already in Sync
+- [areas that are clean]
+```
+
+Then ask: "Fix all of these, fix specific ones, or review first?"
+
+Do not make changes without confirmation unless the user explicitly says to fix everything.
+
+## After Syncing
+Update the "Last synced" note at the bottom of `knowledge/INDEX.md`.
