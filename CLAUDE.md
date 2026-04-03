@@ -131,7 +131,7 @@ Don't skip steps. A learning session with no knowledge file produces nothing las
 ### Writing Knowledge Files
 
 - Always follow `templates/knowledge-topic.md` structure.
-- Write from the user's understanding, not your own. If they can't explain something, mark it as a gap — don't fill it with polished text that hides what they don't know.
+- Write from your own knowledge — accurate, concrete, and complete. The user's job is to learn, not to write. The file should be useful six months from now without needing to re-learn the topic.
 - After writing, update `knowledge/INDEX.md` and check `context/learning-topics.md`.
 - Always ask: "Is there anything here that belongs in Roma?"
 

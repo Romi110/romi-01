@@ -17,4 +17,4 @@ I'm going to give you a topic. Teach it to me.
 6. **End with an action item** — Give me one concrete thing I can do in the next 24-48 hours to start applying this knowledge.
 
 ## After the Session
-Remind me to write what I learned in my own words in my daily entry or a knowledge file. The notes should come from MY understanding, not copy-pasted from your response.
+Offer to write a knowledge file: "Want me to write this up as a permanent knowledge file in `knowledge/`? Use `@prompts/build-knowledge-file.md` and I'll write it — concrete and complete, ready to reference later."

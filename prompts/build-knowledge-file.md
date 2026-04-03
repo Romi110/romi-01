@@ -1,51 +1,57 @@
 # Prompt: Build a Knowledge File
 
 ## Purpose
-Turn what you just learned into a permanent knowledge file. This closes the loop between a learning session and lasting notes. Do not summarize the conversation — write from understanding.
+After a teaching session, write a permanent knowledge file on the topic. Claude writes it — not the user. The file should give anyone (including Romi returning months later) a complete, concrete understanding of the topic without needing to re-learn it.
 
 ## When to Use
-After a `teach-me` session, after reading a chapter or book, or any time you've absorbed something worth keeping.
-
-## Before Starting
-Read:
-- `templates/knowledge-topic.md` — the required structure
-- `context/about-me.md` — so the file reflects Romi's lens, not generic notes
+At the end of a `teach-me` session, or any time a topic has been covered thoroughly enough to be worth keeping.
 
 ## Input
-The user will provide:
-- The topic name
-- Key things they took away from the session (in their own words, rough is fine)
-- Optionally: a specific angle or connection they want emphasized
+The user will either:
+- Ask you to write the file at the end of a session (you already have all the context)
+- Paste notes or a topic name if starting fresh
 
-If the user gives rough notes, work with those. Do not pull from your own knowledge to pad the file — only expand on what the user actually understood from the session.
+## How to Write It
+
+Write from your own knowledge of the topic — accurate, concrete, and complete. Do not ask the user to supply the content. Do not write vague placeholders. Every section should be useful on its own.
+
+The file should read like a high-quality reference note: something Romi can open six months from now and immediately understand the topic without needing to re-learn it.
+
+**Tailor everything to Romi's context:**
+- Connect core ideas to Stoicism, self-reliance, or physical practice where genuine connections exist
+- Use concrete examples, not abstract descriptions
+- Cut theory that has no practical application
+- If a concept connects to an existing knowledge file, name the connection explicitly
 
 ## Output Format
 
-Write the file using the structure from `templates/knowledge-topic.md`:
-
 ```markdown
 # [Topic Name]
-*[One-line description of what this file is]*
+*[One-line description]*
 
 ---
 
 ## What Is It
-[Plain explanation. No jargon without definition. 2–3 paragraphs max.]
+[Plain explanation. 1–2 paragraphs. No jargon without definition.]
 
 ## Why It Matters
-[Why should Romi care? Connect to his values: self-reliance, Stoicism, practical skill, long-term thinking.]
+[Why should Romi care? Specific connection to his values or goals — not generic.]
 
 ## Core Ideas
-[The 3–5 ideas that actually matter. Not an exhaustive list — the signal, not the noise.]
-
-## Key Figures / Sources
-[Who to know, what to read. Only include if genuinely worth the time.]
+[The 3–6 ideas that actually matter. Each one explained, not just named.
+Use sub-headers if needed. Concrete over comprehensive.]
 
 ## Practical Notes
-[How does this change what you do? What's different now that you know this?]
+[What changes now that you know this? Steps, methods, or direct application.
+If nothing changes practically, say so and explain why the knowledge still matters.]
+
+## Resources
+[2–4 sources worth the time. Specific — title, author, and one sentence on why it's worth reading.
+Skip anything generic or just famous.]
 
 ## Connections
-[Links to other knowledge files. Where does this idea show up elsewhere in the system?]
+[Links to existing knowledge files where this topic intersects.
+Be specific about what the connection is, not just that one exists.]
 
 ## Status
 - [ ] Initial notes written
@@ -56,16 +62,9 @@ Write the file using the structure from `templates/knowledge-topic.md`:
 *Last updated: [date]*
 ```
 
-## Rules
-
-- **Write from the user's understanding, not from the session transcript.** If the user can't explain something in their own words, note it as a gap rather than filling it with your words.
-- **No padding.** Every section should earn its place. If Practical Notes are empty because it's a purely theoretical topic, say so briefly.
-- **Flag gaps explicitly.** If there's something the user mentioned but didn't fully grasp, add a note like `[Needs more work — didn't fully click yet]` rather than writing something polished that masks a gap.
-- **Connections matter.** Check existing knowledge files and link anything relevant. A knowledge file with no connections is an island.
-
 ## After Writing
 
 1. Save to `knowledge/[topic-name].md`
 2. Add an entry to `knowledge/INDEX.md` under the correct category
 3. Update `context/learning-topics.md` if the topic was on the list
-4. Ask: "Is there anything here that belongs in Roma?"
+4. Ask: "Is there a principle from this worth adding to Roma?"
