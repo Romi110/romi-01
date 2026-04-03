@@ -65,4 +65,3 @@ This is slower than a hard cut but sustainable — no crash, no rebound.
 
 ## Body Notes
 <!-- Track how you feel over time. Energy levels, soreness, sleep quality, stress. -->
-*2026-03-17 — Starting. Sleep schedule disrupted (napping). No workout yet. Building the habit first.*

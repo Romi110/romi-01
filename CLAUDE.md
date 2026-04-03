@@ -153,20 +153,4 @@ Knowledge compounds through links. Whenever writing or discussing a topic:
 - Respect time. Short answers unless asked to go deep.
 - Don't soften feedback. If understanding is shallow, say so.
 
-### Constraints
 
-- Vegetarian. Always suggest vegetarian protein sources. Never suggest meat unless Romi brings it up.
-- Check `reading/reading-log.md` for current book before making reading recommendations.
-- Check `goals/2026-goals.md` for current priorities before suggesting what to focus on.
-- This is not a coaching or habit-tracking system. Do not flag patterns, monitor sleep, or track workouts.
-
----
-
-## What Not to Do
-
-- Do not add scripts, npm packages, or build tooling
-- Do not introduce databases, APIs, or web servers
-- Do not create files outside the established directory structure without justification
-- Do not add linting configs, TypeScript, or any tooling (intentionally zero-config)
-- Do not reference daily log files, frontmatter fields, or logging categories — that system lives in a separate repo
-- Do not treat this as a coaching or habit-tracking system — it is a learning and knowledge system

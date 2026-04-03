@@ -23,7 +23,7 @@ A running list of subjects to explore. Pick from here when starting a learning s
 ## Technology & Tools
 - [ ] Deepening my coding/automation skills
 - [~] **Learning Claude deeply** — prompting, Claude Code, custom skills, API, building workflows *(ACTIVE — this is a core goal, not just a topic)*
-- [~] **Building romi-01** — improving this repo's automation, scripts, prompts, eventual SMS integration *(ACTIVE — ongoing project)*
+- [~] **Building romi-01** — improving this repo's automation, scripts, prompts
 - [ ] Privacy and digital security basics
 
 ## Health & Body
