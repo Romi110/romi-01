@@ -13,7 +13,7 @@ topic-map → teach-me → build-knowledge-file → cross-pollinate → (if earn
 
 1. **Before starting a new topic** — use `@prompts/topic-map.md` to map the learning path, understand what you're committing to, and create a skeleton knowledge file.
 2. **Learning session** — use `@prompts/teach-me.md` to go deep. Don't just ask for a summary — push for genuine understanding.
-3. **After the session** — use `@prompts/build-knowledge-file.md` to write what you actually understood. Write from your own words, not Claude's.
+3. **After the session** — use `@prompts/build-knowledge-file.md` and Claude writes a permanent knowledge file. Concrete and complete — something useful six months from now.
 4. **Over time** — use `@prompts/cross-pollinate.md` to find connections between two knowledge files. This is where knowledge compounds.
 5. **When a principle is worth keeping** — use `@prompts/sacred-text-tenet.md` to write it into `knowledge/roma.md`.
 
@@ -36,8 +36,8 @@ topic-map → teach-me → build-knowledge-file → cross-pollinate → (if earn
 
 ## How to Add a Knowledge File
 
-1. Copy `templates/knowledge-topic.md` to `knowledge/[topic-name].md`
-2. Or use `@prompts/build-knowledge-file.md` after a session — it writes the file for you
+1. Use `@prompts/build-knowledge-file.md` at the end of a session — Claude writes it
+2. Or copy `templates/knowledge-topic.md` to `knowledge/[topic-name].md` as a manual skeleton
 3. Add the file to `knowledge/INDEX.md` under the right category
 4. Check off the topic in `context/learning-topics.md` if it was on the list
 

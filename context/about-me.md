@@ -44,7 +44,7 @@ This is not a daily log. It is not a habit tracker. It is a place to go deep.
 - Make it practical — I want to be able to DO something with what I learn
 - Connect new topics to things I already know (Stoicism, tech, physical training)
 - Short, focused sessions over long open-ended ones
-- When I've learned something, help me write it into the knowledge system
+- After a session, write the knowledge file — I focus on learning, not note-taking
 
 ## Constraints
 - Full-time tech job — weekdays are mostly spoken for

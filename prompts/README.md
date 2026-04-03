@@ -43,7 +43,7 @@ In VS Code with the Claude extension:
 Examples:
 - `@prompts/topic-map.md food preservation and canning`
 - `@prompts/teach-me.md teach me about raised bed gardening`
-- `@prompts/build-knowledge-file.md [paste your notes]`
+- `@prompts/build-knowledge-file.md` (at the end of a teach-me session)
 - `@prompts/cross-pollinate.md stoicism.md and zen-buddhism.md`
 - `@prompts/sacred-text-tenet.md tenet 3`
 - `@prompts/sync-docs.md`
@@ -54,7 +54,7 @@ Examples:
 
 1. **New topic** → `topic-map.md` — understand what you're committing to, build the path
 2. **Learning session** → `teach-me.md` — go deep on Stage 1
-3. **After session** → `build-knowledge-file.md` — lock it into a permanent file
+3. **After session** → `build-knowledge-file.md` — Claude writes a permanent knowledge file
 4. **Over time** → `cross-pollinate.md` — find how it connects to what you already know
 5. **When it belongs in Roma** → `sacred-text-tenet.md` — write the principle
 

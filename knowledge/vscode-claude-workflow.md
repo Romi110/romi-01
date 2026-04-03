@@ -20,7 +20,7 @@
 4. Or map a new topic first: `@prompts/topic-map.md [topic]`
 
 ### After a Session
-1. Use `@prompts/build-knowledge-file.md` — write what you understood in your own words
+1. Use `@prompts/build-knowledge-file.md` — Claude writes the knowledge file, concrete and complete
 2. Update `knowledge/INDEX.md` with the new file
 3. Check off the topic in `context/learning-topics.md` if it was on the list
 4. Commit: open Source Control (Ctrl+Shift+G), write a message, commit
@@ -51,9 +51,9 @@ Use `@` to pull any file into the conversation:
 @context/about-me.md @prompts/teach-me.md teach me stage 1 of food preservation
 ```
 
-**Writing what you learned:**
+**Writing a knowledge file after a session:**
 ```
-@prompts/build-knowledge-file.md [paste your rough notes]
+@prompts/build-knowledge-file.md
 ```
 
 **Finding connections:**
