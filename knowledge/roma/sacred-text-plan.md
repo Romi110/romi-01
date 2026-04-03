@@ -64,10 +64,10 @@ Short enough to memorize.
 
 ## Source Material
 
-- `knowledge/core_tenets_of_wisdom.md` — the philosophical foundation
-- `knowledge/philosophy-traditions-guide.md` — cross-tradition analysis
-- `knowledge/stoicism.md` — Stoic grounding
-- `knowledge/zen-buddhism.md` — Zen grounding
+- `knowledge/philosophy/core_tenets_of_wisdom.md` — the philosophical foundation
+- `knowledge/philosophy/philosophy-traditions-guide.md` — cross-tradition analysis
+- `knowledge/philosophy/stoicism.md` — Stoic grounding
+- `knowledge/philosophy/zen-buddhism.md` — Zen grounding
 
 ---
 

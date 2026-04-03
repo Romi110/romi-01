@@ -8,9 +8,7 @@ Reusable prompt files for Claude. Reference with `@prompts/filename.md` in VS Co
 
 | Prompt | When to Use | File |
 |--------|-------------|------|
-| **Teach Me** | Deep-dive on any topic from zero | `teach-me.md` |
-| **Topic Map** | Before starting a new topic — build the learning path first | `topic-map.md` |
-| **Build Knowledge File** | After a learning session — turn understanding into a permanent file | `build-knowledge-file.md` |
+| **Deep Dive** | Learn any topic — produces a complete wiki-style knowledge file | `deep-dive.md` |
 | **Cross-Pollinate** | Find connections between two knowledge files you've already written | `cross-pollinate.md` |
 
 ## Writing
@@ -37,26 +35,24 @@ Reusable prompt files for Claude. Reference with `@prompts/filename.md` in VS Co
 
 In VS Code with the Claude extension:
 1. Open the Claude panel
-2. Type `@prompts/teach-me.md` (or whichever prompt you want)
+2. Type `@prompts/deep-dive.md` (or whichever prompt you want)
 3. Add your specific request after it
 
 Examples:
-- `@prompts/topic-map.md food preservation and canning`
-- `@prompts/teach-me.md teach me about raised bed gardening`
-- `@prompts/build-knowledge-file.md` (at the end of a teach-me session)
-- `@prompts/cross-pollinate.md stoicism.md and zen-buddhism.md`
+- `@prompts/deep-dive.md self-sustained farming`
+- `@prompts/deep-dive.md hydroponics` (to expand a proposed sub-topic)
+- `@prompts/cross-pollinate.md stoicism.md and fitness-plan.md`
 - `@prompts/sacred-text-tenet.md tenet 3`
 - `@prompts/sync-docs.md`
 
 ---
 
-## Typical Learning Flow
+## Typical Flow
 
-1. **New topic** → `topic-map.md` — understand what you're committing to, build the path
-2. **Learning session** → `teach-me.md` — go deep on Stage 1
-3. **After session** → `build-knowledge-file.md` — Claude writes a permanent knowledge file
-4. **Over time** → `cross-pollinate.md` — find how it connects to what you already know
-5. **When it belongs in Roma** → `sacred-text-tenet.md` — write the principle
+1. **New topic** → `deep-dive.md` — get a complete wiki-style overview with proposed sub-topics
+2. **Go deeper** → `deep-dive.md` again — pick a proposed sub-topic and expand it
+3. **Find connections** → `cross-pollinate.md` — see how two files relate
+4. **When it belongs in Roma** → `sacred-text-tenet.md` — write the principle
 
 ---
 

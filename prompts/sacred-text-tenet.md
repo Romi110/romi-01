@@ -5,9 +5,9 @@ Write one tenet section for the Book of Tenets. Each section should stand alone 
 
 ## Before Writing
 Read these files for context:
-- `knowledge/core_tenets_of_wisdom.md` — the philosophical source material
-- `knowledge/philosophy-traditions-guide.md` — cross-tradition analysis per tenet
-- `knowledge/sacred-text-plan.md` — the plan, tone, and format spec
+- `knowledge/philosophy/core_tenets_of_wisdom.md` — the philosophical source material
+- `knowledge/philosophy/philosophy-traditions-guide.md` — cross-tradition analysis per tenet
+- `knowledge/roma/sacred-text-plan.md` — the plan, tone, and format spec
 
 ## Input
 The user will tell you which tenet to write (1–7) and may give additional direction. If they don't specify direction, use the defaults in the plan.
@@ -84,7 +84,7 @@ If any answer is no, revise before outputting.
 
 ## After Writing
 
-Append the completed tenet section to `knowledge/roma.md`. If the file does not exist, create it with this header first:
+Append the completed tenet section to `knowledge/roma/roma.md`. If the file does not exist, create it with this header first:
 
 ```markdown
 # Roma

@@ -16,20 +16,19 @@
 ### Starting a Learning Session
 1. Open the Claude panel in VS Code
 2. Reference context: `@context/about-me.md`
-3. Use a prompt: `@prompts/teach-me.md teach me about [topic]`
-4. Or map a new topic first: `@prompts/topic-map.md [topic]`
+3. Use the deep-dive prompt: `@prompts/deep-dive.md [topic]`
+4. Get a complete wiki-style knowledge file with proposed sub-topics
 
 ### After a Session
-1. Use `@prompts/build-knowledge-file.md` — Claude writes the knowledge file, concrete and complete
-2. Update `knowledge/INDEX.md` with the new file
-3. Check off the topic in `context/learning-topics.md` if it was on the list
-4. Commit: open Source Control (Ctrl+Shift+G), write a message, commit
+1. The deep-dive prompt handles file creation and indexing
+2. Review the proposed sub-topics — pick the next one to expand
+3. Commit: open Source Control (Ctrl+Shift+G), write a message, commit
 
 ### Referencing Files in Claude
 Use `@` to pull any file into the conversation:
 - `@context/about-me.md` — always do this for context
-- `@knowledge/stoicism.md` — when discussing a topic you've already studied
-- `@prompts/cross-pollinate.md stoicism.md and zen-buddhism.md` — cross-topic work
+- `@knowledge/philosophy/stoicism.md` — when discussing a topic you've already studied
+- `@prompts/cross-pollinate.md philosophy/stoicism.md and philosophy/zen-buddhism.md` — cross-topic work
 
 ## VS Code Tips
 
@@ -43,22 +42,17 @@ Use `@` to pull any file into the conversation:
 
 **Learning something new:**
 ```
-@context/about-me.md @prompts/topic-map.md food preservation and canning
+@context/about-me.md @prompts/deep-dive.md self-sustained farming
 ```
 
-**Going deep on a topic:**
+**Expanding a sub-topic:**
 ```
-@context/about-me.md @prompts/teach-me.md teach me stage 1 of food preservation
-```
-
-**Writing a knowledge file after a session:**
-```
-@prompts/build-knowledge-file.md
+@context/about-me.md @prompts/deep-dive.md hydroponics
 ```
 
 **Finding connections:**
 ```
-@prompts/cross-pollinate.md stoicism.md and fitness-plan.md
+@prompts/cross-pollinate.md philosophy/stoicism.md and health/fitness-plan.md
 ```
 
 **Writing a Roma tenet:**

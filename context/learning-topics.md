@@ -17,7 +17,7 @@ A running list of subjects to explore. Pick from here when starting a learning s
 - [ ] How local and federal government actually works
 - [ ] History — themes and patterns, not just dates
 - [ ] Science literacy — how to read and evaluate studies
-- [~] Philosophy — stoicism, practical ethics, decision-making *(in progress — see `knowledge/stoicism.md`)*
+- [~] Philosophy — stoicism, practical ethics, decision-making *(in progress — see `knowledge/philosophy/stoicism.md`)*
 - [ ] Nutrition — what actually matters vs. marketing
 
 ## Technology & Tools

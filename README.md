@@ -11,7 +11,11 @@ romi-01/
 ├── DESIGN.md         # System architecture — start here if you're an AI agent
 ├── context/          # Who I am, values, learning preferences (feed to Claude at start of conversations)
 ├── goals/            # Annual goals and monthly skill focus tracker
-├── knowledge/        # Deep-dive notes on learned topics (including fitness, nutrition)
+├── knowledge/        # Wiki-style knowledge base, organized by category
+│   ├── philosophy/   # Stoicism, Zen, cross-tradition analysis
+│   ├── roma/         # Personal book of tenets
+│   ├── health/       # Fitness, nutrition
+│   └── meta/         # System docs, workflow guides
 ├── prompts/          # Reusable AI prompt files (reference in Claude conversations)
 └── templates/        # File templates (knowledge-topic)
 ```
@@ -22,10 +26,9 @@ romi-01/
 
 1. Open this repo in VS Code
 2. Start a Claude conversation with `@context/about-me.md` for context
-3. Use `@prompts/teach-me.md` to go deep on a topic
+3. Use `@prompts/deep-dive.md [topic]` to learn any topic — get a complete wiki-style knowledge file
 4. Use `@prompts/sacred-text-tenet.md` to write Roma entries
-5. Add new knowledge files using `templates/knowledge-topic.md`
-6. Commit regularly with Git
+5. Commit regularly with Git
 
 ## Philosophy
 

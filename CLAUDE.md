@@ -26,7 +26,13 @@ romi-01/
 │   └── learning-topics.md  # Topics to explore
 ├── goals/
 │   └── 2026-goals.md       # Annual goals + monthly skill focus tracker
-├── knowledge/              # Deep-dive reference notes (including fitness, nutrition)
+├── knowledge/              # Wiki-style knowledge base
+│   ├── INDEX.md            # Table of contents for all knowledge files
+│   ├── philosophy/         # Stoicism, Zen, traditions, core tenets
+│   ├── roma/               # Roma, sacred text plan, improvements
+│   ├── health/             # Fitness, nutrition
+│   ├── meta/               # System docs, workflow guides
+│   └── [new domains]/      # New folders created as topics grow
 ├── prompts/                # Reusable Claude prompt files
 └── templates/
     └── knowledge-topic.md  # Knowledge file starter template
@@ -49,9 +55,7 @@ Prompts in `prompts/` are used with the Claude VS Code extension via `@prompts/f
 
 | File | Purpose |
 |------|---------|
-| `teach-me.md` | Deep-dive learning sessions |
-| `topic-map.md` | Build a learning path before starting a new topic |
-| `build-knowledge-file.md` | Turn a learning session into a permanent knowledge file |
+| `deep-dive.md` | Learn any topic — produces a complete wiki-style knowledge file with proposed sub-topics |
 | `cross-pollinate.md` | Find connections between two knowledge files |
 | `sacred-text-tenet.md` | Writing sessions for roma.md |
 | `fitness-plan.md` | Build or adjust workout routine |
@@ -63,21 +67,17 @@ When modifying a prompt, keep it **concise, Stoic in tone, and actionable**. Avo
 
 ## Knowledge Files
 
-Knowledge files in `knowledge/` are deep-dive references on topics Romi is studying.
+Knowledge files live in subfolders under `knowledge/`. See `knowledge/INDEX.md` for the full table of contents.
 
-**Current files:**
-- `stoicism.md` — Stoic philosophy
-- `zen-buddhism.md` — Zen Buddhism
-- `philosophy-traditions-guide.md` — Cross-tradition comparison across 7 tenets
-- `roma.md` — Personal book of tenets (7 core tenets + stories + sources)
-- `core_tenets_of_wisdom.md` — Core tenets reference
-- `sacred-text-plan.md` — Study plan for sacred texts
-- `fitness-plan.md` — Physical training philosophy
-- `vegetarian-protein.md` — Vegetarian protein reference
-- `using-this-system.md` — How to use romi-01
-- `vscode-claude-workflow.md` — VS Code + Claude workflow
+**Categories:**
+- `philosophy/` — stoicism, zen-buddhism, philosophy-traditions-guide, core_tenets_of_wisdom
+- `roma/` — roma, sacred-text-plan, roma-improvements
+- `health/` — fitness-plan, vegetarian-protein
+- `meta/` — using-this-system, vscode-claude-workflow
 
-**Template**: Use `templates/knowledge-topic.md` for new files. Structure: What Is It, Why It Matters, Core Ideas, Key Figures, Reading List, Daily Practices, Connections, Status.
+New domains get new subfolders as needed. Use `@prompts/deep-dive.md` to generate new files.
+
+**Template**: Use `templates/knowledge-topic.md` for manual file creation.
 
 ---
 
@@ -88,6 +88,7 @@ Knowledge files in `knowledge/` are deep-dive references on topics Romi is study
 3. **Depth over breadth**: One well-understood topic beats ten shallow ones. Files grow over time.
 4. **Low friction**: Usable in short sessions. No setup, no tooling, just open and write.
 5. **No tooling**: No scripts, no build steps, no dependencies.
+6. **Minimize redundancy**: Link to existing files instead of re-explaining. Each concept lives in one place.
 
 ---
 
@@ -107,35 +108,28 @@ Knowledge files in `knowledge/` are deep-dive references on topics Romi is study
 2. Read `knowledge/INDEX.md` — see what's already known before starting a new topic. Don't teach what's already been written.
 3. If a relevant prompt file exists in `prompts/`, read it and follow it. The prompts are instructions, not suggestions.
 
-### Teaching
-
-- Explain from first principles. Romi wants genuine understanding, not a summary or overview.
-- Assume smart but no background. No jargon without definition. Use tech/software analogies where they help.
-- Lead with "what is this and why does it matter to you specifically." If you can't answer that, don't start teaching.
-- After teaching, always connect to something actionable. What's one thing to do in the next 48 hours?
-- At the end of any learning session, prompt: "Want to write this into a knowledge file? Use `@prompts/build-knowledge-file.md`."
-
 ### The Learning Flow
 
-When a user is learning something new, guide them through this sequence:
-1. `topic-map.md` — map the territory before diving in
-2. `teach-me.md` — go deep on the first stage
-3. `build-knowledge-file.md` — lock understanding into a permanent file
-4. `cross-pollinate.md` — find connections to existing knowledge
-5. `sacred-text-tenet.md` — if the topic produced a principle worth adding to Roma
+When a user wants to learn something new:
+1. `deep-dive.md` — produces a complete wiki-style knowledge file covering the full territory, with proposed sub-topic files
+2. `deep-dive.md` again — on any proposed sub-topic to expand it
+3. `cross-pollinate.md` — find connections to existing knowledge
+4. `sacred-text-tenet.md` — if the topic produced a principle worth adding to Roma
 
-Don't skip steps. A learning session with no knowledge file produces nothing lasting.
+A learning session with no knowledge file produces nothing lasting.
 
 ### Writing Knowledge Files
 
-- Always follow `templates/knowledge-topic.md` structure.
-- Write from your own knowledge — accurate, concrete, and complete. The user's job is to learn, not to write. The file should be useful six months from now without needing to re-learn the topic.
+- Use `@prompts/deep-dive.md` to generate files. It handles structure, placement, and indexing.
+- Write from your own knowledge — accurate, concrete, and complete. The user's job is to learn, not to write.
+- **Minimize redundancy** — check INDEX.md before writing. Link to existing files instead of re-explaining concepts already covered elsewhere.
+- Place files in the appropriate subfolder. Create new subfolders for new domains.
 - After writing, update `knowledge/INDEX.md` and check `context/learning-topics.md`.
 - Always ask: "Is there anything here that belongs in Roma?"
 
 ### Roma
 
-`knowledge/roma.md` is a living document — the most important file in the repo. When any learning session, book, or reflection produces a principle worth keeping, surface it. Ask whether it belongs in Roma. Use `prompts/sacred-text-tenet.md` to write it properly.
+`knowledge/roma/roma.md` is a living document — the most important file in the repo. When any learning session, book, or reflection produces a principle worth keeping, surface it. Ask whether it belongs in Roma. Use `prompts/sacred-text-tenet.md` to write it properly.
 
 ### Connections
 
@@ -143,6 +137,7 @@ Knowledge compounds through links. Whenever writing or discussing a topic:
 - Check `knowledge/INDEX.md` for related files.
 - Name the connection explicitly — don't assume it's obvious.
 - If two topics are closely related, suggest running `cross-pollinate.md`.
+- When a knowledge file proposes sub-topics, those are the natural next steps.
 
 ### Tone
 
@@ -150,5 +145,3 @@ Knowledge compounds through links. Whenever writing or discussing a topic:
 - Stoic-aligned where relevant — what's in your control, what's the right action, what does discipline require here.
 - Respect time. Short answers unless asked to go deep.
 - Don't soften feedback. If understanding is shallow, say so.
-
-

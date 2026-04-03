@@ -98,7 +98,7 @@ The sources section reads like a bibliography. It's well-curated and genuinely u
 
 ## 9. Final Assembly Question
 
-`sacred-text-plan.md` references a final output file: `knowledge/book-of-tenets.md`. Roma currently lives at `knowledge/roma.md`. Decide:
+`sacred-text-plan.md` references a final output file: `knowledge/book-of-tenets.md`. Roma currently lives at `knowledge/roma/roma.md`. Decide:
 
 - **Roma is the book.** Delete the reference to `book-of-tenets.md`. Roma is done.
 - **Roma is the draft. Book of Tenets is the final form.** Then there's a final editorial pass to do: tighten, reorder if needed, and publish as the clean copy.

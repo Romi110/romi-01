@@ -10,7 +10,7 @@ Take two knowledge files and find what they're actually saying to each other —
 - As a periodic practice once you have 3+ knowledge files
 
 ## Input
-The user will name two files (e.g., `stoicism.md` and `zen-buddhism.md`, or `stoicism.md` and `fitness-plan.md`). Read both in full before writing anything.
+The user will name two files (e.g., `philosophy/stoicism.md` and `philosophy/zen-buddhism.md`, or `philosophy/stoicism.md` and `health/fitness-plan.md`). Read both in full before writing anything.
 
 ## Output Format
 
@@ -51,7 +51,7 @@ If yes, note which tenet and how.]
 
 ## After Writing
 
-Save to `knowledge/` as `[topic-a]-x-[topic-b].md` if it's worth keeping as a permanent reference.
+Save to the appropriate subfolder under `knowledge/` as `[topic-a]-x-[topic-b].md` if it's worth keeping as a permanent reference.
 Otherwise treat it as a conversation artifact — useful for today, not necessarily a permanent file.
 
 Ask the user: "Is this worth saving, or was it useful just to think through?"

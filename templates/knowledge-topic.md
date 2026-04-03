@@ -11,26 +11,45 @@
 <!-- Why should Romi care? Connect to self-reliance, Stoicism, practical skill, or long-term thinking. -->
 
 
-## Core Ideas
-<!-- The 3–5 ideas that actually matter. Not an exhaustive list — the signal, not the noise. -->
+## Core Concepts
+<!-- The essential ideas that make up this topic. Use sub-headers for each. -->
+
+### [Concept 1]
+<!-- What it is, why it matters, how it works -->
+
+### [Concept 2]
+<!-- ... -->
 
 
-## Practical Notes
-<!-- How does this change what you do? What's different now that you know this? -->
+## Key Considerations
+<!-- Practical constraints, common trade-offs, things not obvious from the overview. -->
+
+
+## Getting Started
+<!-- First steps if someone wanted to begin tomorrow. Concrete and realistic. -->
+
+
+## Common Mistakes
+<!-- What do beginners get wrong? What wastes time? -->
 
 
 ## Resources
-<!-- Books, references, or sources worth the time. Only include what's genuinely useful. -->
+<!-- 2–4 sources worth the time. Title, author, one sentence on why. -->
 
 
 ## Connections
-<!-- Links to other knowledge files. Where does this idea show up elsewhere in the system? -->
+<!-- Links to other knowledge files. Format: [file-name.md](../category/file-name.md) — what the connection is -->
+
+
+## Proposed Files
+<!-- Sub-topics worth their own deep-dive. Not created yet — just proposed.
+- `category/file-name.md` — description. Why it deserves its own file. -->
 
 
 ## Status
-- [ ] Initial notes written
+- [ ] Initial file written
 - [ ] Could explain this to someone else
-- [ ] Actively practicing
-- [ ] Connected to Roma or another knowledge file
+- [ ] Actively practicing or applying
+- [ ] Connected to other knowledge files
 
 *Last updated: [date]*

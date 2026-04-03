@@ -1,6 +1,6 @@
 # Fitness Plan Builder
 
-Read my context from `context/about-me.md` and my current fitness info from `knowledge/fitness-plan.md`.
+Read my context from `context/about-me.md` and my current fitness info from `knowledge/health/fitness-plan.md`.
 
 I want to build (or adjust) a realistic fitness routine.
 
@@ -21,4 +21,4 @@ I want to build (or adjust) a realistic fitness routine.
 7. **Nutrition awareness** — I'm vegetarian. Any meal suggestions or nutrition notes in the plan should use vegetarian protein sources (paneer, dal, tofu, eggs, Greek yogurt, whey, etc). Don't suggest chicken or meat.
 
 ## Output
-Update my `knowledge/fitness-plan.md` with a concrete weekly schedule I can start this week. Include exercise names, sets/reps or duration, and brief notes on form if relevant.
+Update my `knowledge/health/fitness-plan.md` with a concrete weekly schedule I can start this week. Include exercise names, sets/reps or duration, and brief notes on form if relevant.
