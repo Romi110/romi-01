@@ -11,10 +11,8 @@ romi-01/
 ├── DESIGN.md         # System architecture — start here if you're an AI agent
 ├── context/          # Who I am, values, learning preferences (feed to Claude at start of conversations)
 ├── goals/            # Annual goals and monthly skill focus tracker
-├── health/           # Fitness plan and wellness notes
-├── knowledge/        # Deep-dive notes on learned topics
+├── knowledge/        # Deep-dive notes on learned topics (including fitness, nutrition)
 ├── prompts/          # Reusable AI prompt files (reference in Claude conversations)
-├── reading/          # Reading log — current, completed, to-read
 └── templates/        # File templates (knowledge-topic)
 ```
 

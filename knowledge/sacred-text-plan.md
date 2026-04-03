@@ -83,11 +83,11 @@ Build it tenet by tenet. Review each before moving to the next.
 
 ## Status
 
-- [ ] Tenet 1 — The mind makes the world
-- [ ] Tenet 2 — Holding tight makes it worse
-- [ ] Tenet 3 — You are not alone in here
-- [ ] Tenet 4 — Now is the only place
-- [ ] Tenet 5 — You become what you do
-- [ ] Tenet 6 — Meaning is made, not found
-- [ ] Tenet 7 — The small self gets in the way
+- [x] Tenet 1 — The mind makes the world
+- [x] Tenet 2 — Holding tight makes it worse
+- [x] Tenet 3 — You are not alone in here
+- [x] Tenet 4 — Now is the only place
+- [x] Tenet 5 — You become what you do
+- [x] Tenet 6 — Meaning is made, not found
+- [x] Tenet 7 — The small self gets in the way
 - [ ] Full assembly + final read

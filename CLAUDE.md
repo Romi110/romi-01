@@ -26,12 +26,8 @@ romi-01/
 │   └── learning-topics.md  # Topics to explore
 ├── goals/
 │   └── 2026-goals.md       # Annual goals + monthly skill focus tracker
-├── health/
-│   └── fitness-plan.md     # Workout routine and wellness plan
-├── knowledge/              # Deep-dive reference notes
+├── knowledge/              # Deep-dive reference notes (including fitness, nutrition)
 ├── prompts/                # Reusable Claude prompt files
-├── reading/
-│   └── reading-log.md      # Books read, ratings, currently reading
 └── templates/
     └── knowledge-topic.md  # Knowledge file starter template
 ```
@@ -58,6 +54,7 @@ Prompts in `prompts/` are used with the Claude VS Code extension via `@prompts/f
 | `build-knowledge-file.md` | Turn a learning session into a permanent knowledge file |
 | `cross-pollinate.md` | Find connections between two knowledge files |
 | `sacred-text-tenet.md` | Writing sessions for roma.md |
+| `fitness-plan.md` | Build or adjust workout routine |
 | `sync-docs.md` | Audit and update all docs for consistency |
 
 When modifying a prompt, keep it **concise, Stoic in tone, and actionable**. Avoid corporate language.
@@ -76,6 +73,7 @@ Knowledge files in `knowledge/` are deep-dive references on topics Romi is study
 - `core_tenets_of_wisdom.md` — Core tenets reference
 - `sacred-text-plan.md` — Study plan for sacred texts
 - `fitness-plan.md` — Physical training philosophy
+- `vegetarian-protein.md` — Vegetarian protein reference
 - `using-this-system.md` — How to use romi-01
 - `vscode-claude-workflow.md` — VS Code + Claude workflow
 
