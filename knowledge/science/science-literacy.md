@@ -173,10 +173,6 @@ You won't do this for every headline. But for claims that would change your beha
 - [history/history-mental-models.md](../history/history-mental-models.md) — The history of scientific consensus being wrong (bloodletting, lobotomies) is worth knowing — but so is the history of minority scientific views being wrong despite feeling contrarian and correct.
 - [health/nutrition.md](../health/nutrition.md) — Nutritional epidemiology is the domain where these literacy skills most often matter in daily life.
 
-## Proposed Files
-
-- `science/statistics-basics.md` — Distributions, standard deviation, confidence intervals, Bayesian reasoning. Science literacy requires enough statistics to read a methods section. Worth a separate file because the statistics knowledge is general-purpose across many domains.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

@@ -153,11 +153,6 @@ The Fed raised rates from near zero to 5.25-5.5% (2022–2024) in the fastest hi
 - [finance/tax-optimization.md](../finance/tax-optimization.md) — Every tax-advantaged account is a product of specific legislation responding to economic history (ERISA 1974, HSA created 2003, Roth IRA 1997). Understanding why they exist informs how to use them.
 - [civics/how-government-works.md](../civics/how-government-works.md) — Economic policy is made through political processes — lobbying, regulatory agencies, executive orders. The petrodollar deal was diplomatic. Bretton Woods was negotiated under wartime pressure. Economic and political history are not separable.
 
-## Proposed Files
-
-- `history/roman-history.md` — Rome as the canonical case study: Republic to Empire, elite overproduction in practice, Marcus Aurelius's reign as Stoic leadership under structural decline. Also proposed in history-mental-models.md.
-- `history/industrial-revolution-deep-dive.md` — The industrial revolution as a detailed case study: labor conditions, technological diffusion, why it happened in Britain, the political response (labor unions, regulation). The template for understanding what AI-era disruption might produce.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

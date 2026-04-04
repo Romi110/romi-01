@@ -144,11 +144,6 @@ Innovation concentrates in specific places and times. What creates those conditi
 - [civics/how-government-works.md](../civics/how-government-works.md) — Institutional decay, elite capture, and power concentration patterns are observable in current institutions. Historical patterns give context to what's happening structurally now.
 - [finance/index-fund-investing.md](../finance/index-fund-investing.md) — Debt cycles, reserve currency dynamics, and technological disruption patterns directly shape long-term investment environments.
 
-## Proposed Files
-
-- `history/roman-history.md` — Rome as a case study: Republic to Empire, the specific mechanisms of institutional decay, Marcus Aurelius's reign as Stoicism under pressure. Deserves its own file because the Roman arc is the most documented example of the patterns in this file, and it connects directly to Roma.
-- `history/economic-history.md` — How economies actually developed: mercantilism to capitalism, industrial revolution, Bretton Woods, the petrodollar — the specific events behind the models described here.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

@@ -32,7 +32,7 @@ See `knowledge/INDEX.md` for the full table of contents.
 | File | What It's For |
 |------|---------------|
 | `context/about-me.md` | Feed this to Claude at the start of any conversation |
-| `context/learning-topics.md` | The master list of topics to explore — add to it freely |
+| `knowledge/wiki-plan.md` | The master list of topics to explore — add to it freely |
 | `knowledge/INDEX.md` | See what you already know before starting something new |
 | `goals/2026-goals.md` | Annual goals and monthly skill focus |
 | `prompts/README.md` | All prompts and when to use them |

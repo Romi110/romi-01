@@ -13,7 +13,7 @@ This file covers the underlying principles — progressive overload, movement pa
 
 Training without understanding the principles produces a plateau. Most people hit a wall after 6–12 months not because their genetics are limiting them, but because they stopped applying the core driver of adaptation: progressive overload. Understanding the principles means you can troubleshoot, modify, and periodize your training rather than following a program blindly or grinding the same sessions indefinitely.
 
-For Romi: the goal is body recomposition — build muscle, lose fat, maintain health long-term. That goal requires understanding which training variables to manipulate and when. It also means understanding why HIIT fits differently into a weekly plan than strength work, and how to structure them together without overtraining or undertaining.
+For Romi: the goal is body recomposition — build muscle, lose fat, maintain health long-term. That goal requires understanding which training variables to manipulate and when. It also means understanding why HIIT fits differently into a weekly plan than strength work, and how to structure them together without overtraining or undertraining.
 
 ## Core Concepts
 
@@ -201,10 +201,6 @@ Training is a stress that damages tissue. Adaptation happens during recovery, no
 - [health/mobility-and-flexibility.md](mobility-and-flexibility.md) — Mobility is the prerequisite for training quality. Before increasing load, ensure the range is available. The hip hinge, overhead press, and mace rotations all have specific mobility requirements covered there.
 - [health/nutrition.md](nutrition.md) — Protein intake and total calories are training variables as much as sets and reps. Training adaptation without adequate protein is like laying rebar without concrete.
 - [skills/building-discipline.md](../skills/building-discipline.md) — Consistency over optimization. The discipline principle (act on intention regardless of motivation) is what converts training knowledge into training results.
-
-## Proposed Files
-
-- `health/programming-a-training-block.md` — Practical guide: how to build an 8-week training block, choose exercises, track progress, and plan a deload. The applied layer on top of these principles, specific to KB/mace training.
 
 ## Status
 - [x] Initial file written

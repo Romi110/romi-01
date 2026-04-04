@@ -138,11 +138,6 @@ The rest will integrate naturally from there.
 - [building-discipline.md](../skills/building-discipline.md) — The morning review and evening reflection are discipline practices — they build the same muscle as consistent training. The friction management principles apply directly.
 - [habit-design.md](../skills/habit-design.md) — Habit architecture for embedding these practices into a daily routine without relying on willpower.
 
-## Proposed Files
-
-- `philosophy/reading-meditations.md` — Close reading of Meditations: key passages, recurring themes, how to use it as a daily text rather than a one-time read. Worth a separate file because Meditations is unusual as a text — it's most valuable read in short pieces over years, and knowing how to navigate it matters.
-- `roma/` — Any tenet produced from this practice belongs in Roma, not in a practice file.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

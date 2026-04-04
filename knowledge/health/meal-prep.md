@@ -186,12 +186,6 @@ For freezer prep (batch cooking specifically for long-term freezing using souper
 
 ---
 
-## Proposed Files
-
-- `health/freezer-meal-prep.md` — Souper cube system: what freezes well, how to portion, freeze-ready recipes. Separate from this file because the logic, timeline, and food list are fundamentally different from weekly fridge prep.
-
----
-
 ## Status
 - [x] Initial file written
 - [ ] Sunday prep done consistently for 4 weeks

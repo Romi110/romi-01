@@ -117,12 +117,6 @@ Habit tracking — marking each day you complete a behavior — works because mi
 
 ---
 
-## Proposed Files
-
-None — this topic is self-contained.
-
----
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

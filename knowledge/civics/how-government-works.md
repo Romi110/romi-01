@@ -139,10 +139,6 @@ Parties are private organizations that control ballot access in most states. The
 - [history/history-mental-models.md](../history/history-mental-models.md) — Power concentration, institutional decay, and cycles of reform — the historical patterns behind how government systems drift from and return toward their stated principles.
 - [finance/index-fund-investing.md](../finance/index-fund-investing.md) — Tax code is a government function. 401(k), Roth IRA, HSA rules are enacted by Congress and administered by the IRS.
 
-## Proposed Files
-
-- `civics/nj-land-use.md` — NJ zoning law, Right to Farm Act, Highlands/Pinelands regulations, net metering, variance process. Directly affects farming and energy goals — specific enough to warrant its own file.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

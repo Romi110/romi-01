@@ -179,11 +179,6 @@ This order maximizes tax-sheltered space before putting money in taxable account
 
 - [finance/index-fund-investing.md](index-fund-investing.md) — Account type basics (what a 401k and Roth IRA are) are covered there. This file assumes that foundation and goes deeper on the tax layer.
 
-## Proposed Files
-
-- `finance/personal-finance-basics.md` — The full order of operations: budget, debt payoff, emergency fund, then investing/tax optimization. Tax optimization is one piece; that file provides the surrounding context.
-- `finance/early-retirement-math.md` — Safe withdrawal rates, Roth ladders, healthcare before Medicare, the math behind financial independence. Extends tax optimization into a longer-arc strategy.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

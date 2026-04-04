@@ -147,12 +147,6 @@ The single highest-leverage change: **fixed wake time + morning light exposure f
 
 ---
 
-## Proposed Files
-
-None — this topic is self-contained.
-
----
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

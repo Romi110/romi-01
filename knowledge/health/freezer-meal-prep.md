@@ -216,12 +216,6 @@ The buffer doesn't exist after one prep session. Build it over 3–4 Sundays by 
 
 ---
 
-## Proposed Files
-
-None — this topic is self-contained.
-
----
-
 ## Status
 - [x] Initial file written
 - [ ] Freezer buffer built to 2-week level

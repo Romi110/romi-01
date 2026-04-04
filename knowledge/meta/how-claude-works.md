@@ -156,12 +156,6 @@ RLHF is why Claude is more useful and safer than raw language model text. It's a
 - [science/science-literacy.md](../science/science-literacy.md) — Evaluating Claude's outputs requires the same skills as evaluating any information source: what is the claim, how was it generated, what are the failure modes?
 - [skills/mental-models.md](../skills/mental-models.md) — The map vs. territory model applies directly: Claude's outputs are maps of knowledge, not the territory itself. They're useful approximations that can be wrong.
 
-## Proposed Files
-
-- `meta/prompt-engineering.md` — Writing effective prompts: structure, context, constraints, iteration. This file explains the mechanism; prompt engineering applies it.
-- `meta/claude-code-workflow.md` — Claude Code as a development and knowledge-building tool: hooks, skills, automation, slash commands.
-- `meta/building-with-claude-api.md` — Claude API basics, multi-turn conversations, tool use, agent patterns. For actually building with the model.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

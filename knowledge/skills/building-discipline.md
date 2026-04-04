@@ -54,11 +54,6 @@ Each time you act against resistance, the resistance gets slightly smaller. Each
 - [core_tenets_of_wisdom.md](../philosophy/core_tenets_of_wisdom.md) — Tenet 3 (discipline and practice) maps directly here.
 - [fitness-plan.md](../health/fitness-plan.md) — Physical training is one of the clearest arenas to build and test discipline.
 
-## Proposed Files
-
-- `skills/habit-design.md` — The science and practice of designing habits that stick. Deserves its own file: friction, cue-routine-reward loops, environment architecture — these are concrete techniques, not just mindset.
-- `skills/identity-and-behavior.md` — How self-concept drives action and how to deliberately shift it. Connects deeply to discipline but is a distinct topic with its own literature.
-
 ## Status
 - [ ] Initial file written
 - [ ] Could explain this to someone else

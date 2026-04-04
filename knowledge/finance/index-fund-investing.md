@@ -142,12 +142,6 @@ Index funds win not because of special insight, but because they stop trying to 
 
 - [personal-finance-basics.md](personal-finance-basics.md) — Index investing sits within the broader order of operations: emergency fund → debt payoff → investing. That file covers the full stack; this file goes deep on the investing step.
 
-## Proposed Files
-
-- `finance/personal-finance-basics.md` — Full financial order of operations: budget, debt, emergency fund, then investing. Index fund investing is one piece; this is the context around it. Worth its own file because the sequence matters and beginners often skip steps.
-- `finance/tax-optimization.md` — How to minimize taxes on investments: 401(k), Roth IRA, HSA, tax-loss harvesting, asset location. Directly extends what's introduced here under account types.
-- `finance/real-estate-basics.md` — Buying vs renting math, how mortgages work, NJ market context. Alternative wealth-building path that intersects with the same savings rate decisions.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

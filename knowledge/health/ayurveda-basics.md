@@ -159,12 +159,6 @@ Practically — it's 5 minutes of intentional contact with your own body before 
 
 ---
 
-## Proposed Files
-
-None — this topic is self-contained.
-
----
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

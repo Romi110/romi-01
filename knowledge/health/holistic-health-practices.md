@@ -80,13 +80,6 @@ After those are stable, add one morning routine element: warm water, brief breat
 - [stoicism.md](../philosophy/stoicism.md) — Stoic *melete* (daily practice) and Stoic morning/evening routines parallel Ayurvedic dinacharya closely.
 - [vegetarian-protein.md](../health/vegetarian-protein.md) — Ayurveda and TCM are inherently vegetarian-forward; food choices connect directly.
 
-## Proposed Files
-
-- `health/ayurveda-basics.md` — Ayurveda is wide enough for its own file: doshas, dinacharya, seasonal eating, agni. This intro file only scratches the surface.
-- `health/sleep-science.md` — Sleep intersects with every tradition listed here and has enough modern research to warrant a standalone deep-dive.
-- `health/breathwork.md` — Pranayama, box breathing, Wim Hof method, and the physiology behind breath control. Broad enough and practical enough to deserve its own file.
-- `health/fasting-and-eating-windows.md` — Time-restricted eating and its effects on digestion, energy, and metabolic health. Strong practical overlap with the traditions covered here.
-
 ## Status
 - [ ] Initial file written
 - [ ] Could explain this to someone else

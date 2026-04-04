@@ -136,12 +136,6 @@ DIY line is shaped by three factors: safety risk, permit requirement, and skill 
 - [farming/self-sustainable-farming.md](../farming/self-sustainable-farming.md) — Farm structures (greenhouses, sheds, raised beds) need the same repair literacy. Framing, weatherproofing, and water management are shared skills.
 - [energy/diy-renewable-energy.md](../energy/diy-renewable-energy.md) — Solar panel mounting, conduit runs, and battery storage installation draw on the same electrical and structural fundamentals covered here.
 
-## Proposed Files
-
-- `skills/basic-electrical.md` — Circuits, breakers, outlets, safe DIY electrical work. Deserves depth because electrical is the system where errors have serious consequences and the concepts require genuine understanding to work safely.
-- `skills/basic-plumbing.md` — Shutoffs, fixing leaks, replacing fixtures, what to never DIY. Plumbing has more DIY-able surface area than any other system; a deep-dive has high practical return.
-- `skills/drywall-and-patching.md` — Patching, taping, mudding, painting — the full cycle. The most common finishing skill, and the one people most often do wrong (rushing the mud, skipping primer).
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

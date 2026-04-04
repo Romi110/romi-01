@@ -139,10 +139,6 @@ Mace 360s and 10-to-2s: the entire range of these movements depends on thoracic 
 - [health/holistic-health-practices.md](holistic-health-practices.md) — Ayurvedic dinacharya includes movement practices (yoga, self-massage) that overlap with mobility work. The thoracic opener and hip work map to practices like surya namaskar.
 - [skills/building-discipline.md](../skills/building-discipline.md) — The consistency principle applies directly: 10 minutes daily is the discipline floor. Everything above that is a bonus.
 
-## Proposed Files
-
-- `health/strength-training-fundamentals.md` — Progressive overload, compound movements, programming basics. Mobility is the prerequisite; this file covers the full training system.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

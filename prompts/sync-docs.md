@@ -44,7 +44,7 @@ For each file in `knowledge/`:
 ---
 
 ### 4. Learning Topics Check
-Read `context/learning-topics.md`. For each topic marked `[ ]` (not started):
+Read `knowledge/wiki-plan.md`. For each topic marked `[ ]` (not started):
 - Does a knowledge file already exist for it? If so, mark it `[~]` or `[x]` as appropriate.
 
 For each topic marked `[~]` (in progress):

@@ -167,29 +167,6 @@ Worth more than any book because it's specific to your site.
 
 ---
 
-## Proposed Files
-
-All sub-topic files have been created. See the farming wiki:
-
-**Core files (exist):**
-- [soil-building.md](soil-building.md) — soil ecosystem, amendments, year-over-year improvement
-- [crop-planning.md](crop-planning.md) — variety selection, frost dates, succession planting, storage crops
-- [composting.md](composting.md) — closed-loop fertility: hot/cold composting, what goes in, year-round system
-- [season-extension.md](season-extension.md) — cold frames, row covers, hoop houses, zone 7a shoulder seasons
-- [starting-from-scratch.md](starting-from-scratch.md) — 12-week path from zero to first harvest
-- [raised-bed-gardening.md](raised-bed-gardening.md) — design, materials, soil mix, drip irrigation setup
-- [food-preservation.md](food-preservation.md) — canning, fermentation, dehydrating, root cellaring
-- [water-management.md](water-management.md) — drip irrigation, mulching, rainwater harvesting, soil retention
-- [pest-management.md](pest-management.md) — ecosystem balance, beneficial insects, NJ-specific pests, intervention ladder
-- [seed-saving.md](seed-saving.md) — OP/heirloom selection, wet/dry processing, storage, selective breeding
-
-**Proposed next-level files (not yet created):**
-- `farming/fermentation-deep-dive.md` — lacto-fermentation mechanics beyond sauerkraut; troubleshooting; kimchi, hot sauce, brine ferments
-- `farming/perennial-food-systems.md` — fruit trees, berry bushes, asparagus, design for long-term food infrastructure
-- `farming/water-bath-canning.md` — step-by-step canning process, tested recipes, equipment guide
-
----
-
 ## Status
 - [ ] Initial file written
 - [ ] Could explain this to someone else

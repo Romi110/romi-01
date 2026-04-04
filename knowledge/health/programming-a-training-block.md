@@ -220,10 +220,6 @@ A deload is not optional — it's part of the program. During weeks 5–6 (peak 
 - [health/meal-prep.md](meal-prep.md) — Weekly prep system that makes hitting protein targets on training days practical without cooking every day.
 - [health/mobility-and-flexibility.md](mobility-and-flexibility.md) — The Sunday mobility session in this block is not optional padding. Hip and thoracic restrictions limit the quality of swings, presses, and mace work throughout the week.
 
-## Proposed Files
-
-- `health/fat-loss-science.md` — The physiology of fat loss: NEAT, metabolic adaptation, set point theory, hormonal responses to a deficit (leptin, ghrelin, cortisol), why the body fights fat loss and how to work with it. Separate from programming — the mechanisms behind why this block is structured the way it is.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

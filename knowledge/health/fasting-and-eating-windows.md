@@ -152,12 +152,6 @@ Ayurvedic meal timing is functionally time-restricted eating. Largest meal at mi
 
 ---
 
-## Proposed Files
-
-None — this topic is self-contained.
-
----
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

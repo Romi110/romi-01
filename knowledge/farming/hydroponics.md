@@ -177,12 +177,6 @@ See [hydroponics-lighting.md](hydroponics-lighting.md) for the full breakdown.
 
 ---
 
-## Proposed Files
-
-- `farming/hydroponics-systems.md` — deep dive on each system type (Kratky, DWC, NFT, ebb & flow, drip, aeroponics): how they work, what they need, what to grow in each, cost and complexity comparison. Deserves its own file because choosing the right system is the first decision.
-- `farming/hydroponics-nutrients.md` — nutrient solutions, pH management, EC targets by crop and stage, deficiency identification, water quality. The most technical and error-prone part of hydroponics.
-- `farming/hydroponics-lighting.md` — grow lights for indoor systems: LED vs fluorescent, PPFD and DLI explained, light schedule by plant type, budget vs quality options.
-
 ## Status
 - [ ] Initial file written
 - [ ] Could explain this to someone else

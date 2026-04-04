@@ -203,15 +203,6 @@ Roof-mounted solar array (4–12 kW), whole-home battery (10–30 kWh), hybrid i
 
 ---
 
-## Proposed Files
-
-- `energy/sizing-a-solar-system.md` — the math: calculating your load, sizing panels, batteries, and inverter; peak sun hours; design for worst-case winter; step-by-step worksheet
-- `energy/solar-panels.md` — panel types, specs to understand, wiring (series vs parallel), mounting options (roof, ground, pole), shading and mitigation
-- `energy/batteries-and-storage.md` — LiFePO4 vs lead-acid in depth, BMS explained, building a DIY battery bank, sizing, temperature management, safety
-- `energy/inverters-and-charge-controllers.md` — inverter types, sizing, pure sine wave requirement; MPPT vs PWM, how to select and wire them; all-in-one hybrid inverters
-- `energy/portable-power-stations.md` — all-in-one units: EcoFlow, Bluetti, Jackery comparison, what each handles, real-world use cases, when to upgrade to a permanent system
-- `energy/grid-tie-solar-nj.md` — NJ-specific: permits, net metering, SREC program, HOA rules, utility interconnection, incentives and tax credits; what DIY is legal in NJ
-
 ## Status
 - [ ] Initial file written
 - [ ] Could explain this to someone else

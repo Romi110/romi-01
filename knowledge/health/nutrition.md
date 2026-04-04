@@ -190,12 +190,6 @@ You don't need to count calories obsessively. But if nothing is changing when yo
 
 ---
 
-## Proposed Files
-
-- `health/freezer-meal-prep.md` — Souper cube system, what freezes well, batch-cook-to-freeze recipes. Worth a separate file because the workflow and food list is completely different from weekly fridge prep.
-
----
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

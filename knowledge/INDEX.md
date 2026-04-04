@@ -133,4 +133,4 @@ New domains get new subfolders (e.g., `knowledge/farming/`, `knowledge/skills/`)
 
 ---
 
-*Last synced: 2026-04-03*
+*Last synced: 2026-04-04*

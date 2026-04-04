@@ -23,7 +23,6 @@ romi-01/
 ├── README.md               # Quick-start guide
 ├── context/
 │   ├── about-me.md         # User profile, values, learning preferences
-│   └── learning-topics.md  # Topics to explore
 ├── goals/
 │   └── 2026-goals.md       # Annual goals + monthly skill focus tracker
 ├── knowledge/              # Wiki-style knowledge base

@@ -116,13 +116,6 @@ Cold, humid, dark storage extends the life of root vegetables, winter squash, ga
 
 ---
 
-## Proposed Files
-
-- `farming/fermentation-deep-dive.md` — lacto-fermentation mechanics, troubleshooting, beyond sauerkraut; rich enough for its own file
-- `farming/water-bath-canning.md` — step-by-step process, tested recipes, equipment; canning has enough detail for a dedicated reference
-
----
-
 ## Status
 - [ ] Initial file written
 - [ ] Could explain this to someone else

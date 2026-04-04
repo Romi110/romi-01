@@ -127,10 +127,6 @@ Most decisions that feel complex feel complex because they're not written down a
 - [skills/mental-models.md](../skills/mental-models.md) — Mental models give language and structure to the "wisdom" virtue — seeing clearly requires accurate maps.
 - [building-discipline.md](../skills/building-discipline.md) — Deciding and then following through are separate problems. Discipline is the bridge.
 
-## Proposed Files
-
-- `philosophy/reading-meditations.md` — Meditations as a decision-making text: Marcus Aurelius was an emperor making high-stakes decisions daily. Reading it through that lens unlocks a different layer.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

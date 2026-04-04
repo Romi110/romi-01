@@ -193,10 +193,6 @@ Pick two or three. Apply them deliberately for 30 days before expanding. Breadth
 - [skills/building-discipline.md](building-discipline.md) — Via negativa and feedback loop thinking apply directly to building and maintaining habits.
 - [finance/index-fund-investing.md](../finance/index-fund-investing.md) — Compounding, mean reversion, survivorship bias, and sunk cost are all directly operational in investing.
 
-## Proposed Files
-
-- `skills/learning-how-to-learn.md` — How memory works, spaced repetition, retrieval practice, the Feynman technique. Mental models need to be installed in long-term memory, not just read once — that file covers the mechanism.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

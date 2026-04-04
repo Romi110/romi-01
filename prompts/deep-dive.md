@@ -77,15 +77,6 @@ Skip anything generic or just famous.]
 Be specific about what the connection is, not just that one exists.
 Format: `[file-name.md](../category/file-name.md)` — [what the connection is]]
 
-## Proposed Files
-[Sub-topics worth their own deep-dive file. These are NOT created yet — just proposed.
-Each entry: proposed path, one-line description, and why it deserves its own file.
-
-- `category/file-name.md` — [description]. [Why it's worth a separate file.]
-- `category/file-name.md` — [description]. [Why it's worth a separate file.]
-
-If this is already a specific sub-topic with no further subdivision needed, write "None — this topic is self-contained."]
-
 ## Status
 - [ ] Initial file written
 - [ ] Could explain this to someone else
@@ -108,6 +99,6 @@ Place the file in the appropriate subfolder under `knowledge/`:
 
 1. Save to `knowledge/[category]/[topic-name].md`
 2. Add an entry to `knowledge/INDEX.md` under the correct category (create a new category section if needed)
-3. Update `context/learning-topics.md` if the topic was on the list
-4. Ask: "Is there a principle from this worth adding to Roma?"
-5. Ask: "Want to dive into any of the proposed sub-topics next?"
+3. Add any proposed sub-topics to `knowledge/wiki-plan.md` under the correct folder section — all proposals live there, not in individual files
+5. Ask: "Is there a principle from this worth adding to Roma?"
+6. Ask: "Want to dive into any of the proposed sub-topics next?"

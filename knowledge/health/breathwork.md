@@ -152,12 +152,6 @@ Over weeks, your resting breathing rate slows and your CO₂ tolerance improves.
 
 ---
 
-## Proposed Files
-
-None — this topic is self-contained.
-
----
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

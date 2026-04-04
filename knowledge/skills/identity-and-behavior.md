@@ -124,12 +124,6 @@ Even one person who sees you as the person you're becoming is more powerful than
 
 ---
 
-## Proposed Files
-
-None — this topic is self-contained.
-
----
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

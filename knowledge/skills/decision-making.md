@@ -165,10 +165,6 @@ Don't run all frameworks on every decision. Pick the one that's most likely to c
 - [skills/mental-models.md](skills/mental-models.md) — The broader model library. Decision-making frameworks are a subset; mental models cover perception, system dynamics, and bias more broadly.
 - [skills/building-discipline.md](building-discipline.md) — Deciding well is one problem. Following through on the decision is another. Discipline bridges them.
 
-## Proposed Files
-
-None — the decision-making space is covered between this file and `philosophy/decision-making.md`. Refer to `mental-models.md` for adjacent concepts.
-
 ## Status
 - [x] Initial file written
 - [ ] Could explain this to someone else

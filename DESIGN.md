@@ -32,7 +32,7 @@ romi-01/
 │
 ├── context/                   # User identity and learning preferences
 │   ├── about-me.md            # Who Romi is, values, constraints, how to teach him
-│   └── learning-topics.md     # Master checklist of topics to explore
+
 │
 ├── goals/                     # Goal tracking
 │   └── 2026-goals.md          # Annual goals and monthly skill focus
@@ -74,7 +74,6 @@ romi-01/
 | File | Purpose |
 |------|---------|
 | `about-me.md` | Full user profile, values, learning preferences, how to teach Romi |
-| `learning-topics.md` | Master topic checklist — check before starting something new |
 
 ### knowledge/
 
