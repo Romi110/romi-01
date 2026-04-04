@@ -26,7 +26,53 @@ All files in `knowledge/`, organized by category. Check here before starting a n
 | File | Description | Status |
 |------|-------------|--------|
 | [fitness-plan.md](health/fitness-plan.md) | Physical training philosophy — kettlebell, mace, movement | Reference |
-| [vegetarian-protein.md](health/vegetarian-protein.md) | Vegetarian protein sources, targets, and meal strategies | Reference |
+| [nutrition.md](health/nutrition.md) | Balanced eating, macros, protein sources (veg + non-veg), micronutrient gaps, sample day | Reference |
+| [meal-prep.md](health/meal-prep.md) | Weekly prep system, grocery list by category, batch cooking, fridge storage | Reference |
+| [freezer-meal-prep.md](health/freezer-meal-prep.md) | Souper cube system, 2–4 week buffer, what freezes well, freeze-ready recipes | Reference |
+| [holistic-health-practices.md](health/holistic-health-practices.md) | Ancient and traditional systems for sustaining health through daily life — Ayurveda, TCM, breathwork, rhythm | Reference |
+| [ayurveda-basics.md](health/ayurveda-basics.md) | Doshas, dinacharya, agni, seasonal eating, abhyanga — Ayurvedic daily practice | Reference |
+| [sleep-science.md](health/sleep-science.md) | Sleep architecture, circadian alignment, what disrupts sleep, how to fix it | Reference |
+| [breathwork.md](health/breathwork.md) | Box breathing, physiological sigh, Wim Hof, pranayama — nervous system regulation through breath | Reference |
+| [fasting-and-eating-windows.md](health/fasting-and-eating-windows.md) | Time-restricted eating, circadian meal timing, digestion benefits, practical window setup | Reference |
+
+## Farming
+
+| File | Description | Status |
+|------|-------------|--------|
+| [self-sustainable-farming.md](farming/self-sustainable-farming.md) | Growing food at scale — systems, soil, and self-reliance | Reference |
+| [soil-building.md](farming/soil-building.md) | Soil ecosystem, amendments, and year-over-year improvement | Reference |
+| [crop-planning.md](farming/crop-planning.md) | Succession planting, variety selection, frost dates, storage | Reference |
+| [composting.md](farming/composting.md) | Closed-loop systems: composting and farm cycle integration | Reference |
+| [season-extension.md](farming/season-extension.md) | Cold frames, row covers, hoop houses, extending growing season | Reference |
+| [starting-from-scratch.md](farming/starting-from-scratch.md) | First-timer's path: planning to first harvest | Reference |
+| [raised-bed-gardening.md](farming/raised-bed-gardening.md) | Design, materials, soil mix, drip irrigation setup | Reference |
+| [food-preservation.md](farming/food-preservation.md) | Canning, fermentation, dehydrating, root cellaring | Reference |
+| [water-management.md](farming/water-management.md) | Drip irrigation, mulching, rainwater harvesting, retention | Reference |
+| [pest-management.md](farming/pest-management.md) | Ecosystem balance, beneficial insects, NJ pests, intervention ladder | Reference |
+| [seed-saving.md](farming/seed-saving.md) | OP/heirloom selection, wet/dry processing, storage, local adaptation | Reference |
+| [hydroponics.md](farming/hydroponics.md) | Overview — how it works, system types, pH/EC, getting started | Reference |
+| [hydroponics-systems.md](farming/hydroponics-systems.md) | The 6 system types: Kratky, DWC, NFT, ebb & flow, drip, aeroponics | Reference |
+| [hydroponics-nutrients.md](farming/hydroponics-nutrients.md) | Nutrient solutions, pH/EC management, deficiency diagnosis | Reference |
+| [hydroponics-lighting.md](farming/hydroponics-lighting.md) | LED grow lights, PPFD, DLI, photoperiod, hanging height | Reference |
+
+## Energy
+
+| File | Description | Status |
+|------|-------------|--------|
+| [diy-renewable-energy.md](energy/diy-renewable-energy.md) | Overview — how solar works, system types by scale, getting started in NJ | Reference |
+| [portable-power-stations.md](energy/portable-power-stations.md) | All-in-one units: EcoFlow, Bluetti, Jackery — specs, use cases, home integration | Reference |
+| [sizing-a-solar-system.md](energy/sizing-a-solar-system.md) | Load audit, panel/battery/inverter sizing math, NJ incentives worksheet | Reference |
+| [solar-panels.md](energy/solar-panels.md) | Panel types, specs, series/parallel wiring, mounting, shading, maintenance | Reference |
+| [batteries-and-storage.md](energy/batteries-and-storage.md) | LiFePO4 vs lead-acid, BMS, DIY builds, bank sizing, temperature management | Reference |
+| [inverters-and-charge-controllers.md](energy/inverters-and-charge-controllers.md) | Inverter types, MPPT vs PWM, hybrid all-in-ones, wiring safety | Reference |
+
+## Skills
+
+| File | Description | Status |
+|------|-------------|--------|
+| [building-discipline.md](skills/building-discipline.md) | The practice of acting on intention regardless of motivation — how discipline is built | Reference |
+| [habit-design.md](skills/habit-design.md) | Engineering habits that run automatically — friction, cue-routine-reward, environment design | Reference |
+| [identity-and-behavior.md](skills/identity-and-behavior.md) | How self-concept drives action and how to deliberately shift identity | Reference |
 
 ## Meta
 
