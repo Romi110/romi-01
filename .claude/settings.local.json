@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Desktop_Commander__read_multiple_files",
+      "Bash(wc -l \"/c/Users/romvp/github/romi-01/knowledge/\"*.md)",
+      "Bash(wc -l \"/c/Users/romvp/github/romi-01/prompts/\"*.md)",
+      "Bash(grep -r reading/reading-log /c/Users/romvp/github/romi-01/ --include=*.md)"
+    ]
+  }
+}
