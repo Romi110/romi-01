@@ -51,6 +51,12 @@
 - [ ] `health/fitness-x-nutrition.md` — How training and eating interact: recovery, timing, body recomposition
 - [ ] `health/fat-loss-science.md` — Physiology of fat loss: NEAT, metabolic adaptation, set point theory, hormonal responses to deficit
 
+## Cooking
+
+- [ ] `cooking/vegetarian-cooking-fundamentals.md` — Knife skills, heat control, building flavor without meat, essential techniques every cook needs
+- [ ] `cooking/indian-cooking-basics.md` — Spice logic, tadka, dal, roti, rice — the techniques behind the cuisine, not just recipes
+- [ ] `cooking/cooking-from-scratch.md` — Stocks, sauces, doughs, ferments — the base skills that make everything else easier
+
 ## Farming
 
 - [x] `farming/self-sustainable-farming.md`
@@ -75,6 +81,11 @@
 - [ ] `farming/fermentation.md` — Kombucha, kimchi, sourdough, lacto-fermentation — the living food toolkit
 - [ ] `farming/perennial-food-systems.md` — Fruit trees, berry bushes, asparagus — long-term food infrastructure
 - [ ] `farming/water-bath-canning.md` — Step-by-step canning process, tested recipes, equipment guide
+
+## Nature
+
+- [ ] `nature/foraging-nj.md` — Edible wild plants and mushrooms in NJ: identification, seasons, where to look, safety rules
+- [ ] `nature/nj-ecology.md` — Ecosystems, soil types, watersheds, and native species of NJ — the land you're working with
 
 ## Energy
 
@@ -109,6 +120,8 @@
 - [ ] `skills/learning-how-to-learn.md` — How memory works, spaced repetition, the Feynman technique, retrieval practice
 - [ ] `skills/stress-management.md` — Nervous system basics, what actually works, what's just marketing
 - [ ] `skills/deep-work.md` — Cal Newport's framework applied: how to structure focused work sessions
+- [ ] `skills/writing-clearly.md` — Clear prose as clear thinking: Orwell's rules, eliminating vagueness, writing that earns the reader's time
+- [ ] `skills/meditation-practice.md` — How to actually sit: breath, posture, wandering mind, what progress looks like — the practice beneath the philosophy
 
 ## Finance
 
@@ -160,16 +173,18 @@
 | Philosophy | 6 | 4 |
 | Roma | 3 | — |
 | Health | 12 | 3 |
+| Cooking | — | 3 |
 | Farming | 15 | 7 |
+| Nature | — | 2 |
 | Energy | 6 | 5 |
-| Skills | 6 | 11 |
+| Skills | 6 | 13 |
 | Finance | 2 | 4 |
 | Meta | 3 | 3 |
 | Civics | 1 | 1 |
 | Science | 1 | 1 |
 | History | 2 | 2 |
-| **Total** | **57** | **41** |
+| **Total** | **57** | **48** |
 
 ---
 
-*Last updated: 2026-04-04*
+*Last updated: 2026-04-04 — added Cooking, Nature categories; added writing-clearly and meditation-practice to Skills*

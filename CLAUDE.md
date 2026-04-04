@@ -123,7 +123,7 @@ A learning session with no knowledge file produces nothing lasting.
 - Write from your own knowledge — accurate, concrete, and complete. The user's job is to learn, not to write.
 - **Minimize redundancy** — check INDEX.md before writing. Link to existing files instead of re-explaining concepts already covered elsewhere.
 - Place files in the appropriate subfolder. Create new subfolders for new domains.
-- After writing, update `knowledge/INDEX.md` and check `context/learning-topics.md`.
+- After writing, update `knowledge/INDEX.md` and check `knowledge/wiki-plan.md` to mark the topic's status.
 - Always ask: "Is there anything here that belongs in Roma?"
 
 ### Roma
