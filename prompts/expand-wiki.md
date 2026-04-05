@@ -11,9 +11,8 @@ Read the current state of the wiki — what exists and what's planned — and pr
 
 ## How to Run It
 
-Read both of these files before proposing anything:
-- `knowledge/INDEX.md` — what files already exist and what they cover
-- `knowledge/wiki-plan.md` — what's already planned (don't re-propose these)
+Read this file before proposing anything:
+- `knowledge/CATALOG.md` — what exists (`[x]`) and what's already planned (`[ ]`). Don't re-propose existing entries.
 
 Optionally, the user may specify a category to focus on (e.g., "expand the Mind section"). If no category is given, survey the entire wiki.
 
@@ -46,7 +45,7 @@ Optionally, the user may specify a category to focus on (e.g., "expand the Mind 
 
 ## Output Format
 
-Group proposals by category. Use wiki-plan.md syntax throughout — proposals can be pasted directly into that file.
+Group proposals by category. Use CATALOG.md syntax throughout — proposals can be pasted directly into that file.
 
 ```
 ## Proposed Additions
@@ -70,7 +69,7 @@ After the proposals:
 ## Tone and Constraints
 
 - No filler. Every proposal should earn its place.
-- Don't re-propose anything already in wiki-plan.md (whether checked or unchecked).
+- Don't re-propose anything already in CATALOG.md (whether checked or unchecked).
 - Don't propose files just to fill a category — propose files that would be genuinely used.
 - Proposals for NJ-specific files (land use, ecology, energy regulations) should be flagged as high-value given Romi's location and goals.
 - If a category is already well-covered, say so instead of padding it with weak proposals.
@@ -80,5 +79,5 @@ After the proposals:
 ## After Output
 
 1. User reviews and picks which proposals to accept
-2. Accepted proposals get added to `knowledge/wiki-plan.md` under the right category
+2. Accepted proposals get added to `knowledge/CATALOG.md` under the right category
 3. Run `@prompts/deep-dive.md [topic]` on whichever file to write next

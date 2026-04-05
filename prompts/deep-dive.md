@@ -22,7 +22,7 @@ The user will name a topic. They may also say:
 
 **Cover the full width of the topic.** Go as deep as the topic is wide. A broad topic like "self-sustained farming" needs to cover all major areas at overview depth. A narrow topic like "hydroponics" goes deep on that one thing.
 
-**Minimize redundancy.** Before writing, check `knowledge/INDEX.md` for existing files. If another file already covers a concept well, link to it instead of re-explaining. Reference existing knowledge — don't duplicate it.
+**Minimize redundancy.** Before writing, check `knowledge/CATALOG.md` for existing files. If another file already covers a concept well, link to it instead of re-explaining. Reference existing knowledge — don't duplicate it.
 
 **Tailor to Romi's context:**
 - Connect to self-reliance, Stoicism, practical skill, or long-term thinking where genuine connections exist
@@ -98,7 +98,6 @@ Place the file in the appropriate subfolder under `knowledge/`:
 ## After Writing
 
 1. Save to `knowledge/[category]/[topic-name].md`
-2. Add an entry to `knowledge/INDEX.md` under the correct category (create a new category section if needed)
-3. Add any proposed sub-topics to `knowledge/wiki-plan.md` under the correct folder section — all proposals live there, not in individual files
-5. Ask: "Is there a principle from this worth adding to Roma?"
-6. Ask: "Want to dive into any of the proposed sub-topics next?"
+2. In `knowledge/CATALOG.md`: mark the entry `[x]` (or add a new `[x]` line if it wasn't planned). Add any proposed sub-topics as `[ ]` entries under the correct category.
+3. Ask: "Is there a principle from this worth adding to Roma?"
+4. Ask: "Want to dive into any of the proposed sub-topics next?"

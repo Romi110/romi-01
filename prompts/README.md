@@ -33,7 +33,7 @@ Reusable prompt files for Claude. Reference with `@prompts/filename.md` in VS Co
 
 | Prompt | When to Use | File |
 |--------|-------------|------|
-| **Reorganize** | Move files to better folders, update all links, INDEX.md, and wiki-plan.md | `reorganize.md` |
+| **Reorganize** | Move files to better folders, update all links and CATALOG.md | `reorganize.md` |
 | **Sync Docs** | Audit all docs and fix anything stale | `sync-docs.md` |
 
 ---

@@ -38,7 +38,7 @@ romi-01/
 │   └── 2026-goals.md          # Annual goals and monthly skill focus
 │
 ├── knowledge/                 # Wiki-style knowledge base
-│   ├── INDEX.md               # Table of contents for all knowledge files
+│   ├── CATALOG.md             # What exists + what's planned (single map file)
 │   ├── philosophy/            # Philosophical traditions and ideas
 │   │   ├── stoicism.md
 │   │   ├── zen-buddhism.md
@@ -77,7 +77,7 @@ romi-01/
 
 ### knowledge/
 
-See `knowledge/INDEX.md` for the full organized list with status.
+See `knowledge/CATALOG.md` for the full map — what exists and what's planned.
 
 Files are organized into subfolders by domain. New domains get new subfolders as topics grow.
 
@@ -113,7 +113,7 @@ See `prompts/README.md` for the full learning flow.
 See `CLAUDE.md` for the full agent guide. Key points:
 
 1. Read `context/about-me.md` first.
-2. Check `knowledge/INDEX.md` before starting a new topic.
+2. Check `knowledge/CATALOG.md` before starting a new topic.
 3. Use the relevant prompt from `prompts/` if one exists.
 4. Follow the learning flow: `deep-dive` → `cross-pollinate` → `sacred-text-tenet`.
 5. Romi is vegetarian. Do not suggest meat.

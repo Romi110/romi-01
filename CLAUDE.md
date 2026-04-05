@@ -26,7 +26,7 @@ romi-01/
 ├── goals/
 │   └── 2026-goals.md       # Annual goals + monthly skill focus tracker
 ├── knowledge/              # Wiki-style knowledge base
-│   ├── INDEX.md            # Table of contents for all knowledge files
+│   ├── CATALOG.md          # What exists + what's planned (single map file)
 │   ├── philosophy/         # Stoicism, Zen, traditions, core tenets
 │   ├── roma/               # Roma, sacred text plan, improvements
 │   ├── health/             # Fitness, nutrition
@@ -66,17 +66,9 @@ When modifying a prompt, keep it **concise, Stoic in tone, and actionable**. Avo
 
 ## Knowledge Files
 
-Knowledge files live in subfolders under `knowledge/`. See `knowledge/INDEX.md` for the full table of contents.
-
-**Categories:**
-- `philosophy/` — stoicism, zen-buddhism, philosophy-traditions-guide, core_tenets_of_wisdom
-- `roma/` — roma, sacred-text-plan, roma-improvements
-- `health/` — fitness-plan, vegetarian-protein
-- `meta/` — using-this-system, vscode-claude-workflow
+Knowledge files live in subfolders under `knowledge/`. See `knowledge/CATALOG.md` for the full map — what exists (`[x]`) and what's planned (`[ ]`).
 
 New domains get new subfolders as needed. Use `@prompts/deep-dive.md` to generate new files.
-
-**Template**: Use `templates/knowledge-topic.md` for manual file creation.
 
 ---
 
@@ -104,7 +96,7 @@ New domains get new subfolders as needed. Use `@prompts/deep-dive.md` to generat
 ### Orientation (do this first)
 
 1. Read `context/about-me.md` — understand who Romi is before doing anything involving learning, coaching, or writing.
-2. Read `knowledge/INDEX.md` — see what's already known before starting a new topic. Don't teach what's already been written.
+2. Read `knowledge/CATALOG.md` — see what exists and what's planned. Don't teach what's already been written. Don't re-propose what's already planned.
 3. If a relevant prompt file exists in `prompts/`, read it and follow it. The prompts are instructions, not suggestions.
 
 ### The Learning Flow
@@ -119,11 +111,11 @@ A learning session with no knowledge file produces nothing lasting.
 
 ### Writing Knowledge Files
 
-- Use `@prompts/deep-dive.md` to generate files. It handles structure, placement, and indexing.
+- Use `@prompts/deep-dive.md` to generate files. It handles structure, placement, and cataloging.
 - Write from your own knowledge — accurate, concrete, and complete. The user's job is to learn, not to write.
-- **Minimize redundancy** — check INDEX.md before writing. Link to existing files instead of re-explaining concepts already covered elsewhere.
+- **Minimize redundancy** — check CATALOG.md before writing. Link to existing files instead of re-explaining concepts already covered elsewhere.
 - Place files in the appropriate subfolder. Create new subfolders for new domains.
-- After writing, update `knowledge/INDEX.md` and check `knowledge/wiki-plan.md` to mark the topic's status.
+- After writing, mark the entry `[x]` in `knowledge/CATALOG.md`. Add new planned sub-topics there too.
 - Always ask: "Is there anything here that belongs in Roma?"
 
 ### Roma
@@ -133,7 +125,7 @@ A learning session with no knowledge file produces nothing lasting.
 ### Connections
 
 Knowledge compounds through links. Whenever writing or discussing a topic:
-- Check `knowledge/INDEX.md` for related files.
+- Check `knowledge/CATALOG.md` for related files.
 - Name the connection explicitly — don't assume it's obvious.
 - If two topics are closely related, suggest running `cross-pollinate.md`.
 - When a knowledge file proposes sub-topics, those are the natural next steps.

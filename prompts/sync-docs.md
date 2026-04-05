@@ -21,7 +21,7 @@ List every file currently in the repo. Compare against:
 - The prompts table in `CLAUDE.md`
 - The prompts table in `prompts/README.md`
 - The knowledge file table in `DESIGN.md` and `CLAUDE.md`
-- The index in `knowledge/INDEX.md`
+- The catalog in `knowledge/CATALOG.md`
 
 Flag anything that exists in docs but not on disk, or on disk but not in docs.
 
@@ -37,18 +37,18 @@ For each prompt listed in `prompts/README.md`:
 
 ### 3. Knowledge Index Check
 For each file in `knowledge/`:
-- Is it listed in `knowledge/INDEX.md` under the correct category?
+- Is it listed in `knowledge/CATALOG.md` under the correct category?
 - Is its description accurate?
 - Does `DESIGN.md` list it?
 
 ---
 
 ### 4. Learning Topics Check
-Read `knowledge/wiki-plan.md`. For each topic marked `[ ]` (not started):
-- Does a knowledge file already exist for it? If so, mark it `[~]` or `[x]` as appropriate.
+Read `knowledge/CATALOG.md`. For each topic marked `[ ]` (planned):
+- Does a knowledge file already exist for it? If so, mark it `[x]`.
 
-For each topic marked `[~]` (in progress):
-- Does the referenced knowledge file exist?
+For each topic marked `[x]` (done):
+- Does the referenced knowledge file actually exist on disk?
 
 ---
 
@@ -88,4 +88,4 @@ Then ask: "Fix all of these, fix specific ones, or review first?"
 Do not make changes without confirmation unless the user explicitly says to fix everything.
 
 ## After Syncing
-Update the "Last synced" note at the bottom of `knowledge/INDEX.md`.
+Verify `knowledge/CATALOG.md` matches the actual state of all files on disk.

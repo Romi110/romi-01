@@ -25,15 +25,14 @@ Files live in subfolders under `knowledge/`:
 - `meta/` — system docs, workflow guides
 - New folders created as needed for new domains
 
-See `knowledge/INDEX.md` for the full table of contents.
+See `knowledge/CATALOG.md` for the full map — what exists and what's planned.
 
 ## Key Files
 
 | File | What It's For |
 |------|---------------|
 | `context/about-me.md` | Feed this to Claude at the start of any conversation |
-| `knowledge/wiki-plan.md` | The master list of topics to explore — add to it freely |
-| `knowledge/INDEX.md` | See what you already know before starting something new |
+| `knowledge/CATALOG.md` | What exists and what's planned — the single map file |
 | `goals/2026-goals.md` | Annual goals and monthly skill focus |
 | `prompts/README.md` | All prompts and when to use them |
 
@@ -48,7 +47,7 @@ See `knowledge/INDEX.md` for the full table of contents.
 
 1. Use `@prompts/deep-dive.md [topic]` — Claude writes the complete file
 2. Or copy `templates/knowledge-topic.md` to `knowledge/[category]/[topic-name].md` as a manual skeleton
-3. The prompt handles adding to `knowledge/INDEX.md`, or do it manually
+3. The prompt handles marking the entry in `knowledge/CATALOG.md`, or do it manually
 
 ## Maintenance
 
