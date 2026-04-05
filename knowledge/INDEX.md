@@ -142,6 +142,7 @@ All files in `knowledge/`, organized by category. Check here before starting a n
 
 | File | Description | Status |
 |------|-------------|--------|
+| [human-history-timeline.md](history/human-history-timeline.md) | Full global timeline — every major civilization from prehistory to the present | Reference |
 | [history-mental-models.md](history/history-mental-models.md) | Recurring patterns: debt cycles, rise and fall, power concentration, collapse, innovation | Reference |
 | [economic-history.md](history/economic-history.md) | How economies developed: mercantilism, industrial revolution, Bretton Woods, petrodollar, financialization | Reference |
 | [banking-system-history.md](history/banking-system-history.md) | Goldsmiths → Rothschilds → JP Morgan → Federal Reserve → 1980s financialization → debt-based money and perpetual interest | Reference |

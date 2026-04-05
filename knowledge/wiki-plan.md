@@ -228,12 +228,19 @@
 
 ## History
 
+- [x] `history/human-history-timeline.md` — Full global timeline: every major civilization from prehistory to present
 - [x] `history/history-mental-models.md` — Recurring patterns in history: cycles, collapse, innovation, power
 - [x] `history/economic-history.md` — Mercantilism, industrial revolution, Bretton Woods, petrodollar, financialization
 - [x] `history/banking-system-history.md` — Goldsmiths → Rothschilds → JP Morgan → Federal Reserve → 1980s financialization → debt-based money and perpetual interest
 - [ ] `history/roman-history.md` — Republic to Empire: institutional decay, elite overproduction, Marcus Aurelius under structural decline
 - [ ] `history/industrial-revolution-deep-dive.md` — Labor conditions, technological diffusion, why Britain, political response — template for AI-era disruption
 - [ ] `history/agrarian-history.md` — How farming shaped civilization, enclosure, the green revolution, industrial ag — context for self-reliance
+- [ ] `history/mongol-empire.md` — Genghis Khan, the Pax Mongolica, the Silk Road reopened, and the catastrophic cost — largest land empire ever
+- [ ] `history/islamic-golden-age.md` — House of Wisdom, algebra, medicine, astronomy — how Islamic scholars preserved and advanced classical knowledge
+- [ ] `history/african-civilizations.md` — Mali, Songhai, Great Zimbabwe, Axum, Kush — the civilizations European colonialism erased from textbooks
+- [ ] `history/pre-columbian-americas.md` — Maya, Aztec, Inca: what they built, how they collapsed, and what the Columbian Exchange destroyed
+- [ ] `history/cold-war-deep-dive.md` — Proxy wars, nuclear standoffs, ideology as weapon, and why it ended — the 44-year contest that shaped today
+- [ ] `history/world-war-ii-origins.md` — Why WWI conditions made WWII nearly inevitable: Versailles, Great Depression, ideology, and the path to 1939
 
 ---
 
@@ -255,6 +262,11 @@
 - [x] `consumerism/buy-it-for-life.md` — Products built for lifetime ownership across all categories: cookware, tools, footwear, bags, personal care, fitness
 - [ ] `consumerism/total-cost-of-ownership.md` — The math behind BIFL: cost-per-use calculations, depreciation, repair vs replace decisions
 - [ ] `consumerism/intentional-buying.md` — Framework for any purchase: need vs want, delay tactics, the one-in-one-out rule
+- [ ] `consumerism/product-care-and-maintenance.md` — How to make things last: cast iron, leather, boots, merino wool, carbon steel, waxed canvas — the operational partner to buy-it-for-life
+- [ ] `consumerism/buying-used-and-vintage.md` — eBay, estate sales, Poshmark, gear-specific markets — how to find BIFL-quality secondhand, what to inspect, authentication, pricing logic
+- [ ] `consumerism/repair-over-replace.md` — Cobblers, tailors, appliance/electronics repair, right-to-repair — when repair makes sense economically, which brands are designed to be repaired
+- [ ] `consumerism/tools-worth-owning.md` — Hand tools, power tools, garden tools: where quality thresholds matter, buy vs rent, brands that hold up (Knipex, Wera, Estwing, Bahco)
+- [ ] `consumerism/kitchen-equipment-fundamentals.md` — Knives, cutting boards, scale, mortar and pestle, fermentation vessels — the real short list vs. marketing gadgets; connects to cooking files
 
 ---
 
