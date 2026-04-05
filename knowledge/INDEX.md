@@ -97,6 +97,40 @@ All files in `knowledge/`, organized by category. Check here before starting a n
 | File | Description | Status |
 |------|-------------|--------|
 | [how-government-works.md](civics/how-government-works.md) | Local to federal: who has power, how laws get made, how to engage — NJ context included | Reference |
+| [local-politics-civic-involvement.md](civics/local-politics-civic-involvement.md) | How to actually participate in local government — boards, meetings, appointments, running for office, Galloway/Atlantic County context | Reference |
+
+## Psychology
+
+| File | Description | Status |
+|------|-------------|--------|
+| [psychology-overview.md](psychology/psychology-overview.md) | The field overview — major branches, foundational figures, nature/nurture, the unconscious, validity problems in the field | Reference |
+| [personality-psychology.md](psychology/personality-psychology.md) | Big Five (OCEAN), Dark Triad, MBTI critique, how to read personality in others | Reference |
+| [social-psychology.md](psychology/social-psychology.md) | Situationism, Milgram, Asch, groupthink, social identity, conformity, reciprocity, cognitive dissonance | Reference |
+| [behavioral-psychology.md](psychology/behavioral-psychology.md) | Classical and operant conditioning, reinforcement schedules, learned helplessness, stimulus control | Reference |
+| [cognitive-psychology.md](psychology/cognitive-psychology.md) | System 1/2, schemas, memory reconstruction, cognitive biases, attention, working memory | Reference |
+| [attachment-theory.md](psychology/attachment-theory.md) | Secure, anxious, avoidant, disorganized styles — how early bonds shape adult relationship patterns | Reference |
+| [motivation-and-drive.md](psychology/motivation-and-drive.md) | Self-determination theory, intrinsic vs. extrinsic motivation, flow, overjustification effect | Reference |
+
+## Geopolitics
+
+| File | Description | Status |
+|------|-------------|--------|
+| [us-empire-decline-preparation.md](geopolitics/us-empire-decline-preparation.md) | How empires actually decline, honest US indicators, financial and physical preparation, community resilience, what to ignore | Reference |
+| [china-rise.md](geopolitics/china-rise.md) | China's growth model and structural limits, Belt and Road, Taiwan risk, semiconductor war, de-dollarization, US-China decoupling | Reference |
+| [reserve-currency-history.md](geopolitics/reserve-currency-history.md) | Dutch guilder → British pound → US dollar: the repeating pattern of reserve currency rise and fall, and what comes next | Reference |
+| [supply-chain-resilience.md](geopolitics/supply-chain-resilience.md) | How global supply chains broke, critical chokepoints (chips, rare earths, pharma), reshoring, household resilience steps | Reference |
+
+## Religion
+
+| File | Description | Status |
+|------|-------------|--------|
+| [christian-beliefs.md](religion/christian-beliefs.md) | What's historically supported vs. faith-based: historical Jesus, non-Christian sources, resurrection evidence, philosophical arguments for God, wishful thinking honestly assessed | Reference |
+
+## Space
+
+| File | Description | Status |
+|------|-------------|--------|
+| [galaxies.md](space/galaxies.md) | Galaxy types, the Milky Way, supermassive black holes, dark matter, cosmic web, JWST | Reference |
 
 ## Science
 
@@ -110,6 +144,7 @@ All files in `knowledge/`, organized by category. Check here before starting a n
 |------|-------------|--------|
 | [history-mental-models.md](history/history-mental-models.md) | Recurring patterns: debt cycles, rise and fall, power concentration, collapse, innovation | Reference |
 | [economic-history.md](history/economic-history.md) | How economies developed: mercantilism, industrial revolution, Bretton Woods, petrodollar, financialization | Reference |
+| [banking-system-history.md](history/banking-system-history.md) | Goldsmiths → Rothschilds → JP Morgan → Federal Reserve → 1980s financialization → debt-based money and perpetual interest | Reference |
 
 ## Cooking
 
@@ -135,11 +170,20 @@ All files in `knowledge/`, organized by category. Check here before starting a n
 | [life-insurance.md](finance/life-insurance.md) | Term vs whole life, how much coverage, when you need it, why the industry sells you the wrong thing | Reference |
 | [investing-beyond-index-funds.md](finance/investing-beyond-index-funds.md) | I-bonds, REITs, farmland, alternative assets — when complexity is worth it | Reference |
 
+## Business
+
+| File | Description | Status |
+|------|-------------|--------|
+| [nj-retail-overview.md](business/nj-retail-overview.md) | Starting and running a retail location in NJ — legal formation, licensing, lease, insurance, employees, operations | Reference |
+| [nj-business-taxes.md](business/nj-business-taxes.md) | NJ business taxes — sales tax, CBT, BAIT, GIT, payroll, federal strategies, annual filing calendar | Reference |
+
 ## Consumerism
 
 | File | Description | Status |
 |------|-------------|--------|
 | [buy-it-for-life.md](consumerism/buy-it-for-life.md) | Products built for lifetime ownership — cookware, tools, footwear, bags, personal care, fitness | Reference |
+| [considered-luxuries.md](consumerism/considered-luxuries.md) | Quality discretionary products worth owning — coffee, audio, fragrance, spirits, bedding, stationery | Reference |
+| [quality-life-upgrades.md](consumerism/quality-life-upgrades.md) | Products most people don't own but should — air/water quality, ergonomics, preparedness, digital infra, health monitoring | Reference |
 
 ## Fashion
 

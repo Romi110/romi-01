@@ -89,6 +89,41 @@
 - [ ] `farming/perennial-food-systems.md` — Fruit trees, berry bushes, asparagus — long-term food infrastructure
 - [ ] `farming/water-bath-canning.md` — Step-by-step canning process, tested recipes, equipment guide
 
+## Psychology
+
+- [x] `psychology/psychology-overview.md` — Field overview: major branches, foundational figures, nature/nurture, the unconscious, validity issues
+- [x] `psychology/personality-psychology.md` — Big Five (OCEAN), Dark Triad, MBTI critique, how to read personality in others
+- [x] `psychology/social-psychology.md` — Situationism, Milgram, Asch, groupthink, social identity, conformity, reciprocity, cognitive dissonance
+- [x] `psychology/behavioral-psychology.md` — Classical/operant conditioning, reinforcement schedules, learned helplessness, stimulus control
+- [x] `psychology/cognitive-psychology.md` — System 1/2, schemas, memory reconstruction, cognitive biases, attention, working memory
+- [x] `psychology/attachment-theory.md` — Secure/anxious/avoidant/disorganized styles — how early bonds shape adult relationship patterns
+- [x] `psychology/motivation-and-drive.md` — SDT, intrinsic vs. extrinsic motivation, flow, overjustification effect
+- [ ] `psychology/emotional-intelligence.md` — Reading emotions in others, self-regulation, empathy as a skill, what EQ predicts
+- [ ] `psychology/abnormal-psychology.md` — Overview of mental disorders: what they are, how they develop, how they manifest in everyday life
+- [ ] `psychology/developmental-psychology.md` — Piaget, Erikson, lifespan development — how people change across stages
+
+## Space
+
+- [x] `space/galaxies.md` — Galaxy types, the Milky Way, supermassive black holes, dark matter, cosmic web, JWST
+- [ ] `space/space-overview.md` — The field of astronomy/cosmology: scale of the universe, major branches, how we know what we know
+- [ ] `space/stars-and-stellar-evolution.md` — Star life cycles, how elements are forged, supernovae, neutron stars, black holes
+- [ ] `space/the-solar-system.md` — Planets, moons, asteroid belt, Oort cloud — our local neighborhood
+- [ ] `space/cosmology-basics.md` — Big Bang, cosmic microwave background, dark energy, expanding universe, timeline
+- [ ] `space/black-holes.md` — Formation, types, event horizons, Hawking radiation, recent imaging (Sgr A*, M87)
+
+## Geopolitics
+
+- [x] `geopolitics/us-empire-decline-preparation.md` — Empire decline patterns, honest US indicators, financial/physical preparation, community resilience, what to ignore
+- [x] `geopolitics/china-rise.md` — Growth model and limits, Belt and Road, Taiwan risk, semiconductor war, de-dollarization, US-China decoupling
+- [x] `geopolitics/reserve-currency-history.md` — Dutch guilder → British pound → US dollar: the repeating rise-and-fall pattern, what comes next
+- [x] `geopolitics/supply-chain-resilience.md` — How global supply chains broke, critical chokepoints (chips, rare earths, pharma), reshoring timeline, household steps
+- [ ] `geopolitics/energy-geopolitics.md` — Oil, the petrodollar, OPEC, LNG, and how the energy transition reshapes geopolitical power
+- [ ] `geopolitics/technology-cold-war.md` — AI race, semiconductor export controls, data sovereignty, the two-stack internet splitting US and China
+- [ ] `geopolitics/us-political-polarization.md` — Institutional erosion, polarization mechanics, what historical analogs look like, realistic outcomes
+- [ ] `geopolitics/global-debt-crisis.md` — Sovereign debt globally: Japan, EU, emerging markets, the mechanisms of sovereign default and restructuring
+- [ ] `geopolitics/russia-ukraine-implications.md` — European energy realignment, NATO expansion, SWIFT weaponization, multipolar acceleration
+- [ ] `geopolitics/demographics-and-power.md` — Demographic decline in developed world, population collapse in China/Japan/EU, immigration as geopolitical variable
+
 ## Nature
 
 - [ ] `nature/foraging-nj.md` — Edible wild plants and mushrooms in NJ: identification, seasons, where to look, safety rules
@@ -179,7 +214,9 @@
 ## Civics
 
 - [x] `civics/how-government-works.md` — Local to federal: how laws get made, who actually has power, how to engage
+- [x] `civics/local-politics-civic-involvement.md` — The mechanics of participating: boards, meetings, appointments, running for office, Galloway/Atlantic County context
 - [ ] `civics/nj-land-use.md` — NJ zoning law, Right to Farm Act, Highlands/Pinelands regulations, net metering, variance process
+- [ ] `civics/running-for-local-office.md` — Campaign basics: petitioning, fundraising, door-knocking, the NJ ballot process post-county-line reform
 
 ## Science
 
@@ -193,9 +230,23 @@
 
 - [x] `history/history-mental-models.md` — Recurring patterns in history: cycles, collapse, innovation, power
 - [x] `history/economic-history.md` — Mercantilism, industrial revolution, Bretton Woods, petrodollar, financialization
+- [x] `history/banking-system-history.md` — Goldsmiths → Rothschilds → JP Morgan → Federal Reserve → 1980s financialization → debt-based money and perpetual interest
 - [ ] `history/roman-history.md` — Republic to Empire: institutional decay, elite overproduction, Marcus Aurelius under structural decline
 - [ ] `history/industrial-revolution-deep-dive.md` — Labor conditions, technological diffusion, why Britain, political response — template for AI-era disruption
 - [ ] `history/agrarian-history.md` — How farming shaped civilization, enclosure, the green revolution, industrial ag — context for self-reliance
+
+---
+
+## Business
+
+- [x] `business/nj-retail-overview.md` — Starting and running a retail location in NJ: legal formation, licensing, lease, insurance, payroll, operations
+- [x] `business/nj-business-taxes.md` — Full NJ + federal tax picture: sales tax, CBT, BAIT, GIT, payroll taxes, annual calendar, reduction strategies
+- [ ] `business/nj-retail-marketing.md` — Local marketing for a physical retail location: Google Business, local SEO, events, loyalty, neighborhood presence
+- [ ] `business/retail-buying-and-inventory.md` — Wholesale sourcing, vendor terms, MOQ, open-to-buy budgeting, inventory turnover management
+- [ ] `business/retail-financials.md` — P&L structure for retail, COGS vs operating expenses, break-even, margin by category, cash flow modeling
+- [ ] `business/nj-commercial-leases.md` — Deep-dive on NJ commercial lease terms: NNN breakdown, TI allowance, co-tenancy, personal guarantee negotiation
+- [ ] `business/hiring-first-employee-nj.md` — The full checklist for a first NJ hire: I-9, E-Verify, NJ new hire reporting, onboarding, workers comp setup
+- [ ] `business/business-banking-and-credit.md` — Business checking, business credit cards, merchant accounts, line of credit — separating personal and business finances
 
 ---
 
@@ -218,7 +269,3 @@
 
 ## Maintenance
 
-- [x] ~~Rename `skills/` to `mind/` if the category grows into cognitive/behavioral territory~~ — Done 2026-04-04. Split into `mind/` (cognitive/behavioral) and `skills/` (practical/applied)
-- [x] ~~Move existing `skills/*.md` files for discipline, habits, identity, decision-making, mental-models into `mind/` folder and update INDEX.md~~ — Done 2026-04-04
-- [x] ~~Move `farming/hydroponics*.md` files into `farming/hydroponics/` subfolder~~ — Done 2026-04-04
-- [x] ~~Move `health/hair*.md` files into `health/hair/` subfolder~~ — Done 2026-04-04

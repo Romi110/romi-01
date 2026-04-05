@@ -2,7 +2,7 @@
 
 ## Who I Am
 - Romi, 28 years old (born January 22, 1998, in India)
-- Living in Pleasantville, NJ area
+- Living in Galloway, NJ area
 - Work in tech/software full-time
 - Partner, no kids yet — now is the time to build real skills and deep knowledge
 - Vegetarian (very occasionally eats chicken, but it's rare — plan assuming fully vegetarian)
