@@ -19,6 +19,9 @@
 - [ ] stoicism-x-farming — Farming as Stoic practice: patience, working with nature, what's in your control
 - [ ] stoicism-x-finance — Enough, temperance, indifferents — Stoic framework for money
 - [ ] reading-bhagavad-gita — Dharma, karma yoga, detachment from outcomes — connects to Stoicism, feeds Roma
+- [ ] virtue-ethics — Aristotle's eudaimonia: flourishing vs Stoic virtue, where the frameworks differ and converge — feeds Roma
+- [ ] epictetus-enchiridion — Reading guide for the Enchiridion: the most practical Stoic text, written in commands not meditations
+- [ ] death-and-impermanence — Cross-tradition: memento mori, Buddhist anicca, Hindu moksha — how each uses death as a practical tool
 
 ## Roma
 
@@ -46,6 +49,10 @@
 - [x] hair/scalp-care — Microbiome, sebum balance, washing frequency, topical ingredients
 - [x] hair/ayurveda-hair — Shiro abhyanga, bhringraj, amla, neem
 - [ ] cold-and-heat-exposure — Cold plunge, sauna — what the evidence actually says
+- [ ] posture-and-ergonomics — Forward head posture, anterior pelvic tilt, desk work damage, corrective protocols, workstation setup
+- [ ] gut-health — Microbiome basics, fiber types, fermented foods, gut-brain axis — vegetarian diet implications, Ayurveda agni connection
+- [ ] hormonal-health-men — Testosterone, cortisol, thyroid, sleep-hormone connection — what to monitor, what moves the needle at 28
+- [ ] sun-and-vitamin-d — UV index, seasonal variation, NJ winter deficit, supplementation math, D3/K2 pairing
 
 ## Cooking
 
@@ -54,6 +61,8 @@
 - [x] cooking-from-scratch — Stocks, sauces, doughs, ferments — foundational scratch skills
 - [ ] weekly-cooking-system — Batch cooking logic: spice base in bulk, stock from scraps, yogurt weekly
 - [ ] knife-sharpening — Whetstones, honing, maintenance
+- [ ] pressure-cooking — Instant Pot / stovetop: dal in 15 min, legumes without soaking, stock — practical time compression for vegetarian cooking
+- [ ] sourdough-bread — Starter maintenance, hydration, bulk fermentation, scoring, baking — foundational scratch skill
 
 ## Farming
 
@@ -73,6 +82,8 @@
   - [x] hydroponics/hydroponics-nutrients — Nutrient solutions, pH/EC management, deficiency diagnosis
   - [x] hydroponics/hydroponics-lighting — LED grow lights, PPFD, DLI, photoperiod, hanging height
 - [ ] permaculture-basics — Designing with nature: zones, guilds, perennial systems
+- [ ] companion-planting — Three Sisters, beneficial pairings, pest-confusing crops, allelopathy
+- [ ] deer-management-nj — Fencing options, deterrents, plant selection — the most common reason NJ home gardens fail
 - [ ] vertical-growing — Trellises, tower gardens, wall systems for small spaces
 - [ ] beekeeping-basics — Why bees matter, getting started, NJ regulations
 - [ ] small-animal-husbandry — Chickens, rabbits — what they give the system, what they cost
@@ -113,6 +124,8 @@
 - [ ] emotional-regulation — Anger, anxiety, frustration — neurology and what Stoics got right
 - [ ] difficult-conversations — Disagreeing, giving feedback, setting boundaries
 - [ ] negotiation-basics — BATNA, anchoring, interests vs positions
+- [x] systems-thinking — Stocks, flows, feedback loops, delays, leverage points — Donella Meadows framework; applies to farming, habits, finance, tech
+- [ ] attention-management — Physiology of attention, why focus degrades, restoration vs distraction — the foundation deep-work builds on
 
 ## Skills
 
@@ -126,6 +139,9 @@
 - [ ] woodworking-basics — Hand tools, joinery, finishing — a foundational making skill for home repair and self-reliance
 - [ ] first-aid-basics — Bleeding, burns, choking, CPR
 - [ ] emergency-preparedness — 72-hour kit, water storage, power outages, NJ scenarios
+- [ ] land-navigation — Map and compass, triangulation, terrain reading, pace counting — offline self-reliance skill
+- [ ] sewing-basics — Hand stitching, seam repair, button reattachment, hemming — closes the loop on repair-over-replace
+- [ ] knot-tying — 12 essential knots: farming, camping, rigging, rescue applications
 
 ## Psychology
 
@@ -150,8 +166,21 @@
 - [x] demographics-and-power — Population structure and geopolitical trajectories: Japan, China, India, EU
 - [x] us-political-polarization — Negative partisanship, institutional erosion, historical analogs, outcomes
 - [ ] technology-cold-war — AI race, semiconductor export controls, data sovereignty, two-stack internet
-- [ ] global-debt-crisis — Sovereign debt: Japan, EU, emerging markets, default mechanisms
+- [x] india-rise — Demographics advantage, manufacturing shift, US-India partnership, Modi/BJP, China rivalry, tech ecosystem, what's constraining it
+- [x] global-debt-crisis — Japan 260%, US $36T, EU periphery, China's hidden LGFV debt, emerging market default wave — how it resolves
+- [x] taiwan-strait — Conflict scenarios, TSMC semiconductor concentration, US deterrence credibility, economic consequences
+- [x] dollar-weaponization — SWIFT as a weapon, Russia $300B freeze, CIPS/BRICS alternatives, de-dollarization acceleration
 - [ ] russia-ukraine-implications — European energy realignment, NATO expansion, SWIFT weaponization
+- [ ] global-south-realignment — Saudi/UAE/Turkey/Brazil/Indonesia hedging between US and China; the swing states and what they want
+- [ ] middle-east-instability — Israel-Iran-Saudi triangle, petrodollar erosion, post-US withdrawal power vacuum
+- [ ] africa-century — Population trajectory to 2.5B, resource wealth, China BRI in Africa, lithium/cobalt competition
+- [ ] latin-america-resources — Lithium triangle, copper, nearshoring opportunity, resource nationalism, Mexico as manufacturing alternative
+- [ ] nuclear-proliferation — Iran near-nuclear, Saudi escalation intent, North Korea's advancing arsenal, NPT erosion
+- [ ] cbdcs-and-financial-control — 130+ countries developing CBDCs, China's digital yuan, surveillance implications, sanctions evasion
+- [ ] japan-strategic-pivot — Japan's rearmament, defense spending surge, constitutional revision, Indo-Pacific role
+- [ ] cyberwarfare-infrastructure — Volt Typhoon, state-sponsored attacks on grids/water/finance, how this changes conflict calculus
+- [ ] new-cold-war-blocs — How the world is splitting: US bloc vs China-Russia-Iran axis vs non-aligned Global South
+- [ ] southeast-asia-battleground — ASEAN hedging, South China Sea disputes, Vietnam's emergence, Philippines' return to US alliance
 
 ## History
 
@@ -201,6 +230,12 @@
 - [x] life-insurance — Term vs whole life, coverage sizing, buy-term-invest-the-difference
 - [x] investing-beyond-index-funds — I-bonds, REITs, farmland, alternative assets
 - [ ] personal-finance-basics — Budgeting, net worth, the order of operations for money
+- [x] estate-planning-basics — Will, beneficiary designations, POA, healthcare proxy — what happens without them in NJ, how to fix it in an afternoon
+- [x] trusts — Revocable living trust, irrevocable trust, ILIT, GRAT, asset protection — probate avoidance, tax reduction, wealth transfer
+- [x] family-wealth-strategy — How tax-advantaged accounts, business equity, real estate, insurance, and trusts layer and compound over 20-30 years
+- [x] building-generational-wealth — Step-up in basis, annual gifting, dynasty trusts, real estate transfer, business equity — moving from personal to family wealth
+- [ ] s-corp-election-strategy — When to elect S-corp, reasonable salary math, SE tax savings — highest-leverage tax move for profitable business owners
+- [ ] business-entity-selection — LLC vs S-corp vs C-corp: tax treatment, liability, when to switch — the decision that shapes everything downstream
 - [ ] emergency-fund — Sizing, where to keep it, when to use it
 - [ ] real-estate-basics — Renting vs buying math, mortgages, NJ market context
 - [ ] nj-homebuying-process — Step-by-step NJ purchase: pre-approval, offer, attorney review, inspection, closing costs, title insurance
@@ -217,6 +252,10 @@
 - [ ] nj-commercial-leases — NNN breakdown, TI allowance, co-tenancy, personal guarantee
 - [ ] hiring-first-employee-nj — I-9, E-Verify, NJ new hire reporting, onboarding, workers comp
 - [ ] business-banking-and-credit — Business checking, credit cards, merchant accounts, line of credit
+- [x] owner-compensation-strategy — Salary vs distributions, S-corp split, solo 401k, QBI deduction, NJ BAIT — how to pay yourself tax-efficiently
+- [ ] cashflow-management — Working capital, float, receivables, payables, cash reserves, seasonal planning — operating side of a business
+- [ ] business-succession-planning — Buy-sell agreements, key man insurance, business valuation, who gets the business
+- [ ] financial-reporting-basics — Reading a P&L, balance sheet, and cash flow statement — understanding your own numbers
 
 ## Career
 
@@ -231,10 +270,13 @@
 - [x] buy-it-for-life — Lifetime ownership: cookware, tools, footwear, bags, personal care, fitness
 - [x] considered-luxuries — Quality discretionary: coffee, audio, fragrance, spirits, bedding, stationery
 - [x] quality-life-upgrades — Products most don't own but should: air/water, ergonomics, digital infra
+- [x] resilience-buying — What to own before supply chains fail: food buffer, water filtration, energy, tools
 - [x] repair-over-replace — When to repair: cobblers, tailors, appliances, right-to-repair, decision framework
 - [x] tools-worth-owning — Hand/power/garden tools: quality thresholds, buy vs rent, Knipex/Wera/Estwing/Bahco
 - [x] kitchen-equipment-fundamentals — Knife, board, scale, heavy pan, dutch oven, mortar — the real short list
 - [ ] total-cost-of-ownership — Cost-per-use calculations, depreciation, repair vs replace math
+- [ ] home-office-setup — Monitor arms, standing desk, chair, keyboard, lighting — tech worker buying guide; ergonomics connects to posture file
+- [ ] audio-equipment — Headphones (open vs closed, planar vs dynamic), DAC/amp basics, what the spend curve looks like
 - [ ] intentional-buying — Need vs want, delay tactics, one-in-one-out rule
 - [ ] product-care-and-maintenance — Cast iron, leather, boots, merino, carbon steel, waxed canvas care
 - [ ] buying-used-and-vintage — eBay, estate sales, Poshmark — finding BIFL-quality secondhand
@@ -258,6 +300,8 @@
 ## Home Lab
 
 - [x] homelab-overview — What a home lab is, hardware tiers, Proxmox, Docker, self-hosted services, backup
+- [x] linux-ai-workstation — Linux workstation + local LLMs for scripting and automation: hardware buying guide, Ollama, models, workflow
+- [x] macos-ai-workstation — macOS AI workstation: Apple Silicon unified memory, Mac hardware tiers, Ollama/LM Studio/MLX, macOS automation
 - [ ] virtualization — Proxmox: VMs vs LXC, resource allocation, storage, clustering
 - [ ] docker-and-containers — Docker fundamentals, Compose, how containers differ from VMs
 - [ ] homelab-hardware — Mini PCs (N100, NUC), used enterprise gear, Raspberry Pi — sizing and power
@@ -265,6 +309,9 @@
 - [ ] self-hosted-services — Nextcloud, Vaultwarden, Jellyfin, Immich, Gitea, Uptime Kuma
 - [ ] home-automation — Home Assistant: local-only, Zigbee/Z-Wave vs WiFi, practical automations
 - [ ] monitoring-and-observability — Grafana + Prometheus, Uptime Kuma, log aggregation
+- [ ] ollama-automation-scripting — Building cron jobs, pipelines, and shell tools that call a local LLM via the Ollama API
+- [ ] terminal-and-shell-setup — zsh config, dotfiles, aliases, tmux, Neovim/VS Code — the daily dev environment missing from the wiki
+- [ ] privacy-and-opsec — Password management, 2FA, DNS-over-HTTPS, VPN use cases, realistic threat model for a private individual
 
 ## Nature
 
@@ -275,6 +322,7 @@
 
 - [ ] communication-fundamentals — Gottman research, bids for connection, repair attempts, four horsemen
 - [ ] partnership-and-shared-goals — Aligning on finances, lifestyle, decisions with different wiring
+- [ ] conflict-and-repair — How conflict escalates, the repair attempt, rupture and repair cycles — more actionable than communication-fundamentals
 
 ## Storytelling
 

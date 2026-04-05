@@ -90,7 +90,6 @@ Format: `[file-name.md](../category/file-name.md)` — [what the connection is]]
 
 Place the file in the appropriate subfolder under `knowledge/`:
 - `knowledge/philosophy/` — philosophical traditions, ideas, thinkers
-- `knowledge/roma/` — Roma, tenets, sacred text work
 - `knowledge/health/` — fitness, nutrition, wellness
 - `knowledge/meta/` — system docs, workflow, tools
 - **New folders** — create as needed for new domains (e.g., `knowledge/farming/`, `knowledge/skills/`)
@@ -99,5 +98,4 @@ Place the file in the appropriate subfolder under `knowledge/`:
 
 1. Save to `knowledge/[category]/[topic-name].md`
 2. In `knowledge/CATALOG.md`: mark the entry `[x]` (or add a new `[x]` line if it wasn't planned). Add any proposed sub-topics as `[ ]` entries under the correct category.
-3. Ask: "Is there a principle from this worth adding to Roma?"
 4. Ask: "Want to dive into any of the proposed sub-topics next?"
