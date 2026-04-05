@@ -135,8 +135,8 @@ The rest will integrate naturally from there.
 ## Connections
 
 - [stoicism.md](stoicism.md) — Core Stoic concepts (dichotomy of control, four virtues, the three teachers). This file assumes that foundation.
-- [building-discipline.md](../skills/building-discipline.md) — The morning review and evening reflection are discipline practices — they build the same muscle as consistent training. The friction management principles apply directly.
-- [habit-design.md](../skills/habit-design.md) — Habit architecture for embedding these practices into a daily routine without relying on willpower.
+- [mind/building-discipline.md](../mind/building-discipline.md) — The morning review and evening reflection are discipline practices — they build the same muscle as consistent training. The friction management principles apply directly.
+- [mind/habit-design.md](../mind/habit-design.md) — Habit architecture for embedding these practices into a daily routine without relying on willpower.
 
 ## Status
 - [x] Initial file written

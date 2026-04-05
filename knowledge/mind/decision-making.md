@@ -162,8 +162,8 @@ Don't run all frameworks on every decision. Pick the one that's most likely to c
 ## Connections
 
 - [philosophy/decision-making.md](../philosophy/decision-making.md) — The Stoic framework underneath these tools: dichotomy of control, virtue test, premeditatio malorum, amor fati.
-- [skills/mental-models.md](skills/mental-models.md) — The broader model library. Decision-making frameworks are a subset; mental models cover perception, system dynamics, and bias more broadly.
-- [skills/building-discipline.md](building-discipline.md) — Deciding well is one problem. Following through on the decision is another. Discipline bridges them.
+- [mental-models.md](mental-models.md) — The broader model library. Decision-making frameworks are a subset; mental models cover perception, system dynamics, and bias more broadly.
+- [building-discipline.md](building-discipline.md) — Deciding well is one problem. Following through on the decision is another. Discipline bridges them.
 
 ## Status
 - [x] Initial file written

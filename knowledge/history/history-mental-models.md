@@ -7,7 +7,7 @@
 
 History studied as patterns rather than dates. The goal is not to memorize what happened when, but to identify structural forces that recur across different times and places: how power concentrates and gets checked, why civilizations collapse, what conditions produce innovation, and how economic cycles play out. These patterns don't predict the future with precision, but they constrain what's possible and illuminate where we are in a larger arc.
 
-This file is a mental models file for history — the same idea as [skills/mental-models.md](../skills/mental-models.md) but applied to historical dynamics rather than individual cognition.
+This file is a mental models file for history — the same idea as [mind/mental-models.md](../mind/mental-models.md) but applied to historical dynamics rather than individual cognition.
 
 ## Why It Matters
 
@@ -139,7 +139,7 @@ Innovation concentrates in specific places and times. What creates those conditi
 
 ## Connections
 
-- [skills/mental-models.md](../skills/mental-models.md) — The Lindy Effect, compounding, and mean reversion all apply at historical scale. Historical patterns are the long-arc version of these models.
+- [mind/mental-models.md](../mind/mental-models.md) — The Lindy Effect, compounding, and mean reversion all apply at historical scale. Historical patterns are the long-arc version of these models.
 - [philosophy/stoicism.md](../philosophy/stoicism.md) — Stoicism developed inside the Roman Empire, a civilization in long decline. The practices for maintaining integrity within collapsing institutions are directly applicable.
 - [civics/how-government-works.md](../civics/how-government-works.md) — Institutional decay, elite capture, and power concentration patterns are observable in current institutions. Historical patterns give context to what's happening structurally now.
 - [finance/index-fund-investing.md](../finance/index-fund-investing.md) — Debt cycles, reserve currency dynamics, and technological disruption patterns directly shape long-term investment environments.

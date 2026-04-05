@@ -7,7 +7,7 @@
 
 Stoic decision-making is not a flowchart — it's a set of questions that strip a decision down to what actually matters. The Stoics were interested in decisions because decisions are where virtue either shows up or doesn't. A decision made from fear, status anxiety, or distorted perception is already wrong before it produces an outcome.
 
-This file covers the Stoic-rooted approach to decision-making: what questions to ask, when to use each, and how to decide without being paralyzed by the uncertainty that can't be resolved. For the practical frameworks (second-order thinking, inversion, pre-mortem), see [skills/decision-making.md](../skills/decision-making.md). This file is the philosophical layer underneath those tools.
+This file covers the Stoic-rooted approach to decision-making: what questions to ask, when to use each, and how to decide without being paralyzed by the uncertainty that can't be resolved. For the practical frameworks (second-order thinking, inversion, pre-mortem), see [mind/decision-making.md](../mind/decision-making.md). This file is the philosophical layer underneath those tools.
 
 ## Why It Matters
 
@@ -123,9 +123,9 @@ Most decisions that feel complex feel complex because they're not written down a
 ## Connections
 
 - [stoicism.md](stoicism.md) — Core framework underlying this file: dichotomy of control, four virtues, premeditatio malorum, amor fati.
-- [skills/decision-making.md](../skills/decision-making.md) — Practical frameworks (second-order thinking, inversion, pre-mortem) that sit alongside this philosophical layer.
-- [skills/mental-models.md](../skills/mental-models.md) — Mental models give language and structure to the "wisdom" virtue — seeing clearly requires accurate maps.
-- [building-discipline.md](../skills/building-discipline.md) — Deciding and then following through are separate problems. Discipline is the bridge.
+- [mind/decision-making.md](../mind/decision-making.md) — Practical frameworks (second-order thinking, inversion, pre-mortem) that sit alongside this philosophical layer.
+- [mind/mental-models.md](../mind/mental-models.md) — Mental models give language and structure to the "wisdom" virtue — seeing clearly requires accurate maps.
+- [mind/building-discipline.md](../mind/building-discipline.md) — Deciding and then following through are separate problems. Discipline is the bridge.
 
 ## Status
 - [x] Initial file written

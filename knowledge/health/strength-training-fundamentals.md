@@ -200,7 +200,7 @@ Training is a stress that damages tissue. Adaptation happens during recovery, no
 - [health/fitness-plan.md](fitness-plan.md) — Romi's actual training schedule: the 3x/week KB/mace program, nutrition guidelines, and goals. These fundamentals explain why that program is structured the way it is.
 - [health/mobility-and-flexibility.md](mobility-and-flexibility.md) — Mobility is the prerequisite for training quality. Before increasing load, ensure the range is available. The hip hinge, overhead press, and mace rotations all have specific mobility requirements covered there.
 - [health/nutrition.md](nutrition.md) — Protein intake and total calories are training variables as much as sets and reps. Training adaptation without adequate protein is like laying rebar without concrete.
-- [skills/building-discipline.md](../skills/building-discipline.md) — Consistency over optimization. The discipline principle (act on intention regardless of motivation) is what converts training knowledge into training results.
+- [mind/building-discipline.md](../mind/building-discipline.md) — Consistency over optimization. The discipline principle (act on intention regardless of motivation) is what converts training knowledge into training results.
 
 ## Status
 - [x] Initial file written

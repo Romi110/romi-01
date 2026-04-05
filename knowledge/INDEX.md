@@ -41,6 +41,9 @@ All files in `knowledge/`, organized by category. Check here before starting a n
 | [programming-a-training-block.md](health/programming-a-training-block.md) | 8-week KB/mace block for body recomposition: sessions, progression rules, nutrition integration, tracking | Reference |
 | [fitness-x-nutrition.md](health/fitness-x-nutrition.md) | How training and eating interact: recovery timing, body recomposition mechanics, nutrient timing by training type | Reference |
 | [fat-loss-science.md](health/fat-loss-science.md) | Physiology of fat loss: NEAT, metabolic adaptation, set point theory, hormonal responses to deficit | Reference |
+| [hair/hair-growth.md](health/hair/hair-growth.md) | Hair growth cycle, nutritional foundations (protein/iron/zinc/D), hormonal factors, scalp massage, what works vs marketing | Reference |
+| [hair/scalp-care.md](health/hair/scalp-care.md) | Scalp microbiome, sebum balance, washing frequency, effective topical ingredients, dandruff management | Reference |
+| [hair/ayurveda-hair.md](health/hair/ayurveda-hair.md) | Ayurvedic hair care: shiro abhyanga, bhringraj, amla, neem — oils, herbs, and dinacharya for hair | Reference |
 
 ## Farming
 
@@ -57,10 +60,10 @@ All files in `knowledge/`, organized by category. Check here before starting a n
 | [water-management.md](farming/water-management.md) | Drip irrigation, mulching, rainwater harvesting, retention | Reference |
 | [pest-management.md](farming/pest-management.md) | Ecosystem balance, beneficial insects, NJ pests, intervention ladder | Reference |
 | [seed-saving.md](farming/seed-saving.md) | OP/heirloom selection, wet/dry processing, storage, local adaptation | Reference |
-| [hydroponics.md](farming/hydroponics.md) | Overview — how it works, system types, pH/EC, getting started | Reference |
-| [hydroponics-systems.md](farming/hydroponics-systems.md) | The 6 system types: Kratky, DWC, NFT, ebb & flow, drip, aeroponics | Reference |
-| [hydroponics-nutrients.md](farming/hydroponics-nutrients.md) | Nutrient solutions, pH/EC management, deficiency diagnosis | Reference |
-| [hydroponics-lighting.md](farming/hydroponics-lighting.md) | LED grow lights, PPFD, DLI, photoperiod, hanging height | Reference |
+| [hydroponics/hydroponics.md](farming/hydroponics/hydroponics.md) | Overview — how it works, system types, pH/EC, getting started | Reference |
+| [hydroponics/hydroponics-systems.md](farming/hydroponics/hydroponics-systems.md) | The 6 system types: Kratky, DWC, NFT, ebb & flow, drip, aeroponics | Reference |
+| [hydroponics/hydroponics-nutrients.md](farming/hydroponics/hydroponics-nutrients.md) | Nutrient solutions, pH/EC management, deficiency diagnosis | Reference |
+| [hydroponics/hydroponics-lighting.md](farming/hydroponics/hydroponics-lighting.md) | LED grow lights, PPFD, DLI, photoperiod, hanging height | Reference |
 
 ## Energy
 
@@ -73,15 +76,20 @@ All files in `knowledge/`, organized by category. Check here before starting a n
 | [batteries-and-storage.md](energy/batteries-and-storage.md) | LiFePO4 vs lead-acid, BMS, DIY builds, bank sizing, temperature management | Reference |
 | [inverters-and-charge-controllers.md](energy/inverters-and-charge-controllers.md) | Inverter types, MPPT vs PWM, hybrid all-in-ones, wiring safety | Reference |
 
+## Mind
+
+| File | Description | Status |
+|------|-------------|--------|
+| [building-discipline.md](mind/building-discipline.md) | The practice of acting on intention regardless of motivation — how discipline is built | Reference |
+| [habit-design.md](mind/habit-design.md) | Engineering habits that run automatically — friction, cue-routine-reward, environment design | Reference |
+| [identity-and-behavior.md](mind/identity-and-behavior.md) | How self-concept drives action and how to deliberately shift identity | Reference |
+| [decision-making.md](mind/decision-making.md) | Practical frameworks: second-order thinking, inversion, pre-mortem, reversibility, opportunity cost | Reference |
+| [mental-models.md](mind/mental-models.md) | 20 essential mental models — first principles, survivorship bias, compounding, via negativa, and more | Reference |
+
 ## Skills
 
 | File | Description | Status |
 |------|-------------|--------|
-| [building-discipline.md](skills/building-discipline.md) | The practice of acting on intention regardless of motivation — how discipline is built | Reference |
-| [habit-design.md](skills/habit-design.md) | Engineering habits that run automatically — friction, cue-routine-reward, environment design | Reference |
-| [identity-and-behavior.md](skills/identity-and-behavior.md) | How self-concept drives action and how to deliberately shift identity | Reference |
-| [decision-making.md](skills/decision-making.md) | Practical frameworks: second-order thinking, inversion, pre-mortem, reversibility, opportunity cost | Reference |
-| [mental-models.md](skills/mental-models.md) | 20 essential mental models — first principles, survivorship bias, compounding, via negativa, and more | Reference |
 | [home-repair-basics.md](skills/home-repair-basics.md) | The 20 home repairs every homeowner should know — plumbing, electrical, HVAC, structure, exterior | Reference |
 
 ## Civics
@@ -126,6 +134,18 @@ All files in `knowledge/`, organized by category. Check here before starting a n
 | [insurance-basics.md](finance/insurance-basics.md) | Health, auto, home, umbrella, disability — what you need vs what's sold, NJ context | Reference |
 | [life-insurance.md](finance/life-insurance.md) | Term vs whole life, how much coverage, when you need it, why the industry sells you the wrong thing | Reference |
 | [investing-beyond-index-funds.md](finance/investing-beyond-index-funds.md) | I-bonds, REITs, farmland, alternative assets — when complexity is worth it | Reference |
+
+## Consumerism
+
+| File | Description | Status |
+|------|-------------|--------|
+| [buy-it-for-life.md](consumerism/buy-it-for-life.md) | Products built for lifetime ownership — cookware, tools, footwear, bags, personal care, fitness | Reference |
+
+## Fashion
+
+| File | Description | Status |
+|------|-------------|--------|
+| [fashion-brands.md](fashion/fashion-brands.md) | Heritage quality brands, premium contemporary, and growing brands shaping 2025–2026 | Reference |
 
 ## Meta
 

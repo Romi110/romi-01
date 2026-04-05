@@ -135,7 +135,7 @@ Parties are private organizations that control ballot access in most states. The
 
 ## Connections
 
-- [skills/mental-models.md](../skills/mental-models.md) — Skin in the game, the map vs. territory, and second-order thinking all apply to why government decisions often diverge from stated intent.
+- [mind/mental-models.md](../mind/mental-models.md) — Skin in the game, the map vs. territory, and second-order thinking all apply to why government decisions often diverge from stated intent.
 - [history/history-mental-models.md](../history/history-mental-models.md) — Power concentration, institutional decay, and cycles of reform — the historical patterns behind how government systems drift from and return toward their stated principles.
 - [finance/index-fund-investing.md](../finance/index-fund-investing.md) — Tax code is a government function. 401(k), Roth IRA, HSA rules are enacted by Congress and administered by the IRS.
 

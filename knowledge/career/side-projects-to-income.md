@@ -168,7 +168,7 @@ With a full-time tech job and evenings shared with a partner: 5–10 hours per w
 ## Connections
 
 - [finance/tax-optimization.md](../finance/tax-optimization.md) — Self-employment income opens Solo 401k and SEP-IRA options; business expenses become deductible. The tax picture changes meaningfully with 1099 income.
-- [skills/mental-models.md](../skills/mental-models.md) — Second-order thinking applies directly here: ask not just "what income does this generate?" but "what optionality does this create? What does it cost in time and attention?"
+- [mind/mental-models.md](../mind/mental-models.md) — Second-order thinking applies directly here: ask not just "what income does this generate?" but "what optionality does this create? What does it cost in time and attention?"
 - [meta/how-claude-works.md](../meta/how-claude-works.md) — AI integration skills (Claude API, agent workflows) are one of the highest-value near-term consulting categories for a tech professional.
 
 ---

@@ -33,6 +33,7 @@ Reusable prompt files for Claude. Reference with `@prompts/filename.md` in VS Co
 
 | Prompt | When to Use | File |
 |--------|-------------|------|
+| **Reorganize** | Move files to better folders, update all links, INDEX.md, and wiki-plan.md | `reorganize.md` |
 | **Sync Docs** | Audit all docs and fix anything stale | `sync-docs.md` |
 
 ---
@@ -51,6 +52,7 @@ Examples:
 - `@prompts/sacred-text-tenet.md tenet 3`
 - `@prompts/expand-wiki.md` (survey everything)
 - `@prompts/expand-wiki.md Mind` (focus on one category)
+- `@prompts/reorganize.md` (propose then execute folder changes)
 - `@prompts/sync-docs.md`
 
 ---

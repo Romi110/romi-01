@@ -52,6 +52,9 @@
 - [ ] `health/cold-and-heat-exposure.md` — Cold plunge, sauna — what the evidence actually says
 - [x] `health/fitness-x-nutrition.md` — How training and eating interact: recovery, timing, body recomposition
 - [x] `health/fat-loss-science.md` — Physiology of fat loss: NEAT, metabolic adaptation, set point theory, hormonal responses to deficit
+- [x] `health/hair/hair-growth.md` — Growth cycle, nutrition (protein/iron/zinc/D), hormonal factors, scalp massage, what works vs marketing
+- [x] `health/hair/scalp-care.md` — Scalp microbiome, sebum balance, washing frequency, effective topical ingredients, dandruff management
+- [x] `health/hair/ayurveda-hair.md` — Shiro abhyanga, bhringraj, amla, neem — Ayurvedic oils, herbs, and dinacharya for hair
 
 ## Cooking
 
@@ -74,10 +77,10 @@
 - [x] `farming/water-management.md`
 - [x] `farming/pest-management.md`
 - [x] `farming/seed-saving.md`
-- [x] `farming/hydroponics.md`
-  - [x] `farming/hydroponics-systems.md`
-  - [x] `farming/hydroponics-nutrients.md`
-  - [x] `farming/hydroponics-lighting.md`
+- [x] `farming/hydroponics/hydroponics.md`
+  - [x] `farming/hydroponics/hydroponics-systems.md`
+  - [x] `farming/hydroponics/hydroponics-nutrients.md`
+  - [x] `farming/hydroponics/hydroponics-lighting.md`
 - [ ] `farming/permaculture-basics.md` — Designing with nature: zones, guilds, perennial systems
 - [ ] `farming/vertical-growing.md` — Trellises, tower gardens, wall systems for small spaces
 - [ ] `farming/beekeeping-basics.md` — Why bees matter for a farm system, getting started, NJ regulations
@@ -196,7 +199,26 @@
 
 ---
 
+## Consumerism
+
+- [x] `consumerism/buy-it-for-life.md` — Products built for lifetime ownership across all categories: cookware, tools, footwear, bags, personal care, fitness
+- [ ] `consumerism/total-cost-of-ownership.md` — The math behind BIFL: cost-per-use calculations, depreciation, repair vs replace decisions
+- [ ] `consumerism/intentional-buying.md` — Framework for any purchase: need vs want, delay tactics, the one-in-one-out rule
+
+---
+
+## Fashion
+
+- [x] `fashion/fashion-brands.md` — Heritage quality brands, premium contemporary, and growing brands (2025–2026)
+- [ ] `fashion/wardrobe-building.md` — How to construct a quality foundational wardrobe: capsule approach, cost-per-wear math, NJ seasonal context
+- [ ] `fashion/fabric-guide.md` — Cotton, wool, linen, cashmere, leather — how to identify quality, care, and longevity
+- [ ] `fashion/fit-and-tailoring.md` — What fit means for different garment types, how to evaluate off-the-rack, when to tailor
+
+---
+
 ## Maintenance
 
 - [x] ~~Rename `skills/` to `mind/` if the category grows into cognitive/behavioral territory~~ — Done 2026-04-04. Split into `mind/` (cognitive/behavioral) and `skills/` (practical/applied)
-- [ ] Move existing `skills/*.md` files for discipline, habits, identity, decision-making, mental-models into `mind/` folder and update INDEX.md
+- [x] ~~Move existing `skills/*.md` files for discipline, habits, identity, decision-making, mental-models into `mind/` folder and update INDEX.md~~ — Done 2026-04-04
+- [x] ~~Move `farming/hydroponics*.md` files into `farming/hydroponics/` subfolder~~ — Done 2026-04-04
+- [x] ~~Move `health/hair*.md` files into `health/hair/` subfolder~~ — Done 2026-04-04

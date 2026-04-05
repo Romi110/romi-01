@@ -15,7 +15,7 @@ This is a reference file. It is not meant to be read in sequence — it's a libr
 
 You're making decisions and interpreting situations constantly. Every one of those interpretations runs through a mental model whether you name it or not. Unnamed models are invisible, which means you can't test them, update them, or notice when you're misapplying them. Naming them makes them legible.
 
-For Romi: this compounds with the decision-making frameworks in [skills/decision-making.md](decision-making.md). The frameworks are the process; the mental models are the lenses you apply within that process.
+For Romi: this compounds with the decision-making frameworks in [decision-making.md](decision-making.md). The frameworks are the process; the mental models are the lenses you apply within that process.
 
 ---
 
@@ -65,7 +65,7 @@ For non-perishable things (ideas, books, technologies, practices), the expected 
 #### Second-Order Thinking
 Every action produces consequences. Those consequences produce further consequences. Second-order thinking means explicitly working through the chain: *And then what?*
 
-*Use it*: Major decisions, policy thinking, any situation with a significant lag between action and outcome. See [skills/decision-making.md](decision-making.md) for applied framework.
+*Use it*: Major decisions, policy thinking, any situation with a significant lag between action and outcome. See [decision-making.md](decision-making.md) for applied framework.
 
 #### Feedback Loops
 A system where outputs become inputs. Positive feedback loops amplify (compounding, viral spread, habit reinforcement). Negative feedback loops stabilize (a thermostat, market price correction).
@@ -188,9 +188,9 @@ Pick two or three. Apply them deliberately for 30 days before expanding. Breadth
 
 ## Connections
 
-- [skills/decision-making.md](decision-making.md) — Mental models are the lenses; decision-making is the process. The two files work in parallel.
+- [decision-making.md](decision-making.md) — Mental models are the lenses; decision-making is the process. The two files work in parallel.
 - [philosophy/decision-making.md](../philosophy/decision-making.md) — The Stoic philosophical layer: virtue, premeditatio malorum, amor fati. Mental models and Stoic practice address the same underlying problem from different angles.
-- [skills/building-discipline.md](building-discipline.md) — Via negativa and feedback loop thinking apply directly to building and maintaining habits.
+- [building-discipline.md](building-discipline.md) — Via negativa and feedback loop thinking apply directly to building and maintaining habits.
 - [finance/index-fund-investing.md](../finance/index-fund-investing.md) — Compounding, mean reversion, survivorship bias, and sunk cost are all directly operational in investing.
 
 ## Status

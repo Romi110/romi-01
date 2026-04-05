@@ -137,7 +137,7 @@ Mace 360s and 10-to-2s: the entire range of these movements depends on thoracic 
 
 - [health/fitness-plan.md](fitness-plan.md) — Kettlebell and mace training is the strength foundation. Mobility enables full-range execution of those movements safely and correctly.
 - [health/holistic-health-practices.md](holistic-health-practices.md) — Ayurvedic dinacharya includes movement practices (yoga, self-massage) that overlap with mobility work. The thoracic opener and hip work map to practices like surya namaskar.
-- [skills/building-discipline.md](../skills/building-discipline.md) — The consistency principle applies directly: 10 minutes daily is the discipline floor. Everything above that is a bonus.
+- [mind/building-discipline.md](../mind/building-discipline.md) — The consistency principle applies directly: 10 minutes daily is the discipline floor. Everything above that is a bonus.
 
 ## Status
 - [x] Initial file written

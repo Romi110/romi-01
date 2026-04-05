@@ -169,7 +169,7 @@ You won't do this for every headline. But for claims that would change your beha
 
 ## Connections
 
-- [skills/mental-models.md](../skills/mental-models.md) — Survivorship bias, confirmation bias, and the map vs. territory model all apply directly to how scientific evidence gets distorted and misread.
+- [mind/mental-models.md](../mind/mental-models.md) — Survivorship bias, confirmation bias, and the map vs. territory model all apply directly to how scientific evidence gets distorted and misread.
 - [history/history-mental-models.md](../history/history-mental-models.md) — The history of scientific consensus being wrong (bloodletting, lobotomies) is worth knowing — but so is the history of minority scientific views being wrong despite feeling contrarian and correct.
 - [health/nutrition.md](../health/nutrition.md) — Nutritional epidemiology is the domain where these literacy skills most often matter in daily life.
 

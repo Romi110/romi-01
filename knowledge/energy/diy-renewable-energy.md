@@ -198,7 +198,7 @@ Roof-mounted solar array (4–12 kW), whole-home battery (10–30 kWh), hybrid i
 ## Connections
 
 - [self-sustainable-farming.md](../farming/self-sustainable-farming.md) — solar powers irrigation timers, grow lights, water pumps, electric fencing; the two systems compound
-- [hydroponics.md](../farming/hydroponics.md) — indoor hydro grow lights are a significant electrical load; solar makes the operating cost near-zero
+- [hydroponics.md](../farming/hydroponics/hydroponics.md) — indoor hydro grow lights are a significant electrical load; solar makes the operating cost near-zero
 - [stoicism.md](../philosophy/stoicism.md) — reducing dependency on systems outside your control; energy independence is practical Stoicism
 
 ---

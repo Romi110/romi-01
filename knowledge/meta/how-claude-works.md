@@ -154,7 +154,7 @@ RLHF is why Claude is more useful and safer than raw language model text. It's a
 
 - [meta/vscode-claude-workflow.md](vscode-claude-workflow.md) — The VS Code extension workflow that this system uses. Knowing how Claude works makes that workflow more effective.
 - [science/science-literacy.md](../science/science-literacy.md) — Evaluating Claude's outputs requires the same skills as evaluating any information source: what is the claim, how was it generated, what are the failure modes?
-- [skills/mental-models.md](../skills/mental-models.md) — The map vs. territory model applies directly: Claude's outputs are maps of knowledge, not the territory itself. They're useful approximations that can be wrong.
+- [mind/mental-models.md](../mind/mental-models.md) — The map vs. territory model applies directly: Claude's outputs are maps of knowledge, not the territory itself. They're useful approximations that can be wrong.
 
 ## Status
 - [x] Initial file written
