@@ -77,6 +77,7 @@
 - [ ] beekeeping-basics — Why bees matter, getting started, NJ regulations
 - [ ] small-animal-husbandry — Chickens, rabbits — what they give the system, what they cost
 - [ ] fermentation — Kombucha, kimchi, sourdough, lacto-fermentation
+- [ ] mushroom-growing — Indoor cultivation: oysters, shiitake, substrate prep, inoculation, fruiting conditions — fits small-space and vegetarian food systems
 - [ ] perennial-food-systems — Fruit trees, berry bushes, asparagus — long-term food infrastructure
 - [ ] water-bath-canning — Step-by-step canning, tested recipes, equipment guide
 
@@ -102,6 +103,8 @@
 - [x] decision-making — Second-order thinking, inversion, pre-mortem, reversibility
 - [x] mental-models — 20 essential models: first principles, survivorship bias, compounding, via negativa
 - [ ] learning-how-to-learn — Memory, spaced repetition, Feynman technique, retrieval practice
+- [ ] reading-deeply — Active reading, annotation, building understanding from books — not just exposure to them
+- [ ] journaling-practice — Writing as thinking tool: Stoic evening review, morning pages, prompts that produce insight not just logging
 - [ ] stress-management — Nervous system basics, what works, what's marketing
 - [ ] deep-work — Cal Newport's framework: structuring focused work sessions
 - [ ] writing-clearly — Clear prose as clear thinking: Orwell's rules, eliminating vagueness
@@ -120,6 +123,7 @@
 - [ ] vehicle-maintenance-basics — What you must know, what you can DIY, what to leave alone
   - [ ] oil-and-fluids — Oil changes, fluid checks, intervals
   - [ ] tires-and-brakes — Tire pressure, rotation, when brakes need replacing
+- [ ] woodworking-basics — Hand tools, joinery, finishing — a foundational making skill for home repair and self-reliance
 - [ ] first-aid-basics — Bleeding, burns, choking, CPR
 - [ ] emergency-preparedness — 72-hour kit, water storage, power outages, NJ scenarios
 
@@ -199,6 +203,7 @@
 - [ ] personal-finance-basics — Budgeting, net worth, the order of operations for money
 - [ ] emergency-fund — Sizing, where to keep it, when to use it
 - [ ] real-estate-basics — Renting vs buying math, mortgages, NJ market context
+- [ ] nj-homebuying-process — Step-by-step NJ purchase: pre-approval, offer, attorney review, inspection, closing costs, title insurance
 - [ ] early-retirement-math — Safe withdrawal rates, Roth ladders, healthcare, FI math
 - [ ] homeownership-costs — True cost: taxes, insurance, maintenance reserve, NJ property tax
 
@@ -270,6 +275,15 @@
 
 - [ ] communication-fundamentals — Gottman research, bids for connection, repair attempts, four horsemen
 - [ ] partnership-and-shared-goals — Aligning on finances, lifestyle, decisions with different wiring
+
+## Storytelling
+
+- [x] story-structure — Plot frameworks (3-act, Hero's Journey, Story Circle, Save the Cat), character arc, conflict, scene construction, POV, subtext
+- [x] fiction-story-building — Literary and commercial fiction: character-driven vs plot-driven, domestic vs epic, realism, unreliable narrators
+- [x] fantasy-story-building — Fantasy structure: worldbuilding integration, magic systems, chosen-one subversion, portal vs secondary world
+- [ ] sci-fi-story-building — Sci-fi conventions: the novum, extrapolation logic, hard vs soft sci-fi, sociological vs engineering story
+- [ ] dialogue-craft — Writing dialogue that works: subtext, rhythm, said vs attribution, how speech reveals character without explaining it
+- [ ] short-story-craft — The short story as its own form: unity of effect, compression, starting close to the moment, endings that resonate
 
 ## Religion
 
