@@ -23,6 +23,12 @@ Reusable prompt files for Claude. Reference with `@prompts/filename.md` in VS Co
 |--------|-------------|------|
 | **Fitness Plan** | Building or adjusting your workout routine | `fitness-plan.md` |
 
+## Planning
+
+| Prompt | When to Use | File |
+|--------|-------------|------|
+| **Expand Wiki** | Survey the wiki and propose new topics and subtopics worth adding | `expand-wiki.md` |
+
 ## System Maintenance
 
 | Prompt | When to Use | File |
@@ -43,6 +49,8 @@ Examples:
 - `@prompts/deep-dive.md hydroponics` (to expand a proposed sub-topic)
 - `@prompts/cross-pollinate.md stoicism.md and fitness-plan.md`
 - `@prompts/sacred-text-tenet.md tenet 3`
+- `@prompts/expand-wiki.md` (survey everything)
+- `@prompts/expand-wiki.md Mind` (focus on one category)
 - `@prompts/sync-docs.md`
 
 ---

@@ -39,6 +39,8 @@ All files in `knowledge/`, organized by category. Check here before starting a n
 | [fasting-and-eating-windows.md](health/fasting-and-eating-windows.md) | Time-restricted eating, circadian meal timing, digestion benefits, practical window setup | Reference |
 | [strength-training-fundamentals.md](health/strength-training-fundamentals.md) | Progressive overload, movement patterns, training types (strength, hypertrophy, HIIT), programming basics | Reference |
 | [programming-a-training-block.md](health/programming-a-training-block.md) | 8-week KB/mace block for body recomposition: sessions, progression rules, nutrition integration, tracking | Reference |
+| [fitness-x-nutrition.md](health/fitness-x-nutrition.md) | How training and eating interact: recovery timing, body recomposition mechanics, nutrient timing by training type | Reference |
+| [fat-loss-science.md](health/fat-loss-science.md) | Physiology of fat loss: NEAT, metabolic adaptation, set point theory, hormonal responses to deficit | Reference |
 
 ## Farming
 
@@ -101,12 +103,29 @@ All files in `knowledge/`, organized by category. Check here before starting a n
 | [history-mental-models.md](history/history-mental-models.md) | Recurring patterns: debt cycles, rise and fall, power concentration, collapse, innovation | Reference |
 | [economic-history.md](history/economic-history.md) | How economies developed: mercantilism, industrial revolution, Bretton Woods, petrodollar, financialization | Reference |
 
+## Cooking
+
+| File | Description | Status |
+|------|-------------|--------|
+| [vegetarian-cooking-fundamentals.md](cooking/vegetarian-cooking-fundamentals.md) | Knife skills, heat control, building flavor without meat, the five essential techniques | Reference |
+| [indian-cooking-basics.md](cooking/indian-cooking-basics.md) | Spice logic, tadka, curry base, dal, roti, rice — techniques behind the cuisine | Reference |
+| [cooking-from-scratch.md](cooking/cooking-from-scratch.md) | Stocks, sauces, doughs, ferments, condiments — foundational scratch skills | Reference |
+
+## Career
+
+| File | Description | Status |
+|------|-------------|--------|
+| [side-projects-to-income.md](career/side-projects-to-income.md) | Turning skills into revenue streams — income types, what works, starting path for a tech professional | Reference |
+
 ## Finance
 
 | File | Description | Status |
 |------|-------------|--------|
 | [index-fund-investing.md](finance/index-fund-investing.md) | How index funds work, why they beat most active funds, account types, how to start | Reference |
 | [tax-optimization.md](finance/tax-optimization.md) | 401k, Roth IRA, HSA, backdoor Roth, tax-loss harvesting, asset location, NJ specifics | Reference |
+| [insurance-basics.md](finance/insurance-basics.md) | Health, auto, home, umbrella, disability — what you need vs what's sold, NJ context | Reference |
+| [life-insurance.md](finance/life-insurance.md) | Term vs whole life, how much coverage, when you need it, why the industry sells you the wrong thing | Reference |
+| [investing-beyond-index-funds.md](finance/investing-beyond-index-funds.md) | I-bonds, REITs, farmland, alternative assets — when complexity is worth it | Reference |
 
 ## Meta
 

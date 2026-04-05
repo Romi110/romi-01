@@ -26,6 +26,8 @@
 - [ ] `philosophy/reading-tao-te-ching.md` — Key passages, themes, the Ursula Le Guin translation and why it matters
 - [ ] `philosophy/stoicism-x-discipline.md` — Stoicism as the philosophical backbone of building discipline
 - [ ] `philosophy/stoicism-x-farming.md` — Farming as Stoic practice: patience, working with nature, what's in your control
+- [ ] `philosophy/stoicism-x-finance.md` — Enough, temperance, indifferents — Stoic framework for money
+- [ ] `philosophy/reading-bhagavad-gita.md` — Dharma, karma yoga, detachment from outcomes — connects to Stoicism, feeds Roma
 
 ## Roma
 
@@ -48,14 +50,16 @@
 - [x] `health/strength-training-fundamentals.md` — Progressive overload, movement patterns, training types, programming
 - [x] `health/programming-a-training-block.md` — 8-week KB/mace block for body recomposition
 - [ ] `health/cold-and-heat-exposure.md` — Cold plunge, sauna — what the evidence actually says
-- [ ] `health/fitness-x-nutrition.md` — How training and eating interact: recovery, timing, body recomposition
-- [ ] `health/fat-loss-science.md` — Physiology of fat loss: NEAT, metabolic adaptation, set point theory, hormonal responses to deficit
+- [x] `health/fitness-x-nutrition.md` — How training and eating interact: recovery, timing, body recomposition
+- [x] `health/fat-loss-science.md` — Physiology of fat loss: NEAT, metabolic adaptation, set point theory, hormonal responses to deficit
 
 ## Cooking
 
-- [ ] `cooking/vegetarian-cooking-fundamentals.md` — Knife skills, heat control, building flavor without meat, essential techniques every cook needs
-- [ ] `cooking/indian-cooking-basics.md` — Spice logic, tadka, dal, roti, rice — the techniques behind the cuisine, not just recipes
-- [ ] `cooking/cooking-from-scratch.md` — Stocks, sauces, doughs, ferments — the base skills that make everything else easier
+- [x] `cooking/vegetarian-cooking-fundamentals.md` — Knife skills, heat control, building flavor without meat, essential techniques every cook needs
+- [x] `cooking/indian-cooking-basics.md` — Spice logic, tadka, dal, roti, rice — the techniques behind the cuisine, not just recipes
+- [x] `cooking/cooking-from-scratch.md` — Stocks, sauces, doughs, ferments — the base skills that make everything else easier
+- [ ] `cooking/weekly-cooking-system.md` — Applying batch cooking logic to scratch fundamentals: spice base in bulk, stock from scraps, yogurt weekly
+- [ ] `cooking/knife-sharpening.md` — Whetstones, honing, maintenance — keeping the most important tool sharp
 
 ## Farming
 
@@ -101,13 +105,29 @@
 - [ ] `energy/ev-and-solar.md` — EV as a mobile battery, V2H/V2G, charging with solar
 - [ ] `energy/grid-tie-solar-nj.md` — NJ-specific: permits, net metering, SREC, HOA rules, utility interconnection, incentives
 
+## Mind
+
+*Cognitive, behavioral, and inner-game topics. Split from Skills (2026-04-04).*
+
+- [x] `mind/building-discipline.md`
+- [x] `mind/habit-design.md`
+- [x] `mind/identity-and-behavior.md`
+- [x] `mind/decision-making.md` — Frameworks: second-order thinking, inversion, pre-mortem
+- [x] `mind/mental-models.md` — 20 essential mental models across four categories
+- [ ] `mind/learning-how-to-learn.md` — How memory works, spaced repetition, the Feynman technique, retrieval practice
+- [ ] `mind/stress-management.md` — Nervous system basics, what actually works, what's just marketing
+- [ ] `mind/deep-work.md` — Cal Newport's framework applied: how to structure focused work sessions
+- [ ] `mind/writing-clearly.md` — Clear prose as clear thinking: Orwell's rules, eliminating vagueness, writing that earns the reader's time
+- [ ] `mind/meditation-practice.md` — How to actually sit: breath, posture, wandering mind, what progress looks like — the practice beneath the philosophy
+- [ ] `mind/cognitive-biases.md` — The 15 biases that actually distort your decisions: anchoring, sunk cost, confirmation, status quo
+- [ ] `mind/emotional-regulation.md` — Anger, anxiety, frustration — what's happening neurologically and what Stoics got right
+- [ ] `mind/difficult-conversations.md` — How to disagree, give feedback, set boundaries without conflict escalating
+- [ ] `mind/negotiation-basics.md` — Salary, contracts, purchases — BATNA, anchoring, interests vs positions
+
 ## Skills
 
-- [x] `skills/building-discipline.md`
-- [x] `skills/habit-design.md`
-- [x] `skills/identity-and-behavior.md`
-- [x] `skills/decision-making.md` — Frameworks: second-order thinking, inversion, pre-mortem
-- [x] `skills/mental-models.md` — 20 essential mental models across four categories
+*Practical, applied, hands-on skills.*
+
 - [x] `skills/home-repair-basics.md` — The 20 things every homeowner should know
   - [ ] `skills/basic-electrical.md` — Circuits, breakers, outlets, safe DIY electrical work
   - [ ] `skills/basic-plumbing.md` — Shutoffs, fixing leaks, replacing fixtures, what to never DIY
@@ -117,11 +137,19 @@
   - [ ] `skills/tires-and-brakes.md` — Tire pressure, rotation, when brakes need replacing
 - [ ] `skills/first-aid-basics.md` — Bleeding, burns, choking, CPR — what you actually need to know
 - [ ] `skills/emergency-preparedness.md` — 72-hour kit, water storage, power outages, NJ-specific scenarios
-- [ ] `skills/learning-how-to-learn.md` — How memory works, spaced repetition, the Feynman technique, retrieval practice
-- [ ] `skills/stress-management.md` — Nervous system basics, what actually works, what's just marketing
-- [ ] `skills/deep-work.md` — Cal Newport's framework applied: how to structure focused work sessions
-- [ ] `skills/writing-clearly.md` — Clear prose as clear thinking: Orwell's rules, eliminating vagueness, writing that earns the reader's time
-- [ ] `skills/meditation-practice.md` — How to actually sit: breath, posture, wandering mind, what progress looks like — the practice beneath the philosophy
+
+## Relationships
+
+- [ ] `relationships/communication-fundamentals.md` — Gottman research, bids for connection, repair attempts, the four horsemen
+- [ ] `relationships/partnership-and-shared-goals.md` — Aligning on finances, lifestyle, decisions when two people have different wiring
+
+## Career
+
+- [ ] `career/career-strategy.md` — Leverage, optionality, when to specialize vs generalize, negotiating comp
+- [ ] `career/software-engineering-craft.md` — The non-coding skills: code review, technical communication, system design thinking
+- [x] `career/side-projects-to-income.md` — Turning knowledge/skills into revenue streams — strategic optionality, not hustle culture
+- [ ] `career/freelancing-basics.md` — Contracts, pricing, scope, client management — the operational side of independent work
+- [ ] `career/building-in-public.md` — Sharing work to build credibility and audience — how to do it without it becoming a performance
 
 ## Finance
 
@@ -131,6 +159,10 @@
 - [ ] `finance/emergency-fund.md` — Sizing, where to keep it, when to use it
 - [ ] `finance/real-estate-basics.md` — Renting vs buying math, how mortgages work, NJ market context
 - [ ] `finance/early-retirement-math.md` — Safe withdrawal rates, Roth ladders, healthcare before Medicare, financial independence math
+- [ ] `finance/homeownership-costs.md` — True cost model: taxes, insurance, maintenance reserve, NJ property tax reality
+- [x] `finance/insurance-basics.md` — Health, auto, home, umbrella, disability — what you need vs what's sold to you
+- [x] `finance/life-insurance.md` — Term vs whole life, how much, when you need it, the buy-term-and-invest-the-difference math
+- [x] `finance/investing-beyond-index-funds.md` — I-bonds, REITs, farmland, alternative assets — when you've maxed the basics
 
 ## Meta
 
@@ -150,6 +182,9 @@
 
 - [x] `science/science-literacy.md` — How to read a study, p-values, effect sizes, spotting bad science
 - [ ] `science/statistics-basics.md` — Distributions, standard deviation, confidence intervals, Bayesian reasoning
+- [ ] `science/basic-chemistry.md` — pH, reactions, solutions — the chemistry behind soil, nutrients, fermentation, cleaning
+- [ ] `science/ecology-basics.md` — Energy flow, nutrient cycles, succession — the science under your farming knowledge
+- [ ] `science/human-physiology.md` — Digestion, hormones, inflammation, immune response — foundation for all health files
 
 ## History
 
@@ -157,34 +192,11 @@
 - [x] `history/economic-history.md` — Mercantilism, industrial revolution, Bretton Woods, petrodollar, financialization
 - [ ] `history/roman-history.md` — Republic to Empire: institutional decay, elite overproduction, Marcus Aurelius under structural decline
 - [ ] `history/industrial-revolution-deep-dive.md` — Labor conditions, technological diffusion, why Britain, political response — template for AI-era disruption
+- [ ] `history/agrarian-history.md` — How farming shaped civilization, enclosure, the green revolution, industrial ag — context for self-reliance
 
 ---
 
 ## Maintenance
 
-- [ ] Rename `skills/` to `mind/` if the category grows into cognitive/behavioral territory (decide when it hits 8+ files)
-
----
-
-## Status Summary
-
-| Category | Existing | Planned |
-|----------|----------|---------|
-| Philosophy | 6 | 4 |
-| Roma | 3 | — |
-| Health | 12 | 3 |
-| Cooking | — | 3 |
-| Farming | 15 | 7 |
-| Nature | — | 2 |
-| Energy | 6 | 5 |
-| Skills | 6 | 13 |
-| Finance | 2 | 4 |
-| Meta | 3 | 3 |
-| Civics | 1 | 1 |
-| Science | 1 | 1 |
-| History | 2 | 2 |
-| **Total** | **57** | **48** |
-
----
-
-*Last updated: 2026-04-04 — added Cooking, Nature categories; added writing-clearly and meditation-practice to Skills*
+- [x] ~~Rename `skills/` to `mind/` if the category grows into cognitive/behavioral territory~~ — Done 2026-04-04. Split into `mind/` (cognitive/behavioral) and `skills/` (practical/applied)
+- [ ] Move existing `skills/*.md` files for discipline, habits, identity, decision-making, mental-models into `mind/` folder and update INDEX.md

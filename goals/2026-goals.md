@@ -33,7 +33,6 @@ Not a side project — a core goal.
 
 ### Consistent Reading
 - Read every day, even 10–15 minutes
-- Every finished book should produce at least one knowledge file entry or Roma connection
 
 ### Self-Reliance Skills
 - Deep-dive one practical skill per month
