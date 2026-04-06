@@ -130,6 +130,7 @@
 
 ## Mind
 
+- [x] daily-foundation — What to do each day across all domains, and realistic life goals by 35 — the full-person baseline
 - [x] building-discipline — Acting on intention regardless of motivation
 - [x] habit-design — Friction, cue-routine-reward, environment design
 - [x] identity-and-behavior — How self-concept drives action, deliberate identity shifts
@@ -246,7 +247,6 @@
 ## Science
 
 - [x] science-literacy — How to read a study, p-values, effect sizes, replication crisis
-- [x] math-overview — Major branches, how they connect, and what's useful for a non-mathematician: the map of the territory
 - [x] galaxies — Galaxy types, Milky Way, supermassive black holes, dark matter, cosmic web
 - [ ] statistics-basics — Distributions, standard deviation, confidence intervals, Bayesian reasoning
 - [ ] basic-chemistry — pH, reactions, solutions — behind soil, nutrients, fermentation
@@ -259,19 +259,23 @@
 - [ ] climate-science — Greenhouse effect, CO2 forcing, tipping points, NJ regional projections — the science behind farming planning, energy decisions, and geopolitical risk
 - [ ] microbiology-basics — Bacteria, viruses, fungi, the microbiome concept — foundation for fermentation, gut health, soil biology, and medicine
 - [ ] biochemistry-basics — Metabolism, ATP, proteins, enzymes, macronutrient pathways — makes nutrition and health files mechanistic rather than descriptive
-- [ ] calculus — Limits, derivatives, integrals, fundamental theorem — conceptual grounding with applications to optimization and rates of change
-- [ ] linear-algebra — Vectors, matrices, transformations, eigenvalues — the language of data, ML, and applied science
-- [ ] probability-theory — Sample spaces, Bayes' theorem, distributions, expected value — the formal math behind statistical reasoning
-- [ ] discrete-mathematics — Logic, sets, graph theory, combinatorics — the native language of computer science
-- [ ] number-theory — Primes, modular arithmetic, cryptographic foundations — pure math with a practical backbone
-- [ ] optimization — Calculus-based, linear programming, gradient descent — the math behind every decision problem
-- [ ] financial-mathematics — Compound interest, NPV/IRR, loan amortization, time value of money — math behind every finance decision
-- [ ] mathematical-thinking — Proof techniques, axiomatic reasoning, precision of language — the meta-skill that transfers everywhere
 - [ ] space-overview — Scale of the universe, major branches, how we know what we know
 - [ ] stars-and-stellar-evolution — Star life cycles, element forging, supernovae, neutron stars
 - [ ] the-solar-system — Planets, moons, asteroid belt, Oort cloud
 - [ ] cosmology-basics — Big Bang, CMB, dark energy, expanding universe
 - [ ] black-holes — Formation, types, event horizons, Hawking radiation, recent imaging
+
+## Mathematics
+
+- [x] math-overview — Major branches, how they connect, and what's useful for a non-mathematician: the map of the territory
+- [x] calculus — Limits, derivatives, integrals, fundamental theorem — conceptual grounding with applications to optimization and rates of change
+- [x] linear-algebra — Vectors, matrices, transformations, eigenvalues — the language of data, ML, and applied science
+- [x] probability-theory — Sample spaces, Bayes' theorem, distributions, expected value — the formal math behind statistical reasoning
+- [x] discrete-mathematics — Logic, sets, graph theory, combinatorics — the native language of computer science
+- [x] number-theory — Primes, modular arithmetic, cryptographic foundations — pure math with a practical backbone
+- [x] optimization — Calculus-based, linear programming, gradient descent — the math behind every decision problem
+- [x] financial-mathematics — Compound interest, NPV/IRR, loan amortization, time value of money — math behind every finance decision
+- [x] mathematical-thinking — Proof techniques, axiomatic reasoning, precision of language — the meta-skill that transfers everywhere
 
 ## Finance
 
@@ -369,14 +373,26 @@
 - [ ] hiring-first-employee-nj — I-9, E-Verify, NJ new hire reporting, onboarding, workers comp
 - [ ] running-for-local-office — Petitioning, fundraising, door-knocking, NJ ballot process
 - [ ] nj-landlord-tenant-law — Security deposit limits, just cause eviction, habitability standards, anti-lockout, notice requirements
-- [ ] nj-gun-laws — FID card, permit to purchase, carry permit (near-impossible), assault weapon restrictions, transport rules
+- [x] nj-gun-laws — FID card, permit to purchase, carry permit (near-impossible), assault weapon restrictions, transport rules
 - [ ] nj-inheritance-tax — One of 6 states with inheritance tax: Class A/C/D beneficiaries, rates, what's exempt, planning implications
 - [ ] nj-contractor-licensing — What requires a license in NJ: HIC registration, trades licensing, penalties for unlicensed work, how to verify
 - [ ] nj-right-to-farm — Right to Farm Act protections, SADC farmland preservation, agricultural exemptions, what it actually covers in practice
-- [ ] atlantic-county-guide — Galloway-specific: township services, tax assessor, municipal court, development landscape, Stockton proximity
-- [ ] nj-benefits-and-programs — Unemployment, TDI, FLI, SNAP, ANCHOR, senior/veteran property tax exemptions — the programs most NJ residents don't claim
+- [x] atlantic-county-guide — Galloway-specific: township services, tax assessor, municipal court, development landscape, Stockton proximity
+- [x] nj-benefits-and-programs — Unemployment, TDI, FLI, SNAP, ANCHOR, senior/veteran property tax exemptions — the programs most NJ residents don't claim
 - [ ] nj-driving-laws — No self-pump gas, hands-free enforcement, right-on-red restrictions, specific MVC quirks, points system
 - [ ] nj-nonprofit-formation — 501(c)(3) in NJ: state charitable registration, CHAR500, NJ-specific requirements on top of IRS process
+
+## Video / Content Creation
+
+- [x] vlogging-foundations — What vlogging actually is, gear to start, what makes footage watchable, building a consistent practice
+- [x] video-editing-basics — Timeline editing, cuts, pacing, color grading, audio mixing — the core skills in any NLE
+- [x] youtube-strategy — Channel setup, titles/thumbnails, algorithm mechanics, retention, monetization basics
+- [ ] storytelling-for-video — Structure, narrative arc, B-roll, how to make a vlog feel like a story not a recording
+- [ ] audio-for-video — Why audio matters more than video, mics, room treatment, editing audio in post
+- [ ] color-grading — LUTs, color wheels, skin tones, log footage, achieving a consistent look
+- [ ] short-form-video — Reels/Shorts/TikTok format differences, hook structure, repurposing long-form content
+- [ ] gear-progression — What to actually buy and when: cameras, lenses, mics, lighting — from phone to professional
+- [ ] channel-growth — SEO, community building, posting cadence, collaborations, analytics interpretation
 
 ## Meta
 
