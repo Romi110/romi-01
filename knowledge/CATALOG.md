@@ -152,13 +152,13 @@
 - [ ] stress-management — Nervous system basics, what works, what's marketing
 - [ ] deep-work — Cal Newport's framework: structuring focused work sessions
 - [ ] writing-clearly — Clear prose as clear thinking: Orwell's rules, eliminating vagueness
-- [ ] meditation-practice — How to sit: breath, posture, wandering mind, what progress looks like
-- [ ] cognitive-biases — 15 biases that distort decisions: anchoring, sunk cost, confirmation
-- [ ] emotional-regulation — Anger, anxiety, frustration — neurology and what Stoics got right
+- [x] meditation-practice — How to sit: breath, posture, wandering mind, what progress looks like
+- [x] cognitive-biases — 15 biases that distort decisions: anchoring, sunk cost, confirmation
+- [x] emotional-regulation — Anger, anxiety, frustration — neurology and what Stoics got right
 - [ ] difficult-conversations — Disagreeing, giving feedback, setting boundaries
-- [ ] negotiation-basics — BATNA, anchoring, interests vs positions
+- [x] negotiation-basics — BATNA, anchoring, interests vs positions
 - [ ] attention-management — Physiology of attention, why focus degrades, restoration vs distraction — the foundation deep-work builds on
-- [ ] emotional-intelligence — Reading emotions, self-regulation, empathy as skill
+- [x] emotional-intelligence — Reading emotions, self-regulation, empathy as skill
 - [ ] abnormal-psychology — Mental disorders: what they are, how they develop, everyday manifestation
 - [ ] developmental-psychology — Piaget, Erikson, lifespan development
 - [ ] communication-fundamentals — Gottman research, bids for connection, repair attempts, four horsemen
@@ -168,20 +168,20 @@
 ## Skills
 
 - [x] home-repair-basics — The 20 things every homeowner should know
-  - [ ] basic-electrical — Circuits, breakers, outlets, safe DIY electrical work
-  - [ ] basic-plumbing — Shutoffs, fixing leaks, replacing fixtures, what to never DIY
-  - [ ] drywall-and-patching — Patching holes, taping, mudding, painting
+  - [x] basic-electrical — Circuits, breakers, outlets, safe DIY electrical work
+  - [x] basic-plumbing — Shutoffs, fixing leaks, replacing fixtures, what to never DIY
+  - [x] drywall-and-patching — Patching holes, taping, mudding, painting
 - [x] story-structure — Plot frameworks (3-act, Hero's Journey, Story Circle, Save the Cat), character arc, conflict, scene construction, POV, subtext
 - [x] fiction-story-building — Literary and commercial fiction: character-driven vs plot-driven, domestic vs epic, realism, unreliable narrators
 - [x] fantasy-story-building — Fantasy structure: worldbuilding integration, magic systems, chosen-one subversion, portal vs secondary world
-- [ ] vehicle-maintenance-basics — What you must know, what you can DIY, what to leave alone
-  - [ ] oil-and-fluids — Oil changes, fluid checks, intervals
-  - [ ] tires-and-brakes — Tire pressure, rotation, when brakes need replacing
-- [ ] woodworking-basics — Hand tools, joinery, finishing — a foundational making skill for home repair and self-reliance
-- [ ] first-aid-basics — Bleeding, burns, choking, CPR
-- [ ] emergency-preparedness — 72-hour kit, water storage, power outages, NJ scenarios
-- [ ] land-navigation — Map and compass, triangulation, terrain reading, pace counting — offline self-reliance skill
-- [ ] sewing-basics — Hand stitching, seam repair, button reattachment, hemming — closes the loop on repair-over-replace
+- [x] vehicle-maintenance-basics — What you must know, what you can DIY, what to leave alone
+  - [x] oil-and-fluids — Oil changes, fluid checks, intervals
+  - [x] tires-and-brakes — Tire pressure, rotation, when brakes need replacing
+- [x] woodworking-basics — Hand tools, joinery, finishing — a foundational making skill for home repair and self-reliance
+- [x] first-aid-basics — Bleeding, burns, choking, CPR
+- [x] emergency-preparedness — 72-hour kit, water storage, power outages, NJ scenarios
+- [x] land-navigation — Map and compass, triangulation, terrain reading, pace counting — offline self-reliance skill
+- [x] sewing-basics — Hand stitching, seam repair, button reattachment, hemming — closes the loop on repair-over-replace
 - [ ] knot-tying — 12 essential knots: farming, camping, rigging, rescue applications
 - [ ] sci-fi-story-building — Sci-fi conventions: the novum, extrapolation logic, hard vs soft sci-fi, sociological vs engineering story
 - [ ] dialogue-craft — Writing dialogue that works: subtext, rhythm, said vs attribution, how speech reveals character without explaining it
