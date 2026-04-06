@@ -114,7 +114,9 @@
 - [x] decision-making — Second-order thinking, inversion, pre-mortem, reversibility
 - [x] mental-models — 20 essential models: first principles, survivorship bias, compounding, via negativa
 - [ ] learning-how-to-learn — Memory, spaced repetition, Feynman technique, retrieval practice
-- [ ] reading-deeply — Active reading, annotation, building understanding from books — not just exposure to them
+- [ ] annotation-and-note-systems — Zettelkasten vs simple files, building a usable knowledge system from book notes at scale
+- [ ] book-recommendations-by-domain — Living list of recommended books by domain (philosophy, history, science, fiction)
+- [x] reading-deeply — Active reading, annotation, book selection, accessories, retention — not just exposure to them
 - [ ] journaling-practice — Writing as thinking tool: Stoic evening review, morning pages, prompts that produce insight not just logging
 - [ ] stress-management — Nervous system basics, what works, what's marketing
 - [ ] deep-work — Cal Newport's framework: structuring focused work sessions
@@ -182,6 +184,20 @@
 - [ ] new-cold-war-blocs — How the world is splitting: US bloc vs China-Russia-Iran axis vs non-aligned Global South
 - [ ] southeast-asia-battleground — ASEAN hedging, South China Sea disputes, Vietnam's emergence, Philippines' return to US alliance
 
+## Economics
+
+- [x] economics-overview — Core frameworks: supply/demand, opportunity cost, market structures, GDP, inflation, monetary/fiscal policy, major schools
+- [ ] microeconomics — Game theory, price theory, producer/consumer surplus, externalities in depth
+- [ ] macroeconomics — Business cycles, monetary vs. fiscal policy, IS-LM, aggregate demand/supply
+- [ ] monetary-policy — How central banks work, QE mechanics, interest rate transmission, Fed history
+- [ ] inflation-and-deflation — Measurement, causes, historical episodes (Weimar, 1970s, 2021–23), deflationary traps
+- [ ] trade-and-globalization — Comparative advantage in practice, WTO, trade deficits, tariffs, reshoring economics
+- [ ] behavioral-economics — Where humans deviate from rational agent models, nudge theory, policy implications
+- [ ] labor-economics — Wages, productivity, automation, minimum wage debate, unions, gig economy
+- [ ] housing-economics — Supply constraints, zoning, rent vs. buy math, why cities are so expensive
+- [ ] austrian-school — Subjective value, business cycle theory, knowledge problem, Hayek vs. Keynes
+- [ ] inequality-and-wealth — Piketty's r > g, Gini, wealth concentration, intergenerational mobility
+
 ## History
 
 - [x] human-history-timeline — Full global timeline, every major civilization
@@ -218,9 +234,6 @@
 ## Civics
 
 - [x] how-government-works — Local to federal: who has power, how laws get made, how to engage
-- [x] local-politics-civic-involvement — Boards, meetings, appointments, running for office, Galloway/Atlantic County
-- [ ] nj-land-use — Zoning, Right to Farm Act, Highlands/Pinelands, net metering, variances
-- [ ] running-for-local-office — Petitioning, fundraising, door-knocking, NJ ballot process
 
 ## Finance
 
@@ -237,22 +250,16 @@
 - [ ] s-corp-election-strategy — When to elect S-corp, reasonable salary math, SE tax savings — highest-leverage tax move for profitable business owners
 - [ ] business-entity-selection — LLC vs S-corp vs C-corp: tax treatment, liability, when to switch — the decision that shapes everything downstream
 - [ ] emergency-fund — Sizing, where to keep it, when to use it
-- [ ] real-estate-basics — Renting vs buying math, mortgages, NJ market context
-- [ ] nj-homebuying-process — Step-by-step NJ purchase: pre-approval, offer, attorney review, inspection, closing costs, title insurance
+- [ ] real-estate-basics — Renting vs buying math, mortgages, market context
 - [ ] early-retirement-math — Safe withdrawal rates, Roth ladders, healthcare, FI math
-- [ ] homeownership-costs — True cost: taxes, insurance, maintenance reserve, NJ property tax
+- [ ] homeownership-costs — True cost: taxes, insurance, maintenance reserve
 
 ## Business
 
-- [x] nj-retail-overview — Starting a retail location in NJ: formation, licensing, lease, insurance, operations
-- [x] nj-business-taxes — Sales tax, CBT, BAIT, GIT, payroll, federal strategies, calendar
-- [ ] nj-retail-marketing — Local marketing: Google Business, local SEO, events, loyalty
+- [x] owner-compensation-strategy — Salary vs distributions, S-corp split, solo 401k, QBI deduction, NJ BAIT — how to pay yourself tax-efficiently
 - [ ] retail-buying-and-inventory — Wholesale sourcing, vendor terms, MOQ, open-to-buy, turnover
 - [ ] retail-financials — P&L structure, COGS, break-even, margin by category, cash flow
-- [ ] nj-commercial-leases — NNN breakdown, TI allowance, co-tenancy, personal guarantee
-- [ ] hiring-first-employee-nj — I-9, E-Verify, NJ new hire reporting, onboarding, workers comp
 - [ ] business-banking-and-credit — Business checking, credit cards, merchant accounts, line of credit
-- [x] owner-compensation-strategy — Salary vs distributions, S-corp split, solo 401k, QBI deduction, NJ BAIT — how to pay yourself tax-efficiently
 - [ ] cashflow-management — Working capital, float, receivables, payables, cash reserves, seasonal planning — operating side of a business
 - [ ] business-succession-planning — Buy-sell agreements, key man insurance, business valuation, who gets the business
 - [ ] financial-reporting-basics — Reading a P&L, balance sheet, and cash flow statement — understanding your own numbers
@@ -275,11 +282,17 @@
 - [x] tools-worth-owning — Hand/power/garden tools: quality thresholds, buy vs rent, Knipex/Wera/Estwing/Bahco
 - [x] kitchen-equipment-fundamentals — Knife, board, scale, heavy pan, dutch oven, mortar — the real short list
 - [ ] total-cost-of-ownership — Cost-per-use calculations, depreciation, repair vs replace math
-- [ ] home-office-setup — Monitor arms, standing desk, chair, keyboard, lighting — tech worker buying guide; ergonomics connects to posture file
+- [x] home-office-setup — Monitor selection, dual-monitor config, webcam, audio, wired networking, cable management — full tech worker buying guide
+- [x] everyday-essentials — High-frequency daily items worth upgrading: hydration, towels, vacuum, umbrella, cleaning, laundry, desk accessories
 - [ ] audio-equipment — Headphones (open vs closed, planar vs dynamic), DAC/amp basics, what the spend curve looks like
 - [ ] intentional-buying — Need vs want, delay tactics, one-in-one-out rule
 - [ ] product-care-and-maintenance — Cast iron, leather, boots, merino, carbon steel, waxed canvas care
 - [ ] buying-used-and-vintage — eBay, estate sales, Poshmark — finding BIFL-quality secondhand
+- [x] everyday-carry — Wallet, pen, knife, notebook, keychain, bag — highest usage-rate objects earn their quality
+- [x] home-gym-essentials — Complete home gym for kettlebell/mace practice: brands, weights, flooring, rings, conditioning — removing gym dependency
+- [x] outdoor-gear-bifl — Work boots, trail boots, rain layer, merino base, daypack, headlamp — NJ-specific with tick management
+- [x] sleep-environment — Mattress tiers, pillow types, blackout setup, temperature, white noise — highest-ROI home upgrade
+- [x] experiences-over-things — Why experiences outlast objects, what makes an experience compound, how to budget deliberately
 
 ## Fashion
 
@@ -312,6 +325,42 @@
 - [ ] ollama-automation-scripting — Building cron jobs, pipelines, and shell tools that call a local LLM via the Ollama API
 - [ ] terminal-and-shell-setup — zsh config, dotfiles, aliases, tmux, Neovim/VS Code — the daily dev environment missing from the wiki
 - [ ] privacy-and-opsec — Password management, 2FA, DNS-over-HTTPS, VPN use cases, realistic threat model for a private individual
+
+## New Jersey
+
+*NJ-specific files. Business/tax/finance NJ files live in those sections but are cross-referenced here.*
+
+- [x] nj-employment-law — Earned sick leave, NJLAD, ABC test, non-competes, WARN Act, FLA — the laws NJ employers get burned on
+- [x] nj-property-taxes — Highest in the US: assessment, appeals, ANCHOR rebate, exemptions, Atlantic County context
+- [x] nj-laws-you-should-know — Unique NJ laws every resident should know: gas, guns, inheritance tax, landlord-tenant, contractor licensing, Pinelands
+- [x] nj-retail-overview — Starting a retail location in NJ: formation, licensing, lease, insurance, operations
+- [x] nj-business-taxes — Sales tax, CBT, BAIT, GIT, payroll, federal strategies, calendar
+- [x] local-politics-civic-involvement — Boards, meetings, appointments, running for office, Galloway/Atlantic County
+- [ ] nj-homebuying-process — Step-by-step NJ purchase: pre-approval, offer, attorney review, inspection, closing costs, title insurance
+- [ ] nj-land-use — Zoning, Right to Farm Act, Highlands/Pinelands, net metering, variances
+- [ ] nj-retail-marketing — Local marketing: Google Business, local SEO, events, loyalty
+- [ ] nj-commercial-leases — NNN breakdown, TI allowance, co-tenancy, personal guarantee
+- [ ] hiring-first-employee-nj — I-9, E-Verify, NJ new hire reporting, onboarding, workers comp
+- [ ] running-for-local-office — Petitioning, fundraising, door-knocking, NJ ballot process
+- [ ] nj-landlord-tenant-law — Security deposit limits, just cause eviction, habitability standards, anti-lockout, notice requirements
+- [ ] nj-gun-laws — FID card, permit to purchase, carry permit (near-impossible), assault weapon restrictions, transport rules
+- [ ] nj-inheritance-tax — One of 6 states with inheritance tax: Class A/C/D beneficiaries, rates, what's exempt, planning implications
+- [ ] nj-contractor-licensing — What requires a license in NJ: HIC registration, trades licensing, penalties for unlicensed work, how to verify
+- [ ] nj-right-to-farm — Right to Farm Act protections, SADC farmland preservation, agricultural exemptions, what it actually covers in practice
+- [ ] atlantic-county-guide — Galloway-specific: township services, tax assessor, municipal court, development landscape, Stockton proximity
+- [ ] nj-benefits-and-programs — Unemployment, TDI, FLI, SNAP, ANCHOR, senior/veteran property tax exemptions — the programs most NJ residents don't claim
+- [ ] nj-driving-laws — No self-pump gas, hands-free enforcement, right-on-red restrictions, specific MVC quirks, points system
+- [ ] nj-nonprofit-formation — 501(c)(3) in NJ: state charitable registration, CHAR500, NJ-specific requirements on top of IRS process
+
+## Brewing
+
+- [x] homebrewing-beer — Fermentation science, all major styles (lager/ale/sour/Belgian/wheat), extract process, first batch guide
+- [ ] beer-water-chemistry — Mineral additions, alkalinity, hardness, building water profiles for specific styles
+- [ ] yeast-management — Starters, repitching, harvesting, how yeast selection shapes flavor
+- [ ] all-grain-brewing — Full mash process, sparging methods, efficiency, equipment
+- [ ] kegging-system — Draft beer at home: corny kegs, CO2, regulators, carbonation
+- [ ] sour-beer-production — Kettle souring, Lactobacillus, Brettanomyces, mixed fermentation
+- [ ] nj-craft-beer — NJ brewery scene, notable taprooms by region, NJ-grown hops and grain
 
 ## Nature
 
