@@ -268,7 +268,7 @@ Maintain a cash buffer of 2–3 months of fixed costs before opening. Model cash
 
 - [business/nj-business-taxes.md](nj-business-taxes.md) — Full tax treatment: sales tax, CBT, BAIT, payroll taxes, quarterly schedule
 - [finance/tax-optimization.md](../finance/tax-optimization.md) — Personal tax optimization around business income: S-Corp salary, QBI deduction, retirement accounts
-- [career/side-projects-to-income.md](../career/side-projects-to-income.md) — Business structures and income models at the pre-retail stage
+- [career/side-projects-to-income.md](../finance/side-projects-to-income.md) — Business structures and income models at the pre-retail stage
 - [finance/insurance-basics.md](../finance/insurance-basics.md) — Personal insurance context; commercial insurance is parallel but separate
 
 ---

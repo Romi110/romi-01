@@ -313,7 +313,7 @@ NJ notaries cannot perform real estate closings — that requires a licensed NJ 
 - [nj/nj-property-taxes.md](nj-property-taxes.md) — Property tax assessment, ANCHOR program, farmland assessment, and the Atlantic County specifics
 - [finance/estate-planning-basics.md](../finance/estate-planning-basics.md) — NJ inheritance tax planning, healthcare proxy, and what happens without a will
 - [finance/trusts.md](../finance/trusts.md) — Trusts as a tool to minimize NJ inheritance tax exposure
-- [civics/nj-land-use.md](../civics/nj-land-use.md) — Pinelands, Right to Farm Act, zoning variances — the land use side of NJ regulation
+- [civics/nj-land-use.md](nj-land-use.md) — Pinelands, Right to Farm Act, zoning variances — the land use side of NJ regulation
 - [farming/self-sustainable-farming.md](../farming/self-sustainable-farming.md) — Farmland assessment and Right to Farm Act directly connect to farming goals
 
 ## Status

@@ -180,7 +180,7 @@ For a sole owner: the trust holds your business interest. Your trust document na
 - [estate-planning-basics.md](estate-planning-basics.md) — trusts layer on top of the foundation covered there: will, beneficiary designations, POA, healthcare proxy
 - [life-insurance.md](life-insurance.md) — ILIT strategy for keeping death benefits out of the estate
 - [tax-optimization.md](tax-optimization.md) — irrevocable trusts as an estate tax reduction tool; GRAT strategy for business owners
-- [nj-business-taxes.md](../business/nj-business-taxes.md) — business entity structure intersects with trust ownership of business interests
+- [nj-business-taxes.md](../nj/nj-business-taxes.md) — business entity structure intersects with trust ownership of business interests
 
 ---
 

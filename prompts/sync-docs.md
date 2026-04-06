@@ -17,11 +17,9 @@ Work through each check in order. Report findings before making changes.
 
 ### 1. File Inventory
 List every file currently in the repo. Compare against:
-- The directory tree in `DESIGN.md`
 - The prompts table in `CLAUDE.md`
 - The prompts table in `prompts/README.md`
-- The knowledge file table in `DESIGN.md` and `CLAUDE.md`
-- The catalog in `knowledge/CATALOG.md`
+- The catalog in `knowledge/CATALOG.md` — this is the authoritative file registry; do not use `DESIGN.md` as a file list source
 
 Flag anything that exists in docs but not on disk, or on disk but not in docs.
 
@@ -39,7 +37,6 @@ For each prompt listed in `prompts/README.md`:
 For each file in `knowledge/`:
 - Is it listed in `knowledge/CATALOG.md` under the correct category?
 - Is its description accurate?
-- Does `DESIGN.md` list it?
 
 ---
 
@@ -56,11 +53,6 @@ For each topic marked `[x]` (done):
 Read `goals/2026-goals.md`. Flag any references to systems that no longer exist (e.g., daily logs, frontmatter fields, scripts).
 
 ---
-
-### 6. CLAUDE.md and DESIGN.md Cross-Check
-- Do both files agree on the repo's purpose?
-- Are the design principles consistent?
-- Are the AI agent instructions still accurate?
 
 ---
 

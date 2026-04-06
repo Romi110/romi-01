@@ -141,8 +141,8 @@ To understand this well — not just have opinions about it:
 
 - [us-empire-decline-preparation.md](us-empire-decline-preparation.md) — Institutional erosion is one of the decline indicators; that file covers practical preparation
 - [history-mental-models.md](../history/history-mental-models.md) — Elite overproduction, institutional decay, and political cycle patterns are all recurring historical patterns discussed there
-- [how-government-works.md](../civics/how-government-works.md) — Understanding which institutions are eroding requires knowing how they're supposed to work
-- [local-politics-civic-involvement.md](../civics/local-politics-civic-involvement.md) — As federal institutions become less functional, local engagement becomes more important
+- [how-government-works.md](how-government-works.md) — Understanding which institutions are eroding requires knowing how they're supposed to work
+- [local-politics-civic-involvement.md](../nj/local-politics-civic-involvement.md) — As federal institutions become less functional, local engagement becomes more important
 
 ## Status
 - [x] Initial file written

@@ -391,7 +391,7 @@ The software setup on either platform takes 2-3 hours. The value shows up in the
 
 - [homelab-overview.md](homelab-overview.md) — broader homelab context; this is one component of a personal infrastructure stack
 - [quality-life-upgrades.md](../consumerism/quality-life-upgrades.md) — digital infrastructure upgrades; a local AI workstation is the highest-leverage tool investment on that list
-- [networking-fundamentals.md](../networking/networking-fundamentals.md) — relevant if you want to access this machine remotely over your home network or expose the Ollama API to other devices
+- [networking-fundamentals.md](networking-fundamentals.md) — relevant if you want to access this machine remotely over your home network or expose the Ollama API to other devices
 
 ---
 

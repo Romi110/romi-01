@@ -207,8 +207,8 @@ This is enough to learn the basics (Linux, Docker, DNS, service management) and 
 
 ## Connections
 
-- [networking-fundamentals.md](../networking/networking-fundamentals.md) — The TCP/IP, subnets, DNS, and VLAN concepts that underlie all home lab networking
-- [home-network-design.md](../networking/home-network-design.md) — Designing the VLAN structure and firewall rules the home lab plugs into
+- [networking-fundamentals.md](networking-fundamentals.md) — The TCP/IP, subnets, DNS, and VLAN concepts that underlie all home lab networking
+- [home-network-design.md](home-network-design.md) — Designing the VLAN structure and firewall rules the home lab plugs into
 - [docker-and-containers.md](docker-and-containers.md) — How Docker and Compose work; the deployment model for most home lab services
 - [virtualization.md](virtualization.md) — Proxmox in depth: VM vs LXC, resource allocation, clustering, storage
 - [self-hosted-services.md](self-hosted-services.md) — The full service catalog with setup guidance for each

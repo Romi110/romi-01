@@ -45,7 +45,7 @@ Use when you want to synthesize an anchor topic with insights from multiple othe
 2. Identify the specific insights from each cross-topic that apply to the anchor topic's practical question
 3. Build a new knowledge file that answers the user's question using those synthesized insights — not a summary of source files, but a genuinely new document
 4. Place it in the most appropriate subfolder. Usually the anchor topic's domain unless the synthesis creates a new category.
-5. After writing, update INDEX.md and wiki-plan.md
+5. After writing, update `knowledge/CATALOG.md` — mark `[x]` if it was planned, or add a new entry if it wasn't.
 
 **Output format**: Standard knowledge file template (What Is It, Why It Matters, Core Concepts, Key Considerations, Getting Started, Common Mistakes, Resources, Connections, Status).
 
@@ -69,4 +69,4 @@ Ask the user: "Is this worth saving as a permanent file, or was it useful just t
 If saving: use the filename pattern `[topic-a]-x-[topic-b].md` in the appropriate subfolder.
 
 ## After Writing (Mode 2)
-Mark the new file in INDEX.md (add row to appropriate section). Mark it in wiki-plan.md with `[x]` if it was planned, or add it as a new entry. Propose any obvious follow-on sub-topics.
+Mark the new file in `knowledge/CATALOG.md` — `[x]` if planned, new entry if not. Propose any obvious follow-on sub-topics.

@@ -151,7 +151,7 @@ The Fed raised rates from near zero to 5.25-5.5% (2022–2024) in the fastest hi
 - [history/history-mental-models.md](history-mental-models.md) — The parent file: debt cycles, rise and fall, Kondratiev waves. This file is the specific events behind those patterns.
 - [finance/index-fund-investing.md](../finance/index-fund-investing.md) — The case for index investing (efficient market hypothesis, why active management fails) is grounded in post-1970s financial market development. The account types (401k, IRA) are products of specific tax legislation responses to economic conditions.
 - [finance/tax-optimization.md](../finance/tax-optimization.md) — Every tax-advantaged account is a product of specific legislation responding to economic history (ERISA 1974, HSA created 2003, Roth IRA 1997). Understanding why they exist informs how to use them.
-- [civics/how-government-works.md](../civics/how-government-works.md) — Economic policy is made through political processes — lobbying, regulatory agencies, executive orders. The petrodollar deal was diplomatic. Bretton Woods was negotiated under wartime pressure. Economic and political history are not separable.
+- [civics/how-government-works.md](../geopolitics/how-government-works.md) — Economic policy is made through political processes — lobbying, regulatory agencies, executive orders. The petrodollar deal was diplomatic. Bretton Woods was negotiated under wartime pressure. Economic and political history are not separable.
 
 ## Status
 - [x] Initial file written

@@ -138,7 +138,7 @@ Focus on: calories, water filtration, medical, energy, and communication. Skip: 
 
 **Corporate supply chains are already adapting.** Major manufacturers are moving from just-in-time to "just-in-case" — carrying more inventory, diversifying suppliers, nearshoring. This makes the system marginally more resilient at the cost of somewhat higher prices. This trend has legs.
 
-**The most resilient individuals are embedded in communities.** A neighborhood where people know each other, have different skills, and have informal mutual aid relationships is more resilient than any individual household stockpile. See [civics/local-politics-civic-involvement.md](../civics/local-politics-civic-involvement.md).
+**The most resilient individuals are embedded in communities.** A neighborhood where people know each other, have different skills, and have informal mutual aid relationships is more resilient than any individual household stockpile. See [civics/local-politics-civic-involvement.md](../nj/local-politics-civic-involvement.md).
 
 ## Getting Started
 

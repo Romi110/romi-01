@@ -183,8 +183,8 @@ If starting from nothing, in investment order by impact:
 - [consumerism/quality-life-upgrades.md](quality-life-upgrades.md) — Chair, standing desk, monitor arm, keyboard/mouse, and desk lighting are covered there. This file is the integration layer and fills in monitors, audio, webcam, networking.
 - [consumerism/considered-luxuries.md](considered-luxuries.md) — Audio equipment (headphones, speakers) sits at the intersection of home office and considered luxury.
 - [health/mobility-and-flexibility.md](../health/mobility-and-flexibility.md) — The ergonomics section connects directly to hip flexor, thoracic, and neck mobility work — the failure modes of sitting all day.
-- [homelab/homelab-overview.md](../homelab/homelab-overview.md) — Networking, NAS, and self-hosted services connect to the home office infrastructure layer.
-- [networking/networking-fundamentals.md](../networking/networking-fundamentals.md) — The background for understanding wired vs Wi-Fi, switch selection, and what a Cat6 run actually gives you.
+- [homelab/homelab-overview.md](../tech/homelab-overview.md) — Networking, NAS, and self-hosted services connect to the home office infrastructure layer.
+- [networking/networking-fundamentals.md](../tech/networking-fundamentals.md) — The background for understanding wired vs Wi-Fi, switch selection, and what a Cat6 run actually gives you.
 
 ## Status
 - [ ] Initial file written

@@ -80,7 +80,7 @@ A business generating $300k net income annually, valued at 3-5x earnings, repres
 
 **Business equity in the wealth stack:**
 - Reinvest profits selectively — not every dollar back into the business when accounts and real estate deserve funding first
-- Extract tax-efficiently via S-corp election and owner compensation strategy (see [owner-compensation-strategy](../business/owner-compensation-strategy.md))
+- Extract tax-efficiently via S-corp election and owner compensation strategy (see [owner-compensation-strategy](owner-compensation-strategy.md))
 - Build to a position where the business is sellable — documented systems, not owner-dependent — even if you don't plan to sell
 - Protect via LLC structure and liability insurance; hold business interest in your trust
 
@@ -206,7 +206,7 @@ This is not a prediction — it's an illustration of how the stack compounds if 
 - [life-insurance.md](life-insurance.md) — Term vs whole life; sizing coverage; how it fits in Layer 5
 - [investing-beyond-index-funds.md](investing-beyond-index-funds.md) — REITs, I-bonds, farmland; Layer 3 and 4 alternatives
 - [building-generational-wealth.md](building-generational-wealth.md) — What happens when this stack extends to the next generation
-- [owner-compensation-strategy.md](../business/owner-compensation-strategy.md) — How to extract money from a business tax-efficiently; the business layer executed
+- [owner-compensation-strategy.md](owner-compensation-strategy.md) — How to extract money from a business tax-efficiently; the business layer executed
 
 ---
 

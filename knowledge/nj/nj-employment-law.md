@@ -220,9 +220,9 @@ NJ requires all employers with employees to carry workers' compensation insuranc
 
 ## Connections
 
-- [business/nj-retail-overview.md](../business/nj-retail-overview.md) — Operational overview of running a retail business in NJ; employment is one section there
-- [business/nj-business-taxes.md](../business/nj-business-taxes.md) — Payroll tax obligations (UI, TDI, FLI) are also covered from the tax angle there
-- [business/owner-compensation-strategy.md](../business/owner-compensation-strategy.md) — How to pay yourself vs. employees: S-corp split, reasonable salary, solo 401k
+- [business/nj-retail-overview.md](nj-retail-overview.md) — Operational overview of running a retail business in NJ; employment is one section there
+- [business/nj-business-taxes.md](nj-business-taxes.md) — Payroll tax obligations (UI, TDI, FLI) are also covered from the tax angle there
+- [business/owner-compensation-strategy.md](../finance/owner-compensation-strategy.md) — How to pay yourself vs. employees: S-corp split, reasonable salary, solo 401k
 
 ## Status
 - [ ] Initial file written

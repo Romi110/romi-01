@@ -22,7 +22,7 @@ The user will name a topic. They may also say:
 
 **Cover the full width of the topic.** Go as deep as the topic is wide. A broad topic like "self-sustained farming" needs to cover all major areas at overview depth. A narrow topic like "hydroponics" goes deep on that one thing.
 
-**Minimize redundancy.** Before writing, check `knowledge/CATALOG.md` for existing files. If another file already covers a concept well, link to it instead of re-explaining. Reference existing knowledge — don't duplicate it.
+**Minimize redundancy.** Before writing, Grep `knowledge/CATALOG.md` for the topic name — do not read the full file. A `[x]` match means the file already exists — stop and tell the user. A `[ ]` match means it's planned — note it and proceed. No match — proceed. If another file already covers a concept well, link to it instead of re-explaining.
 
 **Tailor to Romi's context:**
 - Connect to self-reliance, Stoicism, practical skill, or long-term thinking where genuine connections exist

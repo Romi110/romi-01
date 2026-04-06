@@ -507,7 +507,7 @@ The trap to avoid: accumulating historical facts without understanding patterns.
 - [us-empire-decline-preparation.md](../geopolitics/us-empire-decline-preparation.md) — Where this timeline currently stands: the pattern of late-stage empire applied to the US
 - [china-rise.md](../geopolitics/china-rise.md) — The contemporary chapter of the China story that runs throughout this timeline
 - [stoicism.md](../philosophy/stoicism.md) — Stoicism emerged from the Greek Classical period; Marcus Aurelius is one of Rome's last great emperors
-- [christian-beliefs.md](../religion/christian-beliefs.md) — Christianity's historical emergence from the Jewish world under Roman occupation, charted in this timeline
+- [christian-beliefs.md](../philosophy/christian-beliefs.md) — Christianity's historical emergence from the Jewish world under Roman occupation, charted in this timeline
 
 ---
 

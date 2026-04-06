@@ -29,42 +29,13 @@
 romi-01/
 ├── DESIGN.md                  # THIS FILE — system architecture
 ├── README.md                  # Human-facing overview and quick start
-│
 ├── context/                   # User identity and learning preferences
-│   ├── about-me.md            # Who Romi is, values, constraints, how to teach him
-
-│
 ├── goals/                     # Goal tracking
-│   └── 2026-goals.md          # Annual goals and monthly skill focus
-│
 ├── knowledge/                 # Wiki-style knowledge base
-│   ├── CATALOG.md             # What exists + what's planned (single map file)
-│   ├── philosophy/            # Philosophical traditions and ideas
-│   │   ├── stoicism.md
-│   │   ├── zen-buddhism.md
-│   │   ├── philosophy-traditions-guide.md
-│   │   └── core_tenets_of_wisdom.md
-│   ├── roma/                  # Personal tenets and sacred text work
-│   │   ├── roma.md
-│   │   ├── sacred-text-plan.md
-│   │   └── roma-improvements.md
-│   ├── health/                # Fitness and nutrition
-│   │   ├── fitness-plan.md
-│   │   └── vegetarian-protein.md
-│   └── meta/                  # System documentation
-│       ├── using-this-system.md
-│       └── vscode-claude-workflow.md
-│
-├── prompts/                   # Reusable AI prompt files
-│   ├── README.md              # Prompt index and usage guide
-│   ├── deep-dive.md           # Learn any topic → wiki-style knowledge file
-│   ├── cross-pollinate.md     # Find connections between two knowledge files
-│   ├── sacred-text-tenet.md   # Write one tenet for roma.md
-│   ├── fitness-plan.md        # Build or adjust workout routine
-│   └── sync-docs.md           # Audit all docs and fix stale references
-│
-└── templates/
-    └── knowledge-topic.md     # New knowledge file starter
+│   ├── CATALOG.md             # Authoritative file registry — what exists and what's planned
+│   └── [domain folders]/      # See CATALOG.md for all files and categories
+├── prompts/                   # Reusable AI prompt files (see prompts/README.md)
+└── templates/                 # File starters
 ```
 
 ## Component Reference

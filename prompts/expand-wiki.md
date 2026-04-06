@@ -14,6 +14,8 @@ Read the current state of the wiki — what exists and what's planned — and pr
 Read this file before proposing anything:
 - `knowledge/CATALOG.md` — what exists (`[x]`) and what's already planned (`[ ]`). Don't re-propose existing entries.
 
+If a specific category is named, read only that section of CATALOG.md — from its `## [Category]` header to the next `##` header. Do not load the full file for single-category requests.
+
 Optionally, the user may specify a category to focus on (e.g., "expand the Mind section"). If no category is given, survey the entire wiki.
 
 ---

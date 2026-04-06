@@ -104,7 +104,7 @@ The financial moves that make sense given this picture — most of which are goo
 
 **Income diversification**
 - Multiple income streams are resilience. Side projects, skills that can be monetized, a partner who earns — all reduce dependency on any single employer or sector
-- See [career/side-projects-to-income.md](../career/side-projects-to-income.md)
+- See [career/side-projects-to-income.md](../finance/side-projects-to-income.md)
 
 ### Physical Self-Reliance Preparation
 
@@ -145,7 +145,7 @@ Practical community building:
 - Know your neighbors genuinely, not just by name
 - Participate in local institutions — civic organizations, local government, neighborhood networks
 - Develop relationships with people who have different complementary skills
-- The local politics and civic involvement file ([civics/local-politics-civic-involvement.md](../civics/local-politics-civic-involvement.md)) is relevant here — local government is where resilience is actually built
+- The local politics and civic involvement file ([civics/local-politics-civic-involvement.md](../nj/local-politics-civic-involvement.md)) is relevant here — local government is where resilience is actually built
 
 **Location considerations for New Jersey / Galloway area:**
 - NJ is high cost-of-living and property tax state — financial vulnerability if tax revenues decline
@@ -207,7 +207,7 @@ Practical community building:
 - [energy/diy-renewable-energy.md](../energy/diy-renewable-energy.md) — distributed energy generation is direct infrastructure independence
 - [finance/investing-beyond-index-funds.md](../finance/investing-beyond-index-funds.md) — I-bonds, real assets, and international diversification as inflation and currency hedges
 - [finance/tax-optimization.md](../finance/tax-optimization.md) — tax-advantaged accounts remain valuable even in inflationary environments; Roth accounts particularly useful if tax rates rise
-- [civics/local-politics-civic-involvement.md](../civics/local-politics-civic-involvement.md) — local government is where resilience infrastructure is actually built; community-level engagement is the most actionable preparation
+- [civics/local-politics-civic-involvement.md](../nj/local-politics-civic-involvement.md) — local government is where resilience infrastructure is actually built; community-level engagement is the most actionable preparation
 - [philosophy/stoicism.md](../philosophy/stoicism.md) — the dichotomy of control is the philosophical frame for this entire topic: respond to macro forces by controlling what's within your reach
 
 ## Status

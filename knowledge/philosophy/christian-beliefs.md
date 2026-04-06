@@ -163,7 +163,7 @@ If you want to engage with this seriously:
 
 - [philosophy/philosophy-traditions-guide.md](../philosophy/philosophy-traditions-guide.md) — how Christian ethics maps against Stoic, Buddhist, and other traditions — where they converge and where they diverge
 - [philosophy/core_tenets_of_wisdom.md](../philosophy/core_tenets_of_wisdom.md) — the 7 cross-tradition agreements; Christian ethics shares several (impermanence, compassion, virtue) but frames them differently
-- [psychology/motivation-and-drive.md](../psychology/motivation-and-drive.md) — terror management theory and psychological needs explain much of why religion persists regardless of evidence; relatedness, meaning, and community are SDT needs religion reliably addresses
+- [psychology/motivation-and-drive.md](../mind/motivation-and-drive.md) — terror management theory and psychological needs explain much of why religion persists regardless of evidence; relatedness, meaning, and community are SDT needs religion reliably addresses
 - [science/science-literacy.md](../science/science-literacy.md) — evaluating extraordinary claims, understanding the difference between absence of evidence and evidence of absence, how to assess sources and expert consensus
 
 ## Status

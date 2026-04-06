@@ -102,7 +102,7 @@ Hammers, made in Illinois since 1869. The 16-oz California framing hammer is the
 ## Footwear
 
 ### Red Wing Iron Ranger (USA)
-Full-grain chromexcel leather, Vibram or triple-stitch sole, Goodyear welt construction (resole-able). Made in Red Wing, Minnesota. The boots take 6 months to break in and then conform to your foot. Resoled at year 7–10, they're effectively permanent. See [fashion-brands.md](../fashion/fashion-brands.md) for more detail.
+Full-grain chromexcel leather, Vibram or triple-stitch sole, Goodyear welt construction (resole-able). Made in Red Wing, Minnesota. The boots take 6 months to break in and then conform to your foot. Resoled at year 7–10, they're effectively permanent. See [fashion-brands.md](fashion-brands.md) for more detail.
 
 ### Danner Mountain Light (USA)
 Made in Portland, Oregon since 1932. The Mountain Light is a Goodyear-welted hiking boot with full-grain leather and Vibram sole. Danner recrafts (replaces the sole assembly) for $100–$150. A pair bought at 28 could be worn at 70. The benchmark for serious outdoor footwear.
@@ -111,7 +111,7 @@ Made in Portland, Oregon since 1932. The Mountain Light is a Goodyear-welted hik
 Suede uppers, crepe natural rubber sole, Goodyear welted. Made in the same form since Nathan Clark designed it in 1949. The crepe sole wears but can be replaced; the suede is easily conditioned and brushed back. One of the most copied silhouettes in footwear because it works.
 
 ### Alden Shell Cordovan (USA)
-Shell cordovan leather from the Horween tannery in Chicago — the densest, most durable leather available. Burnishes rather than scratching; resists moisture; develops a deep patina over decades. See [fashion-brands.md](../fashion/fashion-brands.md) for more detail.
+Shell cordovan leather from the Horween tannery in Chicago — the densest, most durable leather available. Burnishes rather than scratching; resists moisture; develops a deep patina over decades. See [fashion-brands.md](fashion-brands.md) for more detail.
 
 ### Birkenstock (Germany)
 Cork and latex footbed that literally molds to the shape of your foot over 6 months of use. Resoleable. The Arizona and Boston models have been made the same way since the 1970s. At the end of a long day, nothing compares to a broken-in pair. Anti-fashion but BIFL.
@@ -137,13 +137,13 @@ Canvas packs made in Duluth, Minnesota since 1882. Originally built for canoe tr
 ## Outerwear and Clothing
 
 ### Barbour Bedale / Beaufort (UK)
-Waxed cotton outer shell, corduroy collar, tartan lining. Rewaxable with a $20 can of Barbour Thornproof Dressing — the same jacket can be used for 30+ years with annual maintenance. See [fashion-brands.md](../fashion/fashion-brands.md) for more detail.
+Waxed cotton outer shell, corduroy collar, tartan lining. Rewaxable with a $20 can of Barbour Thornproof Dressing — the same jacket can be used for 30+ years with annual maintenance. See [fashion-brands.md](fashion-brands.md) for more detail.
 
 ### Filson Tin Cloth (USA)
 Same brand as the bags — the Tin Cloth Chore Coat and Field Jacket are benchmark workwear. Oiled cotton canvas that's been tested in the Pacific Northwest rain. Rewaxable. Will outlast any Carhartt at twice the price, for a lifetime total cost that's lower.
 
 ### Patagonia (USA)
-The Ironclad Guarantee: Patagonia will repair, replace, or refund any product that fails — ever, for any reason. Their fleeces and down jackets have 20-year track records. The R2 fleece and Down Sweater are the two pieces worth owning. See [fashion-brands.md](../fashion/fashion-brands.md) for more detail.
+The Ironclad Guarantee: Patagonia will repair, replace, or refund any product that fails — ever, for any reason. Their fleeces and down jackets have 20-year track records. The R2 fleece and Down Sweater are the two pieces worth owning. See [fashion-brands.md](fashion-brands.md) for more detail.
 
 ### Carhartt Duck Canvas (USA)
 The original chore coat and double-knee duck pants have a track record going back to 1889. The canvas doesn't rot; the brass buttons don't corrode. Not pretty — functional. A Carhartt chore coat used for actual outdoor work will last 15+ years.
@@ -266,7 +266,7 @@ Priority order for BIFL investment, ranked by daily-use frequency and impact:
 
 ## Connections
 
-- [fashion/fashion-brands.md](../fashion/fashion-brands.md) — Red Wing, Barbour, Patagonia, Alden covered in more depth there; this file extends the logic to all product categories
+- [fashion/fashion-brands.md](fashion-brands.md) — Red Wing, Barbour, Patagonia, Alden covered in more depth there; this file extends the logic to all product categories
 - [finance/investing-beyond-index-funds.md](../finance/investing-beyond-index-funds.md) — BIFL is the same logic as long-term investing: pay more now, compound the savings over time
 - [mind/decision-making.md](../mind/decision-making.md) — Total cost of ownership math, second-order thinking, opportunity cost — the frameworks that make BIFL obvious
 - [skills/home-repair-basics.md](../skills/home-repair-basics.md) — BIFL tools (Knipex, Wera, Klein) are what make home repair practical; knowing how to use them compounds their value

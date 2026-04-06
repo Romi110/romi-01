@@ -217,7 +217,7 @@ A firewall controls what traffic is allowed to flow between networks based on ru
 
 - [home-network-design.md](home-network-design.md) — Applies subnets, VLANs, and routing to designing an actual home network
 - [network-security.md](network-security.md) — Firewall rules, VLAN isolation, and threat modeling for a home/lab environment
-- [homelab-overview.md](../homelab/homelab-overview.md) — Home labs require multiple subnets, routing between VMs, and DNS — all built on what's here
+- [homelab-overview.md](homelab-overview.md) — Home labs require multiple subnets, routing between VMs, and DNS — all built on what's here
 - [dns-and-pihole.md](dns-and-pihole.md) — Deep-dive on DNS in practice, local DNS resolution, and ad blocking
 
 ## Status
