@@ -4,10 +4,8 @@
 Audit the entire repo for drift. Check that documentation reflects the actual state of files, prompts, and knowledge. Fix what's stale. Flag what's missing.
 
 ## When to Use
-- After adding or removing files
-- After rewriting a prompt or knowledge file
-- When something feels out of date
-- Start of each month as a maintenance habit
+- After structural changes (adding/removing files, rewriting prompts)
+- Monthly maintenance
 
 ## What to Audit
 
@@ -51,8 +49,6 @@ For each topic marked `[x]` (done):
 
 ### 5. Goals Check
 Read `goals/2026-goals.md`. Flag any references to systems that no longer exist (e.g., daily logs, frontmatter fields, scripts).
-
----
 
 ---
 

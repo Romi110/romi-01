@@ -172,9 +172,6 @@
   - [x] basic-electrical
   - [x] basic-plumbing
   - [x] drywall-and-patching
-- [x] story-structure
-- [x] fiction-story-building
-- [x] fantasy-story-building
 - [x] vehicle-maintenance-basics
   - [x] oil-and-fluids
   - [x] tires-and-brakes
@@ -183,8 +180,14 @@
 - [x] emergency-preparedness
 - [x] land-navigation
 - [x] sewing-basics
-- [ ] writing-clearly — Clear prose as clear thinking: Orwell's rules, eliminating vagueness
 - [ ] knot-tying — 12 essential knots: farming, camping, rigging, rescue applications
+
+## Writing
+
+- [x] story-structure
+- [x] fiction-story-building
+- [x] fantasy-story-building
+- [ ] writing-clearly — Clear prose as clear thinking: Orwell's rules, eliminating vagueness
 - [ ] sci-fi-story-building — Sci-fi conventions: the novum, extrapolation logic, hard vs soft sci-fi, sociological vs engineering story
 - [ ] dialogue-craft — Writing dialogue that works: subtext, rhythm, said vs attribution, how speech reveals character without explaining it
 - [ ] short-story-craft — The short story as its own form: unity of effect, compression, starting close to the moment, endings that resonate
@@ -408,6 +411,21 @@
 - [ ] short-form-video — Reels/Shorts/TikTok format differences, hook structure, repurposing long-form content
 - [ ] gear-progression — What to actually buy and when: cameras, lenses, mics, lighting — from phone to professional
 - [ ] channel-growth — SEO, community building, posting cadence, collaborations, analytics interpretation
+
+## Art
+
+- [x] art/visual-art-fundamentals
+- [x] art/drawing-fundamentals
+- [x] art/color-theory
+
+## Sports
+
+- [x] sports/basketball
+- [x] sports/offensive-fundamentals
+- [x] sports/defensive-fundamentals
+- [x] sports/skill-development
+- [ ] sports/basketball-iq — Court vision, reading defenses, decision-making speed, and understanding the game at a higher level
+- [ ] sports/strength-and-conditioning — Sport-agnostic athletic development: explosiveness, lateral quickness, injury prevention
 
 ## Travel
 

@@ -4,10 +4,8 @@
 Read the current state of the wiki — what exists and what's planned — and propose new topics and subtopics worth adding. This is a planning prompt, not a writing prompt. Output is a list of proposals to review and accept, not files.
 
 ## When to Use
-- When the wiki feels thin in a category and you want to know what's missing
+- Wiki feels thin in a category, or a new domain just opened up
 - Periodic planning: "what should I learn next?"
-- After finishing a batch of files and looking for what to build next
-- When a new domain opens up and you want to map its full territory
 
 ## How to Run It
 
@@ -70,9 +68,8 @@ After the proposals:
 
 ## Tone and Constraints
 
-- No filler. Every proposal should earn its place.
 - Don't re-propose anything already in CATALOG.md (whether checked or unchecked).
-- Don't propose files just to fill a category — propose files that would be genuinely used.
+- Don't propose files just to fill a category — every proposal should earn its place.
 - Proposals for NJ-specific files (land use, ecology, energy regulations) should be flagged as high-value given Romi's location and goals.
 - If a category is already well-covered, say so instead of padding it with weak proposals.
 

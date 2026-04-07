@@ -102,10 +102,7 @@ After approval, in this order:
 - **One domain per session.** Stop after the target domain is done.
 - **Never delete files.** Flag ambiguous files for the user to decide.
 - **No renames during moves** unless the filename is wrong for the new location.
-- **Sub-folders at 4+ clustered files only.** Don't create a folder for 1–3 files.
-- **Sub-folders never nest.** `domain/subtopic/file.md` is the deepest valid path. No further nesting.
-- **Sub-folders never get catalog files.** Only domains get catalogs. Sub-folders are path organization only.
-- **Two-level catalog cap.** `CATALOG.md` → `knowledge/[domain]/CATALOG.md` is the maximum hierarchy. Hard limit.
+- Sub-folder and catalog hierarchy rules are defined in `CLAUDE.md` — follow them exactly, don't re-interpret.
 
 ---
 

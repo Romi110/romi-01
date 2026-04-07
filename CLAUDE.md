@@ -127,6 +127,8 @@ These rules keep the wiki usable as it grows. Follow them without being asked.
 
 **Redundancy:** Before writing any Core Concepts section, grep the 2–3 most related existing files for the concept names. If a concept is already well-explained elsewhere, write one sentence and link — never re-explain.
 
+**New domain folders must be broad:** Before creating a new folder under `knowledge/`, ask: is this a domain or a topic? A domain can hold 4+ unrelated files (e.g., `sports/`, `cooking/`, `art/`). A topic is a single file inside an existing domain. If you can't imagine 4 other files living next to it, it's a topic — not a folder. `basketball` is a topic inside `sports/`; `sourdough` is a topic inside `cooking/`.
+
 **Sub-folders within a domain (trigger at 4+ clustered files):**
 - When 4+ files in a domain share a clear sub-topic, group them into a sub-folder: `knowledge/[domain]/[subtopic]/`
 - The domain catalog lists them flat with the sub-folder path as a prefix (e.g., `- [x] hair/hair-growth`) — no nested catalog file
@@ -145,7 +147,6 @@ These rules keep the wiki usable as it grows. Follow them without being asked.
 Knowledge compounds through links. Whenever writing or discussing a topic:
 - Check `knowledge/CATALOG.md` for related files.
 - Name the connection explicitly — don't assume it's obvious.
-- If two topics are closely related, suggest running `cross-pollinate.md`.
 - When a knowledge file proposes sub-topics, those are the natural next steps.
 
 ### Tone

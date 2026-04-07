@@ -1,14 +1,7 @@
 # Prompt: Deep Dive
 
 ## Purpose
-Take a topic and produce a complete, wiki-style knowledge file. One prompt, one file — covers the full territory of the topic with enough depth to be a lasting reference, and proposes sub-topic files for future exploration.
-
-This replaces the old topic-map → teach-me → build-knowledge-file flow. One step instead of three.
-
-## When to Use
-- Learning something new — give a topic, get a complete reference file
-- Expanding the wiki — filling in a sub-topic proposed by an existing file
-- Any time you want to understand something well enough to explain it
+Take a topic and produce a complete, wiki-style knowledge file. One prompt, one file — covers the full territory with enough depth to be a lasting reference, and proposes sub-topic files for future exploration.
 
 ## Input
 The user will name a topic. They may also say:
@@ -94,14 +87,16 @@ Format: `[file-name.md](../category/file-name.md)` — [what the connection is]]
 
 ## Folder Placement
 
-Place the file in the appropriate subfolder under `knowledge/`:
+**Before placing the file**, run `ls knowledge/` and read the folder list. Pick the best existing folder. Only if nothing fits, apply the domain test: could 4+ unrelated files live in this new folder? If yes, create it. If no, it's a topic — find the closest existing folder and put it there.
+
 - `knowledge/philosophy/` — philosophical traditions, ideas, thinkers
 - `knowledge/health/` — fitness, nutrition, wellness
 - `knowledge/meta/` — system docs, workflow, tools
-- **New folders** — create as needed for new domains (e.g., `knowledge/farming/`, `knowledge/skills/`)
+- **New folders** — domain only. `sports/` yes. `basketball/` no — file inside `sports/`.
 
 ## After Writing
 
 1. Save to `knowledge/[category]/[topic-name].md`
 2. In `knowledge/CATALOG.md`: mark the entry `[x] topic-name` with no description (or add a new `[x] topic-name` line if it wasn't planned). Add any proposed sub-topics as `[ ] topic-name — short description` entries under the correct category. `[x]` entries never get descriptions — the file is the reference.
+3. **Domain coherence check** — scan the other files in the same folder. Do they all belong together? If any file in the folder feels like it belongs in a different domain, flag it: "Note: `[filename]` may fit better in `[other-domain]/`." Don't move it without asking — just name the mismatch.
 4. Ask: "Want to dive into any of the proposed sub-topics next?"
