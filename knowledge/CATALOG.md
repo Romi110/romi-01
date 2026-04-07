@@ -388,8 +388,8 @@
 - [x] nj-gun-laws
 - [x] atlantic-county-guide
 - [x] nj-benefits-and-programs
-- [ ] nj-homebuying-process — Step-by-step NJ purchase: pre-approval, offer, attorney review, inspection, closing costs, title insurance
-- [ ] nj-land-use — Zoning, Right to Farm Act, Highlands/Pinelands, net metering, variances
+- [x] nj-homebuying-process
+- [x] nj-land-use
 - [ ] nj-retail-marketing — Local marketing: Google Business, local SEO, events, loyalty
 - [ ] nj-commercial-leases — NNN breakdown, TI allowance, co-tenancy, personal guarantee
 - [ ] hiring-first-employee-nj — I-9, E-Verify, NJ new hire reporting, onboarding, workers comp
@@ -397,11 +397,11 @@
 - [ ] nj-landlord-tenant-law — Security deposit limits, just cause eviction, habitability standards, anti-lockout, notice requirements
 - [ ] nj-inheritance-tax — One of 6 states with inheritance tax: Class A/C/D beneficiaries, rates, what's exempt, planning implications
 - [ ] nj-contractor-licensing — What requires a license in NJ: HIC registration, trades licensing, penalties for unlicensed work, how to verify
-- [ ] nj-right-to-farm — Right to Farm Act protections, SADC farmland preservation, agricultural exemptions, what it actually covers in practice
+- [x] nj-right-to-farm
 - [ ] nj-driving-laws — No self-pump gas, hands-free enforcement, right-on-red restrictions, specific MVC quirks, points system
 - [ ] nj-nonprofit-formation — 501(c)(3) in NJ: state charitable registration, CHAR500, NJ-specific requirements on top of IRS process
-- [ ] nj-well-and-septic — private well inspection, septic system types, NJ DEP regs, perc testing, maintenance, failure signs, costs — critical for rural/semi-rural NJ property
-- [ ] nj-pinelands-regulations — Pinelands Commission rules, development restrictions, farming exemptions, buildable land in the Pinelands Management Area — Galloway-specific, shapes any future land decision
+- [x] nj-well-and-septic
+- [x] nj-pinelands-regulations
 
 ## Video / Content Creation
 
@@ -443,6 +443,11 @@
 
 - [x] trip-planning
 - [x] chicago
+
+## Manga
+
+- [x] manga/one-piece-arcs
+- [x] manga/one-piece-ending-theory
 
 ## Meta
 
