@@ -113,6 +113,7 @@
 - [ ] water-bath-canning — Step-by-step canning, tested recipes, equipment guide
 - [ ] foraging-nj — Edible wild plants and mushrooms in NJ: identification, seasons, safety
 - [ ] nj-ecology — Ecosystems, soil types, watersheds, native species — NJ-specific land context
+- [ ] nj-growing-guide — NJ frost dates, zone 7a/7b, Pinelands sandy/acidic soil, what grows well, Atlantic County specifics — the NJ lens missing from all general farming files
 
 ## Energy
 
@@ -181,6 +182,9 @@
 - [x] land-navigation
 - [x] sewing-basics
 - [ ] knot-tying — 12 essential knots: farming, camping, rigging, rescue applications
+- [ ] skills/appliance-repair — diagnosing and fixing washing machines, dryers, refrigerators, dishwashers — most frequent expensive home failures; avoids service calls on simple fixes
+- [ ] skills/concrete-and-masonry — mixing, pouring slabs, patching, mortaring brick and block — required for any serious property work, fencing, raised beds, hardscaping
+- [ ] skills/HVAC-basics — filter maintenance, diagnosing heating/AC failures, when to call vs fix, thermostat wiring, seasonal prep — high cost of neglect or unnecessary service calls
 
 ## Writing
 
@@ -396,6 +400,8 @@
 - [ ] nj-right-to-farm — Right to Farm Act protections, SADC farmland preservation, agricultural exemptions, what it actually covers in practice
 - [ ] nj-driving-laws — No self-pump gas, hands-free enforcement, right-on-red restrictions, specific MVC quirks, points system
 - [ ] nj-nonprofit-formation — 501(c)(3) in NJ: state charitable registration, CHAR500, NJ-specific requirements on top of IRS process
+- [ ] nj-well-and-septic — private well inspection, septic system types, NJ DEP regs, perc testing, maintenance, failure signs, costs — critical for rural/semi-rural NJ property
+- [ ] nj-pinelands-regulations — Pinelands Commission rules, development restrictions, farming exemptions, buildable land in the Pinelands Management Area — Galloway-specific, shapes any future land decision
 
 ## Video / Content Creation
 
@@ -414,6 +420,8 @@
 - [x] art/visual-art-fundamentals
 - [x] art/drawing-fundamentals
 - [x] art/color-theory
+- [ ] art/perspective-and-form — 1-point and 2-point perspective, basic 3D form, foreshortening — the spatial drawing foundation drawing-fundamentals sets up but doesn't complete
+- [ ] art/design-fundamentals — typography, layout, visual hierarchy, negative space — bridges fine art and practical communication design; useful for content creation
 
 ## Sports
 
@@ -423,6 +431,13 @@
 - [x] sports/skill-development
 - [ ] sports/basketball-iq — Court vision, reading defenses, decision-making speed, and understanding the game at a higher level
 - [ ] sports/strength-and-conditioning — Sport-agnostic athletic development: explosiveness, lateral quickness, injury prevention
+
+## Outdoors
+
+- [ ] outdoors/nj-trails-and-parks — Wharton State Forest, Batsto, Delaware Water Gap, Cape May — where to go, Pinelands-specific context, what to expect
+- [ ] outdoors/wilderness-camping — gear, site selection, Leave No Trace, fire starting, shelter, water treatment — practical field skills distinct from emergency-preparedness
+- [ ] outdoors/backcountry-navigation — map and compass without GPS, terrain reading, contour lines — deeper than land-navigation's overview; flat featureless Pinelands terrain is its own challenge
+- [ ] outdoors/nature-observation — weather reading, animal tracking, plant and tree ID, situational awareness in the field — connects to foraging, farming, and Pinelands ecology
 
 ## Travel
 

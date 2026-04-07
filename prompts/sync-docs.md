@@ -47,11 +47,6 @@ For each topic marked `[x]` (done):
 
 ---
 
-### 5. Goals Check
-Read `goals/2026-goals.md`. Flag any references to systems that no longer exist (e.g., daily logs, frontmatter fields, scripts).
-
----
-
 ## Output Format
 
 Report findings in this structure:

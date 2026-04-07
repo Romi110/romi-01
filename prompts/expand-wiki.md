@@ -29,10 +29,6 @@ Optionally, the user may specify a category to focus on (e.g., "expand the Mind 
 - Broad files that could be split or expanded (e.g., a file that covers 3 big ideas, each of which could be its own file)
 - Files in the Connections section that link to a file that doesn't exist yet
 
-**Cross-domain connections:**
-- Topics that would connect two existing categories (e.g., a Stoicism × farming file, or a sleep × training file)
-- Applied versions of theoretical files (e.g., a theory file with no corresponding practice file)
-
 **Romi's context — weight proposals toward:**
 - Self-reliance and practical skill
 - NJ-specific context (zoning, farming regs, net metering, local ecology)
