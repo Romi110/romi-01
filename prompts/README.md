@@ -61,8 +61,6 @@ Examples:
 
 1. **New topic** → `deep-dive.md` — get a complete wiki-style overview with proposed sub-topics
 2. **Go deeper** → `deep-dive.md` again — pick a proposed sub-topic and expand it
-3. **Find connections** → `cross-pollinate.md` — see how two files relate
-4. **When it belongs in Roma** → `sacred-text-tenet.md` — write the principle
 
 ---
 

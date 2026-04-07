@@ -172,9 +172,9 @@ Breaking genre contracts is a creative choice, not a freedom. Readers who picked
 ## Connections
 
 - [story-structure.md](story-structure.md) — The structural frameworks (three-act, Save the Cat, character arc) that underlie all fiction
-- [psychology-overview.md](../mind/psychology-overview.md) — Character motivation and psychology: understanding why people do what they do is the foundation of character-driven fiction
-- [attachment-theory.md](../mind/attachment-theory.md) — Most domestic fiction turns on attachment patterns: why characters pursue, avoid, or sabotage connection
-- [writing-clearly.md](../mind/writing-clearly.md) — Prose clarity: fiction lives or dies on sentence-level craft
+- [psychology-overview.md](../mind/psychology/psychology-overview.md) — Character motivation and psychology: understanding why people do what they do is the foundation of character-driven fiction
+- [attachment-theory.md](../mind/psychology/attachment-theory.md) — Most domestic fiction turns on attachment patterns: why characters pursue, avoid, or sabotage connection
+- [writing-clearly.md](writing-clearly.md) — Prose clarity: fiction lives or dies on sentence-level craft
 
 ---
 

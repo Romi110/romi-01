@@ -154,7 +154,7 @@ Self-awareness doesn't emerge automatically — it requires deliberate attention
 - [emotional-regulation.md](emotional-regulation.md) — the self-regulation component of EI in depth; neuroscience and Stoic framework
 - [negotiation-basics.md](negotiation-basics.md) — EI is the interpersonal infrastructure for effective negotiation; reading the other party and managing your own state
 - [cognitive-biases.md](cognitive-biases.md) — in-group bias and attribution errors are emotionally mediated — EI helps catch them
-- [attachment-theory.md](attachment-theory.md) — attachment patterns shape the emotional dynamics in relationships that EI operates within
+- [attachment-theory.md](psychology/attachment-theory.md) — attachment patterns shape the emotional dynamics in relationships that EI operates within
 - [meditation-practice.md](meditation-practice.md) — meditation builds the meta-awareness that underlies self-awareness, the foundation of EI
 
 ---

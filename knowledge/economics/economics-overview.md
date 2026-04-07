@@ -171,7 +171,7 @@ No school is entirely right. Each captures a real mechanism the others underweig
 
 - *The Worldly Philosophers* — Robert Heilbroner. History of economic thought from Smith to Keynes. The best starting point for understanding where these ideas came from.
 - *Basic Economics* — Thomas Sowell. Clear, non-mathematical micro and macro from a free-market perspective. Excellent on incentives and unintended consequences; read with awareness of his ideological priors.
-- *Thinking, Fast and Slow* — Kahneman. Not strictly economics, but behavioral economics is now central to the field. [mind/cognitive-psychology.md](../mind/cognitive-psychology.md) covers the related concepts.
+- *Thinking, Fast and Slow* — Kahneman. Not strictly economics, but behavioral economics is now central to the field. [mind/cognitive-psychology.md](../mind/psychology/cognitive-psychology.md) covers the related concepts.
 - *The General Theory* — Keynes. Dense. Read the preface and Chapter 24 first. Understand why it was written (Great Depression) before evaluating it.
 
 ---

@@ -13,8 +13,6 @@ deep-dive → cross-pollinate → (if earned) sacred-text-tenet
 
 1. **Learn a topic** — use `@prompts/deep-dive.md [topic]` to produce a complete wiki-style knowledge file. Covers the full territory, proposes sub-topic files for future exploration.
 2. **Go deeper** — use `@prompts/deep-dive.md` again on any proposed sub-topic to expand it into its own file.
-3. **Find connections** — use `@prompts/cross-pollinate.md` to find how two knowledge files relate. This is where knowledge compounds.
-4. **When a principle is worth keeping** — use `@prompts/sacred-text-tenet.md` to write it into `knowledge/roma/roma.md`.
 
 ## Knowledge Structure
 

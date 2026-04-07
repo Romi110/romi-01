@@ -138,25 +138,26 @@
 - [x] mental-models
 - [x] systems-thinking
 - [x] reading-deeply
-- [x] psychology-overview
-- [x] personality-psychology
-- [x] social-psychology
-- [x] behavioral-psychology
-- [x] cognitive-psychology
-- [x] attachment-theory
-- [x] motivation-and-drive
+- [x] psychology/psychology-overview
+- [x] psychology/personality-psychology
+- [x] psychology/social-psychology
+- [x] psychology/behavioral-psychology
+- [x] psychology/cognitive-psychology
+- [x] psychology/attachment-theory
+- [x] psychology/motivation-and-drive
 - [x] meditation-practice
 - [x] cognitive-biases
 - [x] emotional-regulation
 - [x] negotiation-basics
 - [x] emotional-intelligence
+- [x] critical-thinking
+- [ ] epistemology — How we know what we know: calibrated confidence, Bayesian updating, skepticism
+- [ ] rhetoric — Persuasion and argumentation: where logic meets language and audience
+- [ ] formal-logic — Propositional logic, truth tables, validity proofs: the structural foundation under informal reasoning
 - [ ] learning-how-to-learn — Memory, spaced repetition, Feynman technique, retrieval practice
-- [ ] annotation-and-note-systems — Zettelkasten vs simple files, building a usable knowledge system from book notes at scale
-- [ ] book-recommendations-by-domain — Living list of recommended books by domain (philosophy, history, science, fiction)
 - [ ] journaling-practice — Writing as thinking tool: Stoic evening review, morning pages, prompts that produce insight not just logging
 - [ ] stress-management — Nervous system basics, what works, what's marketing
 - [ ] deep-work — Cal Newport's framework: structuring focused work sessions
-- [ ] writing-clearly — Clear prose as clear thinking: Orwell's rules, eliminating vagueness
 - [ ] difficult-conversations — Disagreeing, giving feedback, setting boundaries
 - [ ] attention-management — Physiology of attention, why focus degrades, restoration vs distraction — the foundation deep-work builds on
 - [ ] abnormal-psychology — Mental disorders: what they are, how they develop, everyday manifestation
@@ -182,6 +183,7 @@
 - [x] emergency-preparedness
 - [x] land-navigation
 - [x] sewing-basics
+- [ ] writing-clearly — Clear prose as clear thinking: Orwell's rules, eliminating vagueness
 - [ ] knot-tying — 12 essential knots: farming, camping, rigging, rescue applications
 - [ ] sci-fi-story-building — Sci-fi conventions: the novum, extrapolation logic, hard vs soft sci-fi, sociological vs engineering story
 - [ ] dialogue-craft — Writing dialogue that works: subtext, rhythm, said vs attribution, how speech reveals character without explaining it
@@ -412,3 +414,5 @@
 - [x] using-this-system
 - [x] vscode-claude-workflow
 - [x] prompt-engineering
+- [ ] annotation-and-note-systems — Zettelkasten vs simple files, building a usable knowledge system from book notes at scale
+- [ ] book-recommendations-by-domain — Living list of recommended books by domain (philosophy, history, science, fiction)

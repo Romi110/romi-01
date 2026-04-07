@@ -104,8 +104,6 @@ New domains get new subfolders as needed. Use `@prompts/deep-dive.md` to generat
 When a user wants to learn something new:
 1. `deep-dive.md` — produces a complete wiki-style knowledge file covering the full territory, with proposed sub-topic files
 2. `deep-dive.md` again — on any proposed sub-topic to expand it
-3. `cross-pollinate.md` — find connections to existing knowledge
-4. `sacred-text-tenet.md` — if the topic produced a principle worth adding to Roma
 
 A learning session with no knowledge file produces nothing lasting.
 
@@ -116,7 +114,6 @@ A learning session with no knowledge file produces nothing lasting.
 - **Minimize redundancy** — check CATALOG.md before writing. Link to existing files instead of re-explaining concepts already covered elsewhere.
 - Place files in the appropriate subfolder. Create new subfolders for new domains.
 - After writing, mark the entry `[x] topic-name` (no description) in `knowledge/CATALOG.md`. Add new planned sub-topics as `[ ] topic-name — short description`.
-- Always ask: "Is there anything here that belongs in Roma?"
 
 ### Catalog and Scale Rules
 
@@ -142,10 +139,6 @@ These rules keep the wiki usable as it grows. Follow them without being asked.
 
 **Two-level catalog cap:**
 - The catalog hierarchy is exactly: `CATALOG.md` → `knowledge/[domain]/CATALOG.md`. Nothing deeper ever gets its own catalog file. This is a hard limit regardless of domain size.
-
-### Roma
-
-`knowledge/roma/roma.md` is a living document — the most important file in the repo. When any learning session, book, or reflection produces a principle worth keeping, surface it. Ask whether it belongs in Roma. Use `prompts/sacred-text-tenet.md` to write it properly.
 
 ### Connections
 

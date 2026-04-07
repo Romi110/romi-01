@@ -27,7 +27,6 @@ This repo is a learning and knowledge-building system. The purpose is:
 1. **Learn new topics** — go from zero to genuine understanding
 2. **Build knowledge files** — write what I've learned in a way I can return to
 3. **Practice what I learn** — knowledge only counts if it changes how I live or think
-4. **Build Roma** — a personal book of tenets drawn from everything I study
 
 This is not a daily log. It is not a habit tracker. It is a place to go deep.
 
