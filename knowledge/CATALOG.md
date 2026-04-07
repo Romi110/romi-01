@@ -409,6 +409,11 @@
 - [ ] gear-progression — What to actually buy and when: cameras, lenses, mics, lighting — from phone to professional
 - [ ] channel-growth — SEO, community building, posting cadence, collaborations, analytics interpretation
 
+## Travel
+
+- [x] trip-planning
+- [x] chicago
+
 ## Meta
 
 - [x] using-this-system
