@@ -115,8 +115,33 @@ A learning session with no knowledge file produces nothing lasting.
 - Write from your own knowledge — accurate, concrete, and complete. The user's job is to learn, not to write.
 - **Minimize redundancy** — check CATALOG.md before writing. Link to existing files instead of re-explaining concepts already covered elsewhere.
 - Place files in the appropriate subfolder. Create new subfolders for new domains.
-- After writing, mark the entry `[x]` in `knowledge/CATALOG.md`. Add new planned sub-topics there too.
+- After writing, mark the entry `[x] topic-name` (no description) in `knowledge/CATALOG.md`. Add new planned sub-topics as `[ ] topic-name — short description`.
 - Always ask: "Is there anything here that belongs in Roma?"
+
+### Catalog and Scale Rules
+
+These rules keep the wiki usable as it grows. Follow them without being asked.
+
+**CATALOG.md format:**
+- `[x]` entries: topic name only, no description. The file is the reference.
+- `[ ]` entries: topic name + one-line description. That's all — no more.
+
+**File size:** If a file needs more than ~8 sections or exceeds ~1500 words, it's trying to be two files. Split off a sub-topic, add it as `[ ]` in CATALOG.md, and keep the parent file focused.
+
+**Redundancy:** Before writing any Core Concepts section, grep the 2–3 most related existing files for the concept names. If a concept is already well-explained elsewhere, write one sentence and link — never re-explain.
+
+**Sub-folders within a domain (trigger at 4+ clustered files):**
+- When 4+ files in a domain share a clear sub-topic, group them into a sub-folder: `knowledge/[domain]/[subtopic]/`
+- The domain catalog lists them flat with the sub-folder path as a prefix (e.g., `- [x] hair/hair-growth`) — no nested catalog file
+- Sub-folders never nest. `health/hair/file.md` is valid. `health/hair/ayurveda/file.md` is not.
+
+**Domain sub-catalogs (trigger at 25+ written files):**
+- When any domain reaches 25+ written files, split it: create `knowledge/[domain]/CATALOG.md` and replace that domain's section in the main CATALOG.md with a single pointer line: `## Domain → see knowledge/[domain]/CATALOG.md (N written, N planned)`
+- When the main CATALOG.md exceeds 300 lines, the above split is mandatory before adding new entries to that domain.
+- A domain sub-catalog lists all entries flat, including sub-folder files by path prefix. It never points to further catalogs.
+
+**Two-level catalog cap:**
+- The catalog hierarchy is exactly: `CATALOG.md` → `knowledge/[domain]/CATALOG.md`. Nothing deeper ever gets its own catalog file. This is a hard limit regardless of domain size.
 
 ### Roma
 

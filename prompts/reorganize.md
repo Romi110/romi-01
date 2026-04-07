@@ -1,21 +1,31 @@
 # Prompt: Reorganize Wiki
 
 ## Purpose
-Audit the current folder structure and file placement across `knowledge/`, identify what belongs somewhere else, and execute a clean reorganization — moving files, updating CATALOG.md, and fixing any cross-file links.
+Reorganize one domain at a time — move misplaced files, create sub-catalogs when domains hit scale, and fix cross-links. Works from CATALOG.md and grep only; never reads full files to plan.
 
 ## When to Use
-- When a category has grown large enough to warrant subfolders
-- When files were placed in a folder that no longer fits as the wiki expanded
-- When a new category (e.g., `mind/`) has been planned but not yet populated
-- After a batch of new files reveals a structural pattern that wasn't visible before
+- A domain reaches 25+ written files (sub-catalog trigger)
+- Files were placed in a folder that no longer fits as the wiki expanded
+- A new domain has been created and files from other domains belong there
+
+## Scope Rule
+
+**One domain per session.** Name the domain upfront. Do not reorganize the whole wiki in one run — context accumulates fast and cross-link updates compound. If multiple domains need work, run this prompt separately for each.
 
 ---
 
-## Step 1 — Survey
+## Step 1 — Survey (CATALOG.md only)
 
-Before proposing anything, read and internalize:
-- `knowledge/CATALOG.md` — what exists and what's planned
-- The actual folder structure on disk (list files in each subfolder)
+Read `knowledge/CATALOG.md` once. Do not read individual knowledge files.
+
+Identify for the target domain:
+- How many `[x]` entries exist
+- Any entries that belong in a different domain section based on topic name alone
+- Whether the domain has hit 25+ written files (sub-catalog trigger)
+- Any planned `[ ]` entries that belong in a different domain
+- Any inbound files flagged by a prior session (user will name them upfront if so)
+
+If the user says "pick up [file] from [domain]" at the start, treat it as a confirmed inbound move — skip re-evaluating placement, go straight to grep for cross-links.
 
 Do not propose changes yet.
 
@@ -23,78 +33,86 @@ Do not propose changes yet.
 
 ## Step 2 — Identify What Should Move
 
-Look for these patterns:
+Still working from CATALOG.md only — no file reads.
 
-**Misplaced files:**
-Files whose content belongs in a different category than where they currently live. Check: does the file's topic align with the category it's in, or has the wiki's structure evolved away from it?
+**Misplaced entries (within-domain):** Does the topic name align with the domain it's listed under? If not, flag it as an inbound move candidate for the correct domain.
 
-**Category bloat:**
-Any folder with many files where a subset is clearly a distinct sub-domain. Example: `health/` with 15+ files could split off a `health/hair/` subfolder if 3+ hair files exist, or keep flat if the grouping doesn't add clarity.
+**Cross-domain misplacement:** Scan the other domain headers and entries already visible in CATALOG.md. If a topic in the target domain clearly fits another domain by name alone, flag it as a cross-domain suggestion — do not move it this session. The receiving domain handles it when that domain is the target.
 
-**Planned but unexecuted migrations:**
-Check `CATALOG.md` for any entries that belong in a different category section.
+**Sub-folder trigger (4+ clustered files):** Look for 4+ `[x]` entries in the target domain whose topic names share a clear sub-topic cluster. If no sub-folder exists yet, flag it as a grouping candidate — files move into `knowledge/[domain]/[subtopic]/`. The catalog lists them flat with the path prefix; no new catalog file is created. If a sub-folder already exists, confirm it stays flat — sub-folders never nest.
 
-**Cross-links that would break:**
-For every file proposed to move, identify which other files link to it. These links need updating after the move.
+**Sub-catalog trigger (25+ written files):** If the domain has 25+ `[x]` entries, create `knowledge/[domain]/CATALOG.md` and replace the domain section in the main CATALOG.md with a single pointer:
+```
+## Domain → see knowledge/[domain]/CATALOG.md (N written, N planned)
+```
+The domain catalog lists all entries flat, including any sub-folder files by path prefix. It never points to further catalogs.
+
+**Cross-links to update:** For each file that will change path, grep for the old filename across `knowledge/` — do not read files, use grep output only. Note which files contain references to the moving path.
 
 ---
 
 ## Step 3 — Propose Before Executing
 
-Output a reorganization plan in this format:
-
 ```
-## Reorganization Proposal
+## Reorganization Proposal — [Domain]
 
-### Moves
-- `skills/building-discipline.md` → `mind/building-discipline.md`
-  - Links to update: [list files that reference this path]
-- `skills/habit-design.md` → `mind/habit-design.md`
-  - Links to update: [...]
-- ...
+### Moves (this session)
+- `old/path/file.md` → `new/path/file.md`
+  - References found in: [grep results — file paths only]
 
-### New folders to create
-- `knowledge/mind/` — cognitive/behavioral files split from skills/
+### New sub-folders (file grouping only, no catalog)
+- `knowledge/[domain]/[subtopic]/` — triggered by N clustered files: [list files moving in]
 
-### Files that stay where they are
-- [category]: stays — [one-line reason]
-- ...
+### New sub-catalogs (domain-level only)
+- `knowledge/[domain]/CATALOG.md` — triggered by N written files
 
 ### CATALOG.md changes
-- Move [file] entry from [category] to [new category]
-- Add new [category] section header if needed
+- Move [entry] from [section] to [section]
+- Replace [domain] section with pointer line (if sub-catalog)
+
+### Cross-domain suggestions (not moved this session)
+- `[topic]` currently in [domain] — fits [other domain] better
+  - Handle by running: `@prompts/reorganize.md` on [other domain]
+  - That session will move it in as an inbound file; no prep needed here
+
+### Files staying put
+- [file] — stays, fits domain
 ```
 
-**Do not move any files until the user approves the proposal.**
-Ask: "Move all of these, skip any, or adjust before proceeding?"
+Do not move any files until approved.
+Ask: "Move all, skip any, or adjust before proceeding?"
 
 ---
 
 ## Step 4 — Execute
 
-After approval:
+After approval, in this order:
 
-1. **Move files** — rename/move each file to its new path
-2. **Update cross-links** — for each file that was moved, find every other knowledge file that links to it and update the path. Read each affected file before editing.
-3. **Update CATALOG.md** — move entries to the correct category sections; add new section headers as needed; remove empty sections
-5. **Verify** — list every file moved and confirm its new location
+1. **Move files on disk** — rename/move each file to its new path
+2. **Fix cross-links** — for each file flagged in Step 2, grep for the old path string, then edit only the specific lines that contain it. Do not read the full file unless the grep match is ambiguous.
+3. **Update CATALOG.md** — move entries to correct sections; add pointer line if creating a sub-catalog; remove empty sections
+4. **Verify** — list every file moved with old → new path
 
 ---
 
 ## Rules
 
-- **Propose before moving.** Moving files without approval risks breaking a structure the user has deliberately chosen.
-- **Never delete files.** Only move them. If something looks like it should be deleted, flag it for the user to decide.
-- **Update every cross-link.** A moved file with broken incoming links is worse than leaving it in place. Read every file that references a moved path and fix it.
-- **Keep categories flat unless there's a clear reason to nest.** A subfolder is only worth creating if it has 3+ files that form a distinct sub-domain. Don't create folders for 1–2 files.
-- **Don't rename files during a move** unless the filename is genuinely wrong for its new location.
-- **Check CATALOG.md first** — see which entries need to move between sections.
+- **Plan from CATALOG.md only.** If you can't determine placement from the topic name, the filename needs fixing — that's a separate task.
+- **Grep for links, don't read files.** Use grep to find references to moved paths. Edit only matching lines.
+- **One domain per session.** Stop after the target domain is done.
+- **Never delete files.** Flag ambiguous files for the user to decide.
+- **No renames during moves** unless the filename is wrong for the new location.
+- **Sub-folders at 4+ clustered files only.** Don't create a folder for 1–3 files.
+- **Sub-folders never nest.** `domain/subtopic/file.md` is the deepest valid path. No further nesting.
+- **Sub-folders never get catalog files.** Only domains get catalogs. Sub-folders are path organization only.
+- **Two-level catalog cap.** `CATALOG.md` → `knowledge/[domain]/CATALOG.md` is the maximum hierarchy. Hard limit.
 
 ---
 
 ## After Executing
 
-1. Run a final check: list all moved files with old and new paths
-2. Confirm CATALOG.md is consistent with the new structure
-3. Note any files flagged for the user to decide on (potential deletes, ambiguous placements)
-4. Ask: "Want to run `@prompts/sync-docs.md` to catch anything missed?"
+1. List all moved files: old path → new path
+2. Confirm CATALOG.md reflects the new structure
+3. Flag anything left for user decision
+4. If sub-catalog was created, confirm the pointer line is in place
+5. Ask: "Run `@prompts/sync-docs.md` to catch anything missed?"

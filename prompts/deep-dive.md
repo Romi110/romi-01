@@ -22,7 +22,13 @@ The user will name a topic. They may also say:
 
 **Cover the full width of the topic.** Go as deep as the topic is wide. A broad topic like "self-sustained farming" needs to cover all major areas at overview depth. A narrow topic like "hydroponics" goes deep on that one thing.
 
-**Minimize redundancy.** Before writing, Grep `knowledge/CATALOG.md` for the topic name — do not read the full file. A `[x]` match means the file already exists — stop and tell the user. A `[ ]` match means it's planned — note it and proceed. No match — proceed. If another file already covers a concept well, link to it instead of re-explaining.
+**Keep files bounded.** If the topic needs more than ~8 sections or ~1500 words to cover properly, it's trying to be two files. Stop — write the parent file at overview depth, split off the overflowing area as a proposed sub-topic `[ ]` in CATALOG.md, and note it at the end. Depth lives in sub-topic files, not in one growing file.
+
+**Minimize redundancy.** Before writing, Grep `knowledge/CATALOG.md` for the topic name — do not read the full file. A `[x]` match means the file already exists — stop and tell the user. A `[ ]` match means it's planned — note it and proceed. No match — proceed.
+
+Before writing the Core Concepts section, grep the 2–3 most related existing files for key concept names. If a concept is already well-explained in another file, write one sentence and link — do not re-explain it. The wiki compounds through links, not copies.
+
+Note: `[x]` entries in CATALOG.md have no description — the file itself is the reference. `[ ]` entries have descriptions because no file exists yet.
 
 **Tailor to Romi's context:**
 - Connect to self-reliance, Stoicism, practical skill, or long-term thinking where genuine connections exist
@@ -97,5 +103,5 @@ Place the file in the appropriate subfolder under `knowledge/`:
 ## After Writing
 
 1. Save to `knowledge/[category]/[topic-name].md`
-2. In `knowledge/CATALOG.md`: mark the entry `[x]` (or add a new `[x]` line if it wasn't planned). Add any proposed sub-topics as `[ ]` entries under the correct category.
+2. In `knowledge/CATALOG.md`: mark the entry `[x] topic-name` with no description (or add a new `[x] topic-name` line if it wasn't planned). Add any proposed sub-topics as `[ ] topic-name — short description` entries under the correct category. `[x]` entries never get descriptions — the file is the reference.
 4. Ask: "Want to dive into any of the proposed sub-topics next?"

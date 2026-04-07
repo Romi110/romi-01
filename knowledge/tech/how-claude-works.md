@@ -147,12 +147,12 @@ RLHF is why Claude is more useful and safer than raw language model text. It's a
 
 - *Attention Is All You Need* — Vaswani et al. (2017). The original transformer paper. Dense, but reading the abstract and conclusion gives you the actual technical foundation. Available free on arxiv.
 - Anthropic's model card and system prompt documentation — describes the RLHF and Constitutional AI training approach. More accessible than the technical papers.
-- [meta/prompt-engineering.md](prompt-engineering.md) — How to write effective prompts: structure, context, constraints, iteration. The practical skills built on this understanding.
-- [meta/claude-code-workflow.md](claude-code-workflow.md) — Using Claude Code specifically as a development tool.
+- [prompt-engineering.md](../meta/prompt-engineering.md) — How to write effective prompts: structure, context, constraints, iteration. The practical skills built on this understanding.
+- [claude-code-workflow.md](./claude-code-workflow.md) — Using Claude Code specifically as a development tool.
 
 ## Connections
 
-- [meta/vscode-claude-workflow.md](vscode-claude-workflow.md) — The VS Code extension workflow that this system uses. Knowing how Claude works makes that workflow more effective.
+- [vscode-claude-workflow.md](../meta/vscode-claude-workflow.md) — The VS Code extension workflow that this system uses. Knowing how Claude works makes that workflow more effective.
 - [science/science-literacy.md](../science/science-literacy.md) — Evaluating Claude's outputs requires the same skills as evaluating any information source: what is the claim, how was it generated, what are the failure modes?
 - [mind/mental-models.md](../mind/mental-models.md) — The map vs. territory model applies directly: Claude's outputs are maps of knowledge, not the territory itself. They're useful approximations that can be wrong.
 

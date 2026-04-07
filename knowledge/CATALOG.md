@@ -7,13 +7,13 @@
 
 ## Philosophy
 
-- [x] stoicism — Core ideas, practices, key figures
-- [x] zen-buddhism — Core ideas, practices, key figures
-- [x] philosophy-traditions-guide — How 10+ traditions map to the 7 core tenets
-- [x] core_tenets_of_wisdom — The 7 ideas every major philosophy agrees on
-- [x] stoic-daily-practice — Morning review, evening reflection, negative visualization, memento mori
-- [x] decision-making — Stoic framework: dichotomy of control, virtue test, premeditatio malorum, amor fati
-- [x] christian-beliefs — Historical Jesus, non-Christian sources, resurrection evidence, honest assessment
+- [x] stoicism
+- [x] zen-buddhism
+- [x] philosophy-traditions-guide
+- [x] core_tenets_of_wisdom
+- [x] stoic-daily-practice
+- [x] decision-making
+- [x] christian-beliefs
 - [ ] reading-meditations — Marcus Aurelius: key passages, themes, how to use it as a daily text
 - [ ] reading-tao-te-ching — Key passages, themes, the Ursula Le Guin translation
 - [ ] stoicism-x-discipline — Stoicism as the philosophical backbone of building discipline
@@ -26,29 +26,29 @@
 
 ## Roma
 
-- [x] roma *(active)* — Personal tenets drawn from study and life
-- [x] sacred-text-plan — Study plan for sacred texts feeding into Roma
-- [x] roma-improvements — Improvement outline and status tracker
+- [x] roma *(active)*
+- [x] sacred-text-plan
+- [x] roma-improvements
 
 ## Health
 
-- [x] fitness-plan — Training philosophy, kettlebell, mace, movement
-- [x] mobility-and-flexibility — Active ROM, four priority joints, daily 10-min practice
-- [x] nutrition — Macros, protein sources (veg + non-veg), micronutrient gaps
-- [x] meal-prep — Weekly prep system, grocery list, batch cooking, fridge storage
-- [x] freezer-meal-prep — Souper cube system, 2-4 week buffer, freeze-ready recipes
-- [x] holistic-health-practices — Ayurveda, TCM, breathwork, rhythm
-- [x] ayurveda-basics — Doshas, dinacharya, agni, seasonal eating, abhyanga
-- [x] sleep-science — Sleep architecture, circadian alignment, disruptions, fixes
-- [x] breathwork — Box breathing, physiological sigh, Wim Hof, pranayama
-- [x] fasting-and-eating-windows — TRE, circadian meal timing, practical window setup
-- [x] strength-training-fundamentals — Progressive overload, movement patterns, programming
-- [x] programming-a-training-block — 8-week KB/mace block for body recomposition
-- [x] fitness-x-nutrition — Recovery timing, body recomposition mechanics, nutrient timing
-- [x] fat-loss-science — NEAT, metabolic adaptation, set point theory, hormonal responses
-- [x] hair/hair-growth — Growth cycle, nutrition, hormonal factors, scalp massage
-- [x] hair/scalp-care — Microbiome, sebum balance, washing frequency, topical ingredients
-- [x] hair/ayurveda-hair — Shiro abhyanga, bhringraj, amla, neem
+- [x] fitness-plan
+- [x] mobility-and-flexibility
+- [x] nutrition
+- [x] meal-prep
+- [x] freezer-meal-prep
+- [x] holistic-health-practices
+- [x] ayurveda-basics
+- [x] sleep-science
+- [x] breathwork
+- [x] fasting-and-eating-windows
+- [x] strength-training-fundamentals
+- [x] programming-a-training-block
+- [x] fitness-x-nutrition
+- [x] fat-loss-science
+- [x] hair/hair-growth
+- [x] hair/scalp-care
+- [x] hair/ayurveda-hair
 - [ ] cold-and-heat-exposure — Cold plunge, sauna — what the evidence actually says
 - [ ] posture-and-ergonomics — Forward head posture, anterior pelvic tilt, desk work damage, corrective protocols, workstation setup
 - [ ] gut-health — Microbiome basics, fiber types, fermented foods, gut-brain axis — vegetarian diet implications, Ayurveda agni connection
@@ -57,15 +57,15 @@
 
 ## Cooking
 
-- [x] vegetarian-cooking-fundamentals — Knife skills, heat control, building flavor without meat
-- [x] indian-cooking-basics — Spice logic, tadka, dal, roti, rice — techniques behind the cuisine
-- [x] cooking-from-scratch — Stocks, sauces, doughs, ferments — foundational scratch skills
-- [x] flavor-theory — Salt, acid, fat, heat (Nosrat framework); umami, bitterness, balance, seasoning at every stage — the single highest-leverage cooking skill
-- [x] food-science — Maillard reaction, caramelization, emulsification, protein denaturation, starch gelatinization — why technique works, not just what to do
-- [x] legume-mastery — Varieties, soaking, sprouting, cooking methods, flavor builds, anti-nutrients — the protein backbone of a vegetarian diet
-- [x] egg-cookery — Scrambled, poached, soft-boiled, custard, emulsion — eggs as a technique subject, not just an ingredient
-- [x] world-vegetarian-cuisines — Mediterranean, Middle Eastern, Japanese shojin ryori, Ethiopian injera — expanding the repertoire beyond the Indian base
-- [x] homebrewing-beer — Fermentation science, all major styles (lager/ale/sour/Belgian/wheat), extract process, first batch guide
+- [x] vegetarian-cooking-fundamentals
+- [x] indian-cooking-basics
+- [x] cooking-from-scratch
+- [x] flavor-theory
+- [x] food-science
+- [x] legume-mastery
+- [x] egg-cookery
+- [x] world-vegetarian-cuisines
+- [x] homebrewing-beer
 - [ ] weekly-cooking-system — Batch cooking logic: spice base in bulk, stock from scraps, yogurt weekly
 - [ ] knife-sharpening — Whetstones, honing, maintenance
 - [ ] pressure-cooking — Instant Pot / stovetop: dal in 15 min, legumes without soaking, stock — practical time compression for vegetarian cooking
@@ -86,25 +86,25 @@
 
 ## Farming
 
-- [x] self-sustainable-farming — Growing food at scale, systems, soil, self-reliance
-- [x] soil-building — Soil ecosystem, amendments, year-over-year improvement
-- [x] crop-planning — Succession planting, variety selection, frost dates, storage
-- [x] composting — Closed-loop systems, farm cycle integration
-- [x] season-extension — Cold frames, row covers, hoop houses
-- [x] starting-from-scratch — First-timer's path: planning to first harvest
-- [x] raised-bed-gardening — Design, materials, soil mix, drip irrigation
-- [x] food-preservation — Canning, fermentation, dehydrating, root cellaring
-- [x] water-management — Drip irrigation, mulching, rainwater harvesting
-- [x] pest-management — Ecosystem balance, beneficial insects, NJ pests, intervention ladder
-- [x] seed-saving — OP/heirloom selection, wet/dry processing, storage, local adaptation
-- [x] hydroponics/hydroponics — Overview, system types, pH/EC, getting started
-  - [x] hydroponics/hydroponics-systems — 6 system types: Kratky, DWC, NFT, ebb & flow, drip, aeroponics
-  - [x] hydroponics/hydroponics-nutrients — Nutrient solutions, pH/EC management, deficiency diagnosis
-  - [x] hydroponics/hydroponics-lighting — LED grow lights, PPFD, DLI, photoperiod, hanging height
-- [ ] permaculture-basics — Designing with nature: zones, guilds, perennial systems
-- [ ] companion-planting — Three Sisters, beneficial pairings, pest-confusing crops, allelopathy
+- [x] self-sustainable-farming
+- [x] soil-building
+- [x] crop-planning
+- [x] composting
+- [x] season-extension
+- [x] starting-from-scratch
+- [x] raised-bed-gardening
+- [x] food-preservation
+- [x] water-management
+- [x] pest-management
+- [x] seed-saving
+- [x] hydroponics/hydroponics
+  - [x] hydroponics/hydroponics-systems
+  - [x] hydroponics/hydroponics-nutrients
+  - [x] hydroponics/hydroponics-lighting
+- [x] permaculture-basics
+- [x] companion-planting
 - [ ] deer-management-nj — Fencing options, deterrents, plant selection — the most common reason NJ home gardens fail
-- [ ] vertical-growing — Trellises, tower gardens, wall systems for small spaces
+- [x] vertical-growing
 - [ ] beekeeping-basics — Why bees matter, getting started, NJ regulations
 - [ ] small-animal-husbandry — Chickens, rabbits — what they give the system, what they cost
 - [ ] fermentation — Kombucha, kimchi, sourdough, lacto-fermentation
@@ -116,12 +116,12 @@
 
 ## Energy
 
-- [x] diy-renewable-energy — How solar works, system types by scale, getting started in NJ
-- [x] portable-power-stations — EcoFlow, Bluetti, Jackery — specs, use cases, home integration
-- [x] sizing-a-solar-system — Load audit, panel/battery/inverter sizing math, NJ incentives
-- [x] solar-panels — Panel types, specs, series/parallel wiring, mounting, shading
-- [x] batteries-and-storage — LiFePO4 vs lead-acid, BMS, DIY builds, bank sizing
-- [x] inverters-and-charge-controllers — Inverter types, MPPT vs PWM, hybrid all-in-ones
+- [x] diy-renewable-energy
+- [x] portable-power-stations
+- [x] sizing-a-solar-system
+- [x] solar-panels
+- [x] batteries-and-storage
+- [x] inverters-and-charge-controllers
 - [ ] energy-audit — Measuring actual usage, identifying biggest loads, prioritizing reduction
 - [ ] wind-energy — Small wind: when it makes sense, turbine types, NJ wind resources
 - [ ] grid-tie-vs-off-grid — Cost, complexity, independence, NJ net metering rules
@@ -130,21 +130,26 @@
 
 ## Mind
 
-- [x] daily-foundation — What to do each day across all domains, and realistic life goals by 35 — the full-person baseline
-- [x] building-discipline — Acting on intention regardless of motivation
-- [x] habit-design — Friction, cue-routine-reward, environment design
-- [x] identity-and-behavior — How self-concept drives action, deliberate identity shifts
-- [x] decision-making — Second-order thinking, inversion, pre-mortem, reversibility
-- [x] mental-models — 20 essential models: first principles, survivorship bias, compounding, via negativa
-- [x] systems-thinking — Stocks, flows, feedback loops, delays, leverage points — Donella Meadows framework; applies to farming, habits, finance, tech
-- [x] reading-deeply — Active reading, annotation, book selection, accessories, retention — not just exposure to them
-- [x] psychology-overview — Major branches, foundational figures, nature/nurture, validity issues
-- [x] personality-psychology — Big Five, Dark Triad, MBTI critique, reading personality
-- [x] social-psychology — Situationism, Milgram, Asch, groupthink, conformity, reciprocity
-- [x] behavioral-psychology — Classical/operant conditioning, reinforcement schedules, learned helplessness
-- [x] cognitive-psychology — System 1/2, schemas, memory reconstruction, cognitive biases
-- [x] attachment-theory — Secure/anxious/avoidant/disorganized — early bonds shaping adult patterns
-- [x] motivation-and-drive — SDT, intrinsic vs extrinsic, flow, overjustification effect
+- [x] daily-foundation
+- [x] building-discipline
+- [x] habit-design
+- [x] identity-and-behavior
+- [x] decision-making
+- [x] mental-models
+- [x] systems-thinking
+- [x] reading-deeply
+- [x] psychology-overview
+- [x] personality-psychology
+- [x] social-psychology
+- [x] behavioral-psychology
+- [x] cognitive-psychology
+- [x] attachment-theory
+- [x] motivation-and-drive
+- [x] meditation-practice
+- [x] cognitive-biases
+- [x] emotional-regulation
+- [x] negotiation-basics
+- [x] emotional-intelligence
 - [ ] learning-how-to-learn — Memory, spaced repetition, Feynman technique, retrieval practice
 - [ ] annotation-and-note-systems — Zettelkasten vs simple files, building a usable knowledge system from book notes at scale
 - [ ] book-recommendations-by-domain — Living list of recommended books by domain (philosophy, history, science, fiction)
@@ -152,13 +157,8 @@
 - [ ] stress-management — Nervous system basics, what works, what's marketing
 - [ ] deep-work — Cal Newport's framework: structuring focused work sessions
 - [ ] writing-clearly — Clear prose as clear thinking: Orwell's rules, eliminating vagueness
-- [x] meditation-practice — How to sit: breath, posture, wandering mind, what progress looks like
-- [x] cognitive-biases — 15 biases that distort decisions: anchoring, sunk cost, confirmation
-- [x] emotional-regulation — Anger, anxiety, frustration — neurology and what Stoics got right
 - [ ] difficult-conversations — Disagreeing, giving feedback, setting boundaries
-- [x] negotiation-basics — BATNA, anchoring, interests vs positions
 - [ ] attention-management — Physiology of attention, why focus degrades, restoration vs distraction — the foundation deep-work builds on
-- [x] emotional-intelligence — Reading emotions, self-regulation, empathy as skill
 - [ ] abnormal-psychology — Mental disorders: what they are, how they develop, everyday manifestation
 - [ ] developmental-psychology — Piaget, Erikson, lifespan development
 - [ ] communication-fundamentals — Gottman research, bids for connection, repair attempts, four horsemen
@@ -167,21 +167,21 @@
 
 ## Skills
 
-- [x] home-repair-basics — The 20 things every homeowner should know
-  - [x] basic-electrical — Circuits, breakers, outlets, safe DIY electrical work
-  - [x] basic-plumbing — Shutoffs, fixing leaks, replacing fixtures, what to never DIY
-  - [x] drywall-and-patching — Patching holes, taping, mudding, painting
-- [x] story-structure — Plot frameworks (3-act, Hero's Journey, Story Circle, Save the Cat), character arc, conflict, scene construction, POV, subtext
-- [x] fiction-story-building — Literary and commercial fiction: character-driven vs plot-driven, domestic vs epic, realism, unreliable narrators
-- [x] fantasy-story-building — Fantasy structure: worldbuilding integration, magic systems, chosen-one subversion, portal vs secondary world
-- [x] vehicle-maintenance-basics — What you must know, what you can DIY, what to leave alone
-  - [x] oil-and-fluids — Oil changes, fluid checks, intervals
-  - [x] tires-and-brakes — Tire pressure, rotation, when brakes need replacing
-- [x] woodworking-basics — Hand tools, joinery, finishing — a foundational making skill for home repair and self-reliance
-- [x] first-aid-basics — Bleeding, burns, choking, CPR
-- [x] emergency-preparedness — 72-hour kit, water storage, power outages, NJ scenarios
-- [x] land-navigation — Map and compass, triangulation, terrain reading, pace counting — offline self-reliance skill
-- [x] sewing-basics — Hand stitching, seam repair, button reattachment, hemming — closes the loop on repair-over-replace
+- [x] home-repair-basics
+  - [x] basic-electrical
+  - [x] basic-plumbing
+  - [x] drywall-and-patching
+- [x] story-structure
+- [x] fiction-story-building
+- [x] fantasy-story-building
+- [x] vehicle-maintenance-basics
+  - [x] oil-and-fluids
+  - [x] tires-and-brakes
+- [x] woodworking-basics
+- [x] first-aid-basics
+- [x] emergency-preparedness
+- [x] land-navigation
+- [x] sewing-basics
 - [ ] knot-tying — 12 essential knots: farming, camping, rigging, rescue applications
 - [ ] sci-fi-story-building — Sci-fi conventions: the novum, extrapolation logic, hard vs soft sci-fi, sociological vs engineering story
 - [ ] dialogue-craft — Writing dialogue that works: subtext, rhythm, said vs attribution, how speech reveals character without explaining it
@@ -189,18 +189,18 @@
 
 ## Geopolitics
 
-- [x] us-empire-decline-preparation — Empire decline patterns, US indicators, financial/physical preparation
-- [x] china-rise — Growth model, Belt and Road, Taiwan risk, semiconductor war, de-dollarization
-- [x] reserve-currency-history — Dutch guilder to British pound to US dollar: the repeating pattern
-- [x] supply-chain-resilience — How supply chains broke, chokepoints, reshoring, household steps
-- [x] energy-geopolitics — Petrodollar, OPEC, LNG revolution, critical minerals, energy transition
-- [x] demographics-and-power — Population structure and geopolitical trajectories: Japan, China, India, EU
-- [x] us-political-polarization — Negative partisanship, institutional erosion, historical analogs, outcomes
-- [x] india-rise — Demographics advantage, manufacturing shift, US-India partnership, Modi/BJP, China rivalry, tech ecosystem, what's constraining it
-- [x] global-debt-crisis — Japan 260%, US $36T, EU periphery, China's hidden LGFV debt, emerging market default wave — how it resolves
-- [x] taiwan-strait — Conflict scenarios, TSMC semiconductor concentration, US deterrence credibility, economic consequences
-- [x] dollar-weaponization — SWIFT as a weapon, Russia $300B freeze, CIPS/BRICS alternatives, de-dollarization acceleration
-- [x] how-government-works — Local to federal: who has power, how laws get made, how to engage
+- [x] us-empire-decline-preparation
+- [x] china-rise
+- [x] reserve-currency-history
+- [x] supply-chain-resilience
+- [x] energy-geopolitics
+- [x] demographics-and-power
+- [x] us-political-polarization
+- [x] india-rise
+- [x] global-debt-crisis
+- [x] taiwan-strait
+- [x] dollar-weaponization
+- [x] how-government-works
 - [ ] technology-cold-war — AI race, semiconductor export controls, data sovereignty, two-stack internet
 - [ ] russia-ukraine-implications — European energy realignment, NATO expansion, SWIFT weaponization
 - [ ] global-south-realignment — Saudi/UAE/Turkey/Brazil/Indonesia hedging between US and China; the swing states and what they want
@@ -216,12 +216,12 @@
 
 ## Economics
 
-- [x] economics-overview — Core frameworks: supply/demand, opportunity cost, market structures, GDP, inflation, monetary/fiscal policy, major schools
-- [x] microeconomics — Game theory, price theory, producer/consumer surplus, externalities in depth
-- [x] macroeconomics — Business cycles, monetary vs. fiscal policy, IS-LM, aggregate demand/supply
-- [x] monetary-policy — How central banks work, QE mechanics, interest rate transmission, Fed history
-- [x] inflation-and-deflation — Measurement, causes, historical episodes (Weimar, 1970s, 2021–23), deflationary traps
-- [x] trade-and-globalization — Comparative advantage in practice, WTO, trade deficits, tariffs, reshoring economics
+- [x] economics-overview
+- [x] microeconomics
+- [x] macroeconomics
+- [x] monetary-policy
+- [x] inflation-and-deflation
+- [x] trade-and-globalization
 - [ ] behavioral-economics — Where humans deviate from rational agent models, nudge theory, policy implications
 - [ ] labor-economics — Wages, productivity, automation, minimum wage debate, unions, gig economy
 - [ ] housing-economics — Supply constraints, zoning, rent vs. buy math, why cities are so expensive
@@ -230,10 +230,10 @@
 
 ## History
 
-- [x] human-history-timeline — Full global timeline, every major civilization
-- [x] history-mental-models — Recurring patterns: debt cycles, rise and fall, collapse, innovation
-- [x] economic-history — Mercantilism, industrial revolution, Bretton Woods, petrodollar, financialization
-- [x] banking-system-history — Goldsmiths to Rothschilds to JP Morgan to Federal Reserve to financialization
+- [x] human-history-timeline
+- [x] history-mental-models
+- [x] economic-history
+- [x] banking-system-history
 - [ ] roman-history — Republic to Empire: institutional decay, elite overproduction, Marcus Aurelius
 - [ ] industrial-revolution-deep-dive — Labor, technological diffusion, why Britain, political response
 - [ ] agrarian-history — How farming shaped civilization, enclosure, green revolution, industrial ag
@@ -246,8 +246,8 @@
 
 ## Science
 
-- [x] science-literacy — How to read a study, p-values, effect sizes, replication crisis
-- [x] galaxies — Galaxy types, Milky Way, supermassive black holes, dark matter, cosmic web
+- [x] science-literacy
+- [x] galaxies
 - [ ] statistics-basics — Distributions, standard deviation, confidence intervals, Bayesian reasoning
 - [ ] basic-chemistry — pH, reactions, solutions — behind soil, nutrients, fermentation
 - [ ] ecology-basics — Energy flow, nutrient cycles, succession, biomes — foundational for farming, composting, and understanding land
@@ -267,29 +267,29 @@
 
 ## Mathematics
 
-- [x] math-overview — Major branches, how they connect, and what's useful for a non-mathematician: the map of the territory
-- [x] calculus — Limits, derivatives, integrals, fundamental theorem — conceptual grounding with applications to optimization and rates of change
-- [x] linear-algebra — Vectors, matrices, transformations, eigenvalues — the language of data, ML, and applied science
-- [x] probability-theory — Sample spaces, Bayes' theorem, distributions, expected value — the formal math behind statistical reasoning
-- [x] discrete-mathematics — Logic, sets, graph theory, combinatorics — the native language of computer science
-- [x] number-theory — Primes, modular arithmetic, cryptographic foundations — pure math with a practical backbone
-- [x] optimization — Calculus-based, linear programming, gradient descent — the math behind every decision problem
-- [x] financial-mathematics — Compound interest, NPV/IRR, loan amortization, time value of money — math behind every finance decision
-- [x] mathematical-thinking — Proof techniques, axiomatic reasoning, precision of language — the meta-skill that transfers everywhere
+- [x] math-overview
+- [x] calculus
+- [x] linear-algebra
+- [x] probability-theory
+- [x] discrete-mathematics
+- [x] number-theory
+- [x] optimization
+- [x] financial-mathematics
+- [x] mathematical-thinking
 
 ## Finance
 
-- [x] index-fund-investing — How index funds work, why they beat active, how to start
-- [x] tax-optimization — 401k, Roth IRA, HSA, backdoor Roth, tax-loss harvesting, NJ specifics
-- [x] insurance-basics — Health, auto, home, umbrella, disability — need vs sold
-- [x] life-insurance — Term vs whole life, coverage sizing, buy-term-invest-the-difference
-- [x] investing-beyond-index-funds — I-bonds, REITs, farmland, alternative assets
-- [x] estate-planning-basics — Will, beneficiary designations, POA, healthcare proxy — what happens without them in NJ, how to fix it in an afternoon
-- [x] trusts — Revocable living trust, irrevocable trust, ILIT, GRAT, asset protection — probate avoidance, tax reduction, wealth transfer
-- [x] family-wealth-strategy — How tax-advantaged accounts, business equity, real estate, insurance, and trusts layer and compound over 20-30 years
-- [x] building-generational-wealth — Step-up in basis, annual gifting, dynasty trusts, real estate transfer, business equity — moving from personal to family wealth
-- [x] owner-compensation-strategy — Salary vs distributions, S-corp split, solo 401k, QBI deduction, NJ BAIT — how to pay yourself tax-efficiently
-- [x] side-projects-to-income — Turning skills into revenue streams — strategic optionality
+- [x] index-fund-investing
+- [x] tax-optimization
+- [x] insurance-basics
+- [x] life-insurance
+- [x] investing-beyond-index-funds
+- [x] estate-planning-basics
+- [x] trusts
+- [x] family-wealth-strategy
+- [x] building-generational-wealth
+- [x] owner-compensation-strategy
+- [x] side-projects-to-income
 - [ ] personal-finance-basics — Budgeting, net worth, the order of operations for money
 - [ ] s-corp-election-strategy — When to elect S-corp, reasonable salary math, SE tax savings — highest-leverage tax move for profitable business owners
 - [ ] business-entity-selection — LLC vs S-corp vs C-corp: tax treatment, liability, when to switch — the decision that shapes everything downstream
@@ -310,21 +310,21 @@
 
 ## Consumerism
 
-- [x] buy-it-for-life — Lifetime ownership: cookware, tools, footwear, bags, personal care, fitness
-- [x] considered-luxuries — Quality discretionary: coffee, audio, fragrance, spirits, bedding, stationery
-- [x] quality-life-upgrades — Products most don't own but should: air/water, ergonomics, digital infra
-- [x] resilience-buying — What to own before supply chains fail: food buffer, water filtration, energy, tools
-- [x] repair-over-replace — When to repair: cobblers, tailors, appliances, right-to-repair, decision framework
-- [x] tools-worth-owning — Hand/power/garden tools: quality thresholds, buy vs rent, Knipex/Wera/Estwing/Bahco
-- [x] kitchen-equipment-fundamentals — Knife, board, scale, heavy pan, dutch oven, mortar — the real short list
-- [x] home-office-setup — Monitor selection, dual-monitor config, webcam, audio, wired networking, cable management — full tech worker buying guide
-- [x] everyday-essentials — High-frequency daily items worth upgrading: hydration, towels, vacuum, umbrella, cleaning, laundry, desk accessories
-- [x] everyday-carry — Wallet, pen, knife, notebook, keychain, bag — highest usage-rate objects earn their quality
-- [x] home-gym-essentials — Complete home gym for kettlebell/mace practice: brands, weights, flooring, rings, conditioning — removing gym dependency
-- [x] outdoor-gear-bifl — Work boots, trail boots, rain layer, merino base, daypack, headlamp — NJ-specific with tick management
-- [x] sleep-environment — Mattress tiers, pillow types, blackout setup, temperature, white noise — highest-ROI home upgrade
-- [x] experiences-over-things — Why experiences outlast objects, what makes an experience compound, how to budget deliberately
-- [x] fashion-brands — Heritage quality, premium contemporary, growing brands (2025-2026)
+- [x] buy-it-for-life
+- [x] considered-luxuries
+- [x] quality-life-upgrades
+- [x] resilience-buying
+- [x] repair-over-replace
+- [x] tools-worth-owning
+- [x] kitchen-equipment-fundamentals
+- [x] home-office-setup
+- [x] everyday-essentials
+- [x] everyday-carry
+- [x] home-gym-essentials
+- [x] outdoor-gear-bifl
+- [x] sleep-environment
+- [x] experiences-over-things
+- [x] fashion-brands
 - [ ] total-cost-of-ownership — Cost-per-use calculations, depreciation, repair vs replace math
 - [ ] audio-equipment — Headphones (open vs closed, planar vs dynamic), DAC/amp basics, what the spend curve looks like
 - [ ] intentional-buying — Need vs want, delay tactics, one-in-one-out rule
@@ -334,12 +334,12 @@
 - [ ] fabric-guide — Cotton, wool, linen, cashmere, leather — identifying quality, care, longevity
 - [ ] fit-and-tailoring — What fit means per garment type, evaluating off-the-rack, when to tailor
 
-## Tech
+## Tech: Infrastructure
 
-- [x] networking-fundamentals — OSI, TCP/IP, subnets/CIDR, DNS, DHCP, routing, VLANs, firewalls
-- [x] homelab-overview — What a home lab is, hardware tiers, Proxmox, Docker, self-hosted services, backup
-- [x] linux-ai-workstation — Linux workstation + local LLMs for scripting and automation: hardware buying guide, Ollama, models, workflow
-- [x] macos-ai-workstation — macOS AI workstation: Apple Silicon unified memory, Mac hardware tiers, Ollama/LM Studio/MLX, macOS automation
+- [x] networking-fundamentals
+- [x] homelab-overview
+- [x] linux-ai-workstation
+- [x] macos-ai-workstation
 - [ ] home-network-design — VLANs for segmentation, wired vs WiFi, network map for serious home setup
 - [ ] network-hardware — Routers, managed switches, APs — UniFi vs pfSense vs consumer gear
 - [ ] network-security — Firewall rules, VLAN isolation, intrusion detection, VPN
@@ -356,16 +356,32 @@
 - [ ] terminal-and-shell-setup — zsh config, dotfiles, aliases, tmux, Neovim/VS Code — the daily dev environment missing from the wiki
 - [ ] privacy-and-opsec — Password management, 2FA, DNS-over-HTTPS, VPN use cases, realistic threat model for a private individual
 
+## Tech: AI
+
+- [x] ai-ecosystem
+- [x] how-claude-works
+- [x] claude-code-workflow
+- [x] building-with-claude-api
+- [ ] open-source-llm-landscape — LLaMA, Mistral, Phi, Falcon: where to get them, how to run them, when to use over closed APIs
+- [ ] ai-agents-overview — What agents actually are, how they're built, where they work and fail
+- [ ] local-llm-setup — Running LLaMA or Mistral locally with Ollama: hardware requirements, practical setup
+- [ ] ai-safety-alignment — Constitutional AI, RLHF, interpretability research: what safety researchers are doing and why it matters
+- [ ] multimodal-ai — Image, audio, video understanding: what current models can do and practical use cases
+- [ ] rag-and-retrieval — How retrieval-augmented generation works, when to use it, how to build it
+
 ## New Jersey
 
 *NJ-specific files. Finance/tax NJ files live in Finance but are cross-referenced here.*
 
-- [x] nj-employment-law — Earned sick leave, NJLAD, ABC test, non-competes, WARN Act, FLA — the laws NJ employers get burned on
-- [x] nj-property-taxes — Highest in the US: assessment, appeals, ANCHOR rebate, exemptions, Atlantic County context
-- [x] nj-laws-you-should-know — Unique NJ laws every resident should know: gas, guns, inheritance tax, landlord-tenant, contractor licensing, Pinelands
-- [x] nj-retail-overview — Starting a retail location in NJ: formation, licensing, lease, insurance, operations
-- [x] nj-business-taxes — Sales tax, CBT, BAIT, GIT, payroll, federal strategies, calendar
-- [x] local-politics-civic-involvement — Boards, meetings, appointments, running for office, Galloway/Atlantic County
+- [x] nj-employment-law
+- [x] nj-property-taxes
+- [x] nj-laws-you-should-know
+- [x] nj-retail-overview
+- [x] nj-business-taxes
+- [x] local-politics-civic-involvement
+- [x] nj-gun-laws
+- [x] atlantic-county-guide
+- [x] nj-benefits-and-programs
 - [ ] nj-homebuying-process — Step-by-step NJ purchase: pre-approval, offer, attorney review, inspection, closing costs, title insurance
 - [ ] nj-land-use — Zoning, Right to Farm Act, Highlands/Pinelands, net metering, variances
 - [ ] nj-retail-marketing — Local marketing: Google Business, local SEO, events, loyalty
@@ -373,20 +389,17 @@
 - [ ] hiring-first-employee-nj — I-9, E-Verify, NJ new hire reporting, onboarding, workers comp
 - [ ] running-for-local-office — Petitioning, fundraising, door-knocking, NJ ballot process
 - [ ] nj-landlord-tenant-law — Security deposit limits, just cause eviction, habitability standards, anti-lockout, notice requirements
-- [x] nj-gun-laws — FID card, permit to purchase, carry permit (near-impossible), assault weapon restrictions, transport rules
 - [ ] nj-inheritance-tax — One of 6 states with inheritance tax: Class A/C/D beneficiaries, rates, what's exempt, planning implications
 - [ ] nj-contractor-licensing — What requires a license in NJ: HIC registration, trades licensing, penalties for unlicensed work, how to verify
 - [ ] nj-right-to-farm — Right to Farm Act protections, SADC farmland preservation, agricultural exemptions, what it actually covers in practice
-- [x] atlantic-county-guide — Galloway-specific: township services, tax assessor, municipal court, development landscape, Stockton proximity
-- [x] nj-benefits-and-programs — Unemployment, TDI, FLI, SNAP, ANCHOR, senior/veteran property tax exemptions — the programs most NJ residents don't claim
 - [ ] nj-driving-laws — No self-pump gas, hands-free enforcement, right-on-red restrictions, specific MVC quirks, points system
 - [ ] nj-nonprofit-formation — 501(c)(3) in NJ: state charitable registration, CHAR500, NJ-specific requirements on top of IRS process
 
 ## Video / Content Creation
 
-- [x] vlogging-foundations — What vlogging actually is, gear to start, what makes footage watchable, building a consistent practice
-- [x] video-editing-basics — Timeline editing, cuts, pacing, color grading, audio mixing — the core skills in any NLE
-- [x] youtube-strategy — Channel setup, titles/thumbnails, algorithm mechanics, retention, monetization basics
+- [x] vlogging-foundations
+- [x] video-editing-basics
+- [x] youtube-strategy
 - [ ] storytelling-for-video — Structure, narrative arc, B-roll, how to make a vlog feel like a story not a recording
 - [ ] audio-for-video — Why audio matters more than video, mics, room treatment, editing audio in post
 - [ ] color-grading — LUTs, color wheels, skin tones, log footage, achieving a consistent look
@@ -396,9 +409,6 @@
 
 ## Meta
 
-- [x] using-this-system — How romi-01 works and how to use it
-- [x] vscode-claude-workflow — VS Code + Claude extension workflow guide
-- [x] how-claude-works — Transformer architecture, context windows, hallucination
-- [ ] prompt-engineering — Writing effective prompts: structure, context, constraints, iteration
-- [ ] claude-code-workflow — Claude Code as development tool: hooks, skills, automation
-- [ ] building-with-claude-api — Claude API basics, tools, multi-turn conversations, agent patterns
+- [x] using-this-system
+- [x] vscode-claude-workflow
+- [x] prompt-engineering

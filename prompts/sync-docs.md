@@ -36,7 +36,7 @@ For each prompt listed in `prompts/README.md`:
 ### 3. Knowledge Index Check
 For each file in `knowledge/`:
 - Is it listed in `knowledge/CATALOG.md` under the correct category?
-- Is its description accurate?
+- Note: `[x]` entries have no descriptions by design. Only `[ ]` planned entries carry descriptions.
 
 ---
 
