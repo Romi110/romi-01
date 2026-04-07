@@ -27,8 +27,6 @@ Identify for the target domain:
 
 If the user says "pick up [file] from [domain]" at the start, treat it as a confirmed inbound move — skip re-evaluating placement, go straight to grep for cross-links.
 
-Do not propose changes yet.
-
 ---
 
 ## Step 2 — Identify What Should Move
@@ -39,7 +37,7 @@ Still working from CATALOG.md only — no file reads.
 
 **Cross-domain misplacement:** Scan the other domain headers and entries already visible in CATALOG.md. If a topic in the target domain clearly fits another domain by name alone, flag it as a cross-domain suggestion — do not move it this session. The receiving domain handles it when that domain is the target.
 
-**Sub-folder trigger (4+ clustered files):** Look for 4+ `[x]` entries in the target domain whose topic names share a clear sub-topic cluster. If no sub-folder exists yet, flag it as a grouping candidate — files move into `knowledge/[domain]/[subtopic]/`. The catalog lists them flat with the path prefix; no new catalog file is created. If a sub-folder already exists, confirm it stays flat — sub-folders never nest.
+**Sub-folder trigger (4+ clustered files):** Look for 4+ `[x]` entries in the target domain whose topic names share a clear sub-topic cluster. If no sub-folder exists yet, flag it as a grouping candidate — files move into `knowledge/[domain]/[subtopic]/`. The catalog lists them flat with the path prefix under the single domain `##` header; no new catalog file and no new `##` header. One domain = one `##` header always. If a sub-folder already exists, confirm it stays flat — sub-folders never nest.
 
 **Sub-catalog trigger (25+ written files):** If the domain has 25+ `[x]` entries, create `knowledge/[domain]/CATALOG.md` and replace the domain section in the main CATALOG.md with a single pointer:
 ```
@@ -102,6 +100,7 @@ After approval, in this order:
 - **One domain per session.** Stop after the target domain is done.
 - **Never delete files.** Flag ambiguous files for the user to decide.
 - **No renames during moves** unless the filename is wrong for the new location.
+- **Domain consolidation**: when merging two domains, all source files move under the receiving domain's single `##` header — never create a `## Receiving: Source` hybrid header. Delete the source `##` section once empty.
 - Sub-folder and catalog hierarchy rules are defined in `CLAUDE.md` — follow them exactly, don't re-interpret.
 
 ---

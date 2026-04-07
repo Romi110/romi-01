@@ -135,9 +135,9 @@ In Claude Code, CLAUDE.md functions as a persistent system prompt. The instructi
 
 ## Connections
 
-- [how-claude-works.md](../tech/how-claude-works.md) — understanding the transformer architecture explains *why* prompts work the way they do: context window, attention, why position matters
+- [how-claude-works.md](../tech/ai/how-claude-works.md) — understanding the transformer architecture explains *why* prompts work the way they do: context window, attention, why position matters
 - [vscode-claude-workflow.md](../meta/vscode-claude-workflow.md) — where prompt engineering meets daily practice; CLAUDE.md is a persistent prompt
-- [building-with-claude-api.md](../tech/building-with-claude-api.md) — when prompts become code: system prompts, multi-turn, and tool use in the API
+- [building-with-claude-api.md](../tech/ai/building-with-claude-api.md) — when prompts become code: system prompts, multi-turn, and tool use in the API
 
 ## Status
 - [ ] Initial file written

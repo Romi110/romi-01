@@ -339,40 +339,37 @@
 - [ ] fabric-guide — Cotton, wool, linen, cashmere, leather — identifying quality, care, longevity
 - [ ] fit-and-tailoring — What fit means per garment type, evaluating off-the-rack, when to tailor
 
-## Tech: Infrastructure
+## Tech
 
-- [x] networking-fundamentals
-- [x] homelab-overview
-- [x] linux-ai-workstation
-- [x] macos-ai-workstation
-- [ ] home-network-design — VLANs for segmentation, wired vs WiFi, network map for serious home setup
-- [ ] network-hardware — Routers, managed switches, APs — UniFi vs pfSense vs consumer gear
-- [ ] network-security — Firewall rules, VLAN isolation, intrusion detection, VPN
-- [ ] dns-and-pihole — Pi-hole/AdGuard Home, local DNS, split-horizon for self-hosted services
-- [ ] vpn-and-remote-access — WireGuard, Tailscale, secure remote access to home network
-- [ ] virtualization — Proxmox: VMs vs LXC, resource allocation, storage, clustering
-- [ ] docker-and-containers — Docker fundamentals, Compose, how containers differ from VMs
-- [ ] homelab-hardware — Mini PCs (N100, NUC), used enterprise gear, Raspberry Pi — sizing and power
-- [ ] nas-and-storage — TrueNAS vs Synology, RAID, ZFS basics, 3-2-1 backup in practice
-- [ ] self-hosted-services — Nextcloud, Vaultwarden, Jellyfin, Immich, Gitea, Uptime Kuma
-- [ ] home-automation — Home Assistant: local-only, Zigbee/Z-Wave vs WiFi, practical automations
-- [ ] monitoring-and-observability — Grafana + Prometheus, Uptime Kuma, log aggregation
-- [ ] ollama-automation-scripting — Building cron jobs, pipelines, and shell tools that call a local LLM via the Ollama API
-- [ ] terminal-and-shell-setup — zsh config, dotfiles, aliases, tmux, Neovim/VS Code — the daily dev environment missing from the wiki
-- [ ] privacy-and-opsec — Password management, 2FA, DNS-over-HTTPS, VPN use cases, realistic threat model for a private individual
-
-## Tech: AI
-
-- [x] ai-ecosystem
-- [x] how-claude-works
-- [x] claude-code-workflow
-- [x] building-with-claude-api
-- [ ] open-source-llm-landscape — LLaMA, Mistral, Phi, Falcon: where to get them, how to run them, when to use over closed APIs
-- [ ] ai-agents-overview — What agents actually are, how they're built, where they work and fail
-- [ ] local-llm-setup — Running LLaMA or Mistral locally with Ollama: hardware requirements, practical setup
-- [ ] ai-safety-alignment — Constitutional AI, RLHF, interpretability research: what safety researchers are doing and why it matters
-- [ ] multimodal-ai — Image, audio, video understanding: what current models can do and practical use cases
-- [ ] rag-and-retrieval — How retrieval-augmented generation works, when to use it, how to build it
+- [x] infrastructure/networking-fundamentals
+- [x] infrastructure/homelab-overview
+- [x] infrastructure/linux-ai-workstation
+- [x] infrastructure/macos-ai-workstation
+- [x] ai/ai-ecosystem
+- [x] ai/how-claude-works
+- [x] ai/claude-code-workflow
+- [x] ai/building-with-claude-api
+- [ ] infrastructure/home-network-design — VLANs for segmentation, wired vs WiFi, network map for serious home setup
+- [ ] infrastructure/network-hardware — Routers, managed switches, APs — UniFi vs pfSense vs consumer gear
+- [ ] infrastructure/network-security — Firewall rules, VLAN isolation, intrusion detection, VPN
+- [ ] infrastructure/dns-and-pihole — Pi-hole/AdGuard Home, local DNS, split-horizon for self-hosted services
+- [ ] infrastructure/vpn-and-remote-access — WireGuard, Tailscale, secure remote access to home network
+- [ ] infrastructure/virtualization — Proxmox: VMs vs LXC, resource allocation, storage, clustering
+- [ ] infrastructure/docker-and-containers — Docker fundamentals, Compose, how containers differ from VMs
+- [ ] infrastructure/homelab-hardware — Mini PCs (N100, NUC), used enterprise gear, Raspberry Pi — sizing and power
+- [ ] infrastructure/nas-and-storage — TrueNAS vs Synology, RAID, ZFS basics, 3-2-1 backup in practice
+- [ ] infrastructure/self-hosted-services — Nextcloud, Vaultwarden, Jellyfin, Immich, Gitea, Uptime Kuma
+- [ ] infrastructure/home-automation — Home Assistant: local-only, Zigbee/Z-Wave vs WiFi, practical automations
+- [ ] infrastructure/monitoring-and-observability — Grafana + Prometheus, Uptime Kuma, log aggregation
+- [ ] infrastructure/terminal-and-shell-setup — zsh config, dotfiles, aliases, tmux, Neovim/VS Code — the daily dev environment missing from the wiki
+- [ ] infrastructure/privacy-and-opsec — Password management, 2FA, DNS-over-HTTPS, VPN use cases, realistic threat model for a private individual
+- [ ] ai/open-source-llm-landscape — LLaMA, Mistral, Phi, Falcon: where to get them, how to run them, when to use over closed APIs
+- [ ] ai/ai-agents-overview — What agents actually are, how they're built, where they work and fail
+- [ ] ai/local-llm-setup — Running LLaMA or Mistral locally with Ollama: hardware requirements, practical setup
+- [ ] ai/ollama-automation-scripting — Building cron jobs, pipelines, and shell tools that call a local LLM via the Ollama API
+- [ ] ai/ai-safety-alignment — Constitutional AI, RLHF, interpretability research: what safety researchers are doing and why it matters
+- [ ] ai/multimodal-ai — Image, audio, video understanding: what current models can do and practical use cases
+- [ ] ai/rag-and-retrieval — How retrieval-augmented generation works, when to use it, how to build it
 
 ## New Jersey
 
