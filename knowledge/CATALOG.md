@@ -443,6 +443,7 @@
 
 - [x] trip-planning
 - [x] chicago
+- [x] flying-guide
 
 ## Manga
 
