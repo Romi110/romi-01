@@ -127,7 +127,7 @@
 - [ ] wind-energy — Small wind: when it makes sense, turbine types, NJ wind resources
 - [ ] grid-tie-vs-off-grid — Cost, complexity, independence, NJ net metering rules
 - [ ] ev-and-solar — EV as mobile battery, V2H/V2G, charging with solar
-- [ ] grid-tie-solar-nj — NJ-specific: permits, net metering, SREC, HOA rules, incentives
+- [x] grid-tie-solar-nj
 
 ## Mind
 
@@ -254,20 +254,20 @@
 - [x] world-war-ii-origins
 - [ ] french-revolution — Liberty, equality, fraternity and the Terror: why the revolution devoured itself, and what it produced
 - [ ] british-empire — How a small island controlled 25% of the Earth's surface, what it extracted, and what it left behind
-- [ ] ottoman-empire — 600 years of Islamic governance over 3 continents, the sick man of Europe, and how its collapse created the modern Middle East
+- [x] ottoman-empire
 - [ ] american-founding — The Articles of Confederation's failure, the constitutional convention, federalism, and the compromises that built the republic
 - [ ] world-war-i-origins — Alliances, nationalism, the July Crisis — why a single assassination triggered a world war
 - [ ] russian-revolution — 1917 and the Bolshevik seizure of power: what the Tsar's fall opened, what Lenin built, what Stalin became
-- [ ] indian-history — 5,000 years: Indus Valley through Vedic, Maurya and Ashoka, Gupta golden age, Mughal empire, British Raj, partition, and India since 1947
+- [x] indian-history
 - [ ] persian-empire — Cyrus the Great's model empire, Darius's administration, the first human rights declaration, and why Persia keeps being underrated
 - [ ] byzantine-empire — Eastern Rome that lasted 1,000 years: how it preserved classical knowledge, what Constantinople meant, and why 1453 matters
 - [ ] southeast-asia-civilizations — Khmer Empire, Majapahit, Srivijaya — maritime empires the standard history ignores
-- [ ] japan-history — Feudal Japan, Tokugawa isolation, Meiji restoration: the fastest modernization in history, feudalism to superpower in 50 years
-- [ ] korea-history — Three Kingdoms, Joseon, Japanese colonization, partition, and South Korea's economic development
+- [x] japan-history
+- [x] korea-history
 - [ ] indigenous-north-america — Haudenosaunee Confederacy, Mississippian culture, Plains nations, Pueblo peoples — beyond the hunter-gatherer dismissal
 - [ ] oceania-civilizations — Polynesian navigation: settling the entire Pacific without instruments, and what the Māori, Hawaiian, and Rapa Nui civilizations built
 - [ ] latin-america-independence — Bolívar's dream and its failure, the caudillo problem, why Latin American democracies kept collapsing after Spain left
-- [ ] silk-road-history — 2,000 years of trade, religion, and disease transmission connecting China to Rome, and how it shaped every civilization along its route
+- [x] silk-road-history
 
 ## Science
 
