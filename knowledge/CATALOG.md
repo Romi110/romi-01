@@ -376,11 +376,11 @@
 - [x] ai/how-claude-works
 - [x] ai/claude-code-workflow
 - [x] ai/building-with-claude-api
-- [ ] infrastructure/home-network-design — VLANs for segmentation, wired vs WiFi, network map for serious home setup
+- [x] infrastructure/home-network-design
 - [ ] laptop-buying-guide — Mac vs PC, what specs actually matter, refurb math, when to buy, tier by use case
 - [ ] phone-plan-guide — Carrier tiers (Verizon/AT&T/T-Mobile vs MVNOs: Mint, Visible, Google Fi), when to pay full price vs take a deal
-- [ ] infrastructure/network-hardware — Routers, managed switches, APs — UniFi vs pfSense vs consumer gear
-- [ ] infrastructure/network-security — Firewall rules, VLAN isolation, intrusion detection, VPN
+- [x] infrastructure/network-hardware
+- [x] infrastructure/network-security
 - [ ] infrastructure/dns-and-pihole — Pi-hole/AdGuard Home, local DNS, split-horizon for self-hosted services
 - [ ] infrastructure/vpn-and-remote-access — WireGuard, Tailscale, secure remote access to home network
 - [ ] infrastructure/virtualization — Proxmox: VMs vs LXC, resource allocation, storage, clustering
