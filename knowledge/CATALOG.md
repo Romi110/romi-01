@@ -243,15 +243,31 @@
 - [x] history-mental-models
 - [x] economic-history
 - [x] banking-system-history
-- [ ] roman-history — Republic to Empire: institutional decay, elite overproduction, Marcus Aurelius
-- [ ] industrial-revolution-deep-dive — Labor, technological diffusion, why Britain, political response
-- [ ] agrarian-history — How farming shaped civilization, enclosure, green revolution, industrial ag
-- [ ] mongol-empire — Genghis Khan, Pax Mongolica, Silk Road, catastrophic cost
-- [ ] islamic-golden-age — House of Wisdom, algebra, medicine, astronomy
-- [ ] african-civilizations — Mali, Songhai, Great Zimbabwe, Axum, Kush
-- [ ] pre-columbian-americas — Maya, Aztec, Inca: what they built, the Columbian Exchange
-- [ ] cold-war-deep-dive — Proxy wars, nuclear standoffs, ideology as weapon
-- [ ] world-war-ii-origins — Versailles, Great Depression, ideology, the path to 1939
+- [x] roman-history
+- [x] industrial-revolution-deep-dive
+- [x] agrarian-history
+- [x] mongol-empire
+- [x] islamic-golden-age
+- [x] african-civilizations
+- [x] pre-columbian-americas
+- [x] cold-war-deep-dive
+- [x] world-war-ii-origins
+- [ ] french-revolution — Liberty, equality, fraternity and the Terror: why the revolution devoured itself, and what it produced
+- [ ] british-empire — How a small island controlled 25% of the Earth's surface, what it extracted, and what it left behind
+- [ ] ottoman-empire — 600 years of Islamic governance over 3 continents, the sick man of Europe, and how its collapse created the modern Middle East
+- [ ] american-founding — The Articles of Confederation's failure, the constitutional convention, federalism, and the compromises that built the republic
+- [ ] world-war-i-origins — Alliances, nationalism, the July Crisis — why a single assassination triggered a world war
+- [ ] russian-revolution — 1917 and the Bolshevik seizure of power: what the Tsar's fall opened, what Lenin built, what Stalin became
+- [ ] indian-history — 5,000 years: Indus Valley through Vedic, Maurya and Ashoka, Gupta golden age, Mughal empire, British Raj, partition, and India since 1947
+- [ ] persian-empire — Cyrus the Great's model empire, Darius's administration, the first human rights declaration, and why Persia keeps being underrated
+- [ ] byzantine-empire — Eastern Rome that lasted 1,000 years: how it preserved classical knowledge, what Constantinople meant, and why 1453 matters
+- [ ] southeast-asia-civilizations — Khmer Empire, Majapahit, Srivijaya — maritime empires the standard history ignores
+- [ ] japan-history — Feudal Japan, Tokugawa isolation, Meiji restoration: the fastest modernization in history, feudalism to superpower in 50 years
+- [ ] korea-history — Three Kingdoms, Joseon, Japanese colonization, partition, and South Korea's economic development
+- [ ] indigenous-north-america — Haudenosaunee Confederacy, Mississippian culture, Plains nations, Pueblo peoples — beyond the hunter-gatherer dismissal
+- [ ] oceania-civilizations — Polynesian navigation: settling the entire Pacific without instruments, and what the Māori, Hawaiian, and Rapa Nui civilizations built
+- [ ] latin-america-independence — Bolívar's dream and its failure, the caudillo problem, why Latin American democracies kept collapsing after Spain left
+- [ ] silk-road-history — 2,000 years of trade, religion, and disease transmission connecting China to Rome, and how it shaped every civilization along its route
 
 ## Science
 
@@ -299,7 +315,13 @@
 - [x] building-generational-wealth
 - [x] owner-compensation-strategy
 - [x] side-projects-to-income
+- [x] credit-cards
 - [ ] personal-finance-basics — Budgeting, net worth, the order of operations for money
+- [ ] bank-accounts — Checking, HYSA, money market: which banks, what rates, where to park each dollar — the account layer under every other financial file
+- [ ] health-insurance-selection — HMO vs PPO vs HDHP, HSA math, choosing a plan during open enrollment, marketplace vs employer plan — the decision framework insurance-basics doesn't cover
+- [ ] mortgage-guide — Fixed vs ARM, conventional vs FHA vs VA, points, rate locks, when to refi — the financing layer under nj-homebuying-process
+- [ ] car-buying-guide — New vs used math, financing vs cash, timing, dealer vs private party, depreciation curves
+- [ ] subscription-audit — Evaluating recurring subscriptions: which to keep, which to cut, how to stack streaming/software/cloud
 - [ ] s-corp-election-strategy — When to elect S-corp, reasonable salary math, SE tax savings — highest-leverage tax move for profitable business owners
 - [ ] business-entity-selection — LLC vs S-corp vs C-corp: tax treatment, liability, when to switch — the decision that shapes everything downstream
 - [ ] emergency-fund — Sizing, where to keep it, when to use it
@@ -335,6 +357,7 @@
 - [x] experiences-over-things
 - [x] fashion-brands
 - [ ] total-cost-of-ownership — Cost-per-use calculations, depreciation, repair vs replace math
+- [ ] car-ownership-costs — True cost breakdown: depreciation, insurance, fuel, maintenance, financing — the math most people skip when they see a monthly payment
 - [ ] audio-equipment — Headphones (open vs closed, planar vs dynamic), DAC/amp basics, what the spend curve looks like
 - [ ] intentional-buying — Need vs want, delay tactics, one-in-one-out rule
 - [ ] product-care-and-maintenance — Cast iron, leather, boots, merino, carbon steel, waxed canvas care
@@ -354,6 +377,8 @@
 - [x] ai/claude-code-workflow
 - [x] ai/building-with-claude-api
 - [ ] infrastructure/home-network-design — VLANs for segmentation, wired vs WiFi, network map for serious home setup
+- [ ] laptop-buying-guide — Mac vs PC, what specs actually matter, refurb math, when to buy, tier by use case
+- [ ] phone-plan-guide — Carrier tiers (Verizon/AT&T/T-Mobile vs MVNOs: Mint, Visible, Google Fi), when to pay full price vs take a deal
 - [ ] infrastructure/network-hardware — Routers, managed switches, APs — UniFi vs pfSense vs consumer gear
 - [ ] infrastructure/network-security — Firewall rules, VLAN isolation, intrusion detection, VPN
 - [ ] infrastructure/dns-and-pihole — Pi-hole/AdGuard Home, local DNS, split-horizon for self-hosted services
@@ -387,6 +412,7 @@
 - [x] local-politics-civic-involvement
 - [x] nj-gun-laws
 - [x] atlantic-county-guide
+- [x] nj-activities
 - [x] nj-benefits-and-programs
 - [x] nj-homebuying-process
 - [x] nj-land-use
@@ -400,6 +426,7 @@
 - [x] nj-right-to-farm
 - [ ] nj-driving-laws — No self-pump gas, hands-free enforcement, right-on-red restrictions, specific MVC quirks, points system
 - [ ] nj-nonprofit-formation — 501(c)(3) in NJ: state charitable registration, CHAR500, NJ-specific requirements on top of IRS process
+- [ ] nj-auto-insurance — Standard vs basic policy, verbal threshold trap, PIP selection, which carriers write NJ, how to actually lower your premium
 - [x] nj-well-and-septic
 - [x] nj-pinelands-regulations
 
@@ -434,7 +461,7 @@
 
 ## Outdoors
 
-- [ ] outdoors/nj-trails-and-parks — Wharton State Forest, Batsto, Delaware Water Gap, Cape May — where to go, Pinelands-specific context, what to expect
+- [x] outdoors/nj-trails-and-parks
 - [ ] outdoors/wilderness-camping — gear, site selection, Leave No Trace, fire starting, shelter, water treatment — practical field skills distinct from emergency-preparedness
 - [ ] outdoors/backcountry-navigation — map and compass without GPS, terrain reading, contour lines — deeper than land-navigation's overview; flat featureless Pinelands terrain is its own challenge
 - [ ] outdoors/nature-observation — weather reading, animal tracking, plant and tree ID, situational awareness in the field — connects to foraging, farming, and Pinelands ecology
