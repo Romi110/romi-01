@@ -49,6 +49,13 @@
 - [x] hair/hair-growth
 - [x] hair/scalp-care
 - [x] hair/ayurveda-hair
+- [ ] hip-mobility — 90/90, hip flexor length, internal/external rotation, psoas release — highest-leverage mobility target for desk workers
+- [ ] thoracic-spine-mobility — T-spine extension and rotation: kyphosis, foam roller protocol, how it unlocks shoulder and lumbar function
+- [ ] shoulder-mobility — Overhead range, impingement mechanics, posterior capsule, shoulder packing — critical for kettlebell pressing and mace work
+- [ ] ankle-mobility — Dorsiflexion: why restricted ankles break squats and hinges, wall tests, corrective protocols
+- [ ] movement-assessment — Self-assessment battery for the four priority joints: what each test reveals, how to build a corrective hierarchy
+- [ ] pnf-stretching — Contract-relax technique: why it outperforms static, protocols for hip flexors, hamstrings, and shoulder
+- [ ] loaded-stretching — End-range loading: goblet squat pause, Jefferson curl, overhead holds — building strength and mobility simultaneously
 - [ ] cold-and-heat-exposure — Cold plunge, sauna — what the evidence actually says
 - [ ] posture-and-ergonomics — Forward head posture, anterior pelvic tilt, desk work damage, corrective protocols, workstation setup
 - [ ] gut-health — Microbiome basics, fiber types, fermented foods, gut-brain axis — vegetarian diet implications, Ayurveda agni connection
@@ -362,7 +369,7 @@
 - [ ] intentional-buying — Need vs want, delay tactics, one-in-one-out rule
 - [ ] product-care-and-maintenance — Cast iron, leather, boots, merino, carbon steel, waxed canvas care
 - [ ] buying-used-and-vintage — eBay, estate sales, Poshmark — finding BIFL-quality secondhand
-- [ ] wardrobe-building — Capsule approach, cost-per-wear math, NJ seasonal context
+- [x] wardrobe-building
 - [ ] fabric-guide — Cotton, wool, linen, cashmere, leather — identifying quality, care, longevity
 - [ ] fit-and-tailoring — What fit means per garment type, evaluating off-the-rack, when to tailor
 
@@ -482,5 +489,6 @@
 - [x] using-this-system
 - [x] vscode-claude-workflow
 - [x] prompt-engineering
+- [x] free-books
 - [ ] annotation-and-note-systems — Zettelkasten vs simple files, building a usable knowledge system from book notes at scale
 - [ ] book-recommendations-by-domain — Living list of recommended books by domain (philosophy, history, science, fiction)

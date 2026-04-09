@@ -15,8 +15,11 @@
 ```
 romi-01/
 ├── CLAUDE.md               # This file — AI assistant guide
+├── IMPROVEMENTS.md         # Planned features and enhancements
 ├── context/
-│   └── about-me.md         # User profile, values, learning preferences
+│   ├── about-me.md         # User profile, values, learning preferences
+│   ├── hindi-style.md      # Hindi translation style guide
+│   └── hindi-glossary.md   # ~150-term canonical glossary for Hindi translations
 ├── goals/
 │   └── 2026-goals.md       # Annual goals + monthly skill focus tracker
 ├── knowledge/              # Wiki-style knowledge base
@@ -25,6 +28,9 @@ romi-01/
 │   ├── health/
 │   ├── meta/
 │   └── [new domains]/
+├── hindi/                  # Hindi translations (mirrors knowledge/ path structure)
+│   └── context/
+│       └── reference.md    # Canonical reference translation for style calibration
 ├── prompts/                # Reusable Claude prompt files
 └── templates/
     └── knowledge-topic.md
@@ -38,6 +44,8 @@ romi-01/
 |------|---------|
 | `deep-dive.md` | Learn any topic — produces a complete wiki-style knowledge file with proposed sub-topics |
 | `cross-pollinate.md` | Find connections between two knowledge files |
+| `translate.md` | Translate knowledge files into a target language; for Hindi reads style guide + glossary first |
+| `update-glossary.md` | Process `hindi/context/pending-terms.md` — resolve staged terms and merge into the canonical glossary |
 | `sacred-text-tenet.md` | Writing sessions for roma.md |
 | `fitness-plan.md` | Build or adjust workout routine |
 | `sync-docs.md` | Audit and update all docs for consistency |

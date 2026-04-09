@@ -99,4 +99,9 @@ Format: `[file-name.md](../category/file-name.md)` — [what the connection is]]
 1. Save to `knowledge/[category]/[topic-name].md`
 2. In `knowledge/CATALOG.md`: mark the entry `[x] topic-name` with no description (or add a new `[x] topic-name` line if it wasn't planned). Add any proposed sub-topics as `[ ] topic-name — short description` entries under the correct category. `[x]` entries never get descriptions — the file is the reference.
 3. **Domain coherence check** — scan the other files in the same folder. Do they all belong together? If any file in the folder feels like it belongs in a different domain, flag it: "Note: `[filename]` may fit better in `[other-domain]/`." Don't move it without asking — just name the mismatch.
-4. Ask: "Want to dive into any of the proposed sub-topics next?"
+4. **Vocabulary flag** — check if the file's domain (e.g., `cooking/`, `sports/`, `mathematics/`) has coverage in `context/hindi-glossary.md`. If the domain is absent or sparse and the file introduces 5+ specialized terms with no obvious Hindi equivalents, append one line to `hindi/context/pending-terms.md`:
+   ```
+   | [topic-name] | [domain] | New domain — needs glossary pass before translating |
+   ```
+   Do not do a full glossary pass here. Just flag it.
+5. Ask: "Want to dive into any of the proposed sub-topics next?"
