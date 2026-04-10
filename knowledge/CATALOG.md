@@ -159,9 +159,11 @@
 - [x] negotiation-basics
 - [x] emotional-intelligence
 - [x] critical-thinking
-- [ ] epistemology — How we know what we know: calibrated confidence, Bayesian updating, skepticism
-- [ ] rhetoric — Persuasion and argumentation: where logic meets language and audience
-- [ ] formal-logic — Propositional logic, truth tables, validity proofs: the structural foundation under informal reasoning
+- [x] epistemology
+- [x] rhetoric
+- [x] formal-logic
+- [ ] Bayesian-reasoning — Bayes' theorem in full: prior/posterior math, base rate application, belief updating in practice
+- [ ] predicate-logic — First-order logic: quantifiers, predicates, multi-variable proofs; extends formal-logic into mathematics and CS foundations
 - [ ] learning-how-to-learn — Memory, spaced repetition, Feynman technique, retrieval practice
 - [ ] journaling-practice — Writing as thinking tool: Stoic evening review, morning pages, prompts that produce insight not just logging
 - [ ] stress-management — Nervous system basics, what works, what's marketing
@@ -192,6 +194,12 @@
 - [ ] skills/appliance-repair — diagnosing and fixing washing machines, dryers, refrigerators, dishwashers — most frequent expensive home failures; avoids service calls on simple fixes
 - [ ] skills/concrete-and-masonry — mixing, pouring slabs, patching, mortaring brick and block — required for any serious property work, fencing, raised beds, hardscaping
 - [ ] skills/HVAC-basics — filter maintenance, diagnosing heating/AC failures, when to call vs fix, thermostat wiring, seasonal prep — high cost of neglect or unnecessary service calls
+- [ ] skills/chainsaw-and-tree-work — Safe operation, felling technique, limbing, bucking, maintenance; firewood processing; storm cleanup — essential NJ property skill
+- [ ] skills/basic-welding — MIG/flux-core basics, joint types, safety, what you can and can't weld at home; opens structural fabrication that woodworking and concrete can't cover
+- [ ] skills/vehicle-diagnostics — Reading OBD-II codes, interpreting a repair estimate, knowing when you're being oversold; extends vehicle-maintenance beyond fluids and tires
+- [ ] skills/water-systems — Well pumps, pressure tanks, water treatment and filtration; NJ-specific (Pinelands acidic water, aquifer quality); prerequisite for rural property ownership
+- [ ] skills/power-tool-proficiency — Circular saw, router, angle grinder, drill press: safe setup, blade/bit selection, maintenance; the practical foundation woodworking-basics assumes
+- [ ] skills/fire-making — Primitive and modern fire starting: tinder preparation, fire lays, spark and friction methods; emergency-preparedness complement
 
 ## Writing
 
@@ -370,8 +378,8 @@
 - [ ] product-care-and-maintenance — Cast iron, leather, boots, merino, carbon steel, waxed canvas care
 - [ ] buying-used-and-vintage — eBay, estate sales, Poshmark — finding BIFL-quality secondhand
 - [x] wardrobe-building
-- [ ] fabric-guide — Cotton, wool, linen, cashmere, leather — identifying quality, care, longevity
-- [ ] fit-and-tailoring — What fit means per garment type, evaluating off-the-rack, when to tailor
+- [x] fabric-guide
+- [x] fit-and-tailoring
 
 ## Tech
 
