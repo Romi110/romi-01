@@ -190,6 +190,14 @@
 - [x] emergency-preparedness
 - [x] land-navigation
 - [x] sewing-basics
+- [x] ancient-cooling-methods
+- [x] skills/ancient-heating-methods
+- [x] skills/ancient-water-purification
+- [x] skills/ancient-water-collection
+- [x] skills/natural-building-methods
+- [x] skills/blacksmithing-basics
+- [x] skills/celestial-navigation
+- [x] skills/natural-cordage
 - [ ] knot-tying — 12 essential knots: farming, camping, rigging, rescue applications
 - [ ] skills/appliance-repair — diagnosing and fixing washing machines, dryers, refrigerators, dishwashers — most frequent expensive home failures; avoids service calls on simple fixes
 - [ ] skills/concrete-and-masonry — mixing, pouring slabs, patching, mortaring brick and block — required for any serious property work, fencing, raised beds, hardscaping

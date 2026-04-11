@@ -17,4 +17,4 @@ Run `@prompts/update-glossary.md` to process this file.
 
 | Topic | Domain | Reason |
 |---|---|---|
-| *(none yet)* | | |
+| ancient-cooling-methods | skills | New domain — needs glossary pass before translating |
