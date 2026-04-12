@@ -9,7 +9,7 @@ Run `@prompts/update-glossary.md` to process this file.
 
 | English Term | Hindi Used | Source File | Notes |
 |---|---|---|---|
-| *(none yet)* | | | |
+*(none yet)*
 
 ---
 
@@ -17,4 +17,4 @@ Run `@prompts/update-glossary.md` to process this file.
 
 | Topic | Domain | Reason |
 |---|---|---|
-| ancient-cooling-methods | skills | New domain — needs glossary pass before translating |
+*(none yet)*

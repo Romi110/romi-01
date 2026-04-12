@@ -178,6 +178,51 @@
 | Preservation | परिरक्षण | |
 | Self-sufficient | आत्मनिर्भर | |
 
+## Cooking & Kitchen
+
+| English | Hindi | Notes |
+|---------|-------|-------|
+| Aroma | सुगंध | |
+| Caramelization | कैरेमलीकरण | Hindi -ीकरण suffix on transliterated base |
+| Carbon steel | कार्बन स्टील | Transliterate — no standard Hindi equivalent |
+| Cast iron | कच्चा लोहा | |
+| Chef's knife | शेफ की चाकू | Transliterate "chef"; चाकू = knife |
+| Cutting board | काटने का बोर्ड | |
+| Dutch oven | डच ओवन | Transliterate |
+| Emulsification | पायसीकरण | पायस = emulsion (scientific Hindi) |
+| Flavor theory | स्वाद सिद्धांत | |
+| Honing steel | होनिंग स्टील | Transliterate |
+| Kitchen scale | रसोई तराज़ू | तराज़ू = scale/balance |
+| Kombu | कोम्बू | Transliterate — Japanese dried kelp |
+| Maillard reaction | मेलार्ड प्रतिक्रिया | Transliterate proper noun; प्रतिक्रिया = reaction |
+| Miso | मिसो | Transliterate — Japanese fermented soybean paste |
+| Mortar and pestle | ओखली और मूसल | Classical Hindi terms |
+| Nutritional yeast | न्यूट्रिशनल यीस्ट | Transliterate — no standard Hindi equivalent |
+| Retronasal olfaction | रेट्रोनेज़ल घ्राण | Transliterate "retronasal"; घ्राण = sense of smell |
+| Sheet pan | शीट पैन | Transliterate |
+| Soy sauce | सोया सॉस | Transliterate |
+| Umami | उमामी | Transliterate — Japanese loanword; no Hindi equivalent |
+| Whetstone | व्हेटस्टोन | Transliterate; traditional alternative: सान पत्थर |
+
+## Skills & Traditional Knowledge
+
+| English | Hindi | Notes |
+|---------|-------|-------|
+| Ancient technique | प्राचीन तकनीक | |
+| Clay vessel | मिट्टी का पात्र | |
+| Condensation | संघनन | |
+| Earthen pot | मिट्टी का घड़ा | |
+| Evaporative cooling | वाष्पीकरण शीतलन | |
+| Heat dissipation | ताप अपव्यय | |
+| Humidity | आर्द्रता | |
+| Ice house | हिम भंडार | |
+| Insulation | ऊष्मारोधन | Or इन्सुलेशन (transliterate) in modern context |
+| Passive cooling | निष्क्रिय शीतलन | |
+| Thermal mass | ताप द्रव्यमान | |
+| Underground storage | भूमिगत भंडारण | |
+| Ventilation | वायु संचार | |
+| Windcatcher / wind tower | वायु ग्राही / बादगीर | बादगीर is the Persian/Urdu term used in historical contexts |
+
 ## Status Checkboxes (use verbatim)
 
 | English | Hindi |
