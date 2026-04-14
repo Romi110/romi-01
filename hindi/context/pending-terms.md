@@ -17,4 +17,8 @@ Run `@prompts/update-glossary.md` to process this file.
 
 | Topic | Domain | Reason |
 |---|---|---|
-*(none yet)*
+| behavioral-economics | economics | Sparse glossary — needs terms: loss aversion, anchoring, nudge, heuristics, prospect theory, mental accounting |
+| labor-economics | economics | Sparse glossary — needs terms: monopsony, marginal product, human capital, gig economy, collective bargaining, wage premium |
+| housing-economics | economics | Sparse glossary — needs terms: zoning, up-zoning, price-to-rent ratio, rent control, agglomeration, malinvestment |
+| Austrian-school | economics | Sparse glossary — needs terms: subjective value, praxeology, malinvestment, natural rate, knowledge problem |
+| inequality-and-wealth | economics | Sparse glossary — needs terms: Gini coefficient, intergenerational mobility, capital gains, wealth concentration, r > g |

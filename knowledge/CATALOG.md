@@ -49,6 +49,7 @@
 - [x] hair/hair-growth
 - [x] hair/scalp-care
 - [x] hair/ayurveda-hair
+- [x] seasonal-allergies
 - [ ] hip-mobility — 90/90, hip flexor length, internal/external rotation, psoas release — highest-leverage mobility target for desk workers
 - [ ] thoracic-spine-mobility — T-spine extension and rotation: kyphosis, foam roller protocol, how it unlocks shoulder and lumbar function
 - [ ] shoulder-mobility — Overhead range, impingement mechanics, posterior capsule, shoulder packing — critical for kettlebell pressing and mace work
@@ -254,11 +255,11 @@
 - [x] monetary-policy
 - [x] inflation-and-deflation
 - [x] trade-and-globalization
-- [ ] behavioral-economics — Where humans deviate from rational agent models, nudge theory, policy implications
-- [ ] labor-economics — Wages, productivity, automation, minimum wage debate, unions, gig economy
-- [ ] housing-economics — Supply constraints, zoning, rent vs. buy math, why cities are so expensive
-- [ ] austrian-school — Subjective value, business cycle theory, knowledge problem, Hayek vs. Keynes
-- [ ] inequality-and-wealth — Piketty's r > g, Gini, wealth concentration, intergenerational mobility
+- [x] behavioral-economics
+- [x] labor-economics
+- [x] housing-economics
+- [x] austrian-school
+- [x] inequality-and-wealth
 
 ## History
 

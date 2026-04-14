@@ -114,6 +114,26 @@
 | Intermittent fasting | आंतरायिक उपवास | |
 | Strength training | शक्ति प्रशिक्षण | |
 | Cardiovascular | हृदय-संवहनी | Or just "कार्डियो" (transliterate) in fitness context |
+| Amino acid | अमीनो एसिड | Transliterate |
+| Calcium | कैल्शियम | Transliterate |
+| Carbohydrates | कार्बोहाइड्रेट | Transliterate |
+| Fat (macronutrient) | वसा | Standard Hindi; use वसा in nutrition context |
+| Fiber | फाइबर | Transliterate |
+| Iron (nutrient) | आयरन | Transliterate — preferred over लोहा in nutrition context |
+| Maintenance (caloric) | रखरखाव | Standard Hindi for caloric maintenance |
+| Meal prep | मील प्रेप | Transliterate — no clean Hindi equivalent |
+| Micronutrients | सूक्ष्म पोषक तत्व | Literal Hindi compound |
+| Satiety / Satiating | तृप्ति / तृप्तिदायक | Standard Sanskrit-derived Hindi |
+| Thermic effect | तापीय प्रभाव | Literal translation; तापीय = thermic, प्रभाव = effect |
+| Vegetarian | शाकाहारी | Standard Hindi |
+| Zinc | जिंक | Transliterate |
+| Anti-nutrient | एंटी-न्यूट्रिएंट्स | Transliterate — compounds that interfere with nutrient absorption |
+| Digestibility | पाचन क्षमता | Standard Hindi compound; पाचन = digestion, क्षमता = capacity |
+| Lectin | लेक्टिन | Transliterate — protein type in legumes; can cause food poisoning if undercooked |
+| Microbiome | माइक्रोबायोम | Transliterate — gut bacteria population |
+| Oligosaccharide | ओलिगोसैकेराइड | Transliterate — complex carbohydrate; primary cause of legume-related gas |
+| Oxalate | ऑक्सलेट | Transliterate — mineral compound found in some legumes and greens |
+| Phytate | फाइटेट | Transliterate — anti-nutrient that binds minerals; reduced by soaking and sprouting |
 
 ## Technology & Infrastructure
 
@@ -203,6 +223,16 @@
 | Soy sauce | सोया सॉस | Transliterate |
 | Umami | उमामी | Transliterate — Japanese loanword; no Hindi equivalent |
 | Whetstone | व्हेटस्टोन | Transliterate; traditional alternative: सान पत्थर |
+| Batch cook | बैच पकाना | Literal compound; बैच widely used for batches in modern Hindi |
+| Blender | ब्लेंडर | Transliterate — kitchen appliance |
+| Freezer | फ्रीजर | Transliterate |
+| Microwave | माइक्रोवेव | Transliterate — kitchen appliance |
+| Reheat | रीहीट | Transliterate; alternative: दुबारा गर्म करना (more literal but longer) |
+| Souper cube | सूपर क्यूब | Brand product name — transliterate |
+| Stovetop | स्टोवटॉप | Transliterate; alternative: चूल्हा (traditional, but less universal for modern stoves) |
+| Tofu | टोफू | Transliterate — Japanese soybean curd; no Hindi equivalent |
+| Aquafaba | एक्वाफाबा | Transliterate — liquid from cooked/canned chickpeas; used as vegan egg whites |
+| Tahini | तहीनी | Transliterate — sesame paste; Middle Eastern ingredient |
 
 ## Skills & Traditional Knowledge
 
