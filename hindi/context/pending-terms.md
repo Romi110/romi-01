@@ -22,3 +22,7 @@ Run `@prompts/update-glossary.md` to process this file.
 | housing-economics | economics | Sparse glossary — needs terms: zoning, up-zoning, price-to-rent ratio, rent control, agglomeration, malinvestment |
 | Austrian-school | economics | Sparse glossary — needs terms: subjective value, praxeology, malinvestment, natural rate, knowledge problem |
 | inequality-and-wealth | economics | Sparse glossary — needs terms: Gini coefficient, intergenerational mobility, capital gains, wealth concentration, r > g |
+| basic-chemistry | science | New domain — needs glossary pass before translating |
+| physics-fundamentals | science | New domain — needs glossary pass before translating |
+| ecology-basics | science | New domain — needs glossary pass before translating |
+| biology-fundamentals | science | New domain — needs glossary pass before translating |

@@ -298,11 +298,13 @@
 - [x] science-literacy
 - [x] galaxies
 - [ ] statistics-basics — Distributions, standard deviation, confidence intervals, Bayesian reasoning
-- [ ] basic-chemistry — pH, reactions, solutions — behind soil, nutrients, fermentation
-- [ ] ecology-basics — Energy flow, nutrient cycles, succession, biomes — foundational for farming, composting, and understanding land
+- [x] basic-chemistry
+- [x] ecology-basics
 - [ ] human-physiology — Digestion, hormones, inflammation, immune response
-- [ ] physics-fundamentals — Classical mechanics, thermodynamics, waves, conservation laws — the physical laws behind energy systems, home engineering, and how the world moves
-- [ ] biology-fundamentals — Cell biology, evolution by natural selection, genetics overview — the foundation for health science, farming, ecology, and nutrition
+- [x] physics-fundamentals
+- [x] biology-fundamentals
+- [ ] waves-and-oscillations — Wave mechanics, frequency, resonance, sound, light — connects to antennas, acoustics, and instruments
+- [ ] electromagnetism-basics — Electric fields, circuits, magnetism, induction — the physics behind solar panels, motors, and home wiring
 - [ ] neuroscience-basics — Brain structure, neurotransmitters, neuroplasticity, reward circuits — the biological substrate behind habit design, emotional regulation, and cognition
 - [ ] genetics-and-epigenetics — DNA, gene expression, heredity, how environment modifies gene expression — health optimization and longevity implications
 - [ ] climate-science — Greenhouse effect, CO2 forcing, tipping points, NJ regional projections — the science behind farming planning, energy decisions, and geopolitical risk
