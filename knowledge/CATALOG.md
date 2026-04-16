@@ -90,7 +90,7 @@
 - [ ] all-grain-brewing — Full mash process, sparging methods, efficiency, equipment
 - [ ] kegging-system — Draft beer at home: corny kegs, CO2, regulators, carbonation
 - [ ] sour-beer-production — Kettle souring, Lactobacillus, Brettanomyces, mixed fermentation
-- [ ] nj-craft-beer — NJ brewery scene, notable taprooms by region, NJ-grown hops and grain
+- [x] nj-craft-beer
 
 ## Farming
 
@@ -144,6 +144,7 @@
 - [x] habit-design
 - [x] identity-and-behavior
 - [x] decision-making
+- [ ] mind/power-and-influence — Personal and social influence: authority, persuasion, social capital, leverage, and how to build influence without resorting to manipulation.
 - [x] mental-models
 - [x] systems-thinking
 - [x] reading-deeply
@@ -164,6 +165,7 @@
 - [x] rhetoric
 - [x] formal-logic
 - [ ] Bayesian-reasoning — Bayes' theorem in full: prior/posterior math, base rate application, belief updating in practice
+- [ ] mind/information-diet — Curating what information enters your mind: the case against passive news consumption, primary sources vs. commentary, building reading habits that compound rather than degrade
 - [ ] predicate-logic — First-order logic: quantifiers, predicates, multi-variable proofs; extends formal-logic into mathematics and CS foundations
 - [ ] learning-how-to-learn — Memory, spaced repetition, Feynman technique, retrieval practice
 - [ ] journaling-practice — Writing as thinking tool: Stoic evening review, morning pages, prompts that produce insight not just logging
@@ -235,6 +237,8 @@
 - [x] dollar-weaponization
 - [x] how-government-works
 - [ ] technology-cold-war — AI race, semiconductor export controls, data sovereignty, two-stack internet
+- [x] geopolitics/intelligence-and-power
+- [ ] geopolitics/hard-soft-power — Coercive force, economic leverage, cultural influence, and how states deploy different forms of power in the modern world.
 - [ ] russia-ukraine-implications — European energy realignment, NATO expansion, SWIFT weaponization
 - [ ] global-south-realignment — Saudi/UAE/Turkey/Brazil/Indonesia hedging between US and China; the swing states and what they want
 - [ ] middle-east-instability — Israel-Iran-Saudi triangle, petrodollar erosion, post-US withdrawal power vacuum
@@ -260,6 +264,8 @@
 - [x] housing-economics
 - [x] austrian-school
 - [x] inequality-and-wealth
+- [x] economics/information-economics
+- [ ] economics/ai-economy-overview — What "AI economy" actually means: productivity gains, winner-take-most dynamics, labor market bifurcation, where new economic value is concentrating — the macro context that makes all the career files legible
 
 ## History
 
@@ -277,14 +283,14 @@
 - [x] cold-war-deep-dive
 - [x] world-war-ii-origins
 - [ ] french-revolution — Liberty, equality, fraternity and the Terror: why the revolution devoured itself, and what it produced
-- [ ] british-empire — How a small island controlled 25% of the Earth's surface, what it extracted, and what it left behind
+- [x] british-empire
 - [x] ottoman-empire
 - [ ] american-founding — The Articles of Confederation's failure, the constitutional convention, federalism, and the compromises that built the republic
 - [ ] world-war-i-origins — Alliances, nationalism, the July Crisis — why a single assassination triggered a world war
-- [ ] russian-revolution — 1917 and the Bolshevik seizure of power: what the Tsar's fall opened, what Lenin built, what Stalin became
+- [x] russian-revolution
 - [x] indian-history
 - [ ] persian-empire — Cyrus the Great's model empire, Darius's administration, the first human rights declaration, and why Persia keeps being underrated
-- [ ] byzantine-empire — Eastern Rome that lasted 1,000 years: how it preserved classical knowledge, what Constantinople meant, and why 1453 matters
+- [x] byzantine-empire
 - [ ] southeast-asia-civilizations — Khmer Empire, Majapahit, Srivijaya — maritime empires the standard history ignores
 - [x] japan-history
 - [x] korea-history
@@ -292,6 +298,7 @@
 - [ ] oceania-civilizations — Polynesian navigation: settling the entire Pacific without instruments, and what the Māori, Hawaiian, and Rapa Nui civilizations built
 - [ ] latin-america-independence — Bolívar's dream and its failure, the caudillo problem, why Latin American democracies kept collapsing after Spain left
 - [x] silk-road-history
+- [x] history/information-networks
 
 ## Science
 
@@ -361,6 +368,8 @@
 - [ ] business-succession-planning — Buy-sell agreements, key man insurance, business valuation, who gets the business
 - [ ] financial-reporting-basics — Reading a P&L, balance sheet, and cash flow statement — understanding your own numbers
 - [ ] career-strategy — Leverage, optionality, specialize vs generalize, negotiating comp
+- [ ] finance/career-positioning-ai-era — How to specialize around AI rather than against it, which skills compound vs. atrophy, adjacency moves toward AI-adjacent roles, negotiating comp as an AI-skilled engineer
+- [ ] finance/productized-ai-services — Turning AI leverage into repeatable income: consulting, niche tools, automation services — the business model layer for selling AI-powered work without being a full startup
 - [ ] software-engineering-craft — Non-coding skills: code review, technical communication, system design
 - [ ] freelancing-basics — Contracts, pricing, scope, client management
 - [ ] building-in-public — Sharing work to build credibility without performance
@@ -407,6 +416,8 @@
 - [ ] phone-plan-guide — Carrier tiers (Verizon/AT&T/T-Mobile vs MVNOs: Mint, Visible, Google Fi), when to pay full price vs take a deal
 - [x] infrastructure/network-hardware
 - [x] infrastructure/network-security
+- [ ] infrastructure/building-private-information-networks — Practical guide to building a resilient private/local information network: topology, wired/wireless design, self-hosting, local DNS, VPN/remote access, and offline-first patterns.
+- [ ] infrastructure/community-mesh-networks — How to design and deploy a community-owned mesh or local ISP alternative, including spectrum/permission issues, governance, resiliency, and the difference between personal homelab and civic networks.
 - [ ] infrastructure/dns-and-pihole — Pi-hole/AdGuard Home, local DNS, split-horizon for self-hosted services
 - [ ] infrastructure/vpn-and-remote-access — WireGuard, Tailscale, secure remote access to home network
 - [ ] infrastructure/virtualization — Proxmox: VMs vs LXC, resource allocation, storage, clustering
@@ -418,6 +429,10 @@
 - [ ] infrastructure/monitoring-and-observability — Grafana + Prometheus, Uptime Kuma, log aggregation
 - [ ] infrastructure/terminal-and-shell-setup — zsh config, dotfiles, aliases, tmux, Neovim/VS Code — the daily dev environment missing from the wiki
 - [ ] infrastructure/privacy-and-opsec — Password management, 2FA, DNS-over-HTTPS, VPN use cases, realistic threat model for a private individual
+- [x] ai/ai-job-market
+- [x] ai/ai-productivity-stack
+- [x] ai/coding-with-ai
+- [x] ai/building-ai-products
 - [ ] ai/open-source-llm-landscape — LLaMA, Mistral, Phi, Falcon: where to get them, how to run them, when to use over closed APIs
 - [ ] ai/ai-agents-overview — What agents actually are, how they're built, where they work and fail
 - [ ] ai/local-llm-setup — Running LLaMA or Mistral locally with Ollama: hardware requirements, practical setup
@@ -509,5 +524,8 @@
 - [x] vscode-claude-workflow
 - [x] prompt-engineering
 - [x] free-books
+- [ ] meta/information-power — How control over information, narrative, attention, and platforms becomes a source of real power in politics, business, and technology.
 - [ ] annotation-and-note-systems — Zettelkasten vs simple files, building a usable knowledge system from book notes at scale
 - [ ] book-recommendations-by-domain — Living list of recommended books by domain (philosophy, history, science, fiction)
+- [ ] meta/signal-vs-noise — Filtering in a high-noise environment: source evaluation, the difference between information that compounds vs. costs attention without returning insight, building a reliable information stack
+- [x] meta/knowledge-network-building
