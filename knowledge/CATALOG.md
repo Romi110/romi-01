@@ -75,6 +75,10 @@
 - [x] world-vegetarian-cuisines
 - [x] homebrewing-beer
 - [ ] weekly-cooking-system — Batch cooking logic: spice base in bulk, stock from scraps, yogurt weekly
+- [x] motherbatching
+- [x] kitchen-budgeting
+- [x] homemade-extracts
+- [x] infusion-bases
 - [ ] knife-sharpening — Whetstones, honing, maintenance
 - [ ] pressure-cooking — Instant Pot / stovetop: dal in 15 min, legumes without soaking, stock — practical time compression for vegetarian cooking
 - [ ] sourdough-bread — Starter maintenance, hydration, bulk fermentation, scoring, baking — foundational scratch skill
