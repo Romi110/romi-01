@@ -352,6 +352,7 @@
 - [x] building-generational-wealth
 - [x] owner-compensation-strategy
 - [x] side-projects-to-income
+- [x] starting-your-own-business
 - [x] credit-cards
 - [ ] personal-finance-basics — Budgeting, net worth, the order of operations for money
 - [ ] bank-accounts — Checking, HYSA, money market: which banks, what rates, where to park each dollar — the account layer under every other financial file
@@ -404,6 +405,7 @@
 - [x] wardrobe-building
 - [x] fabric-guide
 - [x] fit-and-tailoring
+- [x] laundry-and-stain-care
 
 ## Tech
 
@@ -502,7 +504,7 @@
 - [x] sports/defensive-fundamentals
 - [x] sports/skill-development
 - [ ] sports/basketball-iq — Court vision, reading defenses, decision-making speed, and understanding the game at a higher level
-- [ ] sports/strength-and-conditioning — Sport-agnostic athletic development: explosiveness, lateral quickness, injury prevention
+- [x] sports/strength-and-conditioning
 
 ## Outdoors
 
@@ -530,6 +532,6 @@
 - [x] free-books
 - [ ] meta/information-power — How control over information, narrative, attention, and platforms becomes a source of real power in politics, business, and technology.
 - [ ] annotation-and-note-systems — Zettelkasten vs simple files, building a usable knowledge system from book notes at scale
-- [ ] book-recommendations-by-domain — Living list of recommended books by domain (philosophy, history, science, fiction)
+- [x] meta/book-recommendations-by-domain
 - [ ] meta/signal-vs-noise — Filtering in a high-noise environment: source evaluation, the difference between information that compounds vs. costs attention without returning insight, building a reliable information stack
 - [x] meta/knowledge-network-building

@@ -26,3 +26,4 @@ Run `@prompts/update-glossary.md` to process this file.
 | physics-fundamentals | science | New domain — needs glossary pass before translating |
 | ecology-basics | science | New domain — needs glossary pass before translating |
 | biology-fundamentals | science | New domain — needs glossary pass before translating |
+| strength-and-conditioning | sports | Sparse glossary — needs terms: plyometrics, SSC (stretch-shortening cycle), agility, prehab, phosphocreatine, NEAT, reactive agility, loaded carry |
