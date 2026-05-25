@@ -27,3 +27,4 @@ Run `@prompts/update-glossary.md` to process this file.
 | ecology-basics | science | New domain — needs glossary pass before translating |
 | biology-fundamentals | science | New domain — needs glossary pass before translating |
 | strength-and-conditioning | sports | Sparse glossary — needs terms: plyometrics, SSC (stretch-shortening cycle), agility, prehab, phosphocreatine, NEAT, reactive agility, loaded carry |
+| lab-diamonds | consumerism | New domain — needs glossary pass before translating: lab-grown, CVD, HPHT, carat, clarity, cut, certification, prong, bezel, solitaire, hallmark, karat |

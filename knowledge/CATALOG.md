@@ -23,6 +23,9 @@
 - [ ] virtue-ethics — Aristotle's eudaimonia: flourishing vs Stoic virtue, where the frameworks differ and converge — feeds Roma
 - [ ] epictetus-enchiridion — Reading guide for the Enchiridion: the most practical Stoic text, written in commands not meditations
 - [ ] death-and-impermanence — Cross-tradition: memento mori, Buddhist anicca, Hindu moksha — how each uses death as a practical tool
+- [x] philosophy/political-philosophy
+- [x] philosophy/stoic-ruler
+- [x] philosophy/political-realism
 
 ## Roma
 
@@ -148,7 +151,11 @@
 - [x] habit-design
 - [x] identity-and-behavior
 - [x] decision-making
-- [ ] mind/power-and-influence — Personal and social influence: authority, persuasion, social capital, leverage, and how to build influence without resorting to manipulation.
+- [x] mind/power-and-influence
+- [x] mind/statecraft-and-strategy
+- [x] mind/psychology-of-power
+- [x] mind/war-and-military-strategy
+- [x] mind/propaganda-and-mass-persuasion
 - [x] mental-models
 - [x] systems-thinking
 - [x] reading-deeply
@@ -242,6 +249,8 @@
 - [x] how-government-works
 - [ ] technology-cold-war — AI race, semiconductor export controls, data sovereignty, two-stack internet
 - [x] geopolitics/intelligence-and-power
+- [x] geopolitics/economic-statecraft
+- [x] geopolitics/diplomatic-statecraft
 - [ ] geopolitics/hard-soft-power — Coercive force, economic leverage, cultural influence, and how states deploy different forms of power in the modern world.
 - [ ] russia-ukraine-implications — European energy realignment, NATO expansion, SWIFT weaponization
 - [ ] global-south-realignment — Saudi/UAE/Turkey/Brazil/Indonesia hedging between US and China; the swing states and what they want
@@ -271,38 +280,7 @@
 - [x] economics/information-economics
 - [ ] economics/ai-economy-overview — What "AI economy" actually means: productivity gains, winner-take-most dynamics, labor market bifurcation, where new economic value is concentrating — the macro context that makes all the career files legible
 
-## History
-
-- [x] human-history-timeline
-- [x] history-mental-models
-- [x] economic-history
-- [x] banking-system-history
-- [x] roman-history
-- [x] industrial-revolution-deep-dive
-- [x] agrarian-history
-- [x] mongol-empire
-- [x] islamic-golden-age
-- [x] african-civilizations
-- [x] pre-columbian-americas
-- [x] cold-war-deep-dive
-- [x] world-war-ii-origins
-- [ ] french-revolution — Liberty, equality, fraternity and the Terror: why the revolution devoured itself, and what it produced
-- [x] british-empire
-- [x] ottoman-empire
-- [ ] american-founding — The Articles of Confederation's failure, the constitutional convention, federalism, and the compromises that built the republic
-- [ ] world-war-i-origins — Alliances, nationalism, the July Crisis — why a single assassination triggered a world war
-- [x] russian-revolution
-- [x] indian-history
-- [ ] persian-empire — Cyrus the Great's model empire, Darius's administration, the first human rights declaration, and why Persia keeps being underrated
-- [x] byzantine-empire
-- [ ] southeast-asia-civilizations — Khmer Empire, Majapahit, Srivijaya — maritime empires the standard history ignores
-- [x] japan-history
-- [x] korea-history
-- [ ] indigenous-north-america — Haudenosaunee Confederacy, Mississippian culture, Plains nations, Pueblo peoples — beyond the hunter-gatherer dismissal
-- [ ] oceania-civilizations — Polynesian navigation: settling the entire Pacific without instruments, and what the Māori, Hawaiian, and Rapa Nui civilizations built
-- [ ] latin-america-independence — Bolívar's dream and its failure, the caudillo problem, why Latin American democracies kept collapsing after Spain left
-- [x] silk-road-history
-- [x] history/information-networks
+## History → see knowledge/history/CATALOG.md (26 written, 8 planned)
 
 ## Science
 
@@ -396,6 +374,10 @@
 - [x] sleep-environment
 - [x] experiences-over-things
 - [x] fashion-brands
+- [x] consumerism/lab-diamonds
+- [x] consumerism/engagement-ring-guide
+- [x] consumerism/custom-ring-design
+- [x] consumerism/fine-jewelry-fundamentals
 - [ ] total-cost-of-ownership — Cost-per-use calculations, depreciation, repair vs replace math
 - [ ] car-ownership-costs — True cost breakdown: depreciation, insurance, fuel, maintenance, financing — the math most people skip when they see a monthly payment
 - [ ] audio-equipment — Headphones (open vs closed, planar vs dynamic), DAC/amp basics, what the spend curve looks like
@@ -530,7 +512,7 @@
 - [x] vscode-claude-workflow
 - [x] prompt-engineering
 - [x] free-books
-- [ ] meta/information-power — How control over information, narrative, attention, and platforms becomes a source of real power in politics, business, and technology.
+- [x] meta/information-power
 - [ ] annotation-and-note-systems — Zettelkasten vs simple files, building a usable knowledge system from book notes at scale
 - [x] meta/book-recommendations-by-domain
 - [ ] meta/signal-vs-noise — Filtering in a high-noise environment: source evaluation, the difference between information that compounds vs. costs attention without returning insight, building a reliable information stack
