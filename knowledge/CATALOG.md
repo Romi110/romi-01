@@ -26,6 +26,8 @@
 - [x] philosophy/political-philosophy
 - [x] philosophy/stoic-ruler
 - [x] philosophy/political-realism
+- [ ] philosophy/hindu-philosophy — The six Darshanas (Vedanta, Samkhya, Nyaya, Yoga, Mimamsa, Vaisheshika): the Indian philosophical tradition that parallels Stoicism and grounds the Gita beyond one text; Indian heritage anchor and Roma feed
+- [ ] philosophy/philosophy-of-mind — Consciousness, the hard problem, dualism vs. physicalism, personal identity — the conceptual foundation beneath epistemology and cognitive-psychology
 
 ## Roma
 
@@ -65,6 +67,8 @@
 - [ ] gut-health — Microbiome basics, fiber types, fermented foods, gut-brain axis — vegetarian diet implications, Ayurveda agni connection
 - [ ] hormonal-health-men — Testosterone, cortisol, thyroid, sleep-hormone connection — what to monitor, what moves the needle at 28
 - [ ] sun-and-vitamin-d — UV index, seasonal variation, NJ winter deficit, supplementation math, D3/K2 pairing
+- [ ] health/dental-health — Preventive oral care, cleaning cadence, diet and enamel, fluoride evidence, when to see a dentist vs. wait — absent from the entire wiki despite being a basic health domain
+- [ ] health/skin-care-basics — SPF, actives (retinol, vitamin C, niacinamide), morning vs. evening routine, NJ seasonal adaptation — preventive skin health is late-20s work
 
 ## Cooking
 
@@ -157,6 +161,7 @@
 - [x] mind/war-and-military-strategy
 - [x] mind/propaganda-and-mass-persuasion
 - [x] mental-models
+- [x] mind/flow-state
 - [x] systems-thinking
 - [x] reading-deeply
 - [x] psychology/psychology-overview
@@ -222,6 +227,9 @@
 - [ ] skills/water-systems — Well pumps, pressure tanks, water treatment and filtration; NJ-specific (Pinelands acidic water, aquifer quality); prerequisite for rural property ownership
 - [ ] skills/power-tool-proficiency — Circular saw, router, angle grinder, drill press: safe setup, blade/bit selection, maintenance; the practical foundation woodworking-basics assumes
 - [ ] skills/fire-making — Primitive and modern fire starting: tinder preparation, fire lays, spark and friction methods; emergency-preparedness complement
+- [x] skills/legal-literacy
+- [x] skills/household-pest-control
+- [ ] skills/roofing-basics — Shingles, flashing, gutters, common failure points, ice dams, when to DIY vs. call — major home maintenance domain absent from home-repair-basics
 
 ## Writing
 
@@ -297,6 +305,7 @@
 - [ ] neuroscience-basics — Brain structure, neurotransmitters, neuroplasticity, reward circuits — the biological substrate behind habit design, emotional regulation, and cognition
 - [ ] genetics-and-epigenetics — DNA, gene expression, heredity, how environment modifies gene expression — health optimization and longevity implications
 - [ ] climate-science — Greenhouse effect, CO2 forcing, tipping points, NJ regional projections — the science behind farming planning, energy decisions, and geopolitical risk
+- [ ] science/geology-basics — Rock types, soil formation, NJ geological history (Pinelands as Atlantic Coastal Plain), how bedrock shapes water and soil — connects farming, Pinelands regulations, and well/water systems
 - [ ] microbiology-basics — Bacteria, viruses, fungi, the microbiome concept — foundation for fermentation, gut health, soil biology, and medicine
 - [ ] biochemistry-basics — Metabolism, ATP, proteins, enzymes, macronutrient pathways — makes nutrition and health files mechanistic rather than descriptive
 - [ ] space-overview — Scale of the universe, major branches, how we know what we know
@@ -351,6 +360,7 @@
 - [ ] business-succession-planning — Buy-sell agreements, key man insurance, business valuation, who gets the business
 - [ ] financial-reporting-basics — Reading a P&L, balance sheet, and cash flow statement — understanding your own numbers
 - [ ] career-strategy — Leverage, optionality, specialize vs generalize, negotiating comp
+- [x] finance/asset-protection
 - [ ] finance/career-positioning-ai-era — How to specialize around AI rather than against it, which skills compound vs. atrophy, adjacency moves toward AI-adjacent roles, negotiating comp as an AI-skilled engineer
 - [ ] finance/productized-ai-services — Turning AI leverage into repeatable income: consulting, niche tools, automation services — the business model layer for selling AI-powered work without being a full startup
 - [ ] software-engineering-craft — Non-coding skills: code review, technical communication, system design
@@ -458,6 +468,8 @@
 - [ ] nj-auto-insurance — Standard vs basic policy, verbal threshold trap, PIP selection, which carriers write NJ, how to actually lower your premium
 - [x] nj-well-and-septic
 - [x] nj-pinelands-regulations
+- [ ] nj-water-rights — NJ DEP water allocation, permits for irrigation/well use, Pinelands CMP water provisions, aquifer recharge restrictions — prerequisite for farming at scale on NJ rural property
+- [ ] nj-home-and-flood-insurance — NJ coastal flood zones, NFIP vs. private flood, home insurance in a high-wind state, what Atlantic County properties actually need
 
 ## Video / Content Creation
 
@@ -494,12 +506,17 @@
 - [ ] outdoors/wilderness-camping — gear, site selection, Leave No Trace, fire starting, shelter, water treatment — practical field skills distinct from emergency-preparedness
 - [ ] outdoors/backcountry-navigation — map and compass without GPS, terrain reading, contour lines — deeper than land-navigation's overview; flat featureless Pinelands terrain is its own challenge
 - [ ] outdoors/nature-observation — weather reading, animal tracking, plant and tree ID, situational awareness in the field — connects to foraging, farming, and Pinelands ecology
+- [ ] outdoors/nj-fishing — Freshwater vs. saltwater licenses, NJ seasons and size limits, Pinelands species (trout, bass, pickerel), surf fishing basics — self-reliance food system, NJ-specific
 
 ## Travel
 
 - [x] trip-planning
 - [x] chicago
 - [x] flying-guide
+- [x] india
+- [x] travel-hobbies
+- [x] travel-tech
+- [x] travel-gear
 
 ## Manga
 

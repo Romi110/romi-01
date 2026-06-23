@@ -1,3 +1,6 @@
+# MkDocs build output
+public/
+
 # OS files
 .DS_Store
 Thumbs.db

@@ -17,14 +17,4 @@ Run `@prompts/update-glossary.md` to process this file.
 
 | Topic | Domain | Reason |
 |---|---|---|
-| behavioral-economics | economics | Sparse glossary — needs terms: loss aversion, anchoring, nudge, heuristics, prospect theory, mental accounting |
-| labor-economics | economics | Sparse glossary — needs terms: monopsony, marginal product, human capital, gig economy, collective bargaining, wage premium |
-| housing-economics | economics | Sparse glossary — needs terms: zoning, up-zoning, price-to-rent ratio, rent control, agglomeration, malinvestment |
-| Austrian-school | economics | Sparse glossary — needs terms: subjective value, praxeology, malinvestment, natural rate, knowledge problem |
-| inequality-and-wealth | economics | Sparse glossary — needs terms: Gini coefficient, intergenerational mobility, capital gains, wealth concentration, r > g |
-| basic-chemistry | science | New domain — needs glossary pass before translating |
-| physics-fundamentals | science | New domain — needs glossary pass before translating |
-| ecology-basics | science | New domain — needs glossary pass before translating |
-| biology-fundamentals | science | New domain — needs glossary pass before translating |
-| strength-and-conditioning | sports | Sparse glossary — needs terms: plyometrics, SSC (stretch-shortening cycle), agility, prehab, phosphocreatine, NEAT, reactive agility, loaded carry |
-| lab-diamonds | consumerism | New domain — needs glossary pass before translating: lab-grown, CVD, HPHT, carat, clarity, cut, certification, prong, bezel, solitaire, hallmark, karat |
+*(none yet)*
