@@ -1,5 +1,6 @@
 site_name: romi-01
 site_description: Personal knowledge base — Stoicism, self-reliance, continuous learning
+site_url: https://romi110.github.io/romi-01/
 site_dir: public
 docs_dir: knowledge
 

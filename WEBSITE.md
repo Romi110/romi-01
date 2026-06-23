@@ -5,23 +5,35 @@ The knowledge base is published as a static site using **MkDocs + Material theme
 - Source: `knowledge/` directory
 - Build output: `public/` (git-ignored)
 - Live site: https://romi110.github.io/romi-01/
+- Deploy: automatic via GitHub Actions on every push to `main`
 
 ---
 
-## Daily commands
+## How deploy works
+
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which:
+1. Installs Python + mkdocs-material on a Ubuntu runner
+2. Runs `mkdocs gh-deploy --force`
+3. Force-pushes the built HTML to the `gh-pages` branch of this repo
+4. GitHub Pages serves from that branch at `romi110.github.io/romi-01/`
+
+**You never run deploy manually.** Push to main → site updates in ~60 seconds.
+
+**First-time GitHub Pages setup** (one time, if not done):
+1. Repo → Settings → Pages
+2. Source: `gh-pages` branch, `/ (root)` folder
+3. Save
+
+---
+
+## Local preview
 
 ```bash
-# Preview locally (live-reloads on file save)
+# From the repo root
 python -m mkdocs serve
-
-# Build to public/ without serving
-python -m mkdocs build
-
-# Deploy to GitHub Pages
-python -m mkdocs gh-deploy
 ```
 
-Run all commands from the repo root. The dev server runs at http://localhost:8000.
+Runs at http://localhost:8000. Live-reloads on file save. Use this before pushing to verify changes look right.
 
 ---
 
@@ -31,78 +43,54 @@ Every `.md` file under `knowledge/` becomes a page. The URL mirrors the path:
 
 | File | URL |
 |------|-----|
-| `knowledge/finance/trusts.md` | `/finance/trusts/` |
-| `knowledge/health/nutrition/protein.md` | `/health/nutrition/protein/` |
-| `knowledge/index.md` | `/` (homepage) |
+| `knowledge/finance/trusts.md` | `…/romi-01/finance/trusts/` |
+| `knowledge/health/nutrition/protein.md` | `…/romi-01/health/nutrition/protein/` |
+| `knowledge/index.md` | `…/romi-01/` (homepage) |
 
-**Folders become sections** in the left sidebar automatically. No config needed when adding files.
+Folders become sections in the left sidebar automatically — no config needed when adding files.
 
 ---
 
 ## Adding content
 
-**New file in an existing domain:** just create it. MkDocs discovers it on next build.
+**New file in an existing domain:** create it, commit, push. Done.
 
 ```
-knowledge/finance/real-estate-basics.md  →  appears under Finance in the sidebar
+knowledge/finance/real-estate-basics.md  →  appears under Finance in sidebar
 ```
 
-**New domain folder:** create the folder, add at least one `.md` file, and add an `index.md` to name the section. Without `index.md`, MkDocs uses the folder name as the section title.
+**New domain folder:** create the folder with at least one `.md` file. Optionally add `index.md` inside it to set the section title and landing page.
 
 ```
 knowledge/law/
-├── index.md          # section title + overview (optional but recommended)
+├── index.md       # optional: section overview
 └── contracts.md
 ```
 
-**The homepage** is `knowledge/index.md`. Edit it to update the intro text or domain list.
+**The homepage** is `knowledge/index.md`.
 
 ---
 
 ## Config reference — mkdocs.yml
 
-Key settings:
-
 ```yaml
-site_name: romi-01          # browser tab title and header
-docs_dir: knowledge         # where MkDocs reads content from
-site_dir: public            # where the built HTML goes (git-ignored)
+site_url: https://romi110.github.io/romi-01/   # required for project site — sets base path for all assets
+docs_dir: knowledge                              # content source
+site_dir: public                                 # build output (git-ignored)
 ```
 
-**To change the color scheme:** edit `theme.palette.primary` and `theme.palette.accent`. Material supports named colors (blue grey, teal, indigo, etc.) — see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+`site_url` is what makes assets and links work correctly when the site is served from `/romi-01/` rather than the root domain. Do not remove it.
 
-**To add plugins:** add to the `plugins:` list and `pip install` the plugin. Search is the only one enabled now.
-
----
-
-## Deploying to GitHub Pages
-
-```bash
-python -m mkdocs gh-deploy
-```
-
-This builds the site and force-pushes the `public/` output to the `gh-pages` branch on GitHub. GitHub Pages serves from that branch automatically.
-
-**First-time setup** (one time only):
-1. Go to the repo on GitHub → Settings → Pages
-2. Set source to: `gh-pages` branch, `/ (root)` folder
-3. Save. The site will be live at `https://romi110.github.io/romi-01/`
-
-After that, `gh-deploy` handles every subsequent publish.
+**To change colors:** edit `theme.palette.primary` / `theme.palette.accent` in `mkdocs.yml`. Named colors: blue grey, teal, indigo, deep purple, etc. See Material docs.
 
 ---
 
 ## Adding Hindi content to the site
 
-Currently `docs_dir: knowledge` only serves English files. To add the `hindi/` directory:
+Currently only `knowledge/` is served. To add `hindi/`:
 
-1. Change `docs_dir` in `mkdocs.yml`:
-
-```yaml
-docs_dir: .
-```
-
-2. Create a `.mkdocsignore` file at the repo root to exclude non-content directories:
+1. Change `docs_dir` in `mkdocs.yml` to `.` (repo root)
+2. Create `.mkdocsignore` at the root:
 
 ```
 context/
@@ -117,33 +105,30 @@ README.md
 WEBSITE.md
 ```
 
-3. Move `knowledge/index.md` to the repo root as `index.md` (the new homepage).
+3. Move `knowledge/index.md` → `index.md` at the repo root (new homepage).
 
-This makes both `knowledge/` and `hindi/` accessible as top-level sections.
+Both `knowledge/` and `hindi/` will then appear as top-level sections.
 
 ---
 
-## Build warnings — what they mean
+## Build warnings
 
 Every build prints warnings like:
 
 ```
-WARNING - Doc file 'finance/insurance-basics.md' contains a link 'emergency-fund.md',
-but the target 'finance/emergency-fund.md' is not found among documentation files.
+WARNING - 'finance/insurance-basics.md' contains a link 'emergency-fund.md',
+but the target is not found among documentation files.
 ```
 
-These are **links to planned but not-yet-written files** — the Connections sections pointing to future topics. They're not broken in a harmful way; they just won't resolve to pages until those files exist. Ignore them.
+These are links in **Connections sections pointing to planned but not-yet-written files**. Safe to ignore — they become valid links as those files get written.
 
 ---
 
-## What's in the repo vs. what's published
+## What's published vs. what's not
 
-| Path | Included in site? |
-|------|-------------------|
-| `knowledge/` | Yes — all of it |
-| `hindi/` | No (see above to add) |
-| `context/` | No |
-| `goals/` | No |
-| `prompts/` | No |
-| `templates/` | No |
-| `CLAUDE.md`, `DESIGN.md`, etc. | No |
+| Path | In site? |
+|------|----------|
+| `knowledge/` | Yes |
+| `hindi/` | No (see above) |
+| `context/`, `goals/`, `prompts/`, `templates/` | No |
+| Root `.md` files (`CLAUDE.md`, etc.) | No |
