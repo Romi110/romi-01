@@ -26,6 +26,8 @@ hide:
 .ticker-wrap {
   overflow: hidden;
   height: 60vh;
+  touch-action: none;
+  cursor: pointer;
   -webkit-mask-image: linear-gradient(
     to bottom,
     transparent 0%,
