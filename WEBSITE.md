@@ -13,15 +13,15 @@ The knowledge base is published as a static site using **MkDocs + Material theme
 
 Pushing to `main` triggers `.github/workflows/deploy.yml`, which:
 1. Installs Python + mkdocs-material on a Ubuntu runner
-2. Runs `mkdocs gh-deploy --force`
-3. Force-pushes the built HTML to the `gh-pages` branch of this repo
-4. GitHub Pages serves from that branch at `romi110.github.io/romi-01/`
+2. Builds the site to `public/`
+3. Uploads it as a GitHub Pages artifact
+4. Deploys directly via `actions/deploy-pages` — no `gh-pages` branch needed
 
 **You never run deploy manually.** Push to main → site updates in ~60 seconds.
 
 **First-time GitHub Pages setup** (one time, if not done):
 1. Repo → Settings → Pages
-2. Source: `gh-pages` branch, `/ (root)` folder
+2. Source: **GitHub Actions** (not "Deploy from a branch")
 3. Save
 
 ---
