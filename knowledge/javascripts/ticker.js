@@ -27,6 +27,17 @@
       pos += e.deltaY * 0.45;
     }, { passive: false });
 
+    var touchY = 0;
+    wrap.addEventListener('touchstart', function (e) {
+      touchY = e.touches[0].clientY;
+    }, { passive: true });
+    wrap.addEventListener('touchmove', function (e) {
+      var delta = touchY - e.touches[0].clientY;
+      touchY = e.touches[0].clientY;
+      pos += delta * 0.8;
+      e.preventDefault();
+    }, { passive: false });
+
     requestAnimationFrame(loop);
   }
 
