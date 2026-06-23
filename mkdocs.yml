@@ -7,22 +7,23 @@ docs_dir: knowledge
 theme:
   name: material
   palette:
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
     - scheme: default
       primary: blue grey
       accent: teal
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - scheme: slate
-      primary: blue grey
-      accent: teal
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.sections
+    - navigation.indexes
     - navigation.top
     - navigation.footer
     - search.highlight
@@ -36,6 +37,8 @@ theme:
 plugins:
   - search:
       lang: en
+  - tags:
+      tags_file: tags.md
 
 markdown_extensions:
   - tables
@@ -47,6 +50,7 @@ markdown_extensions:
       use_pygments: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
+  - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
@@ -55,6 +59,41 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
+
+nav:
+  - Home: index.md
+  - Tags: tags.md
+  - Art: art/
+  - Consumerism: consumerism/
+  - Cooking: cooking/
+  - Economics: economics/
+  - Energy: energy/
+  - Farming: farming/
+  - Finance: finance/
+  - Geopolitics: geopolitics/
+  - Health: health/
+  - History: history/
+  - Manga: manga/
+  - Mathematics: mathematics/
+  - Meta: meta/
+  - Mind: mind/
+  - New Jersey: nj/
+  - Outdoors: outdoors/
+  - Philosophy: philosophy/
+  - Roma: roma/
+  - Science: science/
+  - Skills: skills/
+  - Sports: sports/
+  - Tech: tech/
+  - Travel: travel/
+  - Video: video/
+  - Writing: writing/
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/ticker.js
 
 extra:
   social:

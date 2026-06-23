@@ -2,7 +2,7 @@
 
 ## What This Repository Is
 
-**romi-01** is a personal learning and knowledge system built on plain markdown files. No web app, no scripts, no deployment — markdown, git, Claude.
+**romi-01** is a personal learning and knowledge system built on plain markdown files, published as a static website via MkDocs and GitHub Actions.
 
 **User**: Romi (28, tech professional, New Jersey)
 **Philosophy**: Stoicism, self-reliance, continuous learning
@@ -14,24 +14,35 @@
 
 ```
 romi-01/
-├── CLAUDE.md               # This file — AI assistant guide
-├── IMPROVEMENTS.md         # Planned features and enhancements
+├── CLAUDE.md                        # This file — AI assistant guide
+├── WEBSITE.md                       # Website operations guide (MkDocs + GitHub Pages)
+├── IMPROVEMENTS.md                  # Planned features and enhancements
+├── mkdocs.yml                       # MkDocs site configuration
+├── requirements.txt                 # Python deps for MkDocs (mkdocs-material)
+├── .github/
+│   └── workflows/
+│       └── deploy.yml               # Auto-deploys site on push to main
 ├── context/
-│   ├── about-me.md         # User profile, values, learning preferences
-│   ├── hindi-style.md      # Hindi translation style guide
-│   └── hindi-glossary.md   # ~150-term canonical glossary for Hindi translations
+│   ├── about-me.md                  # User profile, values, learning preferences
+│   ├── hindi-style.md               # Hindi translation style guide
+│   └── hindi-glossary.md            # Canonical glossary for Hindi translations
 ├── goals/
-│   └── 2026-goals.md       # Annual goals + monthly skill focus tracker
-├── knowledge/              # Wiki-style knowledge base
-│   ├── CATALOG.md          # What exists + what's planned (single map file)
-│   ├── philosophy/
-│   ├── health/
-│   ├── meta/
-│   └── [new domains]/
-├── hindi/                  # Hindi translations (mirrors knowledge/ path structure)
+│   └── 2026-goals.md               # Annual goals + monthly skill focus tracker
+├── knowledge/                       # Wiki-style knowledge base (also the MkDocs source)
+│   ├── CATALOG.md                   # What exists + what's planned (single map file)
+│   ├── index.md                     # Website homepage (animated topic loop)
+│   ├── tags.md                      # Auto-populated tag index for the site
+│   ├── javascripts/ticker.js        # Homepage scroll animation
+│   ├── stylesheets/extra.css        # Theme overrides (dark mode colors)
+│   ├── [domain]/
+│   │   ├── index.md                 # REQUIRED — domain landing page + topic list
+│   │   └── [topic].md
+│   └── [domain]/[subfolder]/
+│       └── [topic].md
+├── hindi/                           # Hindi translations (mirrors knowledge/ structure)
 │   └── context/
-│       └── reference.md    # Canonical reference translation for style calibration
-├── prompts/                # Reusable Claude prompt files
+│       └── reference.md
+├── prompts/                         # Reusable Claude prompt files
 └── templates/
     └── knowledge-topic.md
 ```
@@ -44,11 +55,40 @@ romi-01/
 |------|---------|
 | `deep-dive.md` | Learn any topic — produces a complete wiki-style knowledge file with proposed sub-topics |
 | `cross-pollinate.md` | Find connections between two knowledge files |
+| `expand-wiki.md` | Survey the wiki and propose new topics and subtopics worth adding |
 | `translate.md` | Translate knowledge files into a target language; for Hindi reads style guide + glossary first |
 | `update-glossary.md` | Process `hindi/context/pending-terms.md` — resolve staged terms and merge into the canonical glossary |
 | `sacred-text-tenet.md` | Writing sessions for roma.md |
 | `fitness-plan.md` | Build or adjust workout routine |
+| `reorganize.md` | Move files to better folders, update all links and CATALOG.md |
 | `sync-docs.md` | Audit and update all docs for consistency |
+
+---
+
+## Website
+
+The knowledge base is published at **https://romi110.github.io/romi-01/**. Every push to `main` triggers GitHub Actions, which builds the site via MkDocs and deploys it automatically. See `WEBSITE.md` for full operations details.
+
+### The `index.md` rule
+
+Every domain folder under `knowledge/` **must** have an `index.md`. This is what makes domain names in the sidebar clickable and provides the landing page users see when they enter a domain.
+
+**When creating a new domain folder:**
+1. Create the folder
+2. Immediately create `knowledge/[domain]/index.md` with:
+   - `# Domain Title` heading
+   - One-line description
+   - A flat list of all files in the domain (links, no wrappers)
+3. Add the domain to the `nav:` section of `mkdocs.yml`
+
+**When adding a new file to an existing domain:**
+- Add a `- [Title](filename.md)` line to that domain's `index.md`
+
+**For subfolders within a domain:**
+- Add entries under a `**Subfolder Name**` bold heading in the domain's `index.md`
+- Format: `- [Title](subfolder/filename.md)`
+
+Do not use dropdown blocks (`???`) in index files — all topics should be immediately visible.
 
 ---
 

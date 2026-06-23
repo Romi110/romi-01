@@ -23,6 +23,12 @@ Reusable prompt files for Claude. Reference with `@prompts/filename.md` in VS Co
 |--------|-------------|------|
 | **Fitness Plan** | Building or adjusting your workout routine | `fitness-plan.md` |
 
+## Language
+
+| Prompt | When to Use | File |
+|--------|-------------|------|
+| **Update Glossary** | Process staged Hindi terms in `hindi/context/pending-terms.md` and merge into the canonical glossary | `update-glossary.md` |
+
 ## Planning
 
 | Prompt | When to Use | File |

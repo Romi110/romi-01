@@ -1,0 +1,27 @@
+# Consumerism
+
+Quality purchases, repair over replace, everyday carry.
+
+- [Buy It For Life](buy-it-for-life.md)
+- [Considered Luxuries](considered-luxuries.md)
+- [Custom Ring Design](custom-ring-design.md)
+- [Engagement Ring Guide](engagement-ring-guide.md)
+- [Everyday Carry](everyday-carry.md)
+- [Everyday Essentials](everyday-essentials.md)
+- [Experiences Over Things](experiences-over-things.md)
+- [Fabric Guide](fabric-guide.md)
+- [Fashion Brands](fashion-brands.md)
+- [Fine Jewelry Fundamentals](fine-jewelry-fundamentals.md)
+- [Fit And Tailoring](fit-and-tailoring.md)
+- [Home Gym Essentials](home-gym-essentials.md)
+- [Home Office Setup](home-office-setup.md)
+- [Kitchen Equipment Fundamentals](kitchen-equipment-fundamentals.md)
+- [Lab Diamonds](lab-diamonds.md)
+- [Laundry And Stain Care](laundry-and-stain-care.md)
+- [Outdoor Gear Bifl](outdoor-gear-bifl.md)
+- [Quality Life Upgrades](quality-life-upgrades.md)
+- [Repair Over Replace](repair-over-replace.md)
+- [Resilience Buying](resilience-buying.md)
+- [Sleep Environment](sleep-environment.md)
+- [Tools Worth Owning](tools-worth-owning.md)
+- [Wardrobe Building](wardrobe-building.md)

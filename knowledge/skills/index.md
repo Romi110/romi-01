@@ -1,0 +1,26 @@
+# Skills
+
+Woodworking, blacksmithing, sewing, pest control, legal literacy.
+
+- [Ancient Cooling Methods](ancient-cooling-methods.md)
+- [Ancient Heating Methods](ancient-heating-methods.md)
+- [Ancient Water Collection](ancient-water-collection.md)
+- [Ancient Water Purification](ancient-water-purification.md)
+- [Basic Electrical](basic-electrical.md)
+- [Basic Plumbing](basic-plumbing.md)
+- [Blacksmithing Basics](blacksmithing-basics.md)
+- [Celestial Navigation](celestial-navigation.md)
+- [Drywall And Patching](drywall-and-patching.md)
+- [Emergency Preparedness](emergency-preparedness.md)
+- [First Aid Basics](first-aid-basics.md)
+- [Home Repair Basics](home-repair-basics.md)
+- [Household Pest Control](household-pest-control.md)
+- [Land Navigation](land-navigation.md)
+- [Legal Literacy](legal-literacy.md)
+- [Natural Building Methods](natural-building-methods.md)
+- [Natural Cordage](natural-cordage.md)
+- [Oil And Fluids](oil-and-fluids.md)
+- [Sewing Basics](sewing-basics.md)
+- [Tires And Brakes](tires-and-brakes.md)
+- [Vehicle Maintenance Basics](vehicle-maintenance-basics.md)
+- [Woodworking Basics](woodworking-basics.md)
