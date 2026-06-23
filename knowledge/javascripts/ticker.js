@@ -30,7 +30,8 @@
     var touchY = 0;
     wrap.addEventListener('touchstart', function (e) {
       touchY = e.touches[0].clientY;
-    }, { passive: true });
+      e.preventDefault();
+    }, { passive: false });
     wrap.addEventListener('touchmove', function (e) {
       var delta = touchY - e.touches[0].clientY;
       touchY = e.touches[0].clientY;
