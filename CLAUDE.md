@@ -39,9 +39,10 @@ romi-01/
 │   │   └── [topic].md
 │   └── [domain]/[subfolder]/
 │       └── [topic].md
-├── hindi/                           # Hindi translations (mirrors knowledge/ structure)
+├── hindi/                           # Hindi translation system files (not published)
 │   └── context/
-│       └── reference.md
+│       ├── reference.md             # Canonical reference translation for style calibration
+│       └── pending-terms.md         # Staged terms awaiting glossary merge
 ├── prompts/                         # Reusable Claude prompt files
 └── templates/
     └── knowledge-topic.md

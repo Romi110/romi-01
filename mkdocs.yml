@@ -63,6 +63,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Tags: tags.md
+  - Hindi: hindi/
   - Art: art/
   - Consumerism: consumerism/
   - Cooking: cooking/

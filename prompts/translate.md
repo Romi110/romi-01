@@ -38,15 +38,13 @@ Before translating anything into Hindi, read these three files in full. They eli
 
 ## Output Folder Structure
 
-Save translated files to a root-level folder named after the language in lowercase:
-- Spanish → `spanish/`
-- Hindi → `hindi/`
-- Japanese → `japanese/`
-- French → `french/`
+Hindi translations live inside `knowledge/hindi/` so they are part of the published website.
 
-Mirror the source path under the language folder:
-- `knowledge/history/japan-history.md` → `hindi/knowledge/history/japan-history.md`
-- `knowledge/energy/solar-panels.md` → `hindi/knowledge/energy/solar-panels.md`
+Mirror the source path under `knowledge/hindi/`:
+- `knowledge/history/japan-history.md` → `knowledge/hindi/history/japan-history.md`
+- `knowledge/energy/solar-panels.md` → `knowledge/hindi/energy/solar-panels.md`
+
+Other languages (Spanish, Japanese, etc.) follow the same pattern: `knowledge/[language]/[path]`.
 
 ## Steps
 
@@ -54,7 +52,7 @@ Mirror the source path under the language folder:
 
 2. **Identify files.** If the user named a folder or said "all," list all `.md` files in scope. Confirm with the user if the count is large (>10 files) before proceeding.
 
-3. **Check for existing translations.** Before translating a file, check if `[language]/[path]` already exists. If it does, ask the user whether to overwrite or skip.
+3. **Check for existing translations.** Before translating a file, check if `knowledge/[language]/[path]` already exists. If it does, ask the user whether to overwrite or skip.
 
 4. **Translate and save.** For each file:
    - Read the source file
@@ -63,7 +61,8 @@ Mirror the source path under the language folder:
    - Confirm each file saved
 
 5. **After completing all files**:
-   - Report how many files were translated and the root folder
+   - Report how many files were translated and the output folder
+   - Add each new file to `knowledge/hindi/index.md` under the appropriate domain heading
    - For any term you coined that wasn't in `context/hindi-glossary.md`, append it to `hindi/context/pending-terms.md` using this format:
      ```
      | [English term] | [Hindi used] | [source file] | [notes] |
@@ -78,5 +77,6 @@ User: `@prompts/translate.md translate knowledge/history/japan-history.md to Hin
 → Reads `context/hindi-style.md`, `context/hindi-glossary.md`, `hindi/context/reference.md`
 → Reads `knowledge/history/japan-history.md`
 → Translates full content to Hindi following style guide and glossary
-→ Saves to `hindi/knowledge/history/japan-history.md`
+→ Saves to `knowledge/hindi/history/japan-history.md`
+→ Adds entry to `knowledge/hindi/index.md` under History heading
 → Reports done; flags any new terms not covered by the glossary
