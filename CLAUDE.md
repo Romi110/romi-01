@@ -158,6 +158,11 @@ Follow these without being asked.
 **Two-level catalog cap:**
 - The catalog hierarchy is exactly: `CATALOG.md` → `knowledge/[domain]/CATALOG.md`. Nothing deeper ever gets its own catalog file. This is a hard limit regardless of domain size.
 
+**Alphabetical ordering:**
+- All listings are alphabetical: `nav:` in `mkdocs.yml`, domain `index.md` link lists (within each section), and `CATALOG.md` entries within each domain block.
+- When inserting a new item, find its A–Z position — no other judgment needed.
+- Sub-folder sections within a domain index stay grouped under their bold heading, sorted alphabetically within the group. The group itself stays at the bottom of its domain index.
+
 ### Connections
 
 Knowledge compounds through links. Whenever writing or discussing a topic:

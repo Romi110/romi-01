@@ -19,7 +19,7 @@ Permaculture, hydroponics, foraging, season extension.
 
 **Hydroponics**
 
+- [Hydroponics](hydroponics/hydroponics.md)
 - [Hydroponics Lighting](hydroponics/hydroponics-lighting.md)
 - [Hydroponics Nutrients](hydroponics/hydroponics-nutrients.md)
 - [Hydroponics Systems](hydroponics/hydroponics-systems.md)
-- [Hydroponics](hydroponics/hydroponics.md)

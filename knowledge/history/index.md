@@ -2,12 +2,12 @@
 
 Civilizations, cold war, empires, military history.
 
-- [Catalog](CATALOG.md)
 - [African Civilizations](african-civilizations.md)
 - [Agrarian History](agrarian-history.md)
 - [Banking System History](banking-system-history.md)
 - [British Empire](british-empire.md)
 - [Byzantine Empire](byzantine-empire.md)
+- [Catalog](CATALOG.md)
 - [Cold War Deep Dive](cold-war-deep-dive.md)
 - [Economic History](economic-history.md)
 - [Empire Cycles](empire-cycles.md)
