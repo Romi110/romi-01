@@ -159,6 +159,7 @@ Portion: banana chunks + spinach + frozen berries or mango. Freeze in trays or s
 The buffer doesn't exist after one prep session. Build it over 3–4 Sundays by making extra of whatever you're cooking that week.
 
 **Target inventory (2-week buffer):**
+
 | Item | Portions |
 |------|---------|
 | Dal (any variety) | 10–12 cups |

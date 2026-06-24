@@ -50,12 +50,14 @@ In programming terms: `&&` is ∧, `||` is ∨, `!` is ¬, and `if (P) { Q }` is
 A **truth table** exhaustively lists all possible combinations of truth values for the propositions in a formula, and shows the result for each.
 
 **NOT:**
+
 | P | ¬P |
 |---|-----|
 | T | F |
 | F | T |
 
 **AND:**
+
 | P | Q | P ∧ Q |
 |---|---|--------|
 | T | T | T |
@@ -64,6 +66,7 @@ A **truth table** exhaustively lists all possible combinations of truth values f
 | F | F | F |
 
 **OR:**
+
 | P | Q | P ∨ Q |
 |---|---|--------|
 | T | T | T |
@@ -72,6 +75,7 @@ A **truth table** exhaustively lists all possible combinations of truth values f
 | F | F | F |
 
 **Conditional (IF...THEN) — the tricky one:**
+
 | P | Q | P → Q |
 |---|---|--------|
 | T | T | T |

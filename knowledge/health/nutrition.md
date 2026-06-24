@@ -24,6 +24,7 @@ Split across 3–4 meals: ~35–45g per eating window.
 Protein is the hardest macro for vegetarians to hit in volume. You have to actively build meals around protein sources — it won't happen by accident.
 
 **Primary Veg Sources (Tier 1 — 15g+ per serving)**
+
 | Food | Protein | Serving | Notes |
 |------|---------|---------|-------|
 | Soy chunks (dry) | ~50g/100g dry | 50g dry = ~25g | Rehydrate, use in curry or stir-fry |
@@ -37,6 +38,7 @@ Protein is the hardest macro for vegetarians to hit in volume. You have to activ
 | Whey protein | ~24g/scoop | 1 scoop | Post-workout or gap-filler |
 
 **Supporting Sources (Tier 2 — 5–15g per serving)**
+
 | Food | Protein | Serving | Notes |
 |------|---------|---------|-------|
 | Cottage cheese | ~11g/100g | 150g = ~16g | Snack, salads |
@@ -50,6 +52,7 @@ Protein is the hardest macro for vegetarians to hit in volume. You have to activ
 | Besan/chickpea flour | ~22g/100g | — | Cheela, pakora base |
 
 **Add-Ons (Tier 3 — every gram counts)**
+
 | Food | Protein | Use |
 |------|---------|-----|
 | Hemp seeds | ~10g/30g | Sprinkle on anything |
