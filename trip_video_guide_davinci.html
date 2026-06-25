@@ -1,0 +1,191 @@
+
+<style>
+  .wrap { padding: 1rem 0; }
+  .pills { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px; }
+  .pill { padding: 5px 13px; border-radius: 20px; border: 1px solid var(--color-border-secondary); font-size: 13px; cursor: pointer; background: transparent; color: var(--color-text-secondary); transition: all .15s; }
+  .pill.on { background: var(--color-background-secondary); color: var(--color-text-primary); border-color: var(--color-border-primary); font-weight: 500; }
+  .card { display: none; border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); overflow: hidden; }
+  .card.on { display: block; }
+  .card-head { padding: 16px 20px 12px; border-bottom: 0.5px solid var(--color-border-tertiary); display: flex; align-items: center; gap: 10px; }
+  .head-icon { font-size: 20px; color: var(--color-text-tertiary); }
+  .head-right { flex: 1; }
+  .step-label { font-size: 11px; color: var(--color-text-tertiary); letter-spacing: .04em; text-transform: uppercase; margin-bottom: 3px; }
+  .step-title { font-size: 17px; font-weight: 500; color: var(--color-text-primary); }
+  .card-body { padding: 16px 20px; }
+  .row { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 11px; }
+  .ri { font-size: 17px; color: var(--color-text-tertiary); flex-shrink: 0; margin-top: 1px; }
+  .rt { font-size: 14px; color: var(--color-text-secondary); line-height: 1.6; }
+  .rt strong { font-weight: 500; color: var(--color-text-primary); }
+  .tip { border-left: 2px solid var(--color-border-secondary); border-radius: 0 8px 8px 0; padding: 9px 13px; margin: 12px 0 4px; font-size: 13px; color: var(--color-text-secondary); line-height: 1.6; background: var(--color-background-secondary); }
+  .tip strong { font-weight: 500; color: var(--color-text-primary); }
+  .keys { display: flex; flex-wrap: wrap; gap: 7px; margin: 10px 0 4px; }
+  .krow { display: flex; align-items: center; gap: 7px; background: var(--color-background-secondary); border-radius: 8px; padding: 7px 11px; flex: 1; min-width: 140px; }
+  .klabel { font-size: 12px; color: var(--color-text-secondary); flex: 1; }
+  .k { font-family: var(--font-mono); font-size: 11px; background: var(--color-background-primary); border: 1px solid var(--color-border-secondary); border-radius: 4px; padding: 2px 7px; color: var(--color-text-primary); white-space: nowrap; }
+  .nav { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; }
+  .nbtn { padding: 6px 14px; border-radius: 8px; border: 0.5px solid var(--color-border-secondary); background: transparent; color: var(--color-text-secondary); font-size: 13px; cursor: pointer; }
+  .nbtn:hover { border-color: var(--color-border-primary); color: var(--color-text-primary); }
+  .nbtn:disabled { opacity: .3; cursor: default; }
+  .dots { display: flex; gap: 5px; }
+  .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--color-border-secondary); }
+  .dot.on { background: var(--color-text-secondary); }
+  .askbtn { display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; border-radius: 20px; border: 0.5px solid var(--color-border-secondary); background: transparent; color: var(--color-text-secondary); font-size: 12px; cursor: pointer; margin-top: 9px; }
+  .askbtn:hover { border-color: var(--color-border-primary); color: var(--color-text-primary); }
+  .tag { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 20px; margin-right: 4px; font-weight: 500; }
+  .tag-org { background: #FAEEDA; color: #633806; }
+  .tag-cut { background: #E6F1FB; color: #0C447C; }
+  .tag-music { background: #E1F5EE; color: #085041; }
+  .tag-export { background: #EEEDFE; color: #3C3489; }
+</style>
+
+<div class="wrap">
+  <h2 class="sr-only">Trip video editing guide for DaVinci Resolve — step by step</h2>
+  <div class="pills" id="pills"></div>
+  <div id="cards"></div>
+</div>
+
+<script>
+const steps = [
+  {
+    icon: "ti-folders",
+    tag: "tag-org",
+    tagLabel: "organize",
+    title: "Dump & sort your clips",
+    rows: [
+      { icon: "ti-folder-open", html: "Copy all your clips to one folder on your computer — name it something like <strong>trip_raw</strong>. Keep all the originals safe before you edit anything." },
+      { icon: "ti-upload", html: "Open DaVinci → New Project. Drag the whole folder into the <strong>Media Pool</strong> (top-left panel on the Edit page). They'll all appear as thumbnails." },
+      { icon: "ti-tag", html: "In the Media Pool, right-click clips to add <strong>flags</strong> (colored dots) — use one color for great shots, another for backups. You'll thank yourself later when you have 80 clips to sort through." },
+      { icon: "ti-clock", html: "Pre-watch your clips now and mentally note the <strong>keepers</strong>. For a 3-min song you'll need roughly <strong>20–40 clips</strong> at 4–8 seconds each." }
+    ],
+    tip: "<strong>Bin by day or location.</strong> Right-click in the Media Pool → Add Bin. Make bins like \"Day 1 - beach\", \"Day 2 - city\". Makes finding that one perfect sunset shot so much easier.",
+    ask: "How do I organize bins in DaVinci Resolve Media Pool?"
+  },
+  {
+    icon: "ti-music",
+    tag: "tag-music",
+    tagLabel: "music",
+    title: "Drop in your song first",
+    rows: [
+      { icon: "ti-file-music", html: "Drag your audio file from the Media Pool down to the timeline. It goes on the <strong>A1 audio track</strong> at the very bottom. This is your foundation — everything gets cut around it." },
+      { icon: "ti-zoom-in", html: "Scroll to <strong>zoom into the waveform</strong> (pinch or Ctrl+scroll). You want to see the individual beat spikes — the tall bumps in the wave are your cut points." },
+      { icon: "ti-flag", html: "Play the song and press <strong>M</strong> to drop markers on the beats, drops, or moments where you want a cut. Do this before adding any video — it maps out your whole edit." }
+    ],
+    tip: "<strong>Markers are your best friend.</strong> Drop one at every chorus, every big beat, every moment you want a 'wow' clip. Your video will feel like it flows with the music because it literally does.",
+    extra: `<div class="keys">
+      <div class="krow"><span class="klabel">Drop marker</span><span class="k">M</span></div>
+      <div class="krow"><span class="klabel">Play/pause</span><span class="k">Space</span></div>
+      <div class="krow"><span class="klabel">Zoom in</span><span class="k">Ctrl + scroll</span></div>
+    </div>`,
+    ask: "How do I add beat markers in DaVinci Resolve?"
+  },
+  {
+    icon: "ti-scissors",
+    tag: "tag-cut",
+    tagLabel: "editing",
+    title: "Build the rough cut",
+    rows: [
+      { icon: "ti-drag-drop", html: "Drag clips from the Media Pool onto the timeline <strong>above your audio track</strong>, one by one. Start rough — just get every clip placed. Don't worry about trimming yet." },
+      { icon: "ti-arrows-left-right", html: "Trim each clip by <strong>dragging its edges</strong> in and out. For 3–45 second clips, you usually only want 3–8 seconds of each. Use the best part — action, reaction, or a nice pan." },
+      { icon: "ti-map-pin", html: "Line up your clip cuts to your <strong>markers</strong>. When a beat hits, a new clip should start. This is what makes trip videos feel energetic and intentional." },
+      { icon: "ti-sort-ascending", html: "Think about <strong>story order</strong> — not just chronological. Open with your best shot, group by location/day, end with something emotional. The music should arc with the journey." }
+    ],
+    tip: "<strong>Use the Cut page for speed.</strong> Switch to it (bottom toolbar) — the dual viewer lets you scrub source clips on the left and drop them to the timeline on the right without switching tools.",
+    extra: `<div class="keys">
+      <div class="krow"><span class="klabel">Blade tool (cut clip)</span><span class="k">B</span></div>
+      <div class="krow"><span class="klabel">Select tool</span><span class="k">A</span></div>
+      <div class="krow"><span class="klabel">Ripple delete</span><span class="k">Backspace</span></div>
+      <div class="krow"><span class="klabel">Undo</span><span class="k">Ctrl/⌘ Z</span></div>
+    </div>`,
+    ask: "What's the fastest way to rough cut many clips in DaVinci Resolve?"
+  },
+  {
+    icon: "ti-adjustments",
+    tag: "tag-cut",
+    tagLabel: "polish",
+    title: "Polish — transitions & speed",
+    rows: [
+      { icon: "ti-transition-right", html: "Right-click between two clips → <strong>Add Transition</strong> → pick Cross Dissolve. Use sparingly — only on slow, emotional moments. For upbeat music, <strong>hard cuts beat dissolves every time.</strong>" },
+      { icon: "ti-bolt", html: "For short action clips or b-roll filler, right-click a clip → <strong>Change Clip Speed</strong>. Try 150% for energy, or slow a clip to 50% for a cinematic moment at the drop." },
+      { icon: "ti-text-size", html: "To add a location title: go to <strong>Effects → Titles → Text+</strong>, drag it above your clip, type the name. Keep it simple — thin white font, lower third of the screen." },
+      { icon: "ti-volume", html: "Mute your video clips' audio: select all video clips, right-click → <strong>Clip Attributes → Audio</strong> → uncheck. Only your music track should play." }
+    ],
+    tip: "<strong>Less is more on transitions.</strong> A well-timed hard cut on the beat is 10x more satisfying than a dissolve on every clip. Save transitions for the slow moments — sunsets, closing shots.",
+    ask: "How do I change clip speed in DaVinci Resolve?"
+  },
+  {
+    icon: "ti-palette",
+    tag: "tag-cut",
+    tagLabel: "color",
+    title: "Quick color grade (optional)",
+    rows: [
+      { icon: "ti-sun", html: "Switch to the <strong>Color page</strong> (bottom toolbar). Click any clip — you'll see color wheels and curves. Don't go overboard: a tiny lift in the shadows and a slight warm push goes a long way on travel footage." },
+      { icon: "ti-copy", html: "Grade one clip you like, then right-click it → <strong>Copy Grade</strong>. Select all similar clips and <strong>Apply Grade</strong> — instant consistency across the whole video." },
+      { icon: "ti-brightness", html: "The easiest move: pull the <strong>Contrast</strong> up slightly, drag <strong>Saturation</strong> to about 55–60 (default is 50), and lift <strong>Lift</strong> (shadows) a tiny bit. That's the 'travel vlog' look." }
+    ],
+    tip: "<strong>LUTs are a shortcut.</strong> Google \"free travel LUTs DaVinci Resolve\" — download one, drag it into your Color page. One click and all your clips get a consistent cinematic look.",
+    ask: "How do I apply a LUT in DaVinci Resolve?"
+  },
+  {
+    icon: "ti-package-export",
+    tag: "tag-export",
+    tagLabel: "export",
+    title: "Export the final video",
+    rows: [
+      { icon: "ti-device-floppy", html: "Go to the <strong>Deliver page</strong> (last icon, bottom toolbar). Choose a preset — <strong>YouTube 1080p</strong> covers most cases." },
+      { icon: "ti-brand-instagram", html: "For Instagram Reels or TikTok: set <strong>Resolution to 1080 × 1920</strong> (vertical) in the Custom Export settings. Make sure your project was set up vertical from the start." },
+      { icon: "ti-folder", html: "Set your output folder, give it a filename like <strong>trip_final_v1</strong>, hit <strong>Add to Render Queue</strong>, then <strong>Render All</strong>. A 3-min video takes 1–3 minutes to render." }
+    ],
+    tip: "<strong>Always keep a DaVinci project backup.</strong> File → Export Project Archive. Save it alongside your raw clips. If you want to re-edit later you'll have everything.",
+    extra: `<div class="keys">
+      <div class="krow"><span class="klabel">YouTube preset</span><span class="k">H.264 / 1080p</span></div>
+      <div class="krow"><span class="klabel">Vertical (social)</span><span class="k">1080 × 1920</span></div>
+      <div class="krow"><span class="klabel">Render</span><span class="k">Render All</span></div>
+    </div>`,
+    ask: "What are the best export settings for Instagram in DaVinci Resolve?"
+  }
+];
+
+const pillsEl = document.getElementById('pills');
+const cardsEl = document.getElementById('cards');
+let cur = 0;
+
+steps.forEach((s, i) => {
+  const p = document.createElement('button');
+  p.className = 'pill' + (i === 0 ? ' on' : '');
+  p.textContent = `${i + 1}. ${s.title.split(' ').slice(0, 2).join(' ')}`;
+  p.onclick = () => go(i);
+  pillsEl.appendChild(p);
+
+  const c = document.createElement('div');
+  c.className = 'card' + (i === 0 ? ' on' : '');
+  c.innerHTML = `
+    <div class="card-head">
+      <i class="${s.icon} head-icon" aria-hidden="true"></i>
+      <div class="head-right">
+        <div class="step-label"><span class="tag ${s.tag}">${s.tagLabel}</span> Step ${i + 1} of ${steps.length}</div>
+        <div class="step-title">${s.title}</div>
+      </div>
+    </div>
+    <div class="card-body">
+      ${s.rows.map(r => `<div class="row"><i class="${r.icon} ri" aria-hidden="true"></i><span class="rt">${r.html}</span></div>`).join('')}
+      ${s.extra || ''}
+      <div class="tip">${s.tip}</div>
+      <button class="askbtn" onclick="sendPrompt('${s.ask}')"><i class="ti ti-message-circle" aria-hidden="true" style="font-size:14px"></i>${s.ask} ↗</button>
+      <div class="nav">
+        <button class="nbtn" onclick="go(${i - 1})" ${i === 0 ? 'disabled' : ''}>← Back</button>
+        <div class="dots">${steps.map((_, j) => `<div class="dot${j === i ? ' on' : ''}"></div>`).join('')}</div>
+        <button class="nbtn" onclick="go(${i + 1})" ${i === steps.length - 1 ? 'disabled' : ''}>Next →</button>
+      </div>
+    </div>`;
+  cardsEl.appendChild(c);
+});
+
+function go(i) {
+  if (i < 0 || i >= steps.length) return;
+  document.querySelectorAll('.pill')[cur].classList.remove('on');
+  document.querySelectorAll('.card')[cur].classList.remove('on');
+  cur = i;
+  document.querySelectorAll('.pill')[cur].classList.add('on');
+  document.querySelectorAll('.card')[cur].classList.add('on');
+}
+</script>

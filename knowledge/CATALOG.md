@@ -46,6 +46,7 @@
 - [x] ayurveda-basics
 - [x] sleep-science
 - [x] breathwork
+- [x] dietary-periodization
 - [x] fasting-and-eating-windows
 - [x] strength-training-fundamentals
 - [x] programming-a-training-block

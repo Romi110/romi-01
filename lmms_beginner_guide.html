@@ -1,0 +1,362 @@
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--font-sans); }
+  .guide { padding: 1rem 0; }
+  .section-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1.5rem; }
+  .tab-btn {
+    padding: 6px 14px; border-radius: var(--border-radius-md);
+    border: 0.5px solid var(--color-border-secondary);
+    background: var(--color-background-primary);
+    color: var(--color-text-secondary);
+    font-size: 13px; cursor: pointer; transition: all .15s;
+  }
+  .tab-btn:hover { background: var(--color-background-secondary); color: var(--color-text-primary); }
+  .tab-btn.active {
+    background: var(--color-background-info);
+    color: var(--color-text-info);
+    border-color: var(--color-border-info);
+    font-weight: 500;
+  }
+  .section { display: none; }
+  .section.active { display: block; }
+
+  .card {
+    background: var(--color-background-primary);
+    border: 0.5px solid var(--color-border-tertiary);
+    border-radius: var(--border-radius-lg);
+    padding: 1rem 1.25rem;
+    margin-bottom: 12px;
+  }
+  .card-title {
+    font-size: 14px; font-weight: 500;
+    color: var(--color-text-primary);
+    margin-bottom: 6px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .card-body { font-size: 13px; color: var(--color-text-secondary); line-height: 1.7; }
+
+  .badge {
+    font-size: 11px; padding: 2px 8px;
+    border-radius: var(--border-radius-md);
+    font-weight: 500;
+  }
+  .badge-blue { background: var(--color-background-info); color: var(--color-text-info); }
+  .badge-green { background: var(--color-background-success); color: var(--color-text-success); }
+  .badge-amber { background: var(--color-background-warning); color: var(--color-text-warning); }
+
+  .step-row {
+    display: flex; gap: 12px; align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 0.5px solid var(--color-border-tertiary);
+  }
+  .step-row:last-child { border-bottom: none; }
+  .step-num {
+    width: 26px; height: 26px; border-radius: 50%;
+    background: var(--color-background-info);
+    color: var(--color-text-info);
+    font-size: 12px; font-weight: 500;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; margin-top: 1px;
+  }
+  .step-content { flex: 1; }
+  .step-title { font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 3px; }
+  .step-desc { font-size: 13px; color: var(--color-text-secondary); line-height: 1.6; }
+
+  .shortcut-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .shortcut-item {
+    display: flex; align-items: center; justify-content: space-between;
+    background: var(--color-background-secondary);
+    border-radius: var(--border-radius-md);
+    padding: 8px 10px; font-size: 13px;
+  }
+  .shortcut-label { color: var(--color-text-secondary); }
+  .kbd {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    background: var(--color-background-primary);
+    border: 0.5px solid var(--color-border-secondary);
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: var(--color-text-primary);
+    white-space: nowrap;
+  }
+
+  .workflow-bar {
+    display: flex; gap: 0; margin-bottom: 16px; border-radius: var(--border-radius-md); overflow: hidden;
+    border: 0.5px solid var(--color-border-tertiary);
+  }
+  .wf-step {
+    flex: 1; text-align: center; padding: 10px 4px;
+    font-size: 12px; font-weight: 500;
+    color: var(--color-text-secondary);
+    background: var(--color-background-secondary);
+    border-right: 0.5px solid var(--color-border-tertiary);
+    cursor: pointer; transition: all .15s;
+    line-height: 1.4;
+  }
+  .wf-step:last-child { border-right: none; }
+  .wf-step.wf-active { background: var(--color-background-info); color: var(--color-text-info); }
+  .wf-step:hover:not(.wf-active) { background: var(--color-background-primary); color: var(--color-text-primary); }
+  .wf-panel { display: none; }
+  .wf-panel.wf-active { display: block; }
+
+  .tip-box {
+    background: var(--color-background-warning);
+    border: 0.5px solid var(--color-border-warning);
+    border-radius: var(--border-radius-md);
+    padding: 10px 12px; font-size: 13px;
+    color: var(--color-text-warning);
+    margin-top: 10px; line-height: 1.6;
+  }
+  .ask-btn {
+    display: inline-block; margin-top: 12px;
+    padding: 7px 14px; font-size: 13px;
+    border: 0.5px solid var(--color-border-secondary);
+    border-radius: var(--border-radius-md);
+    background: var(--color-background-primary);
+    color: var(--color-text-secondary);
+    cursor: pointer; transition: all .15s;
+  }
+  .ask-btn:hover { background: var(--color-background-secondary); color: var(--color-text-primary); }
+  h2 { font-size: 15px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 14px; }
+  h3 { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); margin: 16px 0 8px; text-transform: uppercase; letter-spacing: .04em; }
+</style>
+
+<div class="guide">
+  <div style="margin-bottom:1.5rem">
+    <p style="font-size:14px;color:var(--color-text-secondary);line-height:1.7">LMMS (Let's Make Music Software) is a free, open-source DAW for Windows, Mac, and Linux. Use the tabs below to navigate the guide.</p>
+  </div>
+
+  <div class="section-tabs">
+    <button class="tab-btn active" onclick="showTab('overview')"><i class="ti ti-layout-grid" aria-hidden="true"></i> Overview</button>
+    <button class="tab-btn" onclick="showTab('workflow')"><i class="ti ti-arrow-right" aria-hidden="true"></i> First song</button>
+    <button class="tab-btn" onclick="showTab('windows')"><i class="ti ti-app-window" aria-hidden="true"></i> Key windows</button>
+    <button class="tab-btn" onclick="showTab('shortcuts')"><i class="ti ti-keyboard" aria-hidden="true"></i> Shortcuts</button>
+    <button class="tab-btn" onclick="showTab('tips')"><i class="ti ti-bulb" aria-hidden="true"></i> Tips</button>
+  </div>
+
+  <!-- OVERVIEW -->
+  <div id="tab-overview" class="section active">
+    <h2>What is LMMS?</h2>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-music" aria-hidden="true"></i> Best for <span class="badge badge-green">Free</span></div>
+      <div class="card-body">Electronic music, hip-hop beats, EDM, synthwave, chiptune. Less suited for live audio recording — it's a MIDI and loop-based tool, not a multitrack recorder.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-device-desktop" aria-hidden="true"></i> Platforms</div>
+      <div class="card-body">Windows, macOS, Linux — all fully supported and free at <strong style="color:var(--color-text-primary)">lmms.io</strong>. Minimum specs are very low (runs on decade-old hardware).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-puzzle" aria-hidden="true"></i> What it includes</div>
+      <div class="card-body">
+        Built-in synths (ZynAddSubFX, BitInvader, TripleOscillator), a beat+bassline editor, piano roll, song editor, sample browser, VST plugin support, and effects rack — all free.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-alert-triangle" aria-hidden="true"></i> Heads up <span class="badge badge-amber">Beginner note</span></div>
+      <div class="card-body">The interface can feel overwhelming at first. Start with just the Beat+Bassline editor and the Song Editor. Ignore everything else until you need it.</div>
+    </div>
+
+    <button class="ask-btn" onclick="sendPrompt('How do I install LMMS on my computer?')">How do I install LMMS? ↗</button>
+  </div>
+
+  <!-- FIRST SONG WORKFLOW -->
+  <div id="tab-workflow" class="section">
+    <h2>Making your first beat</h2>
+
+    <div class="workflow-bar">
+      <div class="wf-step wf-active" onclick="showWF(0)">1<br>Open</div>
+      <div class="wf-step" onclick="showWF(1)">2<br>Beat</div>
+      <div class="wf-step" onclick="showWF(2)">3<br>Melody</div>
+      <div class="wf-step" onclick="showWF(3)">4<br>Arrange</div>
+      <div class="wf-step" onclick="showWF(4)">5<br>Export</div>
+    </div>
+
+    <div id="wf-0" class="wf-panel wf-active">
+      <div class="card">
+        <div class="card-title">Open LMMS and start a new project</div>
+        <div class="card-body">
+          <div class="step-row"><div class="step-num">1</div><div class="step-content"><div class="step-title">Launch LMMS</div><div class="step-desc">When it opens, you'll see the Song Editor in the center. This is where you arrange all your pieces.</div></div></div>
+          <div class="step-row"><div class="step-num">2</div><div class="step-content"><div class="step-title">Set your tempo</div><div class="step-desc">Find the BPM counter at the top. Click and drag up/down to change it. 90–95 BPM is good for hip-hop; 128 BPM for house music.</div></div></div>
+          <div class="step-row"><div class="step-num">3</div><div class="step-content"><div class="step-title">Save your project</div><div class="step-desc">Ctrl+S right away. Name it something you'll recognize. LMMS saves as .mmp files.</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="wf-1" class="wf-panel">
+      <div class="card">
+        <div class="card-title">Build a beat in the Beat+Bassline editor</div>
+        <div class="card-body">
+          <div class="step-row"><div class="step-num">1</div><div class="step-content"><div class="step-title">Add a Beat+Bassline track</div><div class="step-desc">In the Song Editor, click the "Add BB track" button (drum icon). A new row appears.</div></div></div>
+          <div class="step-row"><div class="step-num">2</div><div class="step-content"><div class="step-title">Open the editor</div><div class="step-desc">Double-click the green segment in the BB track. A grid of 16 buttons per instrument row opens.</div></div></div>
+          <div class="step-row"><div class="step-num">3</div><div class="step-content"><div class="step-title">Add sounds</div><div class="step-desc">Click the instrument name on the left → "Load sample" to pick a drum sound. Try a kick on beats 1 and 3, a snare on 2 and 4.</div></div></div>
+          <div class="step-row"><div class="step-num">4</div><div class="step-content"><div class="step-title">Press play</div><div class="step-desc">Hit the Play button in the BB editor to loop just your beat and tweak it live.</div></div></div>
+        </div>
+      </div>
+      <div class="tip-box"><i class="ti ti-bulb" aria-hidden="true"></i> Each row of 16 buttons = one bar. Lit = sound plays. Dark = silence. Click to toggle.</div>
+    </div>
+
+    <div id="wf-2" class="wf-panel">
+      <div class="card">
+        <div class="card-title">Write a melody in the Piano Roll</div>
+        <div class="card-body">
+          <div class="step-row"><div class="step-num">1</div><div class="step-content"><div class="step-title">Add an instrument track</div><div class="step-desc">In the Song Editor, click "Add sample track" or drag an instrument from the Instruments panel on the left sidebar.</div></div></div>
+          <div class="step-row"><div class="step-num">2</div><div class="step-content"><div class="step-title">Draw a pattern</div><div class="step-desc">Right-click in the Song Editor row → "Draw mode" → click to create a green segment, then double-click it to open the Piano Roll.</div></div></div>
+          <div class="step-row"><div class="step-num">3</div><div class="step-content"><div class="step-title">Place notes</div><div class="step-desc">In Draw mode (pencil icon), click on the piano grid to place notes. Drag right to make them longer. Try a simple 4-note loop to start.</div></div></div>
+          <div class="step-row"><div class="step-num">4</div><div class="step-content"><div class="step-title">Quantize</div><div class="step-desc">If notes feel off-grid, press Ctrl+A to select all, then Ctrl+Q to snap them to the grid.</div></div></div>
+        </div>
+      </div>
+      <div class="tip-box"><i class="ti ti-bulb" aria-hidden="true"></i> Start with a pentatonic scale (black keys only on a piano) — almost anything sounds good.</div>
+    </div>
+
+    <div id="wf-3" class="wf-panel">
+      <div class="card">
+        <div class="card-title">Arrange in the Song Editor</div>
+        <div class="card-body">
+          <div class="step-row"><div class="step-num">1</div><div class="step-content"><div class="step-title">Drag segments</div><div class="step-desc">In the Song Editor, each row is a track. Middle-click and drag to move a segment. Hold Ctrl and drag to copy it.</div></div></div>
+          <div class="step-row"><div class="step-num">2</div><div class="step-content"><div class="step-title">Structure your song</div><div class="step-desc">Try: intro (drums only) → verse (drums + melody) → chorus (everything). Even a 1-minute song needs structure.</div></div></div>
+          <div class="step-row"><div class="step-num">3</div><div class="step-content"><div class="step-title">Adjust volumes</div><div class="step-desc">Each track has a volume knob on the left. Right-click any knob to type in an exact value. Kick + bass should be loudest.</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="wf-4" class="wf-panel">
+      <div class="card">
+        <div class="card-title">Export your track</div>
+        <div class="card-body">
+          <div class="step-row"><div class="step-num">1</div><div class="step-content"><div class="step-title">Go to File → Export</div><div class="step-desc">Choose WAV for highest quality (for sharing or editing elsewhere) or MP3 for smaller file size.</div></div></div>
+          <div class="step-row"><div class="step-num">2</div><div class="step-content"><div class="step-title">Set the range</div><div class="step-desc">LMMS exports only what's between the loop points in the Song Editor. Drag the yellow markers to cover your full song.</div></div></div>
+          <div class="step-row"><div class="step-num">3</div><div class="step-content"><div class="step-title">Done</div><div class="step-desc">Hit Export and wait. Your song is now an audio file you can share anywhere.</div></div></div>
+        </div>
+      </div>
+      <button class="ask-btn" onclick="sendPrompt('How do I master my LMMS track before exporting?')">How do I master before exporting? ↗</button>
+    </div>
+  </div>
+
+  <!-- KEY WINDOWS -->
+  <div id="tab-windows" class="section">
+    <h2>The five main windows</h2>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-layout-rows" aria-hidden="true"></i> Song Editor <span class="badge badge-blue">Ctrl+W</span></div>
+      <div class="card-body">The main canvas. Every track lives here as a row. You arrange segments (patterns) left to right to build your song timeline. Think of it like a map of your whole track.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-grid-dots" aria-hidden="true"></i> Beat+Bassline Editor <span class="badge badge-blue">Double-click BB track</span></div>
+      <div class="card-body">A 16-step sequencer. Best for drums and repetitive loops. Each row = one instrument; each column = one 16th note. Fast and visual for beat-making.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-piano" aria-hidden="true"></i> Piano Roll <span class="badge badge-blue">Ctrl+E</span></div>
+      <div class="card-body">Where you draw melodies and chords. Notes are placed on a grid — horizontal = time, vertical = pitch. Drag to resize note length. Supports velocity, pitch bend, and automation.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-adjustments-horizontal" aria-hidden="true"></i> FX Mixer <span class="badge badge-blue">Ctrl+W</span></div>
+      <div class="card-body">Route instruments to mixer channels and add effects (reverb, compression, EQ). Assign a track to a channel by right-clicking the track and choosing "Properties." Start with just Master volume.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-folder" aria-hidden="true"></i> Instrument Browser</div>
+      <div class="card-body">The left sidebar. Browse built-in synths, samples, and presets. Drag any sound straight into the Song Editor to create a new track. The "My samples" section holds your own audio files.</div>
+    </div>
+  </div>
+
+  <!-- SHORTCUTS -->
+  <div id="tab-shortcuts" class="section">
+    <h2>Essential shortcuts</h2>
+
+    <h3>Playback</h3>
+    <div class="shortcut-grid">
+      <div class="shortcut-item"><span class="shortcut-label">Play / Pause</span><kbd class="kbd">Space</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Stop</span><kbd class="kbd">Shift+Space</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Record</span><kbd class="kbd">R</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Loop on/off</span><kbd class="kbd">L</kbd></div>
+    </div>
+
+    <h3>Song Editor</h3>
+    <div class="shortcut-grid">
+      <div class="shortcut-item"><span class="shortcut-label">Draw mode</span><kbd class="kbd">D</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Erase mode</span><kbd class="kbd">E</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Zoom in</span><kbd class="kbd">Ctrl +</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Zoom out</span><kbd class="kbd">Ctrl -</kbd></div>
+    </div>
+
+    <h3>Piano Roll</h3>
+    <div class="shortcut-grid">
+      <div class="shortcut-item"><span class="shortcut-label">Select all</span><kbd class="kbd">Ctrl+A</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Quantize</span><kbd class="kbd">Ctrl+Q</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Deselect</span><kbd class="kbd">Esc</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Delete note</span><kbd class="kbd">Del</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Shift notes up</span><kbd class="kbd">Shift+↑</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Shift notes down</span><kbd class="kbd">Shift+↓</kbd></div>
+    </div>
+
+    <h3>General</h3>
+    <div class="shortcut-grid">
+      <div class="shortcut-item"><span class="shortcut-label">Save</span><kbd class="kbd">Ctrl+S</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Undo</span><kbd class="kbd">Ctrl+Z</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Export</span><kbd class="kbd">Ctrl+E</kbd></div>
+      <div class="shortcut-item"><span class="shortcut-label">Open project</span><kbd class="kbd">Ctrl+O</kbd></div>
+    </div>
+  </div>
+
+  <!-- TIPS -->
+  <div id="tab-tips" class="section">
+    <h2>Tips for beginners</h2>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-star" aria-hidden="true"></i> Start with presets</div>
+      <div class="card-body">Don't design synths from scratch yet. Open ZynAddSubFX or TripleOscillator and load a preset. Thousands of free presets exist online for LMMS — search "LMMS preset packs."</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-activity" aria-hidden="true"></i> Keep it short first</div>
+      <div class="card-body">Make 8-bar loops before trying to write a full song. A completed 30-second loop teaches you more than an abandoned 3-minute project.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-ear" aria-hidden="true"></i> Use reference tracks</div>
+      <div class="card-body">Open a song you love in a media player alongside LMMS. Constantly A/B between your track and the reference. Your ears will tell you what's missing.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-layers-difference" aria-hidden="true"></i> Leave space</div>
+      <div class="card-body">Beginners tend to fill every second with sound. Silence and space make music breathe. Try having your kick, bass, and ONE melody playing before adding anything else.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-plug" aria-hidden="true"></i> Add free VST plugins</div>
+      <div class="card-body">LMMS supports VST plugins. Free ones worth trying: Vital (synth), Surge XT (synth), Valhalla Supermassive (reverb), OrilRiver (reverb). Download and point LMMS to their folder in Settings.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="ti ti-school" aria-hidden="true"></i> Best learning resources</div>
+      <div class="card-body">YouTube: search "LMMS tutorial 2024" — channels like "Kettel" and "LMMS Official" have solid guides. The LMMS wiki at wiki.lmms.io has documentation for every feature.</div>
+    </div>
+
+    <button class="ask-btn" onclick="sendPrompt('What are the best free VST plugins to use with LMMS?')">Best free VST plugins for LMMS ↗</button>
+    <button class="ask-btn" style="margin-left:8px" onclick="sendPrompt('How do I add reverb and effects in LMMS?')">How to add reverb and effects ↗</button>
+  </div>
+</div>
+
+<script>
+function showTab(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+  event.target.closest('.tab-btn').classList.add('active');
+}
+function showWF(idx) {
+  document.querySelectorAll('.wf-panel').forEach(p => p.classList.remove('wf-active'));
+  document.querySelectorAll('.wf-step').forEach(s => s.classList.remove('wf-active'));
+  document.getElementById('wf-' + idx).classList.add('wf-active');
+  document.querySelectorAll('.wf-step')[idx].classList.add('wf-active');
+}
+</script>
