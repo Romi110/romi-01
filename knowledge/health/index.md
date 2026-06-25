@@ -4,6 +4,7 @@ Nutrition, fitness, sleep, gut health, longevity.
 
 - [Ayurveda Basics](ayurveda-basics.md)
 - [Breathwork](breathwork.md)
+- [Dietary Periodization](dietary-periodization.md)
 - [Fasting And Eating Windows](fasting-and-eating-windows.md)
 - [Fat Loss Science](fat-loss-science.md)
 - [Fitness Plan](fitness-plan.md)
