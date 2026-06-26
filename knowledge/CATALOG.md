@@ -390,11 +390,24 @@
 - [x] consumerism/custom-ring-design
 - [x] consumerism/fine-jewelry-fundamentals
 - [ ] total-cost-of-ownership — Cost-per-use calculations, depreciation, repair vs replace math
+- [x] home-appliance-buying
+- [x] kitchen-knife-guide
+- [x] mattress-guide
+- [x] tv-buying-guide
+- [x] watch-basics
+- [x] camera-buying-guide
+- [x] chest-freezer-guide
+- [x] e-reader-guide
+- [x] food-preservation-equipment
+- [x] generator-buying-guide
+- [x] home-water-filtration
 - [ ] car-ownership-costs — True cost breakdown: depreciation, insurance, fuel, maintenance, financing — the math most people skip when they see a monthly payment
 - [ ] audio-equipment — Headphones (open vs closed, planar vs dynamic), DAC/amp basics, what the spend curve looks like
 - [ ] intentional-buying — Need vs want, delay tactics, one-in-one-out rule
 - [ ] product-care-and-maintenance — Cast iron, leather, boots, merino, carbon steel, waxed canvas care
 - [ ] buying-used-and-vintage — eBay, estate sales, Poshmark — finding BIFL-quality secondhand
+- [ ] fragrance-guide — EDT vs EDP, fragrance families, how to sample and evaluate, longevity on skin, building a small intentional collection
+- [ ] home-security-buying — Camera systems (local NVR vs cloud), alarm systems, smart locks, motion lighting — the buying guide for physical home security
 - [x] wardrobe-building
 - [x] fabric-guide
 - [x] fit-and-tailoring
