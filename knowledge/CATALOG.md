@@ -237,10 +237,14 @@
 - [x] story-structure
 - [x] fiction-story-building
 - [x] fantasy-story-building
-- [ ] writing-clearly — Clear prose as clear thinking: Orwell's rules, eliminating vagueness
-- [ ] sci-fi-story-building — Sci-fi conventions: the novum, extrapolation logic, hard vs soft sci-fi, sociological vs engineering story
+- [x] backstory-and-lore-building
 - [ ] dialogue-craft — Writing dialogue that works: subtext, rhythm, said vs attribution, how speech reveals character without explaining it
+- [x] magic-system-design
+- [x] sci-fi-story-building
 - [ ] short-story-craft — The short story as its own form: unity of effect, compression, starting close to the moment, endings that resonate
+- [x] story-planning-and-outlining
+- [x] worldbuilding-systems
+- [ ] writing-clearly — Clear prose as clear thinking: Orwell's rules, eliminating vagueness
 
 ## Geopolitics
 
@@ -397,6 +401,7 @@
 - [x] watch-basics
 - [x] camera-buying-guide
 - [x] chest-freezer-guide
+- [x] wall-art-and-framing
 - [x] e-reader-guide
 - [x] food-preservation-equipment
 - [x] generator-buying-guide
@@ -490,12 +495,18 @@
 - [x] vlogging-foundations
 - [x] video-editing-basics
 - [x] youtube-strategy
-- [ ] storytelling-for-video — Structure, narrative arc, B-roll, how to make a vlog feel like a story not a recording
-- [ ] audio-for-video — Why audio matters more than video, mics, room treatment, editing audio in post
-- [ ] color-grading — LUTs, color wheels, skin tones, log footage, achieving a consistent look
-- [ ] short-form-video — Reels/Shorts/TikTok format differences, hook structure, repurposing long-form content
-- [ ] gear-progression — What to actually buy and when: cameras, lenses, mics, lighting — from phone to professional
+- [x] audio-for-video
 - [ ] channel-growth — SEO, community building, posting cadence, collaborations, analytics interpretation
+- [ ] color-grading — LUTs, color wheels, skin tones, log footage, achieving a consistent look
+- [ ] content-repurposing — Taking one long-form video and extracting short-form clips, quotes, and written content; the content multiplication workflow; Descript and OpusClip
+- [ ] gear-progression — What to actually buy and when: cameras, lenses, mics, lighting — from phone to professional
+- [x] music-and-editing
+- [x] pov-and-daily-filming
+- [ ] scripting-for-video — Writing words that sound natural spoken: conversational pacing, bullet-point vs. full script, say-it-then-write-it method
+- [ ] short-form-video — Reels/Shorts/TikTok format differences, hook structure, repurposing long-form content
+- [x] storytelling-for-video
+- [ ] talking-head-setup — Stationary desk filming: 3-point lighting, backdrop, camera placement, teleprompter, stationary mic setup
+- [x] video-workflow
 
 ## Art
 

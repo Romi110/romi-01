@@ -34,5 +34,6 @@ Quality purchases, repair over replace, everyday carry.
 - [Sleep Environment](sleep-environment.md)
 - [Tools Worth Owning](tools-worth-owning.md)
 - [Tv Buying Guide](tv-buying-guide.md)
+- [Wall Art And Framing](wall-art-and-framing.md)
 - [Wardrobe Building](wardrobe-building.md)
 - [Watch Basics](watch-basics.md)
