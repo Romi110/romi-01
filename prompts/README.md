@@ -27,6 +27,7 @@ Reusable prompt files for Claude. Reference with `@prompts/filename.md` in VS Co
 
 | Prompt | When to Use | File |
 |--------|-------------|------|
+| **Translate** | Translate a knowledge file into a target language; for Hindi reads style guide + glossary first | `translate.md` |
 | **Update Glossary** | Process staged Hindi terms in `hindi/context/pending-terms.md` and merge into the canonical glossary | `update-glossary.md` |
 
 ## Planning

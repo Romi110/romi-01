@@ -5,7 +5,7 @@
 
 ---
 
-## Philosophy
+## Philosophy (10 written · 11 planned)
 
 - [x] stoicism
 - [x] zen-buddhism
@@ -29,13 +29,13 @@
 - [ ] philosophy/hindu-philosophy — The six Darshanas (Vedanta, Samkhya, Nyaya, Yoga, Mimamsa, Vaisheshika): the Indian philosophical tradition that parallels Stoicism and grounds the Gita beyond one text; Indian heritage anchor and Roma feed
 - [ ] philosophy/philosophy-of-mind — Consciousness, the hard problem, dualism vs. physicalism, personal identity — the conceptual foundation beneath epistemology and cognitive-psychology
 
-## Roma
+## Roma (3 written · 0 planned)
 
 - [x] roma *(active)*
 - [x] sacred-text-plan
 - [x] roma-improvements
 
-## Health
+## Health (19 written · 14 planned)
 
 - [x] fitness-plan
 - [x] mobility-and-flexibility
@@ -71,7 +71,7 @@
 - [ ] health/dental-health — Preventive oral care, cleaning cadence, diet and enamel, fluoride evidence, when to see a dentist vs. wait — absent from the entire wiki despite being a basic health domain
 - [ ] health/skin-care-basics — SPF, actives (retinol, vitamin C, niacinamide), morning vs. evening routine, NJ seasonal adaptation — preventive skin health is late-20s work
 
-## Cooking
+## Cooking (13 written · 16 planned)
 
 - [x] vegetarian-cooking-fundamentals
 - [x] indian-cooking-basics
@@ -102,9 +102,8 @@
 - [ ] all-grain-brewing — Full mash process, sparging methods, efficiency, equipment
 - [ ] kegging-system — Draft beer at home: corny kegs, CO2, regulators, carbonation
 - [ ] sour-beer-production — Kettle souring, Lactobacillus, Brettanomyces, mixed fermentation
-- [x] nj-craft-beer
 
-## Farming
+## Farming (18 written · 10 planned)
 
 - [x] self-sustainable-farming
 - [x] soil-building
@@ -118,9 +117,9 @@
 - [x] pest-management
 - [x] seed-saving
 - [x] hydroponics/hydroponics
-  - [x] hydroponics/hydroponics-systems
-  - [x] hydroponics/hydroponics-nutrients
-  - [x] hydroponics/hydroponics-lighting
+- [x] hydroponics/hydroponics-lighting
+- [x] hydroponics/hydroponics-nutrients
+- [x] hydroponics/hydroponics-systems
 - [x] permaculture-basics
 - [x] companion-planting
 - [ ] deer-management-nj — Fencing options, deterrents, plant selection — the most common reason NJ home gardens fail
@@ -135,7 +134,7 @@
 - [ ] nj-ecology — Ecosystems, soil types, watersheds, native species — NJ-specific land context
 - [ ] nj-growing-guide — NJ frost dates, zone 7a/7b, Pinelands sandy/acidic soil, what grows well, Atlantic County specifics — the NJ lens missing from all general farming files
 
-## Energy
+## Energy (7 written · 4 planned)
 
 - [x] diy-renewable-energy
 - [x] portable-power-stations
@@ -149,7 +148,7 @@
 - [ ] ev-and-solar — EV as mobile battery, V2H/V2G, charging with solar
 - [x] grid-tie-solar-nj
 
-## Mind
+## Mind (30 written · 10 planned)
 
 - [x] daily-foundation
 - [x] building-discipline
@@ -188,51 +187,47 @@
 - [ ] journaling-practice — Writing as thinking tool: Stoic evening review, morning pages, prompts that produce insight not just logging
 - [ ] stress-management — Nervous system basics, what works, what's marketing
 - [ ] deep-work — Cal Newport's framework: structuring focused work sessions
-- [ ] difficult-conversations — Disagreeing, giving feedback, setting boundaries
 - [ ] attention-management — Physiology of attention, why focus degrades, restoration vs distraction — the foundation deep-work builds on
 - [ ] abnormal-psychology — Mental disorders: what they are, how they develop, everyday manifestation
 - [ ] developmental-psychology — Piaget, Erikson, lifespan development
-- [ ] communication-fundamentals — Gottman research, bids for connection, repair attempts, four horsemen
-- [ ] partnership-and-shared-goals — Aligning on finances, lifestyle, decisions with different wiring
-- [ ] conflict-and-repair — How conflict escalates, the repair attempt, rupture and repair cycles — more actionable than communication-fundamentals
 
-## Skills
+## Skills (22 written · 11 planned)
 
-- [x] home-repair-basics
-  - [x] basic-electrical
-  - [x] basic-plumbing
-  - [x] drywall-and-patching
-- [x] vehicle-maintenance-basics
-  - [x] oil-and-fluids
-  - [x] tires-and-brakes
-- [x] woodworking-basics
-- [x] first-aid-basics
-- [x] emergency-preparedness
-- [x] land-navigation
-- [x] sewing-basics
 - [x] ancient-cooling-methods
-- [x] skills/ancient-heating-methods
-- [x] skills/ancient-water-purification
-- [x] skills/ancient-water-collection
-- [x] skills/natural-building-methods
-- [x] skills/blacksmithing-basics
-- [x] skills/celestial-navigation
-- [x] skills/natural-cordage
+- [x] basic-electrical
+- [x] basic-plumbing
+- [x] drywall-and-patching
+- [x] emergency-preparedness
+- [x] first-aid-basics
+- [x] home-repair-basics
+- [x] land-navigation
+- [x] oil-and-fluids
+- [x] sewing-basics
+- [x] ancient-heating-methods
+- [x] ancient-water-collection
+- [x] ancient-water-purification
+- [x] blacksmithing-basics
+- [x] celestial-navigation
+- [x] household-pest-control
+- [x] legal-literacy
+- [x] natural-building-methods
+- [x] natural-cordage
+- [x] tires-and-brakes
+- [x] vehicle-maintenance-basics
+- [x] woodworking-basics
 - [ ] knot-tying — 12 essential knots: farming, camping, rigging, rescue applications
-- [ ] skills/appliance-repair — diagnosing and fixing washing machines, dryers, refrigerators, dishwashers — most frequent expensive home failures; avoids service calls on simple fixes
-- [ ] skills/concrete-and-masonry — mixing, pouring slabs, patching, mortaring brick and block — required for any serious property work, fencing, raised beds, hardscaping
-- [ ] skills/HVAC-basics — filter maintenance, diagnosing heating/AC failures, when to call vs fix, thermostat wiring, seasonal prep — high cost of neglect or unnecessary service calls
-- [ ] skills/chainsaw-and-tree-work — Safe operation, felling technique, limbing, bucking, maintenance; firewood processing; storm cleanup — essential NJ property skill
-- [ ] skills/basic-welding — MIG/flux-core basics, joint types, safety, what you can and can't weld at home; opens structural fabrication that woodworking and concrete can't cover
-- [ ] skills/vehicle-diagnostics — Reading OBD-II codes, interpreting a repair estimate, knowing when you're being oversold; extends vehicle-maintenance beyond fluids and tires
-- [ ] skills/water-systems — Well pumps, pressure tanks, water treatment and filtration; NJ-specific (Pinelands acidic water, aquifer quality); prerequisite for rural property ownership
-- [ ] skills/power-tool-proficiency — Circular saw, router, angle grinder, drill press: safe setup, blade/bit selection, maintenance; the practical foundation woodworking-basics assumes
-- [ ] skills/fire-making — Primitive and modern fire starting: tinder preparation, fire lays, spark and friction methods; emergency-preparedness complement
-- [x] skills/legal-literacy
-- [x] skills/household-pest-control
-- [ ] skills/roofing-basics — Shingles, flashing, gutters, common failure points, ice dams, when to DIY vs. call — major home maintenance domain absent from home-repair-basics
+- [ ] appliance-repair — diagnosing and fixing washing machines, dryers, refrigerators, dishwashers — most frequent expensive home failures; avoids service calls on simple fixes
+- [ ] basic-welding — MIG/flux-core basics, joint types, safety, what you can and can't weld at home; opens structural fabrication that woodworking and concrete can't cover
+- [ ] chainsaw-and-tree-work — Safe operation, felling technique, limbing, bucking, maintenance; firewood processing; storm cleanup — essential NJ property skill
+- [ ] concrete-and-masonry — mixing, pouring slabs, patching, mortaring brick and block — required for any serious property work, fencing, raised beds, hardscaping
+- [ ] fire-making — Primitive and modern fire starting: tinder preparation, fire lays, spark and friction methods; emergency-preparedness complement
+- [ ] HVAC-basics — filter maintenance, diagnosing heating/AC failures, when to call vs fix, thermostat wiring, seasonal prep — high cost of neglect or unnecessary service calls
+- [ ] power-tool-proficiency — Circular saw, router, angle grinder, drill press: safe setup, blade/bit selection, maintenance; the practical foundation woodworking-basics assumes
+- [ ] roofing-basics — Shingles, flashing, gutters, common failure points, ice dams, when to DIY vs. call — major home maintenance domain absent from home-repair-basics
+- [ ] vehicle-diagnostics — Reading OBD-II codes, interpreting a repair estimate, knowing when you're being oversold; extends vehicle-maintenance beyond fluids and tires
+- [ ] water-systems — Well pumps, pressure tanks, water treatment and filtration; NJ-specific (Pinelands acidic water, aquifer quality); prerequisite for rural property ownership
 
-## Writing
+## Writing (8 written · 3 planned)
 
 - [x] story-structure
 - [x] fiction-story-building
@@ -246,7 +241,7 @@
 - [x] worldbuilding-systems
 - [ ] writing-clearly — Clear prose as clear thinking: Orwell's rules, eliminating vagueness
 
-## Geopolitics
+## Geopolitics (16 written · 12 planned)
 
 - [x] us-empire-decline-preparation
 - [x] china-rise
@@ -264,7 +259,7 @@
 - [x] geopolitics/intelligence-and-power
 - [x] geopolitics/economic-statecraft
 - [x] geopolitics/diplomatic-statecraft
-- [ ] geopolitics/hard-soft-power — Coercive force, economic leverage, cultural influence, and how states deploy different forms of power in the modern world.
+- [x] geopolitics/hard-soft-power
 - [ ] russia-ukraine-implications — European energy realignment, NATO expansion, SWIFT weaponization
 - [ ] global-south-realignment — Saudi/UAE/Turkey/Brazil/Indonesia hedging between US and China; the swing states and what they want
 - [ ] middle-east-instability — Israel-Iran-Saudi triangle, petrodollar erosion, post-US withdrawal power vacuum
@@ -277,7 +272,7 @@
 - [ ] new-cold-war-blocs — How the world is splitting: US bloc vs China-Russia-Iran axis vs non-aligned Global South
 - [ ] southeast-asia-battleground — ASEAN hedging, South China Sea disputes, Vietnam's emergence, Philippines' return to US alliance
 
-## Economics
+## Economics (12 written · 1 planned)
 
 - [x] economics-overview
 - [x] microeconomics
@@ -293,9 +288,9 @@
 - [x] economics/information-economics
 - [ ] economics/ai-economy-overview — What "AI economy" actually means: productivity gains, winner-take-most dynamics, labor market bifurcation, where new economic value is concentrating — the macro context that makes all the career files legible
 
-## History → see knowledge/history/CATALOG.md (26 written, 8 planned)
+## History → see knowledge/history/CATALOG.md (26 written · 8 planned)
 
-## Science
+## Science (6 written · 15 planned)
 
 - [x] science-literacy
 - [x] galaxies
@@ -319,7 +314,7 @@
 - [ ] cosmology-basics — Big Bang, CMB, dark energy, expanding universe
 - [ ] black-holes — Formation, types, event horizons, Hawking radiation, recent imaging
 
-## Mathematics
+## Mathematics (9 written · 0 planned)
 
 - [x] math-overview
 - [x] calculus
@@ -331,7 +326,7 @@
 - [x] financial-mathematics
 - [x] mathematical-thinking
 
-## Finance
+## Finance (14 written · 24 planned)
 
 - [x] index-fund-investing
 - [x] tax-optimization
@@ -372,7 +367,7 @@
 - [ ] freelancing-basics — Contracts, pricing, scope, client management
 - [ ] building-in-public — Sharing work to build credibility without performance
 
-## Consumerism
+## Consumerism (35 written · 8 planned)
 
 - [x] buy-it-for-life
 - [x] considered-luxuries
@@ -418,7 +413,7 @@
 - [x] fit-and-tailoring
 - [x] laundry-and-stain-care
 
-## Tech
+## Tech (15 written · 22 planned)
 
 - [x] infrastructure/networking-fundamentals
 - [x] infrastructure/homelab-overview
@@ -458,7 +453,7 @@
 - [ ] ai/multimodal-ai — Image, audio, video understanding: what current models can do and practical use cases
 - [ ] ai/rag-and-retrieval — How retrieval-augmented generation works, when to use it, how to build it
 
-## New Jersey
+## New Jersey (16 written · 12 planned)
 
 *NJ-specific files. Finance/tax NJ files live in Finance but are cross-referenced here.*
 
@@ -467,6 +462,7 @@
 - [x] nj-laws-you-should-know
 - [x] nj-retail-overview
 - [x] nj-business-taxes
+- [x] nj-craft-beer
 - [x] local-politics-civic-involvement
 - [x] nj-gun-laws
 - [x] atlantic-county-guide
@@ -490,7 +486,7 @@
 - [ ] nj-water-rights — NJ DEP water allocation, permits for irrigation/well use, Pinelands CMP water provisions, aquifer recharge restrictions — prerequisite for farming at scale on NJ rural property
 - [ ] nj-home-and-flood-insurance — NJ coastal flood zones, NFIP vs. private flood, home insurance in a high-wind state, what Atlantic County properties actually need
 
-## Video / Content Creation
+## Video / Content Creation (8 written · 7 planned)
 
 - [x] vlogging-foundations
 - [x] video-editing-basics
@@ -508,7 +504,7 @@
 - [ ] talking-head-setup — Stationary desk filming: 3-point lighting, backdrop, camera placement, teleprompter, stationary mic setup
 - [x] video-workflow
 
-## Art
+## Art (3 written · 2 planned)
 
 - [x] art/visual-art-fundamentals
 - [x] art/drawing-fundamentals
@@ -516,7 +512,7 @@
 - [ ] art/perspective-and-form — 1-point and 2-point perspective, basic 3D form, foreshortening — the spatial drawing foundation drawing-fundamentals sets up but doesn't complete
 - [ ] art/design-fundamentals — typography, layout, visual hierarchy, negative space — bridges fine art and practical communication design; useful for content creation
 
-## Sports
+## Sports (5 written · 1 planned)
 
 - [x] sports/basketball
 - [x] sports/offensive-fundamentals
@@ -525,7 +521,7 @@
 - [ ] sports/basketball-iq — Court vision, reading defenses, decision-making speed, and understanding the game at a higher level
 - [x] sports/strength-and-conditioning
 
-## Outdoors
+## Outdoors (1 written · 4 planned)
 
 - [x] outdoors/nj-trails-and-parks
 - [ ] outdoors/wilderness-camping — gear, site selection, Leave No Trace, fire starting, shelter, water treatment — practical field skills distinct from emergency-preparedness
@@ -533,7 +529,7 @@
 - [ ] outdoors/nature-observation — weather reading, animal tracking, plant and tree ID, situational awareness in the field — connects to foraging, farming, and Pinelands ecology
 - [ ] outdoors/nj-fishing — Freshwater vs. saltwater licenses, NJ seasons and size limits, Pinelands species (trout, bass, pickerel), surf fishing basics — self-reliance food system, NJ-specific
 
-## Travel
+## Travel (7 written · 0 planned)
 
 - [x] trip-planning
 - [x] chicago
@@ -543,12 +539,36 @@
 - [x] travel-tech
 - [x] travel-gear
 
-## Manga
+## Manga (2 written · 0 planned)
 
 - [x] manga/one-piece-arcs
 - [x] manga/one-piece-ending-theory
 
-## Meta
+## Design (0 written · 4 planned)
+
+- [ ] design-systems — tokens, components, documentation — the software engineering of design
+- [ ] product-design-thinking — jobs to be done, design sprints, how designers frame problems
+- [ ] typography — type classification, pairing, legibility, scale — crosses into content creation and fine print
+- [ ] ui-ux-design — user research, wireframing, prototyping, Figma — the design discipline closest to engineering
+
+## Movement (3 written · 1 planned)
+
+- [x] boxing-fundamentals
+- [x] qigong-basics
+- [x] yoga-fundamentals
+- [ ] bouldering-and-climbing — technique, grades, finger strength, mental game; high alignment with self-reliance and NJ gym/outdoor access
+
+## Relationships (0 written · 7 planned)
+
+- [ ] communication-fundamentals — Gottman research, bids for connection, repair attempts, four horsemen
+- [ ] community-building — local community, neighborhood, shared projects, why it's worth investing in
+- [ ] conflict-and-repair — How conflict escalates, the repair attempt, rupture and repair cycles — more actionable than communication-fundamentals
+- [ ] difficult-conversations — Disagreeing, giving feedback, setting boundaries
+- [ ] family-dynamics — navigating parents, siblings, cultural expectations, boundary-setting in Indian-American family context
+- [ ] partnership-and-shared-goals — Aligning on finances, lifestyle, decisions with different wiring
+- [ ] social-circle-design — intentional friendships, pruning, investing in connections, quality over volume
+
+## Meta (7 written · 2 planned)
 
 - [x] using-this-system
 - [x] vscode-claude-workflow

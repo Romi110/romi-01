@@ -163,6 +163,30 @@ Follow these without being asked.
 - When inserting a new item, find its A–Z position — no other judgment needed.
 - Sub-folder sections within a domain index stay grouped under their bold heading, sorted alphabetically within the group. The group itself stays at the bottom of its domain index.
 
+### Charts and Diagrams
+
+All charts must use Mermaid syntax so they render on the site. No other chart format is supported.
+
+**Always use this fence:**
+````markdown
+```mermaid
+graph TD
+    A[Start] --> B[End]
+```
+````
+
+**Mermaid chart types to use by situation:**
+- Processes / flows → `graph TD` (top-down) or `graph LR` (left-right)
+- Timelines / sequences → `sequenceDiagram`
+- Hierarchies → `graph TD` with nested nodes
+- Cycles / states → `stateDiagram-v2`
+- Schedules → `gantt`
+
+**Rules:**
+- Never use ASCII art, HTML tables, or image links as substitutes for charts
+- Keep node labels short — long labels break layout
+- Test mentally: if the diagram has more than ~15 nodes, split it or cut it
+
 ### Connections
 
 Knowledge compounds through links. Whenever writing or discussing a topic:

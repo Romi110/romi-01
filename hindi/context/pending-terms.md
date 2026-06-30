@@ -17,4 +17,4 @@ Run `@prompts/update-glossary.md` to process this file.
 
 | Topic | Domain | Reason |
 |---|---|---|
-*(none yet)*
+| movement (boxing-fundamentals, qigong-basics, yoga-fundamentals) | movement | New domain — needs glossary pass before translating |
